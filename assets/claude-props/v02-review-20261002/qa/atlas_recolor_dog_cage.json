@@ -1,0 +1,19 @@
+{
+ "source_mode": "RGBA",
+ "changed_pixels": 45997,
+ "fur_pixels": 18680,
+ "cage_pixels": 27317,
+ "changed_pixels_inside_other_assets_uv": 0,
+ "fur_example_before": "#d9a33a",
+ "fur_example_after": "#f3d985",
+ "cage_example_before": "#176f6c",
+ "cage_example_after": "#36755b",
+ "transform": {
+  "fur": "hue+6deg, sat*0.62, value*1.12 (clip)",
+  "cage": "hue-22deg, sat*0.68, value*1.05"
+ },
+ "reference_targets": {
+  "fur": "IMG_3805.JPG white-balanced hue 43-48, sat 0.32-0.40",
+  "cage": "IMG_3805.JPG bars/floor hue 144-159, sat 0.22-0.43, value 0.45-0.56"
+ }
+}
