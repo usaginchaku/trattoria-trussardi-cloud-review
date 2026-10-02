@@ -1,0 +1,12 @@
+COORD07 チェックポイント3：候補の検証（クラウド Blender bpy 4.3.0。Blender 5.2.2 は利用不可で未実行）
+対象 6 件: 花籠A・B（品質版）、花籠LOD1 A・B、水グラス修正（claude/props-v02-review-20261002）、犬LOD1（同）
+各件を v02 原本 FBX と並べて新規シーンへ再読込（qa/fbx_verify_all_candidates.json、qa/verify_all.py）
+- FBX の軸・単位設定（UpAxis/FrontAxis/CoordAxis/UnitScaleFactor）: 6/6 で v02 と一致
+- 再読込時の回転 0・スケール 1、最下点 z=0: 6/6
+- 三角形数: 花籠 17,382 / LOD1 7,300 / 水グラス 2,400 は v02 と同数。犬 LOD1 は 9,292（意図した削減）
+- UV: 全件 UVMap + LightmapUV。LightmapUV の三角形重なり 0、0〜1 範囲内
+- 非多様体辺 0、開いた境界 0、ゼロ面積 0
+- 面の向き: 同一面構成の5件は v02 と比べ反転 0。犬 LOD1 は外向き再計算で反転 0（qa/puppy_lod1_face_orientation.json）
+- テクスチャ: 隣接 .fbm の 1024×1024 アトラス 3 枚を相対参照で解決（水グラスは透明材質でテクスチャなし）
+- 同条件比較: previews/tabletop_v02_vs_candidates.png（v02 と「花籠A＋水グラス修正」を同じカメラ・光で描画したクラウド候補レンダー）
+未検証: Unity import、透明シェーダー、LODGroup、VR/Quest 実機、ユーザーの見た目承認。RI03 比較画像 0/14 未撮影（クラウド画像で代用していない）
