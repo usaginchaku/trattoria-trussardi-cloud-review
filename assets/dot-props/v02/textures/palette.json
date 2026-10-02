@@ -1,0 +1,178 @@
+{
+  "porcelain": {
+    "index": 0,
+    "hex": "#ede9dc"
+  },
+  "porcelain_recess": {
+    "index": 1,
+    "hex": "#c3c9be"
+  },
+  "linen": {
+    "index": 2,
+    "hex": "#e5e1d0"
+  },
+  "burgundy": {
+    "index": 3,
+    "hex": "#923344"
+  },
+  "brass": {
+    "index": 4,
+    "hex": "#8b8643"
+  },
+  "brass_light": {
+    "index": 5,
+    "hex": "#b5ad62"
+  },
+  "brass_shadow": {
+    "index": 6,
+    "hex": "#615e30"
+  },
+  "wax": {
+    "index": 7,
+    "hex": "#d7eee0"
+  },
+  "wick": {
+    "index": 8,
+    "hex": "#32302b"
+  },
+  "silver": {
+    "index": 9,
+    "hex": "#a9b9b7"
+  },
+  "leaf": {
+    "index": 10,
+    "hex": "#236152"
+  },
+  "leaf_light": {
+    "index": 11,
+    "hex": "#397c65"
+  },
+  "leaf_dark": {
+    "index": 12,
+    "hex": "#15493e"
+  },
+  "petal": {
+    "index": 13,
+    "hex": "#d06dac"
+  },
+  "petal_light": {
+    "index": 14,
+    "hex": "#ed98ca"
+  },
+  "petal_dark": {
+    "index": 15,
+    "hex": "#963e85"
+  },
+  "wicker": {
+    "index": 16,
+    "hex": "#998344"
+  },
+  "wicker_light": {
+    "index": 17,
+    "hex": "#b6a157"
+  },
+  "wicker_dark": {
+    "index": 18,
+    "hex": "#635327"
+  },
+  "soil": {
+    "index": 19,
+    "hex": "#3c3524"
+  },
+  "cage": {
+    "index": 20,
+    "hex": "#176c69"
+  },
+  "cage_light": {
+    "index": 21,
+    "hex": "#287d77"
+  },
+  "cage_dark": {
+    "index": 22,
+    "hex": "#175757"
+  },
+  "collar": {
+    "index": 23,
+    "hex": "#983147"
+  },
+  "dog": {
+    "index": 24,
+    "hex": "#d5a13a"
+  },
+  "dog_light": {
+    "index": 25,
+    "hex": "#f0ca71"
+  },
+  "dog_shadow": {
+    "index": 26,
+    "hex": "#bd8542"
+  },
+  "white_fur": {
+    "index": 27,
+    "hex": "#f2eddc"
+  },
+  "nose": {
+    "index": 28,
+    "hex": "#302d35"
+  },
+  "mouth": {
+    "index": 29,
+    "hex": "#412332"
+  },
+  "tongue": {
+    "index": 30,
+    "hex": "#e9a2b8"
+  },
+  "ear_inside": {
+    "index": 31,
+    "hex": "#c9967f"
+  },
+  "eye_black": {
+    "index": 32,
+    "hex": "#111822"
+  },
+  "eye_white": {
+    "index": 33,
+    "hex": "#fff7ea"
+  },
+  "iris": {
+    "index": 34,
+    "hex": "#5b645d"
+  },
+  "red_fruit": {
+    "index": 35,
+    "hex": "#b80f2d"
+  },
+  "fruit_shadow": {
+    "index": 36,
+    "hex": "#8c203c"
+  },
+  "cream_cap": {
+    "index": 37,
+    "hex": "#e6c36f"
+  },
+  "cream_shadow": {
+    "index": 38,
+    "hex": "#b9ae70"
+  },
+  "green_stem": {
+    "index": 39,
+    "hex": "#367324"
+  },
+  "green_light": {
+    "index": 40,
+    "hex": "#9aaf34"
+  },
+  "stem_tip": {
+    "index": 41,
+    "hex": "#d56a42"
+  },
+  "soap": {
+    "index": 42,
+    "hex": "#e8b5ba"
+  },
+  "soap_shadow": {
+    "index": 43,
+    "hex": "#cc929c"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "version": "v02",
+  "files": [
+    {
+      "path": "README_JA.txt",
+      "bytes": 9768,
+      "sha256": "ca26e451604fe271d3a177d9cd908019bcd7af40938c68fafcb6927337ddec2b"
+    },
+    {
+      "path": "fbx/01_Spiral_Candle.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/01_Spiral_Candle.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/01_Spiral_Candle.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/01_Spiral_Candle.fbx",
+      "bytes": 304364,
+      "sha256": "41551abf74a2391fa3e5521158ce23fd89121d615c2a747395c40647f3826f2d"
+    },
+    {
+      "path": "fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/02_Flower_Basket.fbx",
+      "bytes": 836140,
+      "sha256": "dac2a3ec58e58f779a809e55d3f7fcc56a01dd64229350ffdf8772f4906940d2"
+    },
+    {
+      "path": "fbx/03_Dinner_Plate.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/03_Dinner_Plate.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/03_Dinner_Plate.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/03_Dinner_Plate.fbx",
+      "bytes": 77164,
+      "sha256": "ef24fbc133907503b01b4dcde52620c75b0ececa4f070ad463f451adf977caf1"
+    },
+    {
+      "path": "fbx/04_Rolled_Napkin.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/04_Rolled_Napkin.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/04_Rolled_Napkin.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/04_Rolled_Napkin.fbx",
+      "bytes": 199420,
+      "sha256": "cf10b51f886842a1880fd2002a5e0dab7914e2b93a4a803de24c44e34fe8bd33"
+    },
+    {
+      "path": "fbx/05_Wine_Glass.fbx",
+      "bytes": 83612,
+      "sha256": "050c6532278d13bd370bbf417295d5b84e52a5ffe8704defcd3569af9ad2cdc2"
+    },
+    {
+      "path": "fbx/06_Water_Glass.fbx",
+      "bytes": 78924,
+      "sha256": "7f799507fced8c89bc5d5dcd6c89f621391a6ba05686c57bcfef487cf81e9f01"
+    },
+    {
+      "path": "fbx/07_Dinner_Fork.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/07_Dinner_Fork.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/07_Dinner_Fork.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/07_Dinner_Fork.fbx",
+      "bytes": 42044,
+      "sha256": "1487afb9e14374fb8cf466baf8fe8557fab07b97d06f4ee585924d62547fc1af"
+    },
+    {
+      "path": "fbx/08_Dinner_Spoon.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/08_Dinner_Spoon.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/08_Dinner_Spoon.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/08_Dinner_Spoon.fbx",
+      "bytes": 78716,
+      "sha256": "845389c4202676160951039538c768554d9af706fbf8676441591ae032f6d179"
+    },
+    {
+      "path": "fbx/09_Dinner_Knife.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/09_Dinner_Knife.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/09_Dinner_Knife.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/09_Dinner_Knife.fbx",
+      "bytes": 35708,
+      "sha256": "dbc83d3026d1552ea20b59d0c9f830e3837d24d4f813993f09c9118f730fb6d3"
+    },
+    {
+      "path": "fbx/10_Stamped_Soap.fbm/Soap_Stamp_BaseColor.png",
+      "bytes": 29507,
+      "sha256": "c9d33a2b3c0d592db226910fa30dc31c68784c7030c4029cc2af4ac17d31e824"
+    },
+    {
+      "path": "fbx/10_Stamped_Soap.fbx",
+      "bytes": 24092,
+      "sha256": "84116006d5ef8d98b054de8f0ea66cb6c803f72f570778386de833cff6d61c18"
+    },
+    {
+      "path": "fbx/11_Teal_Dog_Cage.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/11_Teal_Dog_Cage.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/11_Teal_Dog_Cage.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/11_Teal_Dog_Cage.fbx",
+      "bytes": 155244,
+      "sha256": "6f155adb7fa623f133f00b26f73f5a8c34dd566e19d44bdf6642c542b693519c"
+    },
+    {
+      "path": "fbx/12_Healthy_Puppy.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/12_Healthy_Puppy.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/12_Healthy_Puppy.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/12_Healthy_Puppy.fbx",
+      "bytes": 871916,
+      "sha256": "19c9b6f9491b873b6641e922b24a3f8f3604c622b155990bbecdfd0981f55b2a"
+    },
+    {
+      "path": "fbx/13_Pearl_Jam.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/13_Pearl_Jam.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/13_Pearl_Jam.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/13_Pearl_Jam.fbx",
+      "bytes": 467292,
+      "sha256": "d3e78139d23d6e6d96359938294ce4a2ac2b0c6cc3dbe7735f32bb0d1da589ad"
+    },
+    {
+      "path": "fbx/LOD1/01_Spiral_Candle_LOD1.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/LOD1/01_Spiral_Candle_LOD1.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/LOD1/01_Spiral_Candle_LOD1.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/LOD1/01_Spiral_Candle_LOD1.fbx",
+      "bytes": 146476,
+      "sha256": "f7d1b708218e2adecf91ac88fd350c24bf6a7bb6cde6921cc917990a10acb1ae"
+    },
+    {
+      "path": "fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+      "bytes": 422076,
+      "sha256": "f1a6f40167f49de7a805be727766a2e7ba6488070bfcef87fa247b7fbe03547d"
+    },
+    {
+      "path": "models/Trussardi_Centerpieces_LOD1_v02.blend",
+      "bytes": 2196012,
+      "sha256": "076707544c2ac4854dbfb202630b5caa73bc8d7750f6db5f3e9658b37f42c3b6"
+    },
+    {
+      "path": "models/Trussardi_Reference_Props_v02.blend",
+      "bytes": 9040752,
+      "sha256": "6e8fac5697b3cdfabb695fb9bc317dcabd79ea5c0c72a5b9decf62e83db18cb5"
+    },
+    {
+      "path": "previews/01_full_collection.png",
+      "bytes": 2458629,
+      "sha256": "21ba5f0148f202f9005069bac38106c4edd91b5a694fe544ebd8d4d34a369f12"
+    },
+    {
+      "path": "previews/02_tabletop.png",
+      "bytes": 2530361,
+      "sha256": "c6d04716ac35d6120a9387aa8edc523e26390f8d16346d7f952b73bccc1914be"
+    },
+    {
+      "path": "previews/05_dog_front.png",
+      "bytes": 1634883,
+      "sha256": "363d9365f90e1a358ae73c4237b17172b2d23c2541f7607fe771fd32da09c1e9"
+    },
+    {
+      "path": "previews/08_basket_detail.png",
+      "bytes": 1562235,
+      "sha256": "e38b66d7b26a40cfbe376e6a54ec2e48c4b8f470c6602ce28a729da4e63f6527"
+    },
+    {
+      "path": "previews/09_wine_detail.png",
+      "bytes": 1318008,
+      "sha256": "53f3cea921c0387889d66e4021faac01f3d07a9ab0d47c179774bdac08ac601b"
+    },
+    {
+      "path": "qa/RELEASE_VALIDATION_SUMMARY_v02.json",
+      "bytes": 1074,
+      "sha256": "d981d3dc898139ffa3fe2be6e85c831a1a1ad5d613f68788c619ec29f8db09fb"
+    },
+    {
+      "path": "qa/lod1_statistics.json",
+      "bytes": 892,
+      "sha256": "2aaf6592e275e8d2d8ed012b26b9347403b1e83c75cd2bdc87f2506a303fbd5f"
+    },
+    {
+      "path": "qa/mesh_statistics.json",
+      "bytes": 4502,
+      "sha256": "af46c4c9aa375d182a74d81e921d067e4bfaf400b599e8722d68b3a3f0b3be6f"
+    },
+    {
+      "path": "textures/Soap_Stamp_BaseColor.png",
+      "bytes": 29507,
+      "sha256": "c9d33a2b3c0d592db226910fa30dc31c68784c7030c4029cc2af4ac17d31e824"
+    },
+    {
+      "path": "textures/Soap_Stamp_Height.png",
+      "bytes": 13298,
+      "sha256": "ec72ffe91c704bb1a47890a0868cf1f0225791b0f7cf9cdeb490f38db2c95af6"
+    },
+    {
+      "path": "textures/Soap_Stamp_Normal.png",
+      "bytes": 35654,
+      "sha256": "083cf94b52cc170e0b01e8782b62605d5203814614b5c3451ec5eddd96135e07"
+    },
+    {
+      "path": "textures/Trussardi_Atlas_BaseColor.png",
+      "bytes": 561878,
+      "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8"
+    },
+    {
+      "path": "textures/Trussardi_Atlas_Metallic.png",
+      "bytes": 6277,
+      "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86"
+    },
+    {
+      "path": "textures/Trussardi_Atlas_Roughness.png",
+      "bytes": 6502,
+      "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db"
+    },
+    {
+      "path": "textures/Unity_Atlas_MetallicSmoothness.png",
+      "bytes": 6730,
+      "sha256": "fe5ed0963056f8d96183a4b3190ea0e83de38ad7f5101d4057cbc1cf66e451bb"
+    },
+    {
+      "path": "textures/palette.json",
+      "bytes": 2590,
+      "sha256": "f0dc7028b38f99d457688b2452b9995674a82205d63667dc9ce2f8e7ca3c962b"
+    }
+  ]
+}

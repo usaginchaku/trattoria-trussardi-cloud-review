@@ -1,0 +1,223 @@
+[
+  {
+    "asset": "01_Spiral_Candle",
+    "triangles": 7314,
+    "vertices": 3663,
+    "faces": 7314,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.09800000116229057,
+      0.09799999743700027,
+      0.7100004553794861
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "02_Flower_Basket",
+    "triangles": 17382,
+    "vertices": 9169,
+    "faces": 17382,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.2756967544555664,
+      0.24592874944210052,
+      0.23101772367954254
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "03_Dinner_Plate",
+    "triangles": 2176,
+    "vertices": 1090,
+    "faces": 1152,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.2799999862909317,
+      0.2800000011920929,
+      0.026999998837709427
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "04_Rolled_Napkin",
+    "triangles": 4266,
+    "vertices": 2143,
+    "faces": 4266,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.1988149881362915,
+      0.050123900175094604,
+      0.05011360812932253
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "05_Wine_Glass",
+    "triangles": 2400,
+    "vertices": 1202,
+    "faces": 1248,
+    "mesh_objects": 1,
+    "materials": [
+      "Glass_Transparent"
+    ],
+    "dimensions_metres": [
+      0.07400000095367432,
+      0.07400000281631947,
+      0.19599999487400055
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "06_Water_Glass",
+    "triangles": 2400,
+    "vertices": 1202,
+    "faces": 1248,
+    "mesh_objects": 1,
+    "materials": [
+      "Glass_Transparent"
+    ],
+    "dimensions_metres": [
+      0.06068003177642822,
+      0.06067999638617039,
+      0.16072000563144684
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "07_Dinner_Fork",
+    "triangles": 618,
+    "vertices": 311,
+    "faces": 252,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.026399999856948853,
+      0.20556273311376572,
+      0.013689976185560226
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "08_Dinner_Spoon",
+    "triangles": 2076,
+    "vertices": 1040,
+    "faces": 1038,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.03799998760223389,
+      0.21199998259544373,
+      0.02199999988079071
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "09_Dinner_Knife",
+    "triangles": 406,
+    "vertices": 205,
+    "faces": 169,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.02249997854232788,
+      0.23625746369361877,
+      0.003000000026077032
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "10_Stamped_Soap",
+    "triangles": 188,
+    "vertices": 96,
+    "faces": 98,
+    "mesh_objects": 1,
+    "materials": [
+      "Soap_Stamped"
+    ],
+    "dimensions_metres": [
+      0.1029999852180481,
+      0.06699997186660767,
+      0.035999998450279236
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "11_Teal_Dog_Cage",
+    "triangles": 5576,
+    "vertices": 2932,
+    "faces": 2708,
+    "mesh_objects": 2,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      1.0042992234230042,
+      1.3826019167900085,
+      0.6855000257492065
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "12_Healthy_Puppy",
+    "triangles": 23234,
+    "vertices": 11717,
+    "faces": 23234,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.44408130645751953,
+      0.605827659368515,
+      0.5293398052453995
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  },
+  {
+    "asset": "13_Pearl_Jam",
+    "triangles": 11676,
+    "vertices": 5922,
+    "faces": 11676,
+    "mesh_objects": 1,
+    "materials": [
+      "Trussardi_Atlas"
+    ],
+    "dimensions_metres": [
+      0.15287938714027405,
+      0.09801274538040161,
+      0.19378921389579773
+    ],
+    "zero_area_polygons": 0,
+    "uv_all_meshes": true
+  }
+]

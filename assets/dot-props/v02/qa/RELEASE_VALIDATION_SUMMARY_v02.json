@@ -1,0 +1,32 @@
+{
+  "version": "v02",
+  "quality_asset_count": 13,
+  "quality_mesh_count": 14,
+  "optional_lod1_asset_count": 2,
+  "quality_total_triangles": 79712,
+  "total_using_lod1_centerpieces": 64948,
+  "tabletop_quality_triangles": 39038,
+  "tabletop_using_lod1_triangles": 24274,
+  "unique_quality_asset_materials": [
+    "Glass_Transparent",
+    "Soap_Stamped",
+    "Trussardi_Atlas"
+  ],
+  "geometry_watertight": true,
+  "zero_degenerate_faces": true,
+  "two_uv_channels_all_quality_meshes": true,
+  "lightmap_overlap_free_at_epsilon_1e_7": true,
+  "lightmap_uv_in_0_1": true,
+  "fbx_roundtrip_pass": true,
+  "hq_basket_leaf_triangle_intersections": 0,
+  "lod1_basket_leaf_triangle_intersections": 0,
+  "wine_radial_lip_thickness_mm": 0.7,
+  "wine_custom_rim_normals_preserved_in_fbx": true,
+  "approved_assets_geometry_and_uv_unchanged": true,
+  "changed_asset_six_direction_visual_checks": 18,
+  "retained_v01_asset_six_direction_checks": 60,
+  "unity_import_tested": false,
+  "vr_headset_tested": false,
+  "platform_profiled": false,
+  "unity_lod_switching_configured": false
+}
