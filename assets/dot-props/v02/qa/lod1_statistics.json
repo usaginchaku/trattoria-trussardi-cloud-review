@@ -1,0 +1,26 @@
+[
+  {
+    "asset": "01_Spiral_Candle",
+    "hq_triangles": 7314,
+    "lod1_triangles": 2632,
+    "reduction_percent": 64.0,
+    "sampled_surface_deviation_max_mm": 1.2275545159354806,
+    "sampled_surface_deviation_p95_mm": 0.4690367786679417,
+    "deviation_sample_count": 4985,
+    "deviation_method": "bidirectional original and LOD vertex-to-surface samples; not an exact Hausdorff bound",
+    "nonmanifold_edges": 0,
+    "uv_layers": 2
+  },
+  {
+    "asset": "02_Flower_Basket",
+    "hq_triangles": 17382,
+    "lod1_triangles": 7300,
+    "reduction_percent": 58.0,
+    "sampled_surface_deviation_max_mm": 1.3023681240156293,
+    "sampled_surface_deviation_p95_mm": 0.8543957956135273,
+    "deviation_sample_count": 13297,
+    "deviation_method": "bidirectional original and LOD vertex-to-surface samples; not an exact Hausdorff bound",
+    "nonmanifold_edges": 0,
+    "uv_layers": 2
+  }
+]
