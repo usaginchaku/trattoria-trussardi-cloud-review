@@ -1,0 +1,19 @@
+{
+ "lm_overlap": 0,
+ "in01": true,
+ "uv0_unchanged_vs_decimated": true,
+ "tris": 9292,
+ "zmin": 0.0,
+ "uv_layers": [
+  "UVMap",
+  "LightmapUV"
+ ],
+ "render_uv": [
+  "UVMap"
+ ],
+ "dims": [
+  0.44369128346443176,
+  0.6058813333511353,
+  0.529366672039032
+ ]
+}

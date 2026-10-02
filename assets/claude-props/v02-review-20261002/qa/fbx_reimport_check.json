@@ -1,0 +1,75 @@
+{
+ "fbx/06_Water_Glass.fbx": {
+  "name": "06_Water_Glass_Mesh",
+  "rot_deg": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "dims_m": [
+   0.06068,
+   0.06068,
+   0.16072
+  ],
+  "tris": 2400,
+  "zmin_m": -1.0753000712071525e-09,
+  "uv": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "materials": [
+   "Glass_Transparent"
+  ],
+  "images_resolved": []
+ },
+ "fbx/LOD1/12_Healthy_Puppy_LOD1.fbx": {
+  "name": "12_Healthy_Puppy_LOD1",
+  "rot_deg": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "dims_m": [
+   0.44369,
+   0.60588,
+   0.52937
+  ],
+  "tris": 9292,
+  "zmin_m": 4.09055456174201e-09,
+  "uv": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "images_resolved": [
+   [
+    "Trussardi_Atlas_BaseColor.png",
+    true
+   ],
+   [
+    "Trussardi_Atlas_BaseColor.png.001",
+    true
+   ],
+   [
+    "Trussardi_Atlas_Metallic.png",
+    true
+   ],
+   [
+    "Trussardi_Atlas_Roughness.png",
+    true
+   ]
+  ]
+ }
+}
