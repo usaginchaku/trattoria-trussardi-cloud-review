@@ -1,0 +1,25 @@
+{
+ "tag": "lod_base",
+ "k": 1.0,
+ "rim_top_before_m": 0.11204057186841965,
+ "foliage_shift_m": -0.0,
+ "islands": {
+  "foliage": 205,
+  "basket_translate": 15,
+  "basket_scale": 33
+ },
+ "leaf_basket_triangle_overlaps": 0,
+ "zmin": 0.0,
+ "zmax": 0.2302418053150177,
+ "dims": [
+  0.2753791809082031,
+  0.2457197904586792,
+  0.2302418053150177
+ ],
+ "tris": 7300,
+ "uv_unchanged": true,
+ "nonmanifold": 0,
+ "zero_area": 0,
+ "basket_height_m": 0.11204057186841965,
+ "basket_ratio": 0.48662132280940606
+}
