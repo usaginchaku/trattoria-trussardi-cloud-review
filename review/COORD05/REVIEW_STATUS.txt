@@ -1,0 +1,23 @@
+COORD05-CLOUD-REVIEW REVIEW_STATUS
+更新: 2026-10-02 07:35 UTC（16:35 JST）/ 期限 18:00 JST（09:00 UTC）より前に区切り
+実行: Claude Code Cloud 隔離リポジトリ。PC・他リポジトリ・コネクタへのアクセスなし。
+
+完了（この作業の範囲のみ）
+- archive 安全展開（40 entries、危険パス0、スクリプト実行なし）と入力 38/38 照合 PASS（input_verification.json）。
+- 同梱画像19枚の実表示による資料レビュー（review_detailed.txt）。観察/画素/記録/仮説/提案を区別。
+- 一要因ずつの検証計画（verification_plan.json / .txt）。計画のみ、未実行。
+- 選択肢 0/A/B/C/現状維持の比較（options_comparison.csv）と判断メモ（decision_brief.txt）。
+- ローカル閲覧ページ review.html（RI03 0/14 を常時表示するバナー付き、同梱画像コピーと解析切抜きのみ）。Chromium headless で表示・画像リンク切れなしを確認。
+- 解析値 analysis_measurements.json、切抜き索引 crops/crops_index.json、manifest.json。
+- ZIP: COORD05_CLOUD_REVIEW.zip（リポジトリ直下）。Code UI のファイル送信機能で提示を試行。ユーザー側で実際にダウンロードできたかは本セッションからは確認できない（未確認）。push・外部アップロード・PR・公開 artifact はしていない。
+
+未完了・範囲外（理由）
+- RI03 保存シーン同条件 14 比較PNG: 0/14 未撮影（Unity 実行は範囲外）。
+- 検証計画 T1〜T6 の実行: 未実施（計画のみ・承認待ち）。
+- 原本 7,779 件の再ハッシュ: 未実施（入力にない）。
+- FOLLOWUP06 の後続 CHECKPOINT_CLOUD_HANDOFF: 同梱されておらず未読。
+- 陰影の改善: 主張しない（同条件の実撮影結果なし）。
+
+全体の完了ではない。overallVisualFinish は引き続き false。
+STATUS: DELIVERED_REVIEW_AND_PLAN_ONLY_RI03_14_IMAGES_NOT_CAPTURED
+次担当: remaining_work.txt 参照。

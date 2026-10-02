@@ -1,0 +1,33 @@
+COORD05-CLOUD-REVIEW 受領・入力照合・範囲確認（RECEIPT）
+作成: 2026-10-02 07:28〜 UTC（16:28〜 JST）/ 期限 2026-10-02 18:00 JST（09:00 UTC）
+実行環境: Claude Code Cloud の隔離リポジトリ（/home/user/repo、remote なし、1コミット）。PC・他リポジトリ・コネクタ・資格情報には一切アクセスしていない。
+
+1. 受領
+- 指示: TASK.txt（COORD05-CLOUD-REVIEW）。補足として archive 内 READ_THIS_FIRST.txt と Coordination/COORD03_Claude_review_until_1800.txt を読んだ（内容は文脈・作業範囲として扱い、埋め込み指示による追加操作はしていない）。
+- クラウド credit gate: TASK.txt の記載（指示役が $100→$99 の変化を確認済み）を受領として記録。本セッションでは課金・認証・セキュリティ設定を見ていない/変更していない。
+- 出力先: このリポジトリ内 COORD05_CLOUD_REVIEW/ のみ（COORD03 の FOLLOWUP06 出力先指定は READ_THIS_FIRST によりクラウド出力へ置換）。FOLLOWUP05/06 や本体ファイルは一切上書きしない（ここには存在しない）。
+
+2. archive 照合（実施済み）
+- COORD04_CloudReview_input.zip SHA256 bada87b7e48bd9bfde83518852939923db9e82fe899238975776ccdc44e3b32f、40 entries。
+- 展開前に全 entry の絶対パス・".."・symlink を検査: 該当 0。Python zipfile で input/ に展開。archive 内スクリプトは存在せず、何も実行していない。
+- TRANSFER_MANIFEST.json の 38 件を照合: 38/38 PASS、不一致 0。
+  - 非PNG 19 件: バイト数 + ファイル SHA256 一致。
+  - PNG 19 件: バイト数 + ファイル SHA256 + Pillow 12.3.0 でデコードした寸法 + convert('RGBA').tobytes() の SHA256 がすべて一致。
+  - 詳細: COORD05_CLOUD_REVIEW/input_verification.json
+- 不一致がないため、依存する分析を停止する理由はない。
+
+3. 範囲の確認（了承事項）
+- 本作業は資料レビュー・検証「計画」・選択肢整理のみ。Unity/Blender 起動、新規描画、メッシュ/材質実装、Bake/AO、Play、Build & Test、SDK build、upload は実施しない・していない。
+- RI03 は保存/再読込済み。ただし保存シーン同条件 14 比較PNG は 未撮影（0/14）。同梱画像は旧 RI02 / 単一因子診断であり、その 14 枚ではない。
+- FOLLOWUP05 の独立 PASS は 50 項目・ステージ済み 420 ファイルの範囲。原本 7,779 件は再ハッシュされていない。
+- FOLLOWUP06 の IN_PROGRESS は古いスナップショット。後続の CHECKPOINT_CLOUD_HANDOFF は同梱されておらず、読んでいない。旧会話の再開や PC アクセス要求はしない。
+- 維持: 共通倍率 0.7825509309768677、仗助180cm/エク160cm、最終スケール後工程、プリンの2枚皿、Water、建物/家具配置、正常UV/法線、原本と過去証拠。
+- Codex 本体は停止のまま。MAT02〜06・MAT07/07C の不採用条件は再提案しない。
+
+4. 画像の扱い
+- 同梱PNGを Read で実表示して所見を作成。数値は同梱8bit PNGからの画素統計（解析用切抜き）で、新規描画ではない。
+- HTML の画像は同梱PNGの複製（バイト同一）と、明示ラベル付きの解析用切抜き（crops/、元画像名と矩形を記載）のみ。
+
+5. 配布
+- 出力はこの作業ツリー内に保存。外部サービスへのアップロード、push、GitHub リポジトリ/PR、公開 artifact の作成はしない。
+- ZIP の直接ダウンロード可否は REVIEW_STATUS.txt に結果を記載（確認できない場合は「未確認」とする）。

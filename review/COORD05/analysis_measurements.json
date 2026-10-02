@@ -1,0 +1,218 @@
+{
+ "method": "Pillow decode of supplied 8-bit sRGB PNGs; luminance = Pillow convert(\"L\") (ITU-R 601 luma). Display-referred values only; NOT linear radiance, NOT shader output, NOT a new render.",
+ "regions": [
+  {
+   "image": "POSE01_FoodCaprese.png",
+   "region": "plate_outer_slope_left",
+   "box_xyxy": [
+    585,
+    620,
+    640,
+    700
+   ],
+   "min": 200,
+   "max": 201,
+   "mean": 200.37,
+   "sd": 0.48
+  },
+  {
+   "image": "POSE01_FoodCaprese.png",
+   "region": "plate_lower_right_incl_rim",
+   "box_xyxy": [
+    1250,
+    700,
+    1330,
+    780
+   ],
+   "min": 173,
+   "max": 250,
+   "mean": 203.26,
+   "sd": 11.74
+  },
+  {
+   "image": "POSE01_FoodCaprese.png",
+   "region": "cloth_just_below_plate",
+   "box_xyxy": [
+    900,
+    920,
+    1020,
+    980
+   ],
+   "min": 246,
+   "max": 250,
+   "mean": 247.99,
+   "sd": 0.43
+  },
+  {
+   "image": "POSE01_FoodCaprese.png",
+   "region": "cloth_far_left",
+   "box_xyxy": [
+    300,
+    900,
+    420,
+    980
+   ],
+   "min": 240,
+   "max": 248,
+   "mean": 245.26,
+   "sd": 1.17
+  },
+  {
+   "image": "RI02Baseline_FoodCaprese.png",
+   "region": "plate_outer_slope_left",
+   "box_xyxy": [
+    585,
+    620,
+    640,
+    700
+   ],
+   "min": 200,
+   "max": 201,
+   "mean": 200.37,
+   "sd": 0.48
+  },
+  {
+   "image": "RI02Baseline_FoodCaprese.png",
+   "region": "plate_lower_right_incl_rim",
+   "box_xyxy": [
+    1250,
+    700,
+    1330,
+    780
+   ],
+   "min": 173,
+   "max": 250,
+   "mean": 203.26,
+   "sd": 11.74
+  },
+  {
+   "image": "RI02Baseline_FoodCaprese.png",
+   "region": "cloth_just_below_plate",
+   "box_xyxy": [
+    900,
+    920,
+    1020,
+    980
+   ],
+   "min": 246,
+   "max": 250,
+   "mean": 247.99,
+   "sd": 0.43
+  },
+  {
+   "image": "RI02Baseline_FoodCaprese.png",
+   "region": "cloth_far_left",
+   "box_xyxy": [
+    300,
+    900,
+    420,
+    980
+   ],
+   "min": 240,
+   "max": 248,
+   "mean": 245.26,
+   "sd": 1.17
+  }
+ ],
+ "saturation": [
+  {
+   "image": "POSE01_FoodCaprese.png",
+   "pct_pixels_any_channel_255": 49.54,
+   "pct_pixels_all_channels_ge_245": 45.3
+  },
+  {
+   "image": "RI02Baseline_FoodCaprese.png",
+   "pct_pixels_any_channel_255": 49.54,
+   "pct_pixels_all_channels_ge_245": 45.3
+  },
+  {
+   "image": "IntegratedRI02_FoodLamb.png",
+   "pct_pixels_any_channel_255": 44.4,
+   "pct_pixels_all_channels_ge_245": 49.38
+  },
+  {
+   "image": "IntegratedRI02_FoodPudding.png",
+   "pct_pixels_any_channel_255": 7.49,
+   "pct_pixels_all_channels_ge_245": 13.17
+  },
+  {
+   "image": "IntegratedRI02_FoodPuttanesca.png",
+   "pct_pixels_any_channel_255": 41.53,
+   "pct_pixels_all_channels_ge_245": 45.95
+  }
+ ],
+ "profile_POSE01_x960_y860_996": [
+  [
+   860,
+   201
+  ],
+  [
+   868,
+   201
+  ],
+  [
+   876,
+   201
+  ],
+  [
+   884,
+   200
+  ],
+  [
+   892,
+   201
+  ],
+  [
+   900,
+   192
+  ],
+  [
+   908,
+   248
+  ],
+  [
+   916,
+   248
+  ],
+  [
+   924,
+   248
+  ],
+  [
+   932,
+   248
+  ],
+  [
+   940,
+   248
+  ],
+  [
+   948,
+   248
+  ],
+  [
+   956,
+   249
+  ],
+  [
+   964,
+   248
+  ],
+  [
+   972,
+   247
+  ],
+  [
+   980,
+   248
+  ],
+  [
+   988,
+   248
+  ],
+  [
+   996,
+   248
+  ]
+ ]
+}

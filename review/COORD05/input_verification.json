@@ -1,0 +1,302 @@
+{
+ "archive": "COORD04_CloudReview_input.zip",
+ "archiveSha256": "bada87b7e48bd9bfde83518852939923db9e82fe899238975776ccdc44e3b32f",
+ "archiveEntries": 40,
+ "unsafePaths": 0,
+ "checkedFiles": 38,
+ "png": 19,
+ "text": 19,
+ "passed": 38,
+ "failed": [],
+ "method": {
+  "nonPng": "bytes + SHA256 of file bytes vs TRANSFER_MANIFEST.json",
+  "png": "bytes + file SHA256 + Pillow-decoded size + SHA256 of Image.convert('RGBA').tobytes()"
+ },
+ "results": [
+  {
+   "path": "Coordination/COORD03_Claude_review_until_1800.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Coordination/COORD01_remaining_issues.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Coordination/COORD01_FOLLOWUP04_BC_selection.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Coordination/COORD01_POSE01_selection.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Coordination/COORD03_followup05_received_v2.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/MAT07_results_and_selection.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/MAT07B_plate_geometry.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/MAT07B_root_review.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/MAT07C_results.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/MAT07_architecture_review.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/FOLLOWUP04_geometry_decision.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/FOLLOWUP04_BC_results.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Claude/Candidates/REVIEW01/FOLLOWUP05/Reports/VIS04_diagnosis_F05.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Claude/Candidates/REVIEW01/FOLLOWUP05/Reports/lighting_inventory_RI03_F05.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Claude/Candidates/REVIEW01/FOLLOWUP05/Reports/independent_completed_outputs_F05.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Claude/Candidates/REVIEW01/FOLLOWUP05/work_ledger_COORD02.json",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Claude/Candidates/REVIEW01/FOLLOWUP05/REVIEW_STATUS.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Claude/Candidates/REVIEW01/FOLLOWUP06/REVIEW_STATUS.txt",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/README.md",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/Food/Tomato_and_Mozzarella_Anime.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGB",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/Food/Lamb_Chops_with_Applesauce.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGB",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/Food/Spaghetti_alla_Puttanesca.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGB",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/Food/Pudding_Anime.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/DU_ep10-3.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/DU_ep10-4.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/AnimeDU_TrattoriaSign.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGB",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reference/AnimeDU_TrattoriaFrontExt.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGB",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/RI02Baseline_FoodCaprese.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/POSE01_FoodCaprese.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_MenuPhysicalClose.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/MenuAlbedoOnly_MenuPhysicalClose.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_EntranceUpper.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/SignAlbedoOnly_EntranceUpper.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_Sign.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/SignAlbedoOnly_Sign.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/ReviewIntegrationRI02Preview_20261001T1607573681431/IntegratedRI02_FoodLamb.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/ReviewIntegrationRI02Preview_20261001T1607573681431/IntegratedRI02_FoodPuttanesca.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  },
+  {
+   "path": "Reports/ReviewIntegrationRI02Preview_20261001T1607573681431/IntegratedRI02_FoodPudding.png",
+   "bytes_ok": true,
+   "sha_ok": true,
+   "mode": "RGBA",
+   "size_ok": true,
+   "rgba_ok": true,
+   "pass": true
+  }
+ ]
+}

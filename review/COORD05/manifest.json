@@ -1,0 +1,272 @@
+{
+ "workId": "COORD05-CLOUD-REVIEW",
+ "edition": "public-repository (anime reference images omitted; see PUBLICATION_NOTE.txt)",
+ "note": "Paths relative to review/COORD05/. images/ are byte copies of supplied Unity diagnostic/preview captures; crops/ are analytical crops, not renders. RI03 saved-scene comparison captures: 0/14 NOT CAPTURED. manifest.json excludes itself.",
+ "inputArchiveSha256": "bada87b7e48bd9bfde83518852939923db9e82fe899238975776ccdc44e3b32f",
+ "omitted": [
+  "images/Tomato_and_Mozzarella_Anime.png",
+  "images/Lamb_Chops_with_Applesauce.png",
+  "images/Spaghetti_alla_Puttanesca.png",
+  "images/Pudding_Anime.png",
+  "images/DU_ep10-3.png",
+  "images/DU_ep10-4.png",
+  "images/AnimeDU_TrattoriaSign.png",
+  "images/AnimeDU_TrattoriaFrontExt.png",
+  "crops/crop_Tomato_and_Mozzarella_Anime_plate.png"
+ ],
+ "fileCount": 30,
+ "files": [
+  {
+   "path": "PUBLICATION_NOTE.txt",
+   "bytes": 1048,
+   "sha256": "2d107f876aaa6c849e008f2d41306e34058a52eadefa6ac7c6223577b0c87278"
+  },
+  {
+   "path": "RECEIPT.txt",
+   "bytes": 3725,
+   "sha256": "67ebdd56422ac8d6a740649168081edc3c7d1d18f17664a9e5c0f87ad7f27acf"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 2031,
+   "sha256": "e21d6f55784cf2e026335cd7434815b19bdc00cea2aa60babfe630d3809648b6"
+  },
+  {
+   "path": "analysis_measurements.json",
+   "bytes": 3062,
+   "sha256": "0fa058226ab8dac1fb33ef7972fe32f158ff7655938ae2a60c29b2efe638b5ea"
+  },
+  {
+   "path": "crops/crop_MenuAlbedoOnly_MenuPhysicalClose_text.png",
+   "bytes": 33208,
+   "sha256": "8cda33823b5d1614e3450f794333325e926de94fe0b6c73aab80f3207116f422",
+   "size": [
+    260,
+    170
+   ],
+   "rgbaSha256": "0187a1ff972263e04fe3ce03b65a944c25e6bf541bfd42227e9e730ff592c7d0",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/MenuAlbedoOnly_MenuPhysicalClose.png (analytical crop [830, 395, 1090, 565])"
+  },
+  {
+   "path": "crops/crop_POSE01_FoodCaprese_plate.png",
+   "bytes": 319681,
+   "sha256": "215ddb67e16a61bc3277c2e82bf51940df72d74071b5373d0b641b23bc006936",
+   "size": [
+    860,
+    660
+   ],
+   "rgbaSha256": "260f0d794246f2f638795b85611810c05bc21e3952e0bd3baa54f27e06b6f16d",
+   "source": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/POSE01_FoodCaprese.png (analytical crop [540, 340, 1400, 1000])"
+  },
+  {
+   "path": "crops/crop_RI02Baseline_EntranceUpper_text.png",
+   "bytes": 10235,
+   "sha256": "fc43dcb3e0d4aef9e7e11a8851d44b81886d8c6c982f1856b1b04197395853be",
+   "size": [
+    400,
+    70
+   ],
+   "rgbaSha256": "5ce1804057ee5d9997f8f3f8ed17a97d3006ebf73e0689e66cd287f5cb3b59e5",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_EntranceUpper.png (analytical crop [760, 620, 1160, 690])"
+  },
+  {
+   "path": "crops/crop_RI02Baseline_FoodCaprese_plate.png",
+   "bytes": 327890,
+   "sha256": "dd31505b3f997d76eb2494253a0723c7eccaee917ec266afd9a2b653c581c40c",
+   "size": [
+    860,
+    660
+   ],
+   "rgbaSha256": "74e3dff64df4478ce5297ff116ec18d68a263234a7258b20d6b25f2f2b8328cb",
+   "source": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/RI02Baseline_FoodCaprese.png (analytical crop [540, 340, 1400, 1000])"
+  },
+  {
+   "path": "crops/crop_RI02Baseline_MenuPhysicalClose_text.png",
+   "bytes": 34670,
+   "sha256": "0e6b384d8c3d267dcbce41c6d813bc29d0bce56c356e71039b56a3d5815b2cc1",
+   "size": [
+    260,
+    170
+   ],
+   "rgbaSha256": "c16488cc043785b91caab218a24e323f4200319b186082b34d298220dfa7079d",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_MenuPhysicalClose.png (analytical crop [830, 395, 1090, 565])"
+  },
+  {
+   "path": "crops/crop_SignAlbedoOnly_EntranceUpper_text.png",
+   "bytes": 11111,
+   "sha256": "c2c9ab7c4c4b002bc442cb5856ede94c203bae6797d90f02d3779fb4ce26297e",
+   "size": [
+    400,
+    70
+   ],
+   "rgbaSha256": "115e72d01104144dda87ad9ced2d44dc3bdc29d7ae604f357ee55d50702d4288",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/SignAlbedoOnly_EntranceUpper.png (analytical crop [760, 620, 1160, 690])"
+  },
+  {
+   "path": "crops/crops_index.json",
+   "bytes": 2104,
+   "sha256": "07404f8c689e7058dc54d6bef1fa518f2789da43ca18594aab3fc9eb5133ef9d"
+  },
+  {
+   "path": "decision_brief.txt",
+   "bytes": 2906,
+   "sha256": "df547e6cb0d0ce22d5d87d3bee24a7207d8959285a6730365ab0c48eabe3e26c"
+  },
+  {
+   "path": "images/IntegratedRI02_FoodLamb.png",
+   "bytes": 1389398,
+   "sha256": "35b6b717b7cfb36a78ef71e92844e5e5d54fc788b5a3e74ad5152ad69197e6fe",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "f3003fcda42016d1045706ba61b3d1f171a9876eac9ce5e9b1d7d1f6bdf9a23c",
+   "source": "Reports/ReviewIntegrationRI02Preview_20261001T1607573681431/IntegratedRI02_FoodLamb.png"
+  },
+  {
+   "path": "images/IntegratedRI02_FoodPudding.png",
+   "bytes": 1406329,
+   "sha256": "dae3745382d524ab0b496cb115c5821507b956d5f2bda5e2110736cc22331031",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "ae6b8cbe93feb26b80c7757d3f94f70058a10fffcac5489c1893a7b1886e10ef",
+   "source": "Reports/ReviewIntegrationRI02Preview_20261001T1607573681431/IntegratedRI02_FoodPudding.png"
+  },
+  {
+   "path": "images/IntegratedRI02_FoodPuttanesca.png",
+   "bytes": 1357978,
+   "sha256": "dfdaa2530f394ab564bb4f797c1cf6052636a7104c83b804cbfa8c484fd488e8",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "85441917b73104c06f460ce0834b12f994d4ccaa7ef4ed55949b4b007dde6926",
+   "source": "Reports/ReviewIntegrationRI02Preview_20261001T1607573681431/IntegratedRI02_FoodPuttanesca.png"
+  },
+  {
+   "path": "images/MenuAlbedoOnly_MenuPhysicalClose.png",
+   "bytes": 742971,
+   "sha256": "e55d21afd2b930d0067d2683173d041884ba8b6f5129cbaaa7a22f9397446b74",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "39e0be49eb79733ebcdda2135ce3fd37cb0d0db71c6201a25beeff17b7050df4",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/MenuAlbedoOnly_MenuPhysicalClose.png"
+  },
+  {
+   "path": "images/POSE01_FoodCaprese.png",
+   "bytes": 1460681,
+   "sha256": "0878f21bac60e5b76b6596c5c93426d751ef706888cce113148b0ad85a136ee4",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "1e053d4390e1c556392ce61bb0138d370149068e02710f7f5f0d0fe43fcc261f",
+   "source": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/POSE01_FoodCaprese.png"
+  },
+  {
+   "path": "images/RI02Baseline_EntranceUpper.png",
+   "bytes": 795410,
+   "sha256": "e925042a8085d1cda384b65838d143a6fb10d58a20a9c3564afc73a81fc3e16a",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "5fd8ecb0a538e05a8fcbc5cb50df13204c2f65eda00152b7bf8bef28303d0d28",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_EntranceUpper.png"
+  },
+  {
+   "path": "images/RI02Baseline_FoodCaprese.png",
+   "bytes": 1476660,
+   "sha256": "e826ec373435e8067063e4adb0c5234fe39ee4fb23809d9b203cb53ab096dfae",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "d25f67d423de8b0d5ab1250cbe214bf866dbd0d9b1d212203dd655009b65b9fd",
+   "source": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/RI02Baseline_FoodCaprese.png"
+  },
+  {
+   "path": "images/RI02Baseline_MenuPhysicalClose.png",
+   "bytes": 744715,
+   "sha256": "337b59ee1b7bb5fd918269d14fc35141bb054677129e93c45edd722e8ab2ccd5",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "0f66cab98f12c5187a6a7fe4b168d94125da6dcac6eaa9384749cc47a2517eb6",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_MenuPhysicalClose.png"
+  },
+  {
+   "path": "images/RI02Baseline_Sign.png",
+   "bytes": 1371058,
+   "sha256": "92605d83ebc69ed13715b34a27b2a4af595fa7c30394e768df482a12cc7df97b",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "3a63572cd3f436f17d867d00e443c734edea9dd6e4048001917714b12c7caf7d",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_Sign.png"
+  },
+  {
+   "path": "images/SignAlbedoOnly_EntranceUpper.png",
+   "bytes": 796483,
+   "sha256": "d7bbcfbde11c32c60c0c09ca92be8938f65ed54bb2f0afafae4d9b6a030898cd",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "ccc340ada8b4c18169d9eb48fc622ffae3297a8cadb72a622e89a87a6c53a030",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/SignAlbedoOnly_EntranceUpper.png"
+  },
+  {
+   "path": "images/SignAlbedoOnly_Sign.png",
+   "bytes": 1371703,
+   "sha256": "cf1773c592ab8ce7495ae5ab7e86f7546cce8cff57f15f7704a2ae8ca7369e05",
+   "size": [
+    1920,
+    1080
+   ],
+   "rgbaSha256": "af62722f4a8c7dee0470c7b9c8627ffd039f37c6dc687ade9ec226cb734b937d",
+   "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/SignAlbedoOnly_Sign.png"
+  },
+  {
+   "path": "input_verification.json",
+   "bytes": 6978,
+   "sha256": "351121227c6ffee0e28f8b0a83e14bd1f7eb5237f13adb751560ab45154aac41"
+  },
+  {
+   "path": "options_comparison.csv",
+   "bytes": 3274,
+   "sha256": "d1a5f4a8a7a72749bc1b88f365258b2eec23a83ce7afe6b77af69c58d1b458f8"
+  },
+  {
+   "path": "remaining_work.txt",
+   "bytes": 2091,
+   "sha256": "67dc8443a581c6747067d21df175d5b5cd8c1c02c67d3486bf1fae6ef2514c25"
+  },
+  {
+   "path": "review.html",
+   "bytes": 18587,
+   "sha256": "9d13d1f06d0927336c7171a0cb8e1779c891a12b5a593fe0b77da02e3cdc2578"
+  },
+  {
+   "path": "review_detailed.txt",
+   "bytes": 10720,
+   "sha256": "9c74f2bac5e9b0fdbf73be514fb3242971c650a16d8751c27f1bfa4e7390cbda"
+  },
+  {
+   "path": "verification_plan.json",
+   "bytes": 11860,
+   "sha256": "4493ba1abd174998904df8660e7d592439a7891173c38147bee230b8a2ab69db"
+  },
+  {
+   "path": "verification_plan.txt",
+   "bytes": 8017,
+   "sha256": "da376092fba468313e7a79f27d44478d189279b66aa1fb5200b5e34e0ff76d91"
+  }
+ ]
+}

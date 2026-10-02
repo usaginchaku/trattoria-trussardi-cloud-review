@@ -1,0 +1,68 @@
+[
+ {
+  "crop": "crops/crop_RI02Baseline_FoodCaprese_plate.png",
+  "source": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/RI02Baseline_FoodCaprese.png",
+  "box_xyxy": [
+   540,
+   340,
+   1400,
+   1000
+  ],
+  "note": "analytical crop of supplied image; no resampling, no colour change; NOT a new render"
+ },
+ {
+  "crop": "crops/crop_POSE01_FoodCaprese_plate.png",
+  "source": "Diagnostics/POSE01_RI02_Comparison/Results/POSE01_RI02_20261002T0454086101232/POSE01_FoodCaprese.png",
+  "box_xyxy": [
+   540,
+   340,
+   1400,
+   1000
+  ],
+  "note": "analytical crop of supplied image; no resampling, no colour change; NOT a new render"
+ },
+ {
+  "crop": "crops/crop_RI02Baseline_MenuPhysicalClose_text.png",
+  "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_MenuPhysicalClose.png",
+  "box_xyxy": [
+   830,
+   395,
+   1090,
+   565
+  ],
+  "note": "analytical crop of supplied image; no resampling, no colour change; NOT a new render"
+ },
+ {
+  "crop": "crops/crop_MenuAlbedoOnly_MenuPhysicalClose_text.png",
+  "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/MenuAlbedoOnly_MenuPhysicalClose.png",
+  "box_xyxy": [
+   830,
+   395,
+   1090,
+   565
+  ],
+  "note": "analytical crop of supplied image; no resampling, no colour change; NOT a new render"
+ },
+ {
+  "crop": "crops/crop_RI02Baseline_EntranceUpper_text.png",
+  "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/RI02Baseline_EntranceUpper.png",
+  "box_xyxy": [
+   760,
+   620,
+   1160,
+   690
+  ],
+  "note": "analytical crop of supplied image; no resampling, no colour change; NOT a new render"
+ },
+ {
+  "crop": "crops/crop_SignAlbedoOnly_EntranceUpper_text.png",
+  "source": "Diagnostics/FOLLOWUP04_RI02_Comparison/Results/FUP04_Textures_RI02_20261002T0441152364479/SignAlbedoOnly_EntranceUpper.png",
+  "box_xyxy": [
+   760,
+   620,
+   1160,
+   690
+  ],
+  "note": "analytical crop of supplied image; no resampling, no colour change; NOT a new render"
+ }
+]

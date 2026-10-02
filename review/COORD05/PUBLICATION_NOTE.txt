@@ -1,0 +1,7 @@
+公開リポジトリ版（ブランチ claude/coord05-cloud-review、2026-10-02）
+- ユーザーの指示により、本リポジトリ（public）へレビュー成果物を置いた。
+- アニメ参照画像8枚（Reference/ 配下）と、その切抜き crops/crop_Tomato_and_Mozzarella_Anime_plate.png は、参照資料の再配布を避けるため除外した。review.html では該当箇所にファイル名だけを表示する。
+- 除外以外の文書内容はクラウド作業ツリー版と同じ。review.html、crops/crops_index.json、manifest.json、本ファイルのみ公開用に再生成・追加した。
+- input_verification.json と文書中の参照画像名・ハッシュは照合記録として残す（画像本体は含まない）。
+- クラウド作業ツリー版 ZIP（COORD05_CLOUD_REVIEW.zip、SHA256 b42f62e5459ac074b3e77f9399ba7ac6e233912c07978d155bd01e6505977043）は参照画像を含むため、ここには置いていない。
+- RI03 保存シーン同条件比較 14 PNG は 0/14 未撮影。

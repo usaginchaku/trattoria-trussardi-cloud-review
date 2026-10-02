@@ -1,0 +1,138 @@
+{
+  "workId": "COORD05-CLOUD-REVIEW",
+  "kind": "PLAN_ONLY_NOT_EXECUTED",
+  "createdUtc": "2026-10-02",
+  "ri03SavedSceneComparisonCaptures": {"required": 14, "captured": 0, "state": "NOT_CAPTURED"},
+  "principles": [
+    "One factor per test; every other setting identical to the control capture.",
+    "All captures in a NEW diagnostic copy of the saved RI03 scene; the main UnityProject, RI01-RI03 assets and originals are never edited or saved.",
+    "Each test produces 1920x1080 PNG + linear float EXR, with SHA256 and decoded RGBA hashes; state and assets restored and preservation re-checked (as in MAT07/MAT07C/FOLLOWUP04).",
+    "Shape changes and material changes are never combined in one test; added objects (option B) are labeled as additions, not as food mesh edits.",
+    "Do not repeat NormalOff, MatCapOff, ShadowStrengthZero, CeramicShadowBlur1.0 or the rejected FUP04 blend/FBX.",
+    "No Bake/AO, Play, Build & Test, SDK build or upload in any test below unless separately approved (only T6 would need Bake approval and is not recommended now).",
+    "A test result is evidence about the tested condition only; no generalization from Caprese to other dishes without their own capture."
+  ],
+  "fixedConditions": {
+    "unity": "Unity 2022.3.22f1 / lilToon 2.3.4 / BRP / Linear / DX11 (as recorded in MAT07)",
+    "scene": "diagnostic copy of Trattoria_ReviewIntegration_RI03.unity (saved scene SHA 5d6e32a9... per lighting_inventory_RI03_F05.json)",
+    "cameras": "existing fixed review cameras: FoodCaprese (primary), FoodLamb, FoodPuttanesca, FoodPudding (secondary), EntranceUpper or Sign (outdoor positive control)",
+    "quality": "VRC Medium (current index per records); VRC Mobile reported separately only where stated",
+    "lighting": "13 lights as inventoried (12 Baked point, Review_Sun Mixed directional intensity 0.9 soft shadows); existing lightmaps/probes untouched; no rebake",
+    "exposureAndOutput": "same camera exposure/post settings as MAT07 baseline; 1920x1080 PNG + linear FLOAT32 EXR",
+    "geometryAndMaterials": "RI03 saved state (POSE01 upper toast, Menu/Sign albedos, RI02 materials); scale 0.7825509309768677; Pudding two plates; Water; placements unchanged"
+  },
+  "controls": {
+    "negativeRepeat": "Capture the unchanged control twice; expected pixel-identical (MAT07/MAT07C baselines matched saved RI02 exactly). Any difference invalidates the test session.",
+    "positiveOutdoor": "For any light-on/off test, the outdoor EntranceUpper/Sign view must change where realtime sun shadows are visible today (menu stand on wall, street lamp on ground). If it does not change, the toggle did not take effect.",
+    "readOnlyFirst": "T1/T2 are read-only queries/analyses and must run before any render test."
+  },
+  "hypotheses": [
+    {"id": "H1", "statement": "At the indoor table the Mixed Review_Sun is occluded (Shadowmask probe occlusion), so no realtime light casts shadows on the food.", "basis": "record: only Review_Sun is realtime-capable; food non-static, probe-lit; observation: no cast shadows in any RI02 food image while outdoor shadows are visible", "status": "UNCONFIRMED"},
+    {"id": "H2", "statement": "The probe SH lighting at the table has a weak directional (L1) component relative to its ambient (L0) part, so lilToon form shading has little light direction to work with.", "basis": "observation: plate slope with ~11-14 deg normal tilt is 200-201 in 8-bit; many baked point lights surround the room", "status": "UNCONFIRMED"},
+    {"id": "H3", "statement": "Renderer castShadows/receiveShadows or shadow distance/cascade settings on food/table prevent a realtime shadow even if a light reaches the table.", "basis": "no record of these renderer flags in the supplied archive", "status": "UNKNOWN_NOT_IN_RECORDS"},
+    {"id": "H4", "statement": "The tablecloth is near display saturation, so weak contact darkening could be clipped in LDR output.", "basis": "pixels: 41-50% of frame has a 255 channel in Caprese/Lamb/Puttanesca; Pudding only 7.5% and still shows no contact darkening, so H4 alone is unlikely to explain it", "status": "UNCONFIRMED_PARTIAL_AT_MOST"},
+    {"id": "H5", "statement": "lilToon ramp parameters flatten the plate.", "basis": "already explored by MAT07/MAT07C (rejected variants); NOT re-tested here without new evidence", "status": "CLOSED_FOR_NOW"},
+    {"id": "H6", "statement": "Shallow plate shape (one tier, ~9 mm local rise) reduces readable form compared with the two-tier anime plate.", "basis": "record MAT07B; observation of reference", "status": "SHAPE_TRACK_SEPARATE_NOT_AUTHORIZED"}
+  ],
+  "tests": [
+    {
+      "id": "T1",
+      "title": "Linear EXR read of existing captures (cloth and plate headroom)",
+      "factor": "none (read-only analysis of existing MAT07 baseline / POSE01 EXR on the local machine)",
+      "hypotheses": ["H4"],
+      "fixed": "existing files only; no Unity launch",
+      "observe": "linear RGB of cloth below plate, cloth far, plate slope windows (same rectangles as analysis_measurements.json), and how many cloth pixels exceed 1.0",
+      "interpretPositive": "cloth linear values well above 1.0 -> a contact shadow of moderate strength could be invisible; exposure/tonemapping becomes a separate factor to plan",
+      "interpretNegative": "cloth below 1.0 -> saturation is not hiding shadows; H4 rejected for this view",
+      "limits": "says nothing about why the plate is flat; single camera",
+      "preservation": "read-only; hash EXR before/after",
+      "approval": "operator approval to read local files (no project change)",
+      "cost": "very low"
+    },
+    {
+      "id": "T2",
+      "title": "Read-only probe query at food positions",
+      "factor": "none (Editor script reads LightProbes.CalculateInterpolatedLightAndOcclusionProbes / SH at plate centre, rim and bread positions in the diagnostic copy; scene not saved)",
+      "hypotheses": ["H1", "H2"],
+      "fixed": "diagnostic copy; no render; no save",
+      "observe": "occlusion probe value for the sun's shadowmask channel at the table; SH L0 vs L1 magnitude and dominant direction",
+      "interpretPositive": "occlusion ~0 -> supports H1 (sun blocked at table); L1 small vs L0 -> supports H2",
+      "interpretNegative": "occlusion clearly >0 -> sun should reach the table; investigate H3 next. L1 large -> look elsewhere for flat plate (shader light direction handling, H6)",
+      "limits": "probe interpolation is not the per-pixel shader result; does not show what lilToon does with SH; API names must be checked against Unity 2022.3 docs by the executor",
+      "preservation": "diagnostic copy only, discard without saving; record script SHA",
+      "approval": "user approval for a diagnostic Unity Editor batch run (no Play, no Bake)",
+      "cost": "low"
+    },
+    {
+      "id": "T3",
+      "title": "Hypothesis 0: Review_Sun enabled vs disabled",
+      "factor": "Review_Sun Light component enabled=false (only this)",
+      "hypotheses": ["H1"],
+      "fixed": "all fixedConditions; same cameras FoodCaprese + EntranceUpper",
+      "observe": "per-pixel PNG and linear EXR difference on plate, bread, cloth around plate; outdoor positive control",
+      "interpretPositive": "food view difference ~0 while outdoor changes -> sun contributes nothing realtime at the table (consistent with H1)",
+      "interpretNegative": "food view changes -> sun reaches the table; then whether it casts shadows is still unknown (go to T4)",
+      "whatItCannotDecide": "Cannot tell whether a new light would produce good shadows (option A), cannot tell probe directionality (H2), cannot prove bake is necessary, cannot separate occlusion from renderer flags (H3) when the difference is zero",
+      "limits": "one camera per dish; disabling the sun may also change probe-independent terms such as realtime specular; EXR needed to see sub-8-bit changes",
+      "preservation": "toggle at runtime/editor in diagnostic copy only, restore, verify scene and asset hashes unchanged",
+      "approval": "user approval for diagnostic Unity capture (no Play, no Bake)",
+      "cost": "low"
+    },
+    {
+      "id": "T4",
+      "title": "Shadow casting only of Review_Sun (conditional on T3 showing a change)",
+      "factor": "Review_Sun shadows Soft -> None (only this)",
+      "hypotheses": ["H1", "H3"],
+      "fixed": "as T3",
+      "observe": "whether any part of the table image changes",
+      "interpretPositive": "change -> realtime sun shadows do fall on the table",
+      "interpretNegative": "no change while T3 changed -> sun lights the table but casts no visible shadow there; check renderer flags (H3) by reading, not by trying values",
+      "limits": "skip entirely if T3 shows no change",
+      "preservation": "as T3",
+      "approval": "same as T3",
+      "cost": "low"
+    },
+    {
+      "id": "T5",
+      "title": "Option A probe: one limited realtime light for the table",
+      "factor": "add ONE realtime soft-shadow light (spot or directional), culling mask limited to food/plates/cloth layer, fixed direction from above-front similar to the anime key; nothing else changed",
+      "hypotheses": ["H1", "H2"],
+      "fixed": "all fixedConditions; materials unchanged (no MatCap/Normal/Shadow value changes)",
+      "observe": "plate well and rim gradient, bread underside/contact, cloth contact shadow, overexposure; then the same with Quality = VRC Mobile reported separately",
+      "interpretPositive": "contact shadows and plate gradient readable without new clipping -> A is a viable candidate for visual selection",
+      "interpretNegative": "little change -> the lighting path is not the limiting factor at the table; reconsider H6 (shape) or option B",
+      "limits": "VRC Mobile has shadows off per records, so A's shadows are expected not to appear there; PC frame cost and Quest are not measured by this test; light/shadow follows only this added light",
+      "preservation": "light added only in the diagnostic copy; removed and hashes rechecked",
+      "approval": "user approval to create a diagnostic candidate light; adoption into RI04+ is a separate approval",
+      "cost": "low-medium"
+    },
+    {
+      "id": "T6",
+      "title": "Option B probe: painted contact-shadow cards (addition, not mesh edit)",
+      "factor": "add soft transparent shadow quads under one plate and under the bread only (Caprese); food meshes, materials and lights unchanged",
+      "hypotheses": [],
+      "fixed": "all fixedConditions",
+      "observe": "contact readability; z-fighting/sorting with the transparent water glass; visibility at the four food cameras and at a grazing angle",
+      "interpretPositive": "anime-like contact readable at review cameras -> B is a candidate",
+      "interpretNegative": "sorting artefacts or obviously pasted look -> reject B",
+      "limits": "does not respond to lighting; does not change plate form shading; must be labelled as added geometry",
+      "preservation": "new assets only in the diagnostic copy",
+      "approval": "user approval to create candidate assets",
+      "cost": "low-medium"
+    },
+    {
+      "id": "T7",
+      "title": "Option C (NOT recommended now): food Static + rebake/AO",
+      "factor": "would require Bake/AO",
+      "hypotheses": ["H1"],
+      "approval": "Bake/AO explicitly not authorized; listed only for completeness",
+      "limits": "changes lightmaps scene-wide; food could no longer move; cannot be compared one-factor without a full rebake"
+    }
+  ],
+  "order": ["T1", "T2", "T3", "T4 (only if T3 changes the table)", "then user chooses A (T5) and/or B (T6), or keep-current"],
+  "stopRules": [
+    "Negative repeat control not pixel-identical -> stop session.",
+    "Outdoor positive control unchanged in T3 -> toggle failed, stop and fix procedure.",
+    "Any preservation hash mismatch -> stop, report, do not adopt."
+  ]
+}
