@@ -1,0 +1,17 @@
+COORD07 REVIEW_STATUS（Claude 主担当。元Codex 停止維持）
+開始 2026-10-02 22:25 JST / 上限 2026-10-03 03:25 JST
+完了（この作業範囲のみ）
+- 工程1 照合・差分台帳（CHECKPOINT_01）
+- 工程2 花籠の高さ候補 A/B（品質版・LOD1、形状のみ一要因）（CHECKPOINT_02）
+- 工程3 全候補 6 件のクラウド検証と同条件比較レンダー（CHECKPOINT_03）
+- 工程4 陰影・材質の一要因診断計画（shading_plan_COORD07.txt）
+- 工程5 納品一覧・比較 HTML・MANIFEST（本ファイル、README_JA.txt、review_COORD07.html、MANIFEST.json）
+未完了・保留（理由）
+- RI03 保存シーン同条件比較 14 枚: 0/14 未撮影（Unity・PC に接続不能）
+- Unity import / 透明シェーダー / LODGroup / VR・Quest 実機: 未検証（接続不能）
+- ユーザーの見た目承認: 花籠 A/B の選択、犬毛色・檻の色アトラス、犬の目（ユーザー判断待ち）
+- Drive 未取得分の照合（食卓の飾り・小物の残り 23 枚、外観・内装・キッチン・壁装飾・料理・要確認）
+- 陰影診断 D1〜D4 の実行（承認待ち・Unity 作業者待ち）
+- Blender 5.2.2 での検証: 利用不可のため未実行（bpy 4.3.0 で実施）
+全体の完成ではない。
+STATUS: DELIVERED_CANDIDATES_AND_PLAN_RI03_14_NOT_CAPTURED

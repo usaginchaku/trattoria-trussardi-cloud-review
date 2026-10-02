@@ -1,0 +1,53 @@
+COORD07 陰影・材質の検証計画（計画のみ・未実行）
+基にした資料: claude/coord05-cloud-review の review/COORD05（verification_plan、options_comparison、review_detailed）と、その入力記録（MAT07 / MAT07B / MAT07C / FOLLOWUP05 の光源棚卸し）
+【常時】RI03 保存シーン同条件比較 14 枚は 0/14 未撮影。本計画のどの試験もその代わりにならない。
+
+■ 前提（記録から確定しているもの。自分では再検証していない）
+- 室内 12 灯は Baked、実時間に効き得るのは Review_Sun（Mixed、Shadowmask）のみ。焼き込み AO 無効
+- 料理は非 Static、LightProbes/BlendProbes、lightmapIndex -1
+- 材質 163（Standard 128 / 背景 8 / lilToon 25 / 透明 lilToon 2）。料理以外 136 材質に Normal Map なし
+- 不採用・再試行しないもの: MAT02〜06 の一律 lilToon 化と同条件の再試験、MAT07 の NormalOff / MatCapOff / ShadowStrengthZero、MAT07C の Ceramic ShadowBlur 1.0、全 12 材質の影色を一律 0.60 にする案
+
+■ まだ原因を断定しない点（仮説）
+H1 卓上で太陽が遮られ、料理に実時間の影がない / H2 プローブの方向成分が弱い / H3 Renderer の影設定 / H4 クロスの表示飽和（一部のみ）/ H6 皿の形が浅い 1 段（形状の別系統）
+→ 同一原因として扱わない。下の順で 1 つずつ確かめる
+
+■ 一要因診断（実行順。すべて新しい診断コピーで、本体・RI03 は保存しない。Play・Bake なし）
+D1 既存 EXR の線形値読取（変える要因なし）
+  入力: MAT07 baseline / POSE01 の FoodCaprese EXR（ローカル既存）。COORD05 analysis_measurements.json と同じ矩形
+  期待差: クロスが 1.0 を大きく超えるなら H4 の余地あり。1.0 未満なら H4 を否定
+  判断: 超える → 露出・トーンマップを別要因として D5 の後に計画。超えない → H4 を台帳から外す
+  次担当: PC でファイルを読める作業者（Unity 不要）
+D2 料理位置のプローブ読取（変える要因なし、Editor スクリプトで読むだけ）
+  入力: 皿中心・縁・パン下の座標。Unity 2022.3 の補間プローブ API（SH と遮蔽値。API 名は実行時に公式資料で確認）
+  期待差: 太陽チャンネルの遮蔽値 ≈ 0 なら H1 を支持。L1/L0 が小さいなら H2 を支持
+  判断: 遮蔽値が明確に > 0 → H3 を設定の読取で確認（値は試さない）
+  次担当: Unity を扱える作業者（元 Codex 再開時またはユーザー指定）。ユーザー承認: 診断 Editor バッチ
+D3 Review_Sun の有効/無効（変える要因: この 1 灯の enabled のみ）
+  カメラ: FoodCaprese（主）＋ EntranceUpper（屋外の陽性対照）。陰性対照: 無変更を 2 回撮って全画素一致
+  期待差: 卓上の差 ≈ 0 かつ屋外が変化 → 卓上に太陽の実時間寄与なし（H1 と整合）
+  判断: 卓上も変化 → D4（影だけ None）へ。屋外が変化しない → 切替失敗、その回は無効
+D4 （D3 で卓上が変化した時のみ）Review_Sun の影 Soft→None のみ
+D5 Normal / MatCap の扱い（料理）
+  既に MAT07 で Off にしても皿のくぼみは改善せず、と記録済み。新しい根拠（D1〜D3 の結果）が出るまで値の試行はしない
+  D2 で方向成分が十分と出た場合に限り、「lilToon が主光源方向をどう求めているか」をローカルの lilToon 2.3.4 ソースで読む（読取のみ）
+
+■ 建物の lilToon 仕上げ（MAT07 建築棚卸しの方針を維持）
+- 一律変換はしない（MAT02 系の欠点: 棚下の接触影、アーチの側面、椅子の丸みが弱くなる）
+- 代表 2 材だけを一要因で比較: Plaster_ARCH01（Standard、Glossiness 0.12、使用先 7）、wood_FUR01（Standard、Glossiness 0.23、使用先 11）
+- 実施条件: D1〜D3 で「新しい GI 解釈／光の扱いの根拠」が得られた時だけ。InteriorSleeve 固定カメラ、材質クローン 1 つずつ
+- 判断: 接触影・曲面の陰影が保持され、かつ参考（DU_ep10-4.png、Drive 内装）の平坦な面と主線の印象に近づく場合のみ候補に上げる。MatCap で艶を足して接触影不足を隠すことはしない
+
+■ 新しい小物（dot v02 と本ブランチ候補）の取り込み時に必要な一要因確認（Unity、未実施）
+P1 ガラス 2 種: 透明シェーダー（Standard Transparent / lilToon 透明）と描画順。Normals=Import を維持（README 指示）。Cycles で脚が黒いのは屈折表示で、Unity では別途確認
+P2 共有アトラス: v02 のアトラスと色修正候補アトラスを差し替えるだけの比較（形状は固定）
+P3 花籠 A/B と犬 LOD1: 同じカメラで v02 と並べる。LODGroup の距離は別工程
+P4 小物はベイク対象にしない前提（Bake 未承認）。プローブ照明で D1〜D3 と同じ見え方の課題が出るかを記録
+
+■ 選択肢（COORD05 から変更なし、推奨順）
+0 仮説検証（D1→D2→D3）→ その結果で A（卓上限定ライト、PC 重視）か B（描き込み接触影、Quest/Mobile 重視）を 1 つ試す。C（Static＋Bake/AO）は未承認のため非推奨。承認がない間は現状維持
+
+■ 担当と承認
+- D1: PC でファイルを読める作業者。承認: ローカル読取
+- D2〜D4、P1〜P4: Unity を扱える作業者。承認: 診断コピーでの Editor バッチ・撮影（Play/Bake なし）
+- 採用: ユーザーが同条件画像を見て判断。数値 PASS だけで採用しない

@@ -1,0 +1,347 @@
+{
+ "workId": "COORD07",
+ "branch": "claude/coord07-props-20261003",
+ "note": "PNG: file SHA256 + decoded RGBA SHA256. vs_v02_same_name compares with the v02 file of the same name. Renders are Cloud Blender bpy 4.3.0 candidate renders, not Unity/RI03 images (RI03 0/14 not captured).",
+ "fileCount": 45,
+ "files": [
+  {
+   "path": "CHECKPOINT_01_ledger.txt",
+   "bytes": 3326,
+   "sha256": "45fe9595283e1df2546d657133565d8845a16d73e5c4823c6dfa3d22ba7cdd4a"
+  },
+  {
+   "path": "CHECKPOINT_02_basket.txt",
+   "bytes": 1231,
+   "sha256": "c39039323c6a8b0882ab0179323da983c10afc2cd605cab38283a1542b131bf6"
+  },
+  {
+   "path": "CHECKPOINT_03_verify.txt",
+   "bytes": 1490,
+   "sha256": "d185b489c097058b9a3490372ea7c886cc280e026d6fe74dfce3d00fef4a3466"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 3224,
+   "sha256": "c7046e3f2c82f82a088fe61c65b037c69d56df6f89e1c2f29b3e693daa30736b"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1363,
+   "sha256": "2ef7b1887737438a7a04a83c263f91bee6aab556e0cdb7ce37b1b2420945cad2"
+  },
+  {
+   "path": "remaining_work.txt",
+   "bytes": 1497,
+   "sha256": "9e33e335c91741f3b17981f97e38d7694cb5e517a01befe7d4c05f1913a676e8"
+  },
+  {
+   "path": "review_COORD07.html",
+   "bytes": 5025,
+   "sha256": "82dd93c67b618a29315417a573e8eb94fca2dfef960a1c42e9963d96a2edcf7a"
+  },
+  {
+   "path": "shading_plan_COORD07.txt",
+   "bytes": 5730,
+   "sha256": "df43f906a626daab8a806cfc61ea6dcdc1d2ba140b1cd87a3ef451271122b8d6"
+  },
+  {
+   "path": "previews/basket_height_baseline_A_B.png",
+   "bytes": 3141528,
+   "sha256": "b526b82fa35945fc4500ae74fe7b23cb414166e79c289f3d352b3c71b09b47e5",
+   "size": [
+    2400,
+    2100
+   ],
+   "mode": "RGB",
+   "rgbaSha256": "fd3fa83e7027c24d7b2ec4afb347f81a5f8d337c225f02efea04475b3cabb92d"
+  },
+  {
+   "path": "previews/tabletop_v02_vs_candidates.png",
+   "bytes": 1863872,
+   "sha256": "392cb3b117299f385ad3e727ec86968c62ebb1ec278c0b4b24104ce270b6426e",
+   "size": [
+    1400,
+    1800
+   ],
+   "mode": "RGB",
+   "rgbaSha256": "be3a7a8c892b41caa55670415da42dfe5f878fb6e440f71f8db5f5255ce1a437"
+  },
+  {
+   "path": "previews/from_v02_review/dog_cage_color_before_after.png",
+   "bytes": 1770306,
+   "sha256": "4ad46d234603259040f012c6b7d79737bee1f2e15d135b1c7c3cf97f372e7a60",
+   "size": [
+    1800,
+    1400
+   ],
+   "mode": "RGB",
+   "rgbaSha256": "473d727a5395130f64ffd72e2ce0fa952efc4bd1731b82c19f0607a55f602a10"
+  },
+  {
+   "path": "previews/from_v02_review/puppy_quality_vs_LOD1.png",
+   "bytes": 2634821,
+   "sha256": "ee8bd66cc584bf40e6bd487acf4ad2d5e68a8e4d690478f45820e4c2bb2b09d7",
+   "size": [
+    2560,
+    1280
+   ],
+   "mode": "RGB",
+   "rgbaSha256": "d67ace66f29108886d5b7819e2b3d53ec1d0ba52b524d31510317d24ca711ad9"
+  },
+  {
+   "path": "previews/from_v02_review/water_glass_before_after_pair.png",
+   "bytes": 1287499,
+   "sha256": "ae741c15df9743b5adc9fc2017afe1cd0550c9a4e84409cf13158279b893ceec",
+   "size": [
+    1800,
+    1400
+   ],
+   "mode": "RGB",
+   "rgbaSha256": "168411e911022616e5aeb9687d190eb91ae622f2e35c9c82651a8f385ccaac04"
+  },
+  {
+   "path": "basket_height/B/fbx/02_Flower_Basket.fbx",
+   "bytes": 837052,
+   "sha256": "bac850873db7e4448b374cb250e148e5556358d7edb90cb6e362a96c3c77025a"
+  },
+  {
+   "path": "basket_height/B/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/B/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/B/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/B/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+   "bytes": 422540,
+   "sha256": "5e9c1d47f00950bd860c97a702a45395c27f19f8dbff57802280e6777d20db5a"
+  },
+  {
+   "path": "basket_height/B/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/B/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/B/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/B/models/02_Flower_Basket.blend",
+   "bytes": 1416597,
+   "sha256": "60c6562302a9b2ce5f492878e38f04b36420a98222fc24eb334af80e51664506"
+  },
+  {
+   "path": "basket_height/B/models/02_Flower_Basket_LOD1.blend",
+   "bytes": 1001121,
+   "sha256": "1ec7605b29d127459c35472afeae9cbc366b13472169af4fc5ae221b6704862e"
+  },
+  {
+   "path": "basket_height/A/fbx/02_Flower_Basket.fbx",
+   "bytes": 837068,
+   "sha256": "534a1f5ee4ed7f8ce37624f570d0c700fa46251fafc606db222d9ed242052634"
+  },
+  {
+   "path": "basket_height/A/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/A/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/A/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/A/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+   "bytes": 422508,
+   "sha256": "d0bdd5ca27a62f56562f015e4703cbf078572b253f2df74fba656160520ba5c3"
+  },
+  {
+   "path": "basket_height/A/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "sha256": "ec91cb8185f50192ce9aee3df3822239ce2cad4b89024031710f3a48ec8eada8",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/A/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "sha256": "6d96d21f3b78dcc6d3b8cd571e3c8929a1cc78650d89b809fdf7dc65b2ce4f86",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/A/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "sha256": "c760d290a8e5e01e5f5e0b474c99bc413092b09e64133dff51b505128a77c3db",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGBA",
+   "rgbaSha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c",
+   "vs_v02_same_name": "BYTE_IDENTICAL"
+  },
+  {
+   "path": "basket_height/A/models/02_Flower_Basket.blend",
+   "bytes": 1416518,
+   "sha256": "27618604ff899b08e540dbd8083fd4854ed6d99978e63302596b0cc4f5a6513f"
+  },
+  {
+   "path": "basket_height/A/models/02_Flower_Basket_LOD1.blend",
+   "bytes": 1000975,
+   "sha256": "fc42bce98cd85e438a25fdc9dc10ee633aa74bedbd051873f4d12b21219b3c97"
+  },
+  {
+   "path": "qa/basket_build_A.json",
+   "bytes": 512,
+   "sha256": "136fd69c7137aa8b61394bd9eeebbc893b37788352726540b2a91e98b88bc090"
+  },
+  {
+   "path": "qa/basket_build_B.json",
+   "bytes": 511,
+   "sha256": "8b9a3efc300016c3834cb07038cb0c800db70e4bf04c47a640125044f4ddd4d6"
+  },
+  {
+   "path": "qa/basket_build_base.json",
+   "bytes": 497,
+   "sha256": "eba2b6a46991a88cf067ed684d21759981ce834c31b1ac7e8a2671c8147eafeb"
+  },
+  {
+   "path": "qa/basket_build_lod_A.json",
+   "bytes": 513,
+   "sha256": "171d76c5eec305bf6e42d944a818baa5a5312cc80fbedc2f9953d7278309e7a6"
+  },
+  {
+   "path": "qa/basket_build_lod_B.json",
+   "bytes": 512,
+   "sha256": "b6a530dbaa775dd81a272d5f773dd4ee7d8218bd3c084f13a4a0e8ea81bb7bcc"
+  },
+  {
+   "path": "qa/basket_build_lod_base.json",
+   "bytes": 497,
+   "sha256": "0e669947386ae4099fd4d5389e4ed40fd72016f06bdcbd412b7f53868b639d0b"
+  },
+  {
+   "path": "qa/basket_h.py",
+   "bytes": 2719,
+   "sha256": "1372501259031a04b357e8727b119f8f8951f552800750b9c3e81e7da08a79eb"
+  },
+  {
+   "path": "qa/basket_v02_part_extents.json",
+   "bytes": 635,
+   "sha256": "ac3fcfa467fd497b403747ff065442c28fe0d534d8521401d75b9dc9c5b647b1"
+  },
+  {
+   "path": "qa/exp_basket.py",
+   "bytes": 1063,
+   "sha256": "2461e7937d8fb425e8d2668251509f724529870aa9cae42b09df282faa2e6f9a"
+  },
+  {
+   "path": "qa/fbx_verify_all_candidates.json",
+   "bytes": 11376,
+   "sha256": "c1b61bb807e685c853f65caf7f2ce06fa5818dff5cafe9d0147ca1b8e527ad1b"
+  },
+  {
+   "path": "qa/puppy_lod1_face_orientation.json",
+   "bytes": 138,
+   "sha256": "eac7d9ac1953a33155a612184adc3ddc40d5e346b70d513a24eec2163af3e676"
+  },
+  {
+   "path": "qa/verify_all.py",
+   "bytes": 4697,
+   "sha256": "b30bf85b1dffa13aa9aa99b58ff72ebc9463a62cbf260c5a5444db463e7577ab"
+  }
+ ]
+}
