@@ -1,0 +1,7 @@
+# front ortho, |dRGB|>12; painting board projected to x 278-621 y 154-745 (1452 px/m)
+key A5 vs base changed px 69060 inside painting 0
+key A6 vs base changed px 71195 inside painting 0
+key A6 vs A5 changed px 4368 inside painting 0
+graze A5 vs base changed px 88873 inside painting 0
+graze A6 vs base changed px 90465 inside painting 0
+graze A6 vs A5 changed px 3332 inside painting 0

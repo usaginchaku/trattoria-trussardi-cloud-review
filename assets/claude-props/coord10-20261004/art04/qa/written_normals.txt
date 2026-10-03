@@ -1,0 +1,2 @@
+FN loops differing >1e-3: 0 max 0.0005439519882202148
+FN loops differing >1e-3: 70 max 0.012329719960689545

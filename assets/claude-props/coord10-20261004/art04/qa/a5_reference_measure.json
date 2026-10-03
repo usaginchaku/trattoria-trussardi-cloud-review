@@ -1,0 +1,65 @@
+{
+ "reference_IMG_3669": {
+  "horizontal_px": {
+   "bar_avg": 70.0,
+   "mat_avg": 29.5,
+   "picture_w": 156,
+   "bar_over_mat": 2.3728813559322033,
+   "bar_over_picture_w": 0.44871794871794873,
+   "mat_over_picture_w": 0.1891025641025641
+  },
+  "vertical_bottom_px": {
+   "bar": 133,
+   "mat": 38,
+   "bar_over_mat": 3.5,
+   "bar_over_picture_h": "undetermined (picture top outside photo)"
+  },
+  "grooves_px": {
+   "left_bar_spacing": 53,
+   "bottom_bar_spacing": 30,
+   "bottom_spacing_over_picture_w": 0.19230769230769232,
+   "direction": "across each bar (radial from the picture): near-horizontal on side bars, near-vertical on the bottom bar, fan/diagonal lines at the bottom mitres"
+  },
+  "confidence": {
+   "bar_and_mat_widths": "medium (screen photo, anti-aliased edges, +-3 px)",
+   "left/right asymmetry": "perspective (left 78 px, right 61 px)",
+   "top bar": "not visible -> undetermined",
+   "IMG_3638": "person occludes the frames; not used for measurement"
+  }
+ },
+ "current_source": {
+  "bar_m": 0.027,
+  "light_zone_m(cream rim + visible mat strip)": 0.0283,
+  "bar_over_light": 0.9540636042402827,
+  "bar_over_picture_w": 0.1127348643006263,
+  "light_over_picture_w": 0.11816283924843424,
+  "picture_m": [
+   0.2395,
+   0.4095
+  ],
+  "outer_m": [
+   0.35,
+   0.52
+  ]
+ },
+ "A5": {
+  "bar_m": 0.042,
+  "light_zone_m(cream rim + visible mat strip)": 0.0133,
+  "bar_over_light": 3.1578947368421058,
+  "bar_over_picture_w": 0.17536534446764093,
+  "light_over_picture_w": 0.055532359081419624,
+  "picture_m": [
+   0.2395,
+   0.4095
+  ],
+  "outer_m": [
+   0.35,
+   0.52
+  ]
+ },
+ "notes": [
+  "outer size and picture size are fixed, so the reference bar/picture-width ratio (0.45) cannot be reached (it would need a 0.11 m bar); A5 matches the bar:mat RATIO instead (ref 2.4 horizontal / 3.5 bottom bar, A5 3.2 = inside that range).",
+  "bar = olive wood region from outer edge to its inner bevel; light zone = cream rim + visible mat-panel strip up to the painting edge.",
+  "A6 bottom/top groove spacing 0.048 m = 0.20 x picture width (same horizontal ratio as the reference). Side-bar spacing in the reference is denser (about 0.4-0.8 x bar width depending on the unknown foreshortening); A6 uses 0.0925 m (5 per side) to keep the grooves few and avoid a grid look - deliberate deviation."
+ ]
+}

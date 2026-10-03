@@ -1,0 +1,32 @@
+{
+ "scope": "Left_Frame_22 の renderer のみ(LAY02_GapFrame_22 と mesh 共有のため、同名置換ではなく別名メッシュとして割当)",
+ "fbx_texture_references": {
+  "names": [
+   "FinishAtlas_FUR06.png",
+   "PaintingAtlas_FUR06.png"
+  ],
+  "material_names_in_fbx": [
+   "FinishAtlas_FUR06",
+   "PaintingAtlas_FUR06"
+  ],
+  "note": "ファイル名のみ(絶対パス除去済み)。ソースFBXと同じ名前"
+ },
+ "blend_texture_references": {
+  "A5": {
+   "PaintingAtlas_FUR06_A1": "//../../textures/PaintingAtlas_FUR06_A1.png",
+   "FinishAtlas_FUR06_A2_F22": "//../../textures/FinishAtlas_FUR06_A2_F22.png"
+  },
+  "A6": {
+   "PaintingAtlas_FUR06_A1": "//../../textures/PaintingAtlas_FUR06_A1.png",
+   "FinishAtlas_FUR06_A2_F22": "//../../textures/FinishAtlas_FUR06_A2_F22.png"
+  }
+ },
+ "textures_in_this_folder": {
+  "textures/PaintingAtlas_FUR06_A1.png": "ART01 A1 と同一",
+  "textures/FinishAtlas_FUR06_A2_F22.png": "ART01 A2 F22 と同一"
+ },
+ "note": "A5/A6 は形状だけの候補。元のマテリアル(A1/A2なし)でも成立する。素材・色は比較のため ART01 A1+A2 に固定した",
+ "not_used": [
+  "参考画像(repoに含めない)"
+ ]
+}

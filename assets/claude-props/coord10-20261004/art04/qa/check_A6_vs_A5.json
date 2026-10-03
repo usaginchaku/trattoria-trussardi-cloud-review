@@ -1,0 +1,41 @@
+{
+ "source": {
+  "non_olive_faces": 956,
+  "olive_faces": 1488,
+  "bbox": [
+   [
+    -0.175,
+    -0.036,
+    0.0
+   ],
+   [
+    0.175,
+    0.0,
+    0.52
+   ]
+  ],
+  "self_overlap_pairs_nonadjacent": 598,
+  "min_face_area": 5.01670776031915e-08
+ },
+ "candidate": {
+  "non_olive_faces": 956,
+  "olive_faces": 2880,
+  "bbox": [
+   [
+    -0.175,
+    -0.036,
+    0.0
+   ],
+   [
+    0.175,
+    0.0,
+    0.52
+   ]
+  ],
+  "self_overlap_pairs_nonadjacent": 598,
+  "min_face_area": 1.7724879342040367e-08
+ },
+ "non_olive_faces_geometry_identical": true,
+ "non_olive_faces_uv_identical": true,
+ "bbox_identical": true
+}
