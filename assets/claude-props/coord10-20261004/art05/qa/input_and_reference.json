@@ -1,0 +1,25 @@
+{
+ "input": {
+  "branch": "codex/coord10-art05-input-20261004",
+  "commit": "03bfdaef576cb4649e9356d20f6f0c4edd5f4964",
+  "dir": "assets/codex-source/coord10-art05-input-20261004/",
+  "files_sha256_as_checked_out": {
+   "FinishAtlas_FUR06.png": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715",
+   "Frame_17_FUR06.fbx": "0e1c0dc9cd29c759d4f6539d2437fa142cf195a19bb2081794b5b102cd71967d",
+   "Frame_18_FUR06.fbx": "0c4c591b43966e8190d286a7b7a32cd4b3739545e115b4f3be14af4a06c6e352",
+   "Frame_19_FUR06.fbx": "17d2de842784ff9241f90ec6a11bbd407e8824b9e879ad1f02cd2f49b05ebd4e",
+   "PaintingAtlas_FUR06.png": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b",
+   "MANIFEST.json": "42b9d4ffe47eb824d475c15ee04b50235a454f117bc55556d22b29d18a9f43c5",
+   "README.txt": "6e59f9f2a649e5aedd3aec3bb0b4d15b773d5198050e6be8f302f8ff537f20e2",
+   "target_mapping.json": "bb64587f752fda49c1de927fbcb7cea23f3a8c93a40a4eafa0bf81cd01a45df2"
+  },
+  "text_note": "README.txt / target_mapping.json / MANIFEST.json match the director-given public git blob SHAs. Converting LF->CRLF reproduces the SHA listed inside the input MANIFEST for README.txt and target_mapping.json (git line-ending conversion only).",
+  "images_and_fbx": "byte-identical to the input MANIFEST SHAs"
+ },
+ "reference": {
+  "file": "DU_ep10-4.png",
+  "sha256": "b9a1c3aca00965d0a360c89da9ac20027c0471940cb1baee33d093d8930544bb",
+  "opened": "yes (private COORD04 archive outside the public repo; re-opened for this task; nothing stored)"
+ },
+ "mapping": "image left/middle/right = Left_Frame_17/18/19 = PaintingAtlas tiles 16/17/18 (director-checked; design z 0.53/1.29/2.10 from the far corner)"
+}

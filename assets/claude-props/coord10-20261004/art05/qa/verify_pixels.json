@@ -1,0 +1,78 @@
+{
+ "input_png": {
+  "size": [
+   2048,
+   2048
+  ],
+  "mode": "RGB",
+  "sha256": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b",
+  "rgb_sha256": "0b31161d48d4c2262d82b20cc8362262f0d8795d3ecf317105448a994fbdcc3c"
+ },
+ "candidate_png": {
+  "size": [
+   2048,
+   2048
+  ],
+  "mode": "RGB",
+  "sha256": "e25d475a802c7703f42701ccfe36bc2ecd2e01303329722ec4169b121542d324",
+  "rgb_sha256": "87ac061cacb4d0ad3bf8e6c93f63ee6dc57aae0738e54b22c62fb9e552d2867e"
+ },
+ "mask_png": {
+  "size": [
+   2048,
+   2048
+  ],
+  "mode": "L",
+  "values": [
+   0,
+   255
+  ],
+  "sha256": "f8f17c2e68036122d9669bd003d749e04a74363b5a037e4707e302fd9e6160aa"
+ },
+ "mask_nonzero_outside_cells": 0,
+ "changed_pixels_outside_cells": 0,
+ "changed_pixels_where_mask_0": 0,
+ "rgb_sha256_outside_cells_equal": true,
+ "rgb_sha256_mask0_equal": true,
+ "per_cell": {
+  "16": {
+   "changed": 34565,
+   "mask_255": 34646,
+   "cell_pixels": 116281,
+   "mask_fraction": 0.298,
+   "changed_bbox_atlas_xyxy_incl": [
+    1408,
+    745,
+    1654,
+    965
+   ],
+   "border_ring_6px_unchanged": true
+  },
+  "17": {
+   "changed": 35403,
+   "mask_255": 35554,
+   "cell_pixels": 116281,
+   "mask_fraction": 0.3058,
+   "changed_bbox_atlas_xyxy_incl": [
+    1735,
+    751,
+    1998,
+    954
+   ],
+   "border_ring_6px_unchanged": true
+  },
+  "18": {
+   "changed": 28393,
+   "mask_255": 28433,
+   "cell_pixels": 116281,
+   "mask_fraction": 0.2445,
+   "changed_bbox_atlas_xyxy_incl": [
+    37,
+    1078,
+    224,
+    1327
+   ],
+   "border_ring_6px_unchanged": true
+  }
+ }
+}

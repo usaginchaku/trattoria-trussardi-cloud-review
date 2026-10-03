@@ -1,0 +1,106 @@
+{
+ "work": "COORD10-ART05 shelf-frame painting candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord10-art05-input-20261004@03bfdaef576cb4649e9356d20f6f0c4edd5f4964",
+  "reference": "DU_ep10-4.png sha256 b9a1c3ac... (private, not stored)"
+ },
+ "tooling": "numpy/PIL for the atlas; pip bpy 4.3.0 (Cycles CPU) for previews only. Blender 5.2.2 / Unity not run.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "PaintingAtlas_FUR06_ART05_candidate.png",
+   "bytes": 72334,
+   "role": "ART05 candidate PaintingAtlas (cells 16/17/18 foreground only)",
+   "png_width": 2048,
+   "png_height": 2048,
+   "rgba_sha256": "dda0fe02c7886ea358aa0c66d9b5b3ea4e6d60977680f52199bdc0c8084823ba"
+  },
+  {
+   "path": "PaintingAtlas_FUR06_ART05_shape_change_mask.png",
+   "bytes": 7500,
+   "role": "binary shape-change mask (0/255)",
+   "png_width": 2048,
+   "png_height": 2048,
+   "rgba_sha256": "488104fcfde573cd1575c2b8dca93c96921cb6906badee50fd4cd6dcf2b2a92c"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 3891,
+   "role": "document",
+   "sha256": "a0f20ab80c56c249ac5f447ad8d5c6f93f166180a5030ab34ea420252d72121f"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 523,
+   "role": "document",
+   "sha256": "386900a067c7bef6864b2ad3a3ae71d24352dc91cc4d2eab4f15d41c930c801d"
+  },
+  {
+   "path": "previews/baseline_vs_candidate_front_close.png",
+   "bytes": 189553,
+   "role": "baseline vs candidate render (same camera/light/material)",
+   "png_width": 1920,
+   "png_height": 238,
+   "rgba_sha256": "7aaff93c192f772d36921385d4a9e561d5874ad7bf08f573a2287d3f1dfd9c8e"
+  },
+  {
+   "path": "previews/baseline_vs_candidate_oblique_context.png",
+   "bytes": 105016,
+   "role": "baseline vs candidate render (same camera/light/material)",
+   "png_width": 1440,
+   "png_height": 442,
+   "rgba_sha256": "619b0518fd8aa7a2c18060e4a4ba0ea091843fe1528277a38361f110233a8aa6"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 1598,
+   "role": "verification record",
+   "sha256": "9588268e812b237e10b829c22a39eb1198ae70220930bc2029b6972f86854525"
+  },
+  {
+   "path": "qa/input_and_reference.json",
+   "bytes": 1681,
+   "role": "verification record",
+   "sha256": "c40abafe84edea33b7fe79a82e48aa1dc488b59f5386edaf77f90af7980e8eed"
+  },
+  {
+   "path": "qa/verify_pixels.json",
+   "bytes": 1535,
+   "role": "verification record",
+   "sha256": "fb0cb29d001dde6d7462f86a3f740792da27b4b16713eddbd1f53f7e50fa57ef"
+  },
+  {
+   "path": "tools/art05_candidate.py",
+   "bytes": 5228,
+   "role": "self-written code",
+   "sha256": "0589d19a95550cd86b295776e0e63c4ff3aaa6f718dfaccf648c18868d3d9509"
+  },
+  {
+   "path": "tools/mkmanifest_art05.py",
+   "bytes": 1902,
+   "role": "self-written code",
+   "sha256": "fee8b347dd0082e0a53b08f15a596a0669438a43ce7e801e903b95cb3f2696b3"
+  },
+  {
+   "path": "tools/render_art05.py",
+   "bytes": 2529,
+   "role": "self-written code",
+   "sha256": "65d13cafc3a8b533b74239ea41197902b1df1f168f37ae3330ce2b5979eb4aa2"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_art05.py",
+   "bytes": 2238,
+   "role": "self-written code",
+   "sha256": "56a005a85594557fc14c5a04e5891d8fa1b621957e9c321fc7fe7f44d4d853b1"
+  }
+ ]
+}

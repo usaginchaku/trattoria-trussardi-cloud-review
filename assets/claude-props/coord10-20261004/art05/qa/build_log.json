@@ -1,0 +1,107 @@
+{
+ "per_cell": {
+  "Frame_17": {
+   "tile": 16,
+   "cell_xyxy_excl": [
+    1364,
+    682,
+    1705,
+    1023
+   ],
+   "mask_pixels": 34646,
+   "changed_pixels": 34565,
+   "old_fg_pixels": 15750,
+   "new_fg_pixels_alpha_gt0": 22113,
+   "changed_bbox_atlas_xyxy_incl": [
+    1408,
+    745,
+    1654,
+    965
+   ],
+   "mask_bbox_atlas_xyxy_incl": [
+    1408,
+    745,
+    1654,
+    965
+   ],
+   "mask_fraction_of_cell": 0.298,
+   "border_pixels_unchanged": true
+  },
+  "Frame_18": {
+   "tile": 17,
+   "cell_xyxy_excl": [
+    1705,
+    682,
+    2046,
+    1023
+   ],
+   "mask_pixels": 35554,
+   "changed_pixels": 35403,
+   "old_fg_pixels": 18151,
+   "new_fg_pixels_alpha_gt0": 24348,
+   "changed_bbox_atlas_xyxy_incl": [
+    1735,
+    751,
+    1998,
+    954
+   ],
+   "mask_bbox_atlas_xyxy_incl": [
+    1735,
+    751,
+    1998,
+    954
+   ],
+   "mask_fraction_of_cell": 0.3058,
+   "border_pixels_unchanged": true
+  },
+  "Frame_19": {
+   "tile": 18,
+   "cell_xyxy_excl": [
+    0,
+    1023,
+    341,
+    1364
+   ],
+   "mask_pixels": 28433,
+   "changed_pixels": 28393,
+   "old_fg_pixels": 18154,
+   "new_fg_pixels_alpha_gt0": 15373,
+   "changed_bbox_atlas_xyxy_incl": [
+    37,
+    1078,
+    224,
+    1327
+   ],
+   "mask_bbox_atlas_xyxy_incl": [
+    37,
+    1078,
+    224,
+    1327
+   ],
+   "mask_fraction_of_cell": 0.2445,
+   "border_pixels_unchanged": true
+  }
+ },
+ "aspect": {
+  "Frame_17": 1.5621,
+  "Frame_18": 1.4567,
+  "Frame_19": 1.5314
+ },
+ "tones": {
+  "main": [
+   176,
+   178,
+   168
+  ],
+  "deep": [
+   166,
+   168,
+   158
+  ]
+ },
+ "background_colour_used_for_erase": [
+  232,
+  236,
+  223
+ ]
+}
