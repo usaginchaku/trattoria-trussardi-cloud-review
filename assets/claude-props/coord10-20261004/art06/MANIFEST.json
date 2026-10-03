@@ -1,0 +1,100 @@
+{
+ "work": "COORD10-ART06 F19 tile5 mat colour candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord10-art05-input-20261004@03bfdaef576cb4649e9356d20f6f0c4edd5f4964",
+  "input_FinishAtlas_FUR06.png": {
+   "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715",
+   "png_width": 1024,
+   "png_height": 1024,
+   "mode": "RGB"
+  },
+  "input_Frame_19_FUR06.fbx_sha256": "17d2de842784ff9241f90ec6a11bbd407e8824b9e879ad1f02cd2f49b05ebd4e",
+  "record": "ART06P 779ee005 (art06review/qa/cell_stats_and_hue.txt)",
+  "reference": "DU_ep10-4.png sha256 b9a1c3ac... (private, viewed only, not stored)"
+ },
+ "tooling": "numpy/PIL for the atlas copy; pip bpy 4.3.0 (Cycles CPU) for previews only. Blender 5.2.2 / Unity not run.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "FinishAtlas_FUR06_ART06_F19_tile5_candidate.png",
+   "bytes": 148294,
+   "role": "ART06 candidate F19-only FinishAtlas copy (tile5 recoloured only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "994d72e8b18b170c11732d382a867d0287bde54aaff52fcda71413f81a16441e"
+  },
+  {
+   "path": "FinishAtlas_FUR06_ART06_tile5_change_mask.png",
+   "bytes": 1628,
+   "role": "binary change mask (0/255), nonzero only inside tile5",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "d06c27dd89eee9e3fc59edc3b9aaf8ee059c3f7166d034348ff914a70bec6697"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 4097,
+   "role": "document",
+   "sha256": "760f404f44c66e4022ae675f5985ca0576e0c863d74f2431c532fea524328803"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 923,
+   "role": "document",
+   "sha256": "a33a555beef71d2c9fe8dd1ea12281fd685351cb5dc51f1c7976fef7a077989f"
+  },
+  {
+   "path": "previews/F19_front_baseline_vs_ART06_candidate.png",
+   "bytes": 235958,
+   "role": "ART06 candidate F19-only FinishAtlas copy (tile5 recoloured only)",
+   "png_width": 1080,
+   "png_height": 562,
+   "rgba_sha256": "d664c5f99f6344e6d3458adec5bdcbc26a0aa8701767d0c248927e4b3131130c"
+  },
+  {
+   "path": "qa/candidate_log.json",
+   "bytes": 1040,
+   "role": "verification record",
+   "sha256": "e8ff1ebf266ed9a4ccbdd8cd06162573551b2d9249ea7c534823b50da75a747a"
+  },
+  {
+   "path": "qa/verify_art06.json",
+   "bytes": 1842,
+   "role": "verification record",
+   "sha256": "7efabf5b23299e7c67dad34a5db6c04479c6bdfc312617448b453c1aab2ea8e1"
+  },
+  {
+   "path": "tools/art06_tile5_candidate.py",
+   "bytes": 2986,
+   "role": "self-written code",
+   "sha256": "9338d981f33983fca4c029dc9f0425b89df3a0fe6a459752db2a89747e282be9"
+  },
+  {
+   "path": "tools/mkmanifest_art06.py",
+   "bytes": 2297,
+   "role": "self-written code",
+   "sha256": "457f98cf303fdde1d069d46f08de9268c9e9e923105bac06eef12df09066180e"
+  },
+  {
+   "path": "tools/render_art06.py",
+   "bytes": 2306,
+   "role": "self-written code",
+   "sha256": "7922c27a25b0013bf3c01da53e5c6d8fb38ee548155cdb10113e5d83a55e03e8"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_art06.py",
+   "bytes": 1981,
+   "role": "self-written code",
+   "sha256": "949807f8be958de24856f81ea0c409067fc3fb96f68b8461360346f9785ca395"
+  }
+ ]
+}

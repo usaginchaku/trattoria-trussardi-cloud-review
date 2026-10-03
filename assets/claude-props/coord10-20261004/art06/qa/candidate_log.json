@@ -1,0 +1,78 @@
+{
+ "method": "mean shift in RGB: new = old - old_mean + target_mean (rounded, clipped); target_mean = HSV(target_hue, target_sat, V of old mean)",
+ "relative_basis": {
+  "ref_hue_delta_F19_minus_F17F18_deg": 193.25,
+  "ref_sat_ratio_F19_over_F17F18": 0.4453,
+  "model_tile4_hsv": [
+   47.5,
+   0.1035,
+   0.9098
+  ],
+  "target_hue_deg": 240.75,
+  "target_sat": 0.0461
+ },
+ "tile5_before": {
+  "mean_rgb": [
+   186.0,
+   199.0,
+   210.0
+  ],
+  "hsv": [
+   207.5,
+   0.1143,
+   0.8235
+  ],
+  "std": [
+   0.584,
+   0.584,
+   0.584
+  ],
+  "min": [
+   181,
+   194,
+   205
+  ],
+  "max": [
+   191,
+   204,
+   215
+  ],
+  "rec709_luma": 197.03
+ },
+ "tile5_after": {
+  "target_mean_rgb": [
+   200.45,
+   200.33,
+   210.0
+  ],
+  "mean_rgb": [
+   200.0,
+   200.0,
+   210.0
+  ],
+  "hsv": [
+   240.0,
+   0.0476,
+   0.8235
+  ],
+  "std": [
+   0.584,
+   0.584,
+   0.584
+  ],
+  "min": [
+   195,
+   195,
+   205
+  ],
+  "max": [
+   205,
+   205,
+   215
+  ],
+  "rec709_luma": 200.72
+ },
+ "rec709_luma_delta": 3.69,
+ "clipped_values": 0,
+ "changed_pixels": 65536
+}

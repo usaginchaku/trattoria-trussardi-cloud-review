@@ -1,0 +1,6 @@
+COORD10-ART06 REVIEW_STATUS (2026-10-04 JST, Claude cloud)
+- 状態: 候補 1 案を作成した(未採用)。F19 専用の FinishAtlas コピーで、tile5 だけ (186,199,210) → (200,200,210) に変えた。luma +3.69。
+- 検証: PASS。変更 65536 画素はすべて tile5 の中。その外の変更は 0。他の 15 セルは展開した画素で同じ。マスクは 0/255。
+- 解釈: F17/F18 との相対的な色相差と彩度比だけを根拠にした候補で、資料と完全に一致するわけではない。丸めにより色相は 240°(青紫寄りの灰色)。
+- 実行していないこと: Unity、Blender 5.2.2、Bake、AO、Play、Build、SDK、upload。FBX・UV・slot・共有 atlas・ART05 の編集。
+- 次の担当: 元Codex(native UV0、材質の複製と共有の確認、sampler/mipmap の非波及、ローカルの同条件比較)。その後、指示役が採用を判断する。
