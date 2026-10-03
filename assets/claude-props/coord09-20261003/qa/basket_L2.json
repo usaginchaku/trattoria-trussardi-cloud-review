@@ -1,0 +1,33 @@
+{
+ "factor": "L2",
+ "tag": "L2",
+ "rim_top_m": 0.06341475248336792,
+ "rim_half_extent_m": [
+  0.10248038172721863,
+  0.09042095392942429
+ ],
+ "islands": {
+  "basket": 48,
+  "leaf": 91,
+  "flower": 114
+ },
+ "length_scale": 1.25,
+ "max_elevation_deg": 35,
+ "leaf_islands_scaled": 38,
+ "leaf_islands_skipped": 53,
+ "mean_extension_m": 0.027070785881030724,
+ "max_extension_m": 0.033684855473011976,
+ "foliage_basket_tri_overlaps": 0,
+ "zmin": 0.0,
+ "zmax": 0.18040858209133148,
+ "dims": [
+  0.3375682383775711,
+  0.30032943189144135,
+  0.18040858209133148
+ ],
+ "tris": 17382,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "uv_unchanged": true
+}

@@ -1,0 +1,45 @@
+{
+ "factor": "W",
+ "tag": "W",
+ "rim_top_m": 0.06341475248336792,
+ "rim_half_extent_m": [
+  0.10248038172721863,
+  0.09042095392942429
+ ],
+ "islands": {
+  "basket": 48,
+  "leaf": 91,
+  "flower": 114
+ },
+ "core_verts": 96,
+ "core_faces": 188,
+ "core_side_faces_remapped": 96,
+ "core_colour_before": [
+  0.3950436090429624,
+  0.3306644981106122,
+  0.154316454504927
+ ],
+ "core_colour_after": [
+  0.6196078658103943,
+  0.5333333611488342,
+  0.27450981736183167
+ ],
+ "target_uv": [
+  0.06005999818444252,
+  0.3666999936103821
+ ],
+ "note": "uniform patch 17x17 px (std<0.003); mip levels below ~64 px may blend neighbours",
+ "foliage_basket_tri_overlaps": 0,
+ "zmin": 0.0,
+ "zmax": 0.18040858209133148,
+ "dims": [
+  0.2756967693567276,
+  0.24592874944210052,
+  0.18040858209133148
+ ],
+ "tris": 17382,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "uv_unchanged": false
+}

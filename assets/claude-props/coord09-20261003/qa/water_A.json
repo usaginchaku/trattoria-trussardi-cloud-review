@@ -1,0 +1,26 @@
+{
+ "tag": "A",
+ "bowl_radial_scale": 1.2,
+ "blend_zone_z_m": [
+  0.06,
+  0.085
+ ],
+ "dims_m": [
+  0.07281599938869476,
+  0.07281599938869476,
+  0.16071999073028564
+ ],
+ "zmin": 0.0,
+ "bowl_max_diameter_m": 0.07281600227229267,
+ "bowl_height_m": 0.10001999073028564,
+ "mouth_outer_diameter_m": 0.05904000081706079,
+ "width_to_height": 0.728014487310328,
+ "mouth_to_max": 0.8108107967295837,
+ "wall_thickness_at_115mm_m": 0.0006890000000000021,
+ "tris": 2400,
+ "uv_unchanged": true,
+ "custom_normals": true,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0
+}

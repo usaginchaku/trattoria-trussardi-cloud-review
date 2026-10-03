@@ -1,0 +1,588 @@
+{
+ "basket_L2": {
+  "original": "baseline:02_Flower_Basket.fbx",
+  "candidate": "trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/basket_leaf/L2/fbx/02_Flower_Basket.fbx",
+  "globalSettingsMatch": true,
+  "globalSettings": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "orig": {
+   "object": "02_Flower_Basket_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.2757,
+    0.24593,
+    0.18041
+   ],
+   "verts": 9169,
+   "tris": 17382,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  "cand": {
+   "object": "02_Flower_Basket_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.33757,
+    0.30033,
+    0.18041
+   ],
+   "verts": 9169,
+   "tris": 17382,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Metallic",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Roughness",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "lightmap_overlap_pairs": 0,
+   "lightmap_in_0_1": true
+  },
+  "faces_same_count": true,
+  "faces_flipped_vs_original(dot<0)": 0,
+  "min_face_normal_dot": 0.995
+ },
+ "basket_L3": {
+  "original": "baseline:02_Flower_Basket.fbx",
+  "candidate": "trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/basket_leaf/L3/fbx/02_Flower_Basket.fbx",
+  "globalSettingsMatch": true,
+  "globalSettings": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "orig": {
+   "object": "02_Flower_Basket_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.2757,
+    0.24593,
+    0.18041
+   ],
+   "verts": 9169,
+   "tris": 17382,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  "cand": {
+   "object": "02_Flower_Basket_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.31282,
+    0.27857,
+    0.18041
+   ],
+   "verts": 9169,
+   "tris": 17382,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Metallic",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Roughness",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "lightmap_overlap_pairs": 0,
+   "lightmap_in_0_1": true
+  },
+  "faces_same_count": true,
+  "faces_flipped_vs_original(dot<0)": 0,
+  "min_face_normal_dot": 0.998
+ },
+ "basket_LOD1_L2": {
+  "original": "baseline:02_Flower_Basket_LOD1.fbx",
+  "candidate": "trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+  "globalSettingsMatch": true,
+  "globalSettings": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "orig": {
+   "object": "02_Flower_Basket_LOD1_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.27538,
+    0.24572,
+    0.17982
+   ],
+   "verts": 4128,
+   "tris": 7300,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  "cand": {
+   "object": "02_Flower_Basket_LOD1_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.33704,
+    0.29992,
+    0.17982
+   ],
+   "verts": 4128,
+   "tris": 7300,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Metallic",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Roughness",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "lightmap_overlap_pairs": 0,
+   "lightmap_in_0_1": true
+  },
+  "faces_same_count": true,
+  "faces_flipped_vs_original(dot<0)": 0,
+  "min_face_normal_dot": 0.9949
+ },
+ "basket_LOD1_L3": {
+  "original": "baseline:02_Flower_Basket_LOD1.fbx",
+  "candidate": "trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+  "globalSettingsMatch": true,
+  "globalSettings": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "orig": {
+   "object": "02_Flower_Basket_LOD1_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.27538,
+    0.24572,
+    0.17982
+   ],
+   "verts": 4128,
+   "tris": 7300,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  "cand": {
+   "object": "02_Flower_Basket_LOD1_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.31238,
+    0.27824,
+    0.17982
+   ],
+   "verts": 4128,
+   "tris": 7300,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Trussardi_Atlas"
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Metallic",
+     [
+      1024,
+      1024
+     ]
+    ],
+    [
+     "Trussardi_Atlas_Roughness",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "lightmap_overlap_pairs": 0,
+   "lightmap_in_0_1": true
+  },
+  "faces_same_count": true,
+  "faces_flipped_vs_original(dot<0)": 0,
+  "min_face_normal_dot": 0.9979
+ },
+ "water_A": {
+  "original": "baseline:06_Water_Glass.fbx",
+  "candidate": "trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/water_bowl/A/fbx/06_Water_Glass.fbx",
+  "globalSettingsMatch": true,
+  "globalSettings": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "orig": {
+   "object": "06_Water_Glass_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.06068,
+    0.06068,
+    0.16072
+   ],
+   "verts": 1202,
+   "tris": 2400,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Glass_Transparent"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  "cand": {
+   "object": "06_Water_Glass_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.07282,
+    0.07282,
+    0.16072
+   ],
+   "verts": 1202,
+   "tris": 2400,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Glass_Transparent"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "lightmap_overlap_pairs": 0,
+   "lightmap_in_0_1": true
+  },
+  "faces_same_count": true,
+  "faces_flipped_vs_original(dot<0)": 0,
+  "min_face_normal_dot": 0.9762
+ },
+ "water_B2": {
+  "original": "baseline:06_Water_Glass.fbx",
+  "candidate": "trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/water_bowl/B2/fbx/06_Water_Glass.fbx",
+  "globalSettingsMatch": true,
+  "globalSettings": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "orig": {
+   "object": "06_Water_Glass_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.06068,
+    0.06068,
+    0.16072
+   ],
+   "verts": 1202,
+   "tris": 2400,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Glass_Transparent"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  "cand": {
+   "object": "06_Water_Glass_Mesh",
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims_m": [
+    0.08495,
+    0.08495,
+    0.16072
+   ],
+   "verts": 1202,
+   "tris": 2400,
+   "zmin_m": -0.0,
+   "uv": [
+    "UVMap",
+    "LightmapUV"
+   ],
+   "materials": [
+    "Glass_Transparent"
+   ],
+   "images": [],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "lightmap_overlap_pairs": 0,
+   "lightmap_in_0_1": true
+  },
+  "faces_same_count": true,
+  "faces_flipped_vs_original(dot<0)": 0,
+  "min_face_normal_dot": 0.9652
+ }
+}

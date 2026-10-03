@@ -1,0 +1,31 @@
+{
+ "factor": "D",
+ "tag": "D",
+ "rim_top_m": 0.06341475248336792,
+ "rim_half_extent_m": [
+  0.10248038172721863,
+  0.09042095392942429
+ ],
+ "islands": {
+  "basket": 48,
+  "leaf": 91,
+  "flower": 114
+ },
+ "bend_radius_m": 0.035,
+ "margin_m": 0.003,
+ "leaf_verts_moved": 188,
+ "max_drop_m": 0.017472159851843864,
+ "foliage_basket_tri_overlaps": 0,
+ "zmin": 0.0,
+ "zmax": 0.18040858209133148,
+ "dims": [
+  0.2664438784122467,
+  0.23909641057252884,
+  0.18040858209133148
+ ],
+ "tris": 17382,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "uv_existing_unchanged": true
+}
