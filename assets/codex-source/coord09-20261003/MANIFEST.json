@@ -1,0 +1,1728 @@
+{
+  "workId": "COORD09_ModelSourceBundle",
+  "status": "PREPARED_LOCAL_NOT_SHARED",
+  "sceneSha256": "5d6e32a94801c3f8af8243b33604fc624da3d2a8a7a9cdc80375d4bb94f8b443",
+  "inventorySha256": "b74683a6e6290e6714f7be46d3257cc7c6dab147474ec40394fc042399b88636",
+  "worldScale": 0.7825509309768677,
+  "rendererCount": 15,
+  "models": 5,
+  "textures": 7,
+  "files": [
+    {
+      "path": "Assets/Trattoria/Architecture/ARCH01/CurvedLamp_ARCH01.fbx",
+      "bytes": 107772,
+      "sha256": "552b8920e32cdb5827784cee8f049ac9f3fa1bff12ed05fdc2503511fcfc39f0",
+      "kind": "self_authored_fbx"
+    },
+    {
+      "path": "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png",
+      "bytes": 6826,
+      "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Architecture/ARCH01/StraightLamp_ARCH01.fbx",
+      "bytes": 84412,
+      "sha256": "38b864ed1aa449562f89332397a7f0fd027d49d0d3b68b4b874139ef5d40032f",
+      "kind": "self_authored_fbx"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "bytes": 373708,
+      "sha256": "7a38c97de358d537996cf59ff30bd3d5d5382aea56b45f4c97cddf48ada4efb1",
+      "kind": "self_authored_fbx"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/DiningTable_FUR01.fbx",
+      "bytes": 475644,
+      "sha256": "546e6426b3366eba4984530a684890feae64928772f322ee82fe85659e211a84",
+      "kind": "self_authored_fbx"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/linen_FUR01.png",
+      "bytes": 62797,
+      "sha256": "1a505f3d7637618076205acd3854aad9b1451988d12588923d135a776726b182",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/linen_stripe_FUR01.png",
+      "bytes": 62716,
+      "sha256": "8874fbc914b9664b35c74fcc63d453f55a4f9c8f9689841b9407f17cd308e702",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png",
+      "bytes": 62928,
+      "sha256": "5017c63b98ec106272432d3fedad701704997992c88d8d9d4f4a724ee95f15b9",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png",
+      "bytes": 73579,
+      "sha256": "d65b2d771fbc6e9152e8cebf61aa5bab6125d1603cae1040ac2b830e63d3810a",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png",
+      "bytes": 73474,
+      "sha256": "9a59f5f5390a0f47500933877a25cacb8a7646d7ba37c741a9268c93689a2fb7",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR06/FinishAtlas_FUR06.png",
+      "bytes": 144835,
+      "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715",
+      "kind": "self_authored_material_texture"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR06/WallCabinet_FUR06.fbx",
+      "bytes": 136684,
+      "sha256": "798c0c99b5b443f67d8aa9083a0ab2b709bbc6006488eb368f805a00551005de",
+      "kind": "self_authored_fbx"
+    }
+  ],
+  "objects": [
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F01A_DetailedTable/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningTable_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/1d358e29b2d231341986be21662fbaa3_5751833142738699136.asset",
+      "boundsDesignMin": {
+        "x": 1.4358572959899902,
+        "y": 0.5400000214576721,
+        "z": 3.425966262817383
+      },
+      "boundsDesignMax": {
+        "x": 2.968653678894043,
+        "y": 1.2600001096725464,
+        "z": 4.958763122558594
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F01A_DetailedTable/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F01A_DetailedTable",
+          "localPosition": {
+            "x": 2.200000047683716,
+            "y": 0.5400000214576721,
+            "z": 4.199999809265137
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "linen_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/linen_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "linen_stripe_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/linen_stripe_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F01B_DetailedTable/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningTable_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/1d358e29b2d231341986be21662fbaa3_5751833142738699136.asset",
+      "boundsDesignMin": {
+        "x": -3.0141427516937256,
+        "y": 0.5400000214576721,
+        "z": 2.925966262817383
+      },
+      "boundsDesignMax": {
+        "x": -1.4813461303710938,
+        "y": 1.2600001096725464,
+        "z": 4.458763122558594
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F01B_DetailedTable/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F01B_DetailedTable",
+          "localPosition": {
+            "x": -2.25,
+            "y": 0.5400000214576721,
+            "z": 3.700000047683716
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "linen_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/linen_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "linen_stripe_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/linen_stripe_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_01/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/081935e18b02f0a418c2a1191fb556a9_5102868554731762526.asset",
+      "boundsDesignMin": {
+        "x": 1.9326715469360352,
+        "y": 0.5400000214576721,
+        "z": 4.996779918670654
+      },
+      "boundsDesignMax": {
+        "x": 2.4673285484313965,
+        "y": 1.5699999332427979,
+        "z": 5.5279998779296875
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_01/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_01",
+          "localPosition": {
+            "x": 2.200000047683716,
+            "y": 0.5400000214576721,
+            "z": 5.239999771118164
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "wood_inset_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "seat_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_02/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/081935e18b02f0a418c2a1191fb556a9_5102868554731762526.asset",
+      "boundsDesignMin": {
+        "x": 0.916253924369812,
+        "y": 0.5400000214576721,
+        "z": 3.3044869899749756
+      },
+      "boundsDesignMax": {
+        "x": 1.643632173538208,
+        "y": 1.5699999332427979,
+        "z": 4.033123016357422
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_02/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_02",
+          "localPosition": {
+            "x": 1.2993335723876953,
+            "y": 0.5400000214576721,
+            "z": 3.680000066757202
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.866025447845459,
+            "z": 0.0,
+            "w": 0.4999999701976776
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "wood_inset_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "seat_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_03/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/081935e18b02f0a418c2a1191fb556a9_5102868554731762526.asset",
+      "boundsDesignMin": {
+        "x": 2.7563676834106445,
+        "y": 0.5400000214576721,
+        "z": 3.3044869899749756
+      },
+      "boundsDesignMax": {
+        "x": 3.48374605178833,
+        "y": 1.5699999332427979,
+        "z": 4.033123016357422
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_03/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_03",
+          "localPosition": {
+            "x": 3.1006662845611572,
+            "y": 0.5400000214576721,
+            "z": 3.680000066757202
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.8660253882408142,
+            "z": 0.0,
+            "w": -0.5000000596046448
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "wood_inset_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "seat_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_04/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/081935e18b02f0a418c2a1191fb556a9_5102868554731762526.asset",
+      "boundsDesignMin": {
+        "x": -2.5173282623291016,
+        "y": 0.5400000214576721,
+        "z": 4.496779918670654
+      },
+      "boundsDesignMax": {
+        "x": -1.9826716184616089,
+        "y": 1.5699999332427979,
+        "z": 5.0279998779296875
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_04/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_04",
+          "localPosition": {
+            "x": -2.25,
+            "y": 0.5400000214576721,
+            "z": 4.739999771118164
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "wood_inset_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "seat_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_05/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/081935e18b02f0a418c2a1191fb556a9_5102868554731762526.asset",
+      "boundsDesignMin": {
+        "x": -3.5337462425231934,
+        "y": 0.5400000214576721,
+        "z": 2.8044869899749756
+      },
+      "boundsDesignMax": {
+        "x": -2.806368112564087,
+        "y": 1.5699999332427979,
+        "z": 3.533123016357422
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_05/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_05",
+          "localPosition": {
+            "x": -3.1506664752960205,
+            "y": 0.5400000214576721,
+            "z": 3.180000066757202
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.866025447845459,
+            "z": 0.0,
+            "w": 0.4999999701976776
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "wood_inset_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "seat_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_06/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR01/DiningChair_FUR01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/081935e18b02f0a418c2a1191fb556a9_5102868554731762526.asset",
+      "boundsDesignMin": {
+        "x": -1.6936322450637817,
+        "y": 0.5400000214576721,
+        "z": 2.8044869899749756
+      },
+      "boundsDesignMax": {
+        "x": -0.9662539958953857,
+        "y": 1.5699999332427979,
+        "z": 3.533123016357422
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_06/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01/F02_DetailedChair_06",
+          "localPosition": {
+            "x": -1.349333643913269,
+            "y": 0.5400000214576721,
+            "z": 3.180000066757202
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.8660253882408142,
+            "z": 0.0,
+            "w": -0.5000000596046448
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Furniture_FUR01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "wood_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "wood_inset_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/wood_inset_FUR01.png"
+          ]
+        },
+        {
+          "materialName": "seat_FUR01",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR01/seat_FUR01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Interior_ARCH01/EntryLamp/Geometry",
+      "sourceFbx": "Assets/Trattoria/Architecture/ARCH01/StraightLamp_ARCH01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/1c63e1acbb7c3b649bf01ae37776a4da_8838612792158883951.asset",
+      "boundsDesignMin": {
+        "x": -0.971000075340271,
+        "y": 2.2599997520446777,
+        "z": 0.15599994361400604
+      },
+      "boundsDesignMax": {
+        "x": -0.7490000128746033,
+        "y": 2.694999933242798,
+        "z": 0.37800002098083496
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/EntryLamp/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/EntryLamp",
+          "localPosition": {
+            "x": -0.8600000143051147,
+            "y": 2.259999990463257,
+            "z": 0.20000000298023224
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0,
+            "w": -4.371138828673793e-08
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "Metal_ARCH01",
+          "textures": []
+        },
+        {
+          "materialName": "Shade_ARCH01",
+          "textures": [
+            "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Interior_ARCH01/FrontLeftLamp/Geometry",
+      "sourceFbx": "Assets/Trattoria/Architecture/ARCH01/CurvedLamp_ARCH01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/9cd6f6d2c225f7943a9316d0b4771ac3_-9158630312637625363.asset",
+      "boundsDesignMin": {
+        "x": -4.170000076293945,
+        "y": 2.7200000286102295,
+        "z": 3.543999671936035
+      },
+      "boundsDesignMax": {
+        "x": -3.7940001487731934,
+        "y": 3.200000286102295,
+        "z": 3.7660000324249268
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/FrontLeftLamp/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/FrontLeftLamp",
+          "localPosition": {
+            "x": -4.170000076293945,
+            "y": 2.7200000286102295,
+            "z": 3.6549997329711914
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071068286895752
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "Metal_ARCH01",
+          "textures": []
+        },
+        {
+          "materialName": "Shade_ARCH01",
+          "textures": [
+            "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Interior_ARCH01/FrontRightLamp/Geometry",
+      "sourceFbx": "Assets/Trattoria/Architecture/ARCH01/CurvedLamp_ARCH01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/9cd6f6d2c225f7943a9316d0b4771ac3_-9158630312637625363.asset",
+      "boundsDesignMin": {
+        "x": 3.7940001487731934,
+        "y": 2.7200000286102295,
+        "z": 3.543999671936035
+      },
+      "boundsDesignMax": {
+        "x": 4.170000076293945,
+        "y": 3.200000286102295,
+        "z": 3.7660000324249268
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/FrontRightLamp/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/FrontRightLamp",
+          "localPosition": {
+            "x": 4.170000076293945,
+            "y": 2.7200000286102295,
+            "z": 3.6549997329711914
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071068286895752
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "Metal_ARCH01",
+          "textures": []
+        },
+        {
+          "materialName": "Shade_ARCH01",
+          "textures": [
+            "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Interior_ARCH01/KitchenLamp/Geometry",
+      "sourceFbx": "Assets/Trattoria/Architecture/ARCH01/StraightLamp_ARCH01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/1c63e1acbb7c3b649bf01ae37776a4da_8838612792158883951.asset",
+      "boundsDesignMin": {
+        "x": 0.7990000247955322,
+        "y": 2.369999647140503,
+        "z": 6.121999740600586
+      },
+      "boundsDesignMax": {
+        "x": 1.0210000276565552,
+        "y": 2.804999828338623,
+        "z": 6.34399938583374
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/KitchenLamp/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/KitchenLamp",
+          "localPosition": {
+            "x": 0.9100000262260437,
+            "y": 2.369999885559082,
+            "z": 6.300000190734863
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "Metal_ARCH01",
+          "textures": []
+        },
+        {
+          "materialName": "Shade_ARCH01",
+          "textures": [
+            "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Interior_ARCH01/RearLeftLamp/Geometry",
+      "sourceFbx": "Assets/Trattoria/Architecture/ARCH01/CurvedLamp_ARCH01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/9cd6f6d2c225f7943a9316d0b4771ac3_-9158630312637625363.asset",
+      "boundsDesignMin": {
+        "x": -4.170000076293945,
+        "y": 2.7200000286102295,
+        "z": 6.068999767303467
+      },
+      "boundsDesignMax": {
+        "x": -3.7940001487731934,
+        "y": 3.200000286102295,
+        "z": 6.290999412536621
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/RearLeftLamp/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/RearLeftLamp",
+          "localPosition": {
+            "x": -4.170000076293945,
+            "y": 2.7200000286102295,
+            "z": 6.179999351501465
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071068286895752
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "Metal_ARCH01",
+          "textures": []
+        },
+        {
+          "materialName": "Shade_ARCH01",
+          "textures": [
+            "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_Interior_ARCH01/RearRightLamp/Geometry",
+      "sourceFbx": "Assets/Trattoria/Architecture/ARCH01/CurvedLamp_ARCH01.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/9cd6f6d2c225f7943a9316d0b4771ac3_-9158630312637625363.asset",
+      "boundsDesignMin": {
+        "x": 3.7940001487731934,
+        "y": 2.7200000286102295,
+        "z": 6.068999767303467
+      },
+      "boundsDesignMax": {
+        "x": 4.170000076293945,
+        "y": 3.200000286102295,
+        "z": 6.290999412536621
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/RearRightLamp/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01/RearRightLamp",
+          "localPosition": {
+            "x": 4.170000076293945,
+            "y": 2.7200000286102295,
+            "z": 6.179999351501465
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071068286895752
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_Interior_ARCH01",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "Metal_ARCH01",
+          "textures": []
+        },
+        {
+          "materialName": "Shade_ARCH01",
+          "textures": [
+            "Assets/Trattoria/Architecture/ARCH01/Shade_ARCH01.png"
+          ]
+        }
+      ]
+    },
+    {
+      "renderer": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_WallCabinet/Geometry",
+      "sourceFbx": "Assets/Trattoria/Furniture/FUR06/WallCabinet_FUR06.fbx",
+      "runtimeMesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/de5ead642f5635f439065ed2484c1dd9_5681659494414868740.asset",
+      "boundsDesignMin": {
+        "x": -5.150000095367432,
+        "y": 2.440000057220459,
+        "z": 1.559999942779541
+      },
+      "boundsDesignMax": {
+        "x": -4.849000453948975,
+        "y": 3.000000238418579,
+        "z": 2.440000057220459
+      },
+      "hierarchyLeafToRoot": [
+        {
+          "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_WallCabinet/Geometry",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.7071068286895752,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7071067094802856
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_WallCabinet",
+          "localPosition": {
+            "x": -5.150000095367432,
+            "y": 2.440000057220459,
+            "z": 2.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": -0.7071068286895752,
+            "z": 0.0,
+            "w": 0.7071068286895752
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        {
+          "path": "WorldContent_EkuScale",
+          "localPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "localRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "localScale": {
+            "x": 0.7825509309768677,
+            "y": 0.7825509309768677,
+            "z": 0.7825509309768677
+          }
+        }
+      ],
+      "slots": [
+        {
+          "materialName": "FinishAtlas_FUR06",
+          "textures": [
+            "Assets/Trattoria/Furniture/FUR06/FinishAtlas_FUR06.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Five source models only: DiningTable, DiningChair, CurvedLamp, StraightLamp, WallCabinet. Each repeated instance shares one source FBX. No other project assets included.",
+  "limitations": [
+    "Source FBX geometry is the original for the active renderer, resolved from the generated mesh source GUID or current REL06 FBX. Runtime lightmap UV2/normal processing and Unity shaders are not embedded in this source package.",
+    "World placement hierarchy is included separately. Do not reapply 0.7825509309768677 twice; geometry source units and final world scale differ.",
+    "No original reference photos, screenshots of references, avatars, character panels, SDK, authentication, Library, prior history, or complete Unity scene included.",
+    "No push or sharing performed here. Director owns review-repository publication; Claude edits only its new candidate branch."
+  ]
+}
