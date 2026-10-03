@@ -1,0 +1,286 @@
+{
+ "chair_C0_identity": {
+  "source": "DiningChair_FUR01.fbx",
+  "candidate": "c9/exp_C0/fbx/DiningChair_FUR01.fbx",
+  "gs_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "DiningChair",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.53466,
+    0.53122,
+    1.03
+   ],
+   "verts": 5556,
+   "tris": 11052,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "wood_FUR01",
+    "wood_inset_FUR01",
+    "seat_FUR01"
+   ],
+   "images": [
+    [
+     "seat_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_inset_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "candidate_info": {
+   "object": "DiningChair",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.53466,
+    0.53122,
+    1.03
+   ],
+   "verts": 5556,
+   "tris": 11052,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "wood_FUR01",
+    "wood_inset_FUR01",
+    "seat_FUR01"
+   ],
+   "images": [
+    [
+     "seat_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_inset_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "verts_moved": 0,
+  "max_move_m": 0.0,
+  "faces_flipped_vs_source": 0,
+  "uv_identical": true,
+  "corner_normals_changed": 0
+ },
+ "chair_C1": {
+  "source": "DiningChair_FUR01.fbx",
+  "candidate": "chair_back/C1/fbx/DiningChair_FUR01.fbx",
+  "gs_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "DiningChair",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.53466,
+    0.53122,
+    1.03
+   ],
+   "verts": 5556,
+   "tris": 11052,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "wood_FUR01",
+    "wood_inset_FUR01",
+    "seat_FUR01"
+   ],
+   "images": [
+    [
+     "seat_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_inset_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "candidate_info": {
+   "object": "DiningChair",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.53466,
+    0.53122,
+    1.03
+   ],
+   "verts": 5556,
+   "tris": 11052,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "wood_FUR01",
+    "wood_inset_FUR01",
+    "seat_FUR01"
+   ],
+   "images": [
+    [
+     "seat_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_inset_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "verts_moved": 1856,
+  "max_move_m": 0.05408167604147073,
+  "faces_flipped_vs_source": 0,
+  "uv_identical": true,
+  "corner_normals_changed": 9600
+ }
+}

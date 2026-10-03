@@ -1,0 +1,24 @@
+{
+ "mode": "C0",
+ "rail_frame_tri_overlaps": 0,
+ "rail_rail_overlaps": 0,
+ "verts_moved": 0,
+ "dims_before": [
+  0.5346567034721375,
+  0.5312196612358093,
+  1.0299999713897705
+ ],
+ "dims_after": [
+  0.5346567034721375,
+  0.5312196612358093,
+  1.0299999713897705
+ ],
+ "zmin": 0.0,
+ "seat_top_z": 0.4300000071525574,
+ "tris": 11052,
+ "uv_unchanged": true,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "zero_len_normals": 0
+}
