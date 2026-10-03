@@ -1,0 +1,35 @@
+{
+ "tag": "W2",
+ "patch_v": [
+  0.75,
+  0.875
+ ],
+ "patch_u": [
+  0.04,
+  0.9400000000000001
+ ],
+ "cells_around": 64,
+ "rows": 5,
+ "pad_px": 5,
+ "faces_remapped": 2480,
+ "side_islands": 43,
+ "uv0_loops_changed": 7440,
+ "lightmap_unchanged": true,
+ "material": "Trussardi_Atlas_C09W",
+ "texture": "Trussardi_Atlas_BaseColor_C09W.png",
+ "roughness_metallic_band_values": {
+  "Roughness": [
+   217,
+   217,
+   217,
+   255
+  ],
+  "Metallic": [
+   0,
+   0,
+   0,
+   255
+  ]
+ },
+ "tris": 17382
+}

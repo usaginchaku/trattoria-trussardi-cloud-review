@@ -1,0 +1,128 @@
+{
+ "basket_weave/W2/fbx/02_Flower_Basket.fbx::02_Flower_Basket_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": true
+ },
+ "basket_leaf/L2/fbx/02_Flower_Basket.fbx::02_Flower_Basket_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": true
+ },
+ "basket_leaf/L3/fbx/02_Flower_Basket.fbx::02_Flower_Basket_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": true
+ },
+ "basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbx::02_Flower_Basket_LOD1_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": true
+ },
+ "basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbx::02_Flower_Basket_LOD1_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": true
+ },
+ "water_bowl/A/fbx/06_Water_Glass.fbx::06_Water_Glass_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 1,
+  "closed": 1,
+  "negative_volume": [],
+  "custom": true
+ },
+ "water_bowl/B2/fbx/06_Water_Glass.fbx::06_Water_Glass_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 1,
+  "closed": 1,
+  "negative_volume": [],
+  "custom": true
+ },
+ "basket_weave/W2/models/02_Flower_Basket.blend::02_Flower_Basket_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": false
+ },
+ "basket_leaf/L2/models/02_Flower_Basket.blend::02_Flower_Basket_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": false
+ },
+ "basket_leaf/L3/models/02_Flower_Basket.blend::02_Flower_Basket_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": false
+ },
+ "basket_leaf/L2/models/02_Flower_Basket_LOD1.blend::02_Flower_Basket_LOD1_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": false
+ },
+ "basket_leaf/L3/models/02_Flower_Basket_LOD1.blend::02_Flower_Basket_LOD1_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 253,
+  "closed": 253,
+  "negative_volume": [],
+  "custom": false
+ },
+ "water_bowl/A/models/06_Water_Glass.blend::06_Water_Glass_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 1,
+  "closed": 1,
+  "negative_volume": [],
+  "custom": true
+ },
+ "water_bowl/B2/models/06_Water_Glass.blend::06_Water_Glass_Mesh": {
+  "zero_len_corner_normals": 0,
+  "zero_normal_verts": 0,
+  "zero_normal_z_range": null,
+  "components": 1,
+  "closed": 1,
+  "negative_volume": [],
+  "custom": true
+ }
+}

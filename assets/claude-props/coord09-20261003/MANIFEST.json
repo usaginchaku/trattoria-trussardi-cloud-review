@@ -1,0 +1,496 @@
+{
+ "work": "COORD09 model review (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-03",
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "checkpoints": {
+  "CHECKPOINT_01_drive_ledger": "9e0ee9d",
+  "CHECKPOINT_02_basket_water": "28b957f",
+  "CHECKPOINT_03_lod_weave": "this commit (see git log)"
+ },
+ "status": {
+  "delivered": [
+   "basket_leaf L2/L3 (quality + LOD1 local fix)",
+   "basket_weave W2",
+   "water_bowl A/B2",
+   "Drive ledger 275 images"
+  ],
+  "in_progress": [
+   "furniture candidates from codex/coord09-source-20261003 (tablecloth hem, chair back, lamp shade, wall cabinet)"
+  ],
+  "not_done": [
+   "Unity import / lilToon / VR checks (Codex)",
+   "Blender 5.2.2 independent check (Codex)",
+   "combined factors (height B + leaf + weave) not evaluated"
+  ]
+ },
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, private settings or credentials",
+ "files": [
+  {
+   "path": "CHECKPOINT_01_drive_ledger.txt",
+   "bytes": 7042,
+   "role": "Drive image ledger (names and observations only, no images)",
+   "sha256": "f7e828f588f025140679e3a26ddcc18b5c4de057127d71455d6cd392a902d54d"
+  },
+  {
+   "path": "CHECKPOINT_02_basket_water.txt",
+   "bytes": 5436,
+   "role": "document",
+   "sha256": "500125698bea0431101aca7da7d175dc933f6bb3b79b7398891c7cea037c20c8"
+  },
+  {
+   "path": "CHECKPOINT_03_lod_weave.txt",
+   "bytes": 4302,
+   "role": "document",
+   "sha256": "720b0ea9256149da94faa0789d7aafb1cb516246fb56d104d4f2259495f3ef96"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/02_Flower_Basket.fbx",
+   "bytes": 837324,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "34050561af63d619515f0867f407c0165ef7e3970fef1a25b40ead6582b38b8c"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+   "bytes": 428748,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "d0e5a118403f2f209c90054adab6bc3efca87b21e0f8ef9c5b40e5faf7f94c2b"
+  },
+  {
+   "path": "basket_leaf/L2/models/02_Flower_Basket.blend",
+   "bytes": 1372681,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "80768500156cf89be9522af31e1807fc7ee8a59d0215ebc02bdf349faddb62e5"
+  },
+  {
+   "path": "basket_leaf/L2/models/02_Flower_Basket_LOD1.blend",
+   "bytes": 1001415,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "8a1eac42b7bdff923b3ad3b58c383c57e375c3a47053bcc62c675c75e20ea3a4"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/02_Flower_Basket.fbx",
+   "bytes": 837420,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "a91d0203c3e186f8648b921c338e08aca903a1381c7b5bca1a267c9c5fd05eb3"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbm/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+   "bytes": 428572,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "e35cfe70eb206a1ed391df82acc3cff35131a425dfe99856a621e075407b4b8e"
+  },
+  {
+   "path": "basket_leaf/L3/models/02_Flower_Basket.blend",
+   "bytes": 1372633,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "8b8c913fe73357d14758cb26b9b1dec9e9b9ead117261b68a78740785be820bf"
+  },
+  {
+   "path": "basket_leaf/L3/models/02_Flower_Basket_LOD1.blend",
+   "bytes": 1000741,
+   "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
+   "base": "claude/coord07-props-20261003@400d618 (basket B)",
+   "sha256": "a94e16c931e48648ab1e25df9e326f1c6b29f579c09b9353c940b842a767bfc3"
+  },
+  {
+   "path": "basket_weave/W2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor_C09W.png",
+   "bytes": 565471,
+   "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
+   "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "2b11c98d08f1b96b528d7174ed5f59c772bfceff88f5cdbb684b55a1f06ddb2f"
+  },
+  {
+   "path": "basket_weave/W2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Metallic_C09W.png",
+   "bytes": 6569,
+   "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
+   "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "ce300fc2f550637bbec232c5264140b54bd270d4c0018e62252936f7f43a0d81"
+  },
+  {
+   "path": "basket_weave/W2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_Roughness_C09W.png",
+   "bytes": 6796,
+   "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
+   "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "b64a1b09ebd584280ccc620bed1e70e5ca255ac91d596881bd3cfb507e107f80"
+  },
+  {
+   "path": "basket_weave/W2/fbx/02_Flower_Basket.fbx",
+   "bytes": 830172,
+   "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
+   "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
+   "sha256": "d8058d24ac9ccb5f428e696502d9250326ccda68c2d54096a9278844e71fe8c0"
+  },
+  {
+   "path": "basket_weave/W2/models/02_Flower_Basket.blend",
+   "bytes": 1372372,
+   "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
+   "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
+   "sha256": "4fb806e57a25fba4f9129d1d9a2fb12d7c761fb5ea903f6daa9357ba8a51d8c1"
+  },
+  {
+   "path": "drive_image_ledger.csv",
+   "bytes": 33100,
+   "role": "Drive image ledger (names and observations only, no images)",
+   "sha256": "2660e4964ff12f2493d6e45f6602240e416753296ec237f609e685635a53514e"
+  },
+  {
+   "path": "drive_image_ledger_summary.json",
+   "bytes": 1041,
+   "role": "Drive image ledger (names and observations only, no images)",
+   "sha256": "606a07ddcbff0464166cc323016070920f167ab1e8179535264e51167e0b2f11"
+  },
+  {
+   "path": "previews/basket_LOD1_local_fix_before_after.png",
+   "bytes": 1522473,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 2400,
+   "png_height": 1400,
+   "rgba_sha256": "a067509fc5880bedd2099e1736b66de6a94f6669fbddcec5504917d93e5496bc"
+  },
+  {
+   "path": "previews/basket_factors_B_W_D_D2.png",
+   "bytes": 2436941,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 3200,
+   "png_height": 2100,
+   "rgba_sha256": "bd3c732afe5990941c0de7c3ad5b08db1fa9eabf7d30101c3cd1cd6eaca35f87"
+  },
+  {
+   "path": "previews/basket_leaf_B_L_L2_L3.png",
+   "bytes": 3457283,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 3200,
+   "png_height": 2100,
+   "rgba_sha256": "43c26f130cc88fd4139fa1fdc15a18f2ec4ba5694b2e7c6b114f9fdab11684d1"
+  },
+  {
+   "path": "previews/basket_weave_B_vs_W2.png",
+   "bytes": 1755807,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1600,
+   "png_height": 2100,
+   "rgba_sha256": "e4604416e9ce64fb16d658ee9758cb7a38bdf2e01c6008fa6d7a5718308fe13b"
+  },
+  {
+   "path": "previews/water_bowl_base_A_B_B2.png",
+   "bytes": 1411160,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 2800,
+   "png_height": 1400,
+   "rgba_sha256": "685df3055844899459f7d8b3c76cdc32e510c04541095c96d3b1dab63ccea793"
+  },
+  {
+   "path": "qa/ba_basket9.py",
+   "bytes": 1915,
+   "role": "verification record or build script",
+   "sha256": "73ae226bcd6a5c4393d4f8ef0dc51452b462a239309ffc7bc9aacfd768aa6592"
+  },
+  {
+   "path": "qa/ba_side.py",
+   "bytes": 1764,
+   "role": "verification record or build script",
+   "sha256": "3e99dd4b223c9e11ea44f2bb89fd867e02bb67a0c79d403e084fb9ea98637472"
+  },
+  {
+   "path": "qa/ba_water9.py",
+   "bytes": 1848,
+   "role": "verification record or build script",
+   "sha256": "7eb87f964fa3e894379b59c3491f72412054242398aca29a959b72d5cf688efc"
+  },
+  {
+   "path": "qa/basket_D.json",
+   "bytes": 572,
+   "role": "verification record or build script",
+   "sha256": "25d7f5a9f2b135955edf89288ad6a1b43424b45894a1ec75d98d72c5b701b065"
+  },
+  {
+   "path": "qa/basket_D2.json",
+   "bytes": 588,
+   "role": "verification record or build script",
+   "sha256": "b4ade78db0d21b00bfe48a138166982e78e6e5a251e6a655deba1ad5b7d0f769"
+  },
+  {
+   "path": "qa/basket_L.json",
+   "bytes": 591,
+   "role": "verification record or build script",
+   "sha256": "06e988dbcedfd2bd63ad495befb8c196fd13f9ccf5a96b1eba03cea5e83ade2b"
+  },
+  {
+   "path": "qa/basket_L2.json",
+   "bytes": 648,
+   "role": "verification record or build script",
+   "sha256": "9c77775cabf86f32d5236a7cd5268f2417f9dbae5f5e6faf7faebb8cab4ddb3d"
+  },
+  {
+   "path": "qa/basket_L3.json",
+   "bytes": 648,
+   "role": "verification record or build script",
+   "sha256": "cf201bbf30bed3e1d36be568eb308256952d836d973c9c5750de13abdcf64384"
+  },
+  {
+   "path": "qa/basket_W.json",
+   "bytes": 872,
+   "role": "verification record or build script",
+   "sha256": "2bca32f8cef37d2502b15035e0f2a20dacbf882718f76691acd4665c325da4a0"
+  },
+  {
+   "path": "qa/basket_W2.json",
+   "bytes": 489,
+   "role": "verification record or build script",
+   "sha256": "606cf304c979b72bc18e8a343b5844673f99ac559e58cd9dbefacd5e3ccf5ed9"
+  },
+  {
+   "path": "qa/basket_f.py",
+   "bytes": 6612,
+   "role": "verification record or build script",
+   "sha256": "214b2dba59695bcee2464a91b0b9682f32594e41dea441f69ee469ec05c2fab3"
+  },
+  {
+   "path": "qa/basket_lod_L2.json",
+   "bytes": 649,
+   "role": "verification record or build script",
+   "sha256": "494cd6a3875da52d9955c17e6e8c74216ae8706386673271f779f2a69a265d4a"
+  },
+  {
+   "path": "qa/basket_lod_L3.json",
+   "bytes": 647,
+   "role": "verification record or build script",
+   "sha256": "3f8762f66d122b169ce5e7392c61cf0fa05eb0c1a99bef69f47d769e5c77b056"
+  },
+  {
+   "path": "qa/exp_basket.py",
+   "bytes": 1063,
+   "role": "verification record or build script",
+   "sha256": "2461e7937d8fb425e8d2668251509f724529870aa9cae42b09df282faa2e6f9a"
+  },
+  {
+   "path": "qa/health.py",
+   "bytes": 2214,
+   "role": "verification record or build script",
+   "sha256": "b3585d3b2cd159f7af50f34980ee5cd16ee87a41560e4a42954394a67c6f819a"
+  },
+  {
+   "path": "qa/health_coord09.json",
+   "bytes": 3444,
+   "role": "verification record or build script",
+   "sha256": "aa00eb6c9d915b4f127eb53187fd24942264dd723c32db3c3e03c10911c191c8"
+  },
+  {
+   "path": "qa/lod1_local_fix_L2.json",
+   "bytes": 187,
+   "role": "verification record or build script",
+   "sha256": "2c4c4e792b523dcdec94ad545a57d8f9f2fe431b905b4e619208110286e3413c"
+  },
+  {
+   "path": "qa/lod1_local_fix_L3.json",
+   "bytes": 187,
+   "role": "verification record or build script",
+   "sha256": "092179faece4d94447b445b14ac5f6aa0c19243bd6460c24716ba5753112a639"
+  },
+  {
+   "path": "qa/lodfix.py",
+   "bytes": 3204,
+   "role": "verification record or build script",
+   "sha256": "cc8f3597b556cc19d1531fa0fa36bda59afd90af9c1db7d65147cedf2bd375e7"
+  },
+  {
+   "path": "qa/verify9.py",
+   "bytes": 5537,
+   "role": "verification record or build script",
+   "sha256": "561e3e547bab7e430379523d1a6240b1fe15ba94a28fda0d7593ce8293bc6227"
+  },
+  {
+   "path": "qa/verify_coord09.json",
+   "bytes": 11274,
+   "role": "verification record or build script",
+   "sha256": "9f0784533a62d148c8fe55b147901278292767fd5eb85ba899c13b5b128c93e2"
+  },
+  {
+   "path": "qa/water_A.json",
+   "bytes": 558,
+   "role": "verification record or build script",
+   "sha256": "5c281c6b8ed68a8da3832a77de1962c965fb81ee25272a02b54e531e7b8a001d"
+  },
+  {
+   "path": "qa/water_B.json",
+   "bytes": 559,
+   "role": "verification record or build script",
+   "sha256": "4e76b82481cfcebcafb1b043a0c90054d3bd3f17e134db6e78903fa2acaaf11c"
+  },
+  {
+   "path": "qa/water_B2.json",
+   "bytes": 583,
+   "role": "verification record or build script",
+   "sha256": "4681fb7426d36b706489419a7deff5995fef0f68fd9acec235410ad3e6ac593f"
+  },
+  {
+   "path": "qa/water_base.json",
+   "bytes": 564,
+   "role": "verification record or build script",
+   "sha256": "dfee8fe7ff169cc076ea3cfdab2c19be4e2c8f9ba7cfcdea84c4f193ee185d93"
+  },
+  {
+   "path": "qa/water_bowl.py",
+   "bytes": 2610,
+   "role": "verification record or build script",
+   "sha256": "7055252eeca9c75659e258aafb9b754a1f1d0e32e4d37954375d524aff29c507"
+  },
+  {
+   "path": "qa/weave.py",
+   "bytes": 5558,
+   "role": "verification record or build script",
+   "sha256": "147df1e51a2dd90549309299957a25c66c9b8b06cd02903f426f5c6c699b9d78"
+  },
+  {
+   "path": "water_bowl/A/fbx/06_Water_Glass.fbx",
+   "bytes": 85340,
+   "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
+   "base": "claude/props-v02-review-20261002@80deec1 (water fix)",
+   "sha256": "84254ed652c6b97d8504fa47b47ea17ac7594a03293d5ad34f6f2095d56d31c0"
+  },
+  {
+   "path": "water_bowl/A/models/06_Water_Glass.blend",
+   "bytes": 163549,
+   "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
+   "base": "claude/props-v02-review-20261002@80deec1 (water fix)",
+   "sha256": "99eec35a97086e181dfadf2399ca6a5330d874c9a49f5d4a6f80fadeab9c9c7e"
+  },
+  {
+   "path": "water_bowl/B2/fbx/06_Water_Glass.fbx",
+   "bytes": 85580,
+   "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
+   "base": "claude/props-v02-review-20261002@80deec1 (water fix)",
+   "sha256": "d57cc5990640732b52fd8f18b75d1eee7ab780401288203648be68755bb5a3ff"
+  },
+  {
+   "path": "water_bowl/B2/models/06_Water_Glass.blend",
+   "bytes": 163437,
+   "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
+   "base": "claude/props-v02-review-20261002@80deec1 (water fix)",
+   "sha256": "690e80dbd2af42d240c5519a57cbf5bc40219929686f955ae89b94619fcdd22f"
+  }
+ ]
+}
