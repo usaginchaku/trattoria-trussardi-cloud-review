@@ -4,20 +4,34 @@
  "created": "2026-10-03",
  "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
  "checkpoints": {
-  "CHECKPOINT_01_drive_ledger": "9e0ee9d",
-  "CHECKPOINT_02_basket_water": "28b957f",
-  "CHECKPOINT_03_lod_weave": "this commit (see git log)"
+  "drive_ledger": "9e0ee9d",
+  "basket_water_tests": "28b957f",
+  "lod_fix_weave_W2": "fde170e",
+  "table_hem": "b57c2d2",
+  "chair_back": "ce6b2dd",
+  "lamp_shade": "41b3422",
+  "wall_cabinet": "e2e48d9",
+  "candle_review": "8fd12b3",
+  "final_manifest": "this commit (see git log)"
  },
  "status": {
-  "delivered": [
-   "basket_leaf L2/L3 (quality + LOD1 local fix)",
+  "delivered_candidates": [
+   "furniture/table_hem T1 (rec) T2",
+   "furniture/chair_back C1 (rec)",
+   "furniture/lamp_shade L1 (rec)",
+   "furniture/wall_cabinet K2 / K1"
+  ],
+  "test_results_not_for_replacement": [
+   "basket_leaf L2/L3 + LOD1 local fix",
    "basket_weave W2",
-   "water_bowl A/B2",
+   "water_bowl A/B2 (diagnostic)"
+  ],
+  "review_only": [
+   "review_only/CANDLE01",
+   "review_only/FUR04 current basket",
    "Drive ledger 275 images"
   ],
-  "in_progress": [
-   "furniture candidates from codex/coord09-source-20261003 (tablecloth hem, chair back, lamp shade, wall cabinet)"
-  ],
+  "in_progress": [],
   "not_done": [
    "Unity import / lilToon / VR checks (Codex)",
    "Blender 5.2.2 independent check (Codex)",
@@ -44,6 +58,12 @@
    "bytes": 4302,
    "role": "document",
    "sha256": "720b0ea9256149da94faa0789d7aafb1cb516246fb56d104d4f2259495f3ef96"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 2691,
+   "role": "document",
+   "sha256": "93fa24f665fd0a11a950f15779f9c1f953e53bc38b0463b900c9c3fd31cffc20"
   },
   {
    "path": "basket_leaf/L2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
@@ -115,17 +135,17 @@
   },
   {
    "path": "basket_leaf/L2/models/02_Flower_Basket.blend",
-   "bytes": 1372681,
+   "bytes": 1372641,
    "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
    "base": "claude/coord07-props-20261003@400d618 (basket B)",
-   "sha256": "80768500156cf89be9522af31e1807fc7ee8a59d0215ebc02bdf349faddb62e5"
+   "sha256": "743bf6efa8f3134cc1111a24e560c06bcc0248c828990f19ea28c2d66a7e4c97"
   },
   {
    "path": "basket_leaf/L2/models/02_Flower_Basket_LOD1.blend",
-   "bytes": 1001415,
+   "bytes": 1001213,
    "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
    "base": "claude/coord07-props-20261003@400d618 (basket B)",
-   "sha256": "8a1eac42b7bdff923b3ad3b58c383c57e375c3a47053bcc62c675c75e20ea3a4"
+   "sha256": "9aa9335d417a64152f17a754df885c8ccc5b30dc023d2f64a34723097b611e6f"
   },
   {
    "path": "basket_leaf/L3/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor.png",
@@ -197,17 +217,17 @@
   },
   {
    "path": "basket_leaf/L3/models/02_Flower_Basket.blend",
-   "bytes": 1372633,
+   "bytes": 1372797,
    "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
    "base": "claude/coord07-props-20261003@400d618 (basket B)",
-   "sha256": "8b8c913fe73357d14758cb26b9b1dec9e9b9ead117261b68a78740785be820bf"
+   "sha256": "89849c6aa4fba40f1499b9f51a5a44f864ef2b655d5730ffd217ed26f819581e"
   },
   {
    "path": "basket_leaf/L3/models/02_Flower_Basket_LOD1.blend",
-   "bytes": 1000741,
+   "bytes": 1000626,
    "role": "candidate: basket leaf length (L2 recommended / L3 alternative) on COORD07 B; LOD1 locally health-fixed",
    "base": "claude/coord07-props-20261003@400d618 (basket B)",
-   "sha256": "a94e16c931e48648ab1e25df9e326f1c6b29f579c09b9353c940b842a767bfc3"
+   "sha256": "204aa5cc6d84f4d779bc3c1251315eae50e3556e08ff0880461e7177307d3f6e"
   },
   {
    "path": "basket_weave/W2/fbx/02_Flower_Basket.fbm/Trussardi_Atlas_BaseColor_C09W.png",
@@ -245,10 +265,10 @@
   },
   {
    "path": "basket_weave/W2/models/02_Flower_Basket.blend",
-   "bytes": 1372372,
+   "bytes": 1372324,
    "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
    "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
-   "sha256": "4fb806e57a25fba4f9129d1d9a2fb12d7c761fb5ea903f6daa9357ba8a51d8c1"
+   "sha256": "c748bf8204f1d5bab99fd79418091f6d1c33c8742d759ed36756401a9e4f809a"
   },
   {
    "path": "drive_image_ledger.csv",
@@ -261,6 +281,446 @@
    "bytes": 1041,
    "role": "Drive image ledger (names and observations only, no images)",
    "sha256": "606a07ddcbff0464166cc323016070920f167ab1e8179535264e51167e0b2f11"
+  },
+  {
+   "path": "furniture/README_furniture_JA.txt",
+   "bytes": 7806,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "6d6575fab5d4b93d31f62447efd8c43e9911360a26bd7bb679251445a230a5be"
+  },
+  {
+   "path": "furniture/chair_back/C1/fbx/DiningChair_FUR01.fbx",
+   "bytes": 404284,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "36e6400baa28963515b51d9021eea1ca43a447aa164ef939b2cdb78844638c54"
+  },
+  {
+   "path": "furniture/chair_back/C1/fbx/seat_FUR01.png",
+   "bytes": 62928,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "831f452a258346582d6f99ce860f5627768dd2b4a6113226f86af94bf9359a37"
+  },
+  {
+   "path": "furniture/chair_back/C1/fbx/wood_FUR01.png",
+   "bytes": 73579,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "e50076aedb7034e981957727cd0e5a817e0ff1691275efa483f95669480afaa9"
+  },
+  {
+   "path": "furniture/chair_back/C1/fbx/wood_inset_FUR01.png",
+   "bytes": 73474,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "85b6489f9bfcc515fa995b6a4aa97c0335eb86f396f7045cf6b7e675375d5127"
+  },
+  {
+   "path": "furniture/chair_back/C1/models/DiningChair_FUR01.blend",
+   "bytes": 408970,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "6d46c6328f0b58a0fae5463743d1455f4c39d18f7ea9db75021132ffa6e195af"
+  },
+  {
+   "path": "furniture/lamp_shade/L1/fbx/CurvedLamp_ARCH01.fbx",
+   "bytes": 109932,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "12dc1ad187b8930a22f0b48606bc7264c7e718e38fa41e5e4fb8f52c5c1b324a"
+  },
+  {
+   "path": "furniture/lamp_shade/L1/fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "furniture/lamp_shade/L1/fbx/StraightLamp_ARCH01.fbx",
+   "bytes": 87740,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "60dfa6988538976a2206abce6dd8d865d7d174c5ddc7f535b9513a4338cdb2df"
+  },
+  {
+   "path": "furniture/lamp_shade/L1/models/CurvedLamp_ARCH01.blend",
+   "bytes": 170524,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "e7119e11beb4adf6df7ba7d7881a593d5dab3d48edb7e79091f8af0f47f2ad01"
+  },
+  {
+   "path": "furniture/lamp_shade/L1/models/StraightLamp_ARCH01.blend",
+   "bytes": 149411,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "6ed3f6d38009fed805155955e259051c7540f0a066e73e298d460abe73c289e8"
+  },
+  {
+   "path": "furniture/previews/chair_C0_C1_C2.png",
+   "bytes": 1960727,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 2700,
+   "png_height": 2800,
+   "rgba_sha256": "45aca4608255cc0467780c6a68d1e75a5acf24b815e026d269d76df5c33768d1"
+  },
+  {
+   "path": "furniture/previews/lamp_curved_L0_L1_L2.png",
+   "bytes": 1583990,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 2700,
+   "png_height": 2100,
+   "rgba_sha256": "1487adac919324a3c096eb29c797e49bbed042ac1bf19baf37ddf53c6a9dc971"
+  },
+  {
+   "path": "furniture/previews/lamp_straight_L0_L1.png",
+   "bytes": 941268,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 1800,
+   "png_height": 1400,
+   "rgba_sha256": "486d72cfe0f51656e7653aa20fd30f37bea571e3fbe01f17bbff446c7118df5d"
+  },
+  {
+   "path": "furniture/previews/table_hem_T0_T1_T2.png",
+   "bytes": 2343257,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 2700,
+   "png_height": 2800,
+   "rgba_sha256": "be91ce7097b09626b93507b69044a77f3b44a42b9d42f12ad10d946b3685f0f7"
+  },
+  {
+   "path": "furniture/previews/wall_cabinet_K0_K1_K2.png",
+   "bytes": 2481874,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 2700,
+   "png_height": 2100,
+   "rgba_sha256": "05139a9c4ec375a7269162474f7bad9757a1f048cd99fc8563c15494647b09eb"
+  },
+  {
+   "path": "furniture/qa/ba_fix.py",
+   "bytes": 2039,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "c07b46a13975bd51f439f07f5fb0d646e431ee7d3dbc5a4b1a26f5ab5cb89beb"
+  },
+  {
+   "path": "furniture/qa/cab_K0.json",
+   "bytes": 499,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "fd8db10b71e0cebfd41f89fd63a8d078a628f31d3718979c76df0c4086bd5dae"
+  },
+  {
+   "path": "furniture/qa/cab_K1.json",
+   "bytes": 514,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "3e740549a111c3c6994e10aa61eb4d34d1b3a9ecb3bae47554acb56941f4d8e5"
+  },
+  {
+   "path": "furniture/qa/cab_K2.json",
+   "bytes": 512,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "db32894526a976a270d64d473ba54ca65beb6119f3e768e7179cbb5809f7dcb6"
+  },
+  {
+   "path": "furniture/qa/cabinet.py",
+   "bytes": 2700,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "649717fc63a416a7d7bf25750b93a119e8ff25f77ed56ecf2fb4424b35622e05"
+  },
+  {
+   "path": "furniture/qa/chair.py",
+   "bytes": 5879,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "6345f043514f5420c601651e2ea3273a68eeff61bff7d30f6db85b7e5e044349"
+  },
+  {
+   "path": "furniture/qa/chair_C0.json",
+   "bytes": 430,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "7cfa377320f3d541c437c504f861f2a69b77f5009f3914547a00735c59c12664"
+  },
+  {
+   "path": "furniture/qa/chair_C1.json",
+   "bytes": 820,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "0e13d1d35e8540c083907bac6c59b40205d3659d1226281cb8b18e818983c37e"
+  },
+  {
+   "path": "furniture/qa/chair_C2.json",
+   "bytes": 586,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "6cdbe16f8a4e5b96fde931939ee8f6f602be45fbc32d03deaed0c00b23c99eb0"
+  },
+  {
+   "path": "furniture/qa/cloth.py",
+   "bytes": 4856,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "833d6456a5e851da303c67a0087ab02836711d6e116572c46800da5d8dc908ed"
+  },
+  {
+   "path": "furniture/qa/exp_furn.py",
+   "bytes": 1281,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "8e2f171112996c732d13b7d6ef7807060819bc6f2437b3cf4d2f1770d82fcb81"
+  },
+  {
+   "path": "furniture/qa/lamp.py",
+   "bytes": 3494,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "1670696d521333640a43290e02dd965367c6ee9195d9390cde69c5d48442caa2"
+  },
+  {
+   "path": "furniture/qa/lamp_curved_L0.json",
+   "bytes": 530,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "907fc4875f9dbcfebaff0fb952c471f0bccf5139bc829616c8929b473b768a0b"
+  },
+  {
+   "path": "furniture/qa/lamp_curved_L1.json",
+   "bytes": 634,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "a0cdf9a5ac49431b3afb8460e139770981fb9d4bc98868de8d042a4024a2cbe9"
+  },
+  {
+   "path": "furniture/qa/lamp_curved_L2.json",
+   "bytes": 579,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "f4e8060ee199448a3c1ff521325307f60513dcc5694deb02b37900ce903af5a2"
+  },
+  {
+   "path": "furniture/qa/lamp_straight_L0.json",
+   "bytes": 526,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "990ffda909bfb6b860cfc7cac132aa8a1c496694c9f7c51ab18be5abe25f20cd"
+  },
+  {
+   "path": "furniture/qa/lamp_straight_L1.json",
+   "bytes": 630,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "7ede1ef39d3b471ca49c3c6b887391d7d84b649e855bfdd35f3c1d7aab4bf675"
+  },
+  {
+   "path": "furniture/qa/lamp_straight_L2.json",
+   "bytes": 575,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "a79458e4a9eb91082bd2d85b3c8566e9315888e568a3f4047bb158fea66771fe"
+  },
+  {
+   "path": "furniture/qa/table_T0.json",
+   "bytes": 669,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "75c48418c41fa32ed86bfa21ba93c02ad956bd1b25e632487c5e4a9af2dfbcfc"
+  },
+  {
+   "path": "furniture/qa/table_T1.json",
+   "bytes": 670,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "76400d678aca55582a89a79594f80532472363b6d3c26389a0a62f632da0a0d7"
+  },
+  {
+   "path": "furniture/qa/table_T2.json",
+   "bytes": 604,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "bc9c678da8e1669124340563c5bc29efdc551e1276de976e49dd4b492f8436e9"
+  },
+  {
+   "path": "furniture/qa/verify_furn.py",
+   "bytes": 3535,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "ccd1a1a03b1d6cbecf76b5a8c53d45cd5fa1b58260445b00704fa7e66f4bcfaa"
+  },
+  {
+   "path": "furniture/qa/verify_furniture.json",
+   "bytes": 2049,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "0bb7ae0171b0f5f772e4a8144581371d9d7c04efc06e98170feaef63702e67e8"
+  },
+  {
+   "path": "furniture/qa/verify_furniture_cabinet.json",
+   "bytes": 5116,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "aec18dd6ee000d8e60220911c8b9a304167c2325e2e03dd05f5204fd907b8662"
+  },
+  {
+   "path": "furniture/qa/verify_furniture_chair.json",
+   "bytes": 4115,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "4e756a1c41fb5e7ea7c81eec2721afd781ea7219c7c768c41bdee4bf0185c329"
+  },
+  {
+   "path": "furniture/qa/verify_furniture_lamp.json",
+   "bytes": 5198,
+   "role": "furniture review record",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "fc0df89808b870b53868740763646e0e658b902d3b4d47741a30c055287f3c18"
+  },
+  {
+   "path": "furniture/table_hem/T1/fbx/DiningTable_FUR01.fbx",
+   "bytes": 547836,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "d2eaa3cb51aee35459967951c887aabdf9f00e3c694c92014f10ac415cf2bbfd"
+  },
+  {
+   "path": "furniture/table_hem/T1/fbx/linen_FUR01.png",
+   "bytes": 62797,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "8e55c3ea375edc1bf628e23bbcaa4e98855badfc6d09d386353434d3e8f603a4"
+  },
+  {
+   "path": "furniture/table_hem/T1/fbx/linen_stripe_FUR01.png",
+   "bytes": 62716,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "50c2819183f1b8a79092335052a8a0f5f52b17d72e5d4fcd14822ec03fa82d06"
+  },
+  {
+   "path": "furniture/table_hem/T1/fbx/wood_FUR01.png",
+   "bytes": 73579,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "e50076aedb7034e981957727cd0e5a817e0ff1691275efa483f95669480afaa9"
+  },
+  {
+   "path": "furniture/table_hem/T1/models/DiningTable_FUR01.blend",
+   "bytes": 540615,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "5a75c2df181e661a2cdba31cb405ff58257e24c48e304ff32c40576dfe0ed388"
+  },
+  {
+   "path": "furniture/table_hem/T2/fbx/DiningTable_FUR01.fbx",
+   "bytes": 545020,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "cf3f7a6ba9dd1824f9dbfb4c687cc2843f40ad876dd283a164cb31956640f956"
+  },
+  {
+   "path": "furniture/table_hem/T2/fbx/linen_FUR01.png",
+   "bytes": 62797,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "8e55c3ea375edc1bf628e23bbcaa4e98855badfc6d09d386353434d3e8f603a4"
+  },
+  {
+   "path": "furniture/table_hem/T2/fbx/linen_stripe_FUR01.png",
+   "bytes": 62716,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "50c2819183f1b8a79092335052a8a0f5f52b17d72e5d4fcd14822ec03fa82d06"
+  },
+  {
+   "path": "furniture/table_hem/T2/fbx/wood_FUR01.png",
+   "bytes": 73579,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 512,
+   "png_height": 512,
+   "rgba_sha256": "e50076aedb7034e981957727cd0e5a817e0ff1691275efa483f95669480afaa9"
+  },
+  {
+   "path": "furniture/table_hem/T2/models/DiningTable_FUR01.blend",
+   "bytes": 541563,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "a13659535ea09449e5ba0895c4f81ada43306c535db732ddb6b46794da2f48f7"
+  },
+  {
+   "path": "furniture/wall_cabinet/K1/fbx/FinishAtlas_FUR06.png",
+   "bytes": 144835,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+  },
+  {
+   "path": "furniture/wall_cabinet/K1/fbx/WallCabinet_FUR06.fbx",
+   "bytes": 168460,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "4083f5ff19e36b20d61c6b00b515a162fa2ec9603b4fa32d3b253aca13afe986"
+  },
+  {
+   "path": "furniture/wall_cabinet/K1/models/WallCabinet_FUR06.blend",
+   "bytes": 196492,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "55437a14995c1826e526991decc7d202599c31930c4a6002676dc3c6d35c8a3c"
+  },
+  {
+   "path": "furniture/wall_cabinet/K2/fbx/FinishAtlas_FUR06.png",
+   "bytes": 144835,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+  },
+  {
+   "path": "furniture/wall_cabinet/K2/fbx/WallCabinet_FUR06.fbx",
+   "bytes": 167900,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "11483e611f73e581d1fe3fae5a219a6091dccad7fa347988ac7bc0c75d1ccaa9"
+  },
+  {
+   "path": "furniture/wall_cabinet/K2/models/WallCabinet_FUR06.blend",
+   "bytes": 196875,
+   "role": "candidate: furniture shape on Codex source 6b8c26f",
+   "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
+   "sha256": "975a387d8e602075d1e5177217273a51705828f980e11f8f2dad6f4ca09dd9df"
   },
   {
    "path": "previews/basket_LOD1_local_fix_before_after.png",
@@ -465,6 +925,30 @@
    "sha256": "147df1e51a2dd90549309299957a25c66c9b8b06cd02903f426f5c6c699b9d78"
   },
   {
+   "path": "remaining_work.txt",
+   "bytes": 1072,
+   "role": "document",
+   "sha256": "450fadac1275f5e7dd1be127e889d94da6b005d1a30e990e203df6bcfeee367c"
+  },
+  {
+   "path": "review_COORD09.html",
+   "bytes": 3884,
+   "role": "document",
+   "sha256": "6b1f335ec24a40fb1f999aac27d10f3dc3936a741dc5d5e8fb032be92bd6443d"
+  },
+  {
+   "path": "review_only/CANDLE01_spiral_candle_review.txt",
+   "bytes": 3144,
+   "role": "review record (no model change)",
+   "sha256": "ffc7c6a41b3777b65a8a365e53e0df78b7e1eeff5e65bd46e449edbe55d7f17f"
+  },
+  {
+   "path": "review_only/FUR04_current_basket_review.txt",
+   "bytes": 1673,
+   "role": "review record (no model change)",
+   "sha256": "34f86aa25e39441bb3abcebe294543a0e0d31482abdff91a40c0d0a653540e05"
+  },
+  {
    "path": "water_bowl/A/fbx/06_Water_Glass.fbx",
    "bytes": 85340,
    "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
@@ -473,10 +957,10 @@
   },
   {
    "path": "water_bowl/A/models/06_Water_Glass.blend",
-   "bytes": 163549,
+   "bytes": 163641,
    "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
    "base": "claude/props-v02-review-20261002@80deec1 (water fix)",
-   "sha256": "99eec35a97086e181dfadf2399ca6a5330d874c9a49f5d4a6f80fadeab9c9c7e"
+   "sha256": "a00427f068e07b4b1e4112f40dac27934d0a40ed60b247a4ae0bf8551471bd97"
   },
   {
    "path": "water_bowl/B2/fbx/06_Water_Glass.fbx",
@@ -487,10 +971,10 @@
   },
   {
    "path": "water_bowl/B2/models/06_Water_Glass.blend",
-   "bytes": 163437,
+   "bytes": 163644,
    "role": "candidate: water glass bowl width (B2 recommended / A alternative) on v02-review water fix",
    "base": "claude/props-v02-review-20261002@80deec1 (water fix)",
-   "sha256": "690e80dbd2af42d240c5519a57cbf5bc40219929686f955ae89b94619fcdd22f"
+   "sha256": "eb14577bd8bca94e289cb9cfb64c8cf7c1d90ac1b271a4e390cbb497f2812a78"
   }
  ]
 }
