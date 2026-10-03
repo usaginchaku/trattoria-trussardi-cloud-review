@@ -1,0 +1,30 @@
+# ART05P review record (text only; no image, crop or pixel data from the reference is stored).
+import csv,io,json
+H=['item','observation','class','note']
+R=[
+['資料','DU_ep10-4.png を実際に表示できた。private の COORD04 アーカイブ(/home/user/repo/COORD04_CloudReview_input.zip の Reference/DU_ep10-4.png、公開 repo の外)と、展開済みファイルの sha256 b9a1c3aca009…44bb が一致。1920×1532','確定','過去 README の利用記録ではなく、今回の実アクセスで確認'],
+['対象の特定','右の壁で、壁掛け戸棚の上・赤茶の横梁の上に小さな額が3枚並ぶ。画像上では左→右の順に右上がり(遠近)','確定','窓上の ART02 の3枚(別の壁)とは別'],
+['左右の並び','画像上で 左=オリーブ / 中=オリーブ / 右=マルーン。壁は右手前へ近づくので、左ほど奥の隅に近く、右ほど手前','確定(画像上の並び)','Left_Frame_17/18/19 とアトラスのセル 16/17/18 への対応は、pose/位置の入力が届くまで未確定 → DEPENDENCY_WAIT'],
+['額の大きさ','画像上の外寸 左 約50×85px、中 約62×98px、右 約78×96px','画角で変形','手前ほど大きく、右ほど横幅が広く見える(遠近)。実寸の比は推測しない'],
+['額色','左 (105,105,88) / 中 (112,114,94) はオリーブ、右 (158,89,96) はマルーン(5×5 中央値)','確定(色相)','明るさは画面の照明と描画によるので、絶対値は推測扱い'],
+['マット','左・中は淡いクリーム(226,225,198 / 228,225,198)、右は淡いラベンダー(217,215,228)。マットは額の内側で広め','確定(色相)/不鮮明(幅)','マット幅の比は小さすぎて測らない'],
+['絵の地','左・中の絵の地はほぼ白(242,243,235 / 239,239,231)。右の地は採取点がマットと区別できなかった','確定(左・中)/不鮮明(右)',''],
+['左の絵','灰色のやわらかい塊が下半分に横並び。上辺が小さな凸凹(4〜6 個の丸い山)になる。上半分は白','不鮮明','塊の数・境界は低解像度でぼやけている。何の題材かは推測しない(HOLD)'],
+['中の絵','灰色の塊が中ほど〜やや下に横長に広がり、上辺が凸凹。左端が少し濃い','不鮮明','同上。題材は HOLD'],
+['右の絵','灰色の丸い塊が上寄り中央に 2〜3 の房状にまとまる。下側は明るい','不鮮明','同上。題材は HOLD'],
+['灰色の値','左 (192,189,180)、中 (200,198,191)、右 (176,172,163)(塊の中の 5×5 中央値)','不鮮明','ぼかしの中の値なので目安'],
+['描けない範囲','人物・果物・文字・特定の題材、細い線、塊の正確な輪郭と数','推測(描かない)','画像処理で架空の線を作らない'],
+]
+buf=io.StringIO(); w=csv.writer(buf,quoting=csv.QUOTE_ALL,lineterminator='\n'); w.writerow(H); w.writerows(R); open('observations_ART05P.csv','w',encoding='utf-8').write(buf.getvalue())
+rows=list(csv.reader(open('observations_ART05P.csv',encoding='utf-8'))); assert all(len(r)==4 for r in rows)
+spec={'scope':'texture only, 1 candidate. Only the 3 painting cells of these frames (atlas cells 16/17/18 per the director; exact rects/UV from the coming input). No change to frames, FinishAtlas, UV, geometry, position, lighting, GI.',
+ 'per_frame (image order L/M/R; mapping to Left_Frame_17/18/19 pending)':{
+   'L':'white ground; soft grey (≈192,189,180) band of 4-6 rounded bumps in the lower ~45%, upper half white; soft edges, no outline',
+   'M':'white ground; wide soft grey (≈200,198,191) mass across the middle-lower area with a bumpy top; slightly darker at its left end',
+   'R':'pale ground; soft grey (≈176,172,163) rounded cluster of 2-3 lobes in the upper centre; lighter below'},
+ 'method':'self-authored blurred shapes only (no reference pixels), drawn at the real painting aspect and resampled into each UV box; outside-cell pixels identical; same-camera baseline vs candidate',
+ 'hold':['subject identity','exact count/outline of the lumps','frame↔Left_Frame_17/18/19 and cell mapping until the input arrives'],
+ 'blocked_until':['Codex minimal input: 3 FBX + 2 atlases + exact material/pose/UV mapping','director specification of ART05']}
+json.dump({'reference':{'file':'DU_ep10-4.png','sha256':'b9a1c3aca00965d0a360c89da9ac20027c0471940cb1baee33d093d8930544bb','size':[1920,1532],'location':'private COORD04 archive (not in the public repo)','opened_now':True},
+  'columns':H,'rows':[dict(zip(H,r)) for r in rows[1:]],'texture_only_candidate_spec':spec},open('observations_ART05P.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+print(len(rows)-1,'rows')

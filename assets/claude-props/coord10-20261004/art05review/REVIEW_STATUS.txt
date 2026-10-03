@@ -1,0 +1,6 @@
+COORD10-ART05P REVIEW_STATUS (2026-10-04 JST, Claude cloud)
+- 資料の実アクセス: DU_ep10-4.png を表示できた(private アーカイブと SHA 一致)。DEPENDENCY_WAIT ではない。
+- レビュー記録: 済(確定 / 画角で変形 / 不鮮明 / 推測の区別。題材は HOLD)。描画・FBX 生成・画像の保存はなし。
+- 依存待ち: フレーム番号・セルの対応、元Codex の最小入力、指示役の ART05 本作業の指定。
+- 実行環境: クラウドで画像を表示し、数値を採取しただけ(Blender は使っていない)。Unity / Blender 5.2.2 は未実施。
+- 旧 11 FBX の型コードは自動修理していない。

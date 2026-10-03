@@ -1,0 +1,49 @@
+{
+ "work": "COORD10-ART05P reference review (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "reference": "DU_ep10-4.png sha256 b9a1c3aca00965d0a360c89da9ac20027c0471940cb1baee33d093d8930544bb (private archive, not stored)"
+ },
+ "tooling": "image viewing and PIL sampling only; no Blender/Unity",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 2204,
+   "role": "document",
+   "sha256": "6a7cd9da396fe97a381f094807a5ddddcb4014692110dd09d116e746919fd592"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 681,
+   "role": "document",
+   "sha256": "93b3c40cb2bab4f2b9b59cce8bb63dc2b441513c9a57a15990633391feb8d7f0"
+  },
+  {
+   "path": "observations_ART05P.csv",
+   "bytes": 2667,
+   "role": "review observations (numbers/text only, no reference pixels)",
+   "sha256": "ac226c0706b329006301badef2d328c44d8f01f5cdcd5d73cbf841469ea1f5e5"
+  },
+  {
+   "path": "observations_ART05P.json",
+   "bytes": 4971,
+   "role": "review observations (numbers/text only, no reference pixels)",
+   "sha256": "7089e251c39e24d0fe1400f4e2dcb0283f99d61176aff355cc8bea739698d054"
+  },
+  {
+   "path": "tools/mkmanifest_art05review.py",
+   "bytes": 1574,
+   "role": "self-written code",
+   "sha256": "aa29c489475592433ca35a556e290d6db870b7075e46d117d7c451735261fd7c"
+  },
+  {
+   "path": "tools/write_review.py",
+   "bytes": 4716,
+   "role": "self-written code",
+   "sha256": "64685c424b44d65d39f7b3648652867bb8380b78c76cfa95cc21b0041cfad142"
+  }
+ ]
+}
