@@ -1,0 +1,28 @@
+{
+ "target_w_over_h": 0.0,
+ "height_before_m": 0.5600000023841858,
+ "height_after_m": 0.5600000023841858,
+ "door_zone_z": [
+  0.082,
+  0.479
+ ],
+ "door_zone_scale": 1.0,
+ "dims_before": [
+  0.8799999952316284,
+  0.3009999990463257,
+  0.5600000023841858
+ ],
+ "dims_after": [
+  0.8799999952316284,
+  0.3009999990463257,
+  0.5600000023841858
+ ],
+ "zmin": 0.0,
+ "knobs_kept_round": true,
+ "uv_unchanged": true,
+ "tris": 4220,
+ "nonmanifold": 32,
+ "boundary": 0,
+ "zero_area": 0,
+ "zero_len_normals": 0
+}
