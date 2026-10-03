@@ -1,0 +1,416 @@
+{
+ "A3s": {
+  "source": "Frame_23_FUR06.fbx",
+  "candidate": "A3/A3s/fbx/Frame_23_FUR06_A3s.fbx",
+  "fbx_global_settings_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "fbx_global_settings_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "Frame_23",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.2,
+    0.0,
+    0.48
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 8.336326901314806e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "candidate_info": {
+   "object": "Frame_23",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.2,
+    0.0,
+    0.48
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 8.336326901314806e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "bbox_identical": true,
+  "transform_identical": true,
+  "mount_face_verts_same": true,
+  "original_verts_moved": 8,
+  "original_verts_moved_idx": [
+   1200,
+   1201,
+   1202,
+   1203,
+   1204,
+   1205,
+   1206,
+   1207
+  ],
+  "max_move_m": 0.07737578197496685,
+  "added_verts": 0,
+  "topology_identical": true,
+  "uv_identical": true,
+  "corner_normals_changed": 0,
+  "faces_flipped": 0
+ },
+ "A3c": {
+  "source": "Frame_23_FUR06.fbx",
+  "candidate": "A3/A3c/fbx/Frame_23_FUR06_A3c.fbx",
+  "fbx_global_settings_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "fbx_global_settings_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "Frame_23",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.2,
+    0.0,
+    0.48
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 8.336326901314806e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "candidate_info": {
+   "object": "Frame_23",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.2,
+    0.0,
+    0.48
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 8.336326901314806e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "bbox_identical": true,
+  "transform_identical": true,
+  "mount_face_verts_same": true,
+  "original_verts_moved": 8,
+  "original_verts_moved_idx": [
+   1200,
+   1201,
+   1202,
+   1203,
+   1204,
+   1205,
+   1206,
+   1207
+  ],
+  "max_move_m": 0.044725889451628774,
+  "added_verts": 0,
+  "topology_identical": true,
+  "uv_identical": true,
+  "corner_normals_changed": 0,
+  "faces_flipped": 0
+ },
+ "pre_vs_stripped_A3s": {
+  "source": "A3s.pre.fbx",
+  "candidate": "A3/A3s/fbx/Frame_23_FUR06_A3s.fbx",
+  "fbx_global_settings_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "fbx_global_settings_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "Frame_23",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.2,
+    0.0,
+    0.48
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 8.336326901314806e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "candidate_info": {
+   "object": "Frame_23",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.2,
+    0.0,
+    0.48
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 8.336326901314806e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "bbox_identical": true,
+  "transform_identical": true,
+  "mount_face_verts_same": true,
+  "original_verts_moved": 0,
+  "original_verts_moved_idx": [],
+  "max_move_m": 0.0,
+  "added_verts": 0,
+  "topology_identical": true,
+  "uv_identical": true,
+  "corner_normals_changed": 0,
+  "faces_flipped": 0
+ }
+}

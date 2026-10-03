@@ -1,0 +1,122 @@
+{
+ "reference_IMG_3669": {
+  "W_fractions": {
+   "frame_left": 0.12549019607843137,
+   "mat_left": 0.12549019607843137,
+   "picture": 0.5333333333333333,
+   "mat_right": 0.10980392156862745,
+   "frame_right": 0.10588235294117647
+  },
+  "H_fractions": {
+   "frame_top": 0.06695464362850972,
+   "mat_top": 0.20518358531317496,
+   "picture": 0.4060475161987041,
+   "mat_bottom": 0.23758099352051837,
+   "frame_bottom": 0.08423326133909287
+  },
+  "picture_area_fraction": 0.21655867530597553,
+  "in_image_outer_aspect": 0.550755939524838,
+  "in_image_picture_aspect": 0.723404255319149
+ },
+ "reference_px": {
+  "horizontal_row250": {
+   "outer_left": 13,
+   "frame_inner_left": 45,
+   "pic_left": 77,
+   "pic_right": 213,
+   "frame_inner_right": 241,
+   "outer_right": 268
+  },
+  "vertical_col140": {
+   "outer_top": 29,
+   "frame_inner_top": 60,
+   "pic_top": 155,
+   "pic_bottom": 343,
+   "frame_inner_bottom": 453,
+   "outer_bottom": 492
+  }
+ },
+ "current_source": {
+  "picture_m": [
+   0.2737,
+   0.3537
+  ],
+  "W_fractions": {
+   "frame": 0.07700000000000005,
+   "mat": 0.08084999999999995,
+   "picture": 0.6843
+  },
+  "H_fractions": {
+   "frame_bottom": 0.06416666666666668,
+   "mat_bottom": 0.067375,
+   "picture": 0.7369166666666667,
+   "mat_top": 0.06737499999999996,
+   "frame_top": 0.06416666666666666
+  },
+  "picture_area_fraction": 0.5042720749999999,
+  "mat_width_m": {
+   "side": 0.0323,
+   "top": 0.0323,
+   "bottom": 0.0323
+  },
+  "picture_aspect": 0.7738324098156735
+ },
+ "A3s_standard_scale_0.654": {
+  "picture_m": [
+   0.179,
+   0.2313
+  ],
+  "W_fractions": {
+   "frame": 0.07700000000000005,
+   "mat": 0.19923389999999994,
+   "picture": 0.4475322
+  },
+  "H_fractions": {
+   "frame_bottom": 0.06416666666666668,
+   "mat_bottom": 0.1948615833333333,
+   "picture": 0.4819435,
+   "mat_top": 0.19486158333333337,
+   "frame_top": 0.06416666666666666
+  },
+  "picture_area_fraction": 0.21568523483069998,
+  "mat_width_m": {
+   "side": 0.0797,
+   "top": 0.0935,
+   "bottom": 0.0935
+  },
+  "picture_aspect": 0.7738324098156735,
+  "scale_rule": "sqrt(ref_area_fraction / current_area_fraction) = 0.655"
+ },
+ "A3c_conservative_scale_0.80": {
+  "picture_m": [
+   0.219,
+   0.283
+  ],
+  "W_fractions": {
+   "frame": 0.07700000000000005,
+   "mat": 0.1492799999999999,
+   "picture": 0.54744
+  },
+  "H_fractions": {
+   "frame_bottom": 0.06416666666666668,
+   "mat_bottom": 0.14106666666666667,
+   "picture": 0.5895333333333334,
+   "mat_top": 0.14106666666666667,
+   "frame_top": 0.06416666666666666
+  },
+  "picture_area_fraction": 0.322734128,
+  "mat_width_m": {
+   "side": 0.0597,
+   "top": 0.0677,
+   "bottom": 0.0677
+  },
+  "picture_aspect": 0.7738324098156735
+ },
+ "notes": [
+  "frame = outer edge to the inner edge of the frame-colour region (|x|=0.1692 / z=0.0308,0.4492 in the model); mat = from there to the painting edge (includes the existing inner lip bevel and the flat backing panel).",
+  "IMG_3669 is an oblique, slightly upward screen photo: horizontal sizes are foreshortened (in-image outer aspect 0.55 vs model 0.833), so only per-axis fractions and the area fraction are used. The real picture aspect is undetermined.",
+  "A3 keeps the current painting aspect (0.774) so the ART01 A1 art and the existing painting UVs stay undistorted; scale 0.654 matches the reference picture AREA fraction (0.216); 0.80 is a conservative step.",
+  "reference bottom mat (0.238 H) is slightly larger than top mat (0.205 H); this may be perspective (camera below), so the candidate keeps the picture centred (undetermined, not applied).",
+  "reference frame bar is wider than the model (0.12 W vs 0.077 W); frame width change is outside A3 scope and was not applied."
+ ]
+}
