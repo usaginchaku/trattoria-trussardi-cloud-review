@@ -1,0 +1,98 @@
+{
+  "status": "TRANSLATION_ONLY_CANNOT_SUPPORT_ALL_THREE_FEET",
+  "source": "Diagnostics\\COORD09_LAY01\\Results\\DOT01_20261003T010956247\\menu_support_meshes.json",
+  "units": "Design metres; multiply by fixed worldScale for world metres",
+  "referenceObserved": [
+    "Reference/Tonio%27s_place_Anime.png",
+    "第4部10話イタリア料理を食べに行こう/外観/IMG_3556.JPG",
+    "第4部10話イタリア料理を食べに行こう/外観/IMG_3680.JPG"
+  ],
+  "referenceFinding": "Tripod belongs on the right end of the lowest tread. Cropped IMG3842 is not evidence for feet.",
+  "lowestTreadMin": [
+    1.399999976158142,
+    0.17999997735023499,
+    -1.489999771118164
+  ],
+  "lowestTreadMax": [
+    1.7200000286102295,
+    0.18000006675720215,
+    1.4901161193847656e-08
+  ],
+  "lowestTreadWidthX": 0.3200000524520874,
+  "lowest2mmFootprintMin": [
+    1.968290090560913,
+    0.02154429443180561,
+    -0.5863441824913025
+  ],
+  "lowest2mmFootprintMax": [
+    2.4328274726867676,
+    0.02298843488097191,
+    -0.09439653158187866
+  ],
+  "footprintWidthX": 0.4645373821258545,
+  "feet": [
+    {
+      "min": [
+        1.968290090560913,
+        0.021657580509781837,
+        -0.5863441824913025
+      ],
+      "max": [
+        1.97575843334198,
+        0.02298843488097191,
+        -0.5809342861175537
+      ],
+      "minY": 0.021657580509781837
+    },
+    {
+      "min": [
+        2.036226987838745,
+        0.021657506003975868,
+        -0.09753831475973129
+      ],
+      "max": [
+        2.0448970794677734,
+        0.022988371551036835,
+        -0.09439653158187866
+      ],
+      "minY": 0.021657506003975868
+    },
+    {
+      "min": [
+        2.4328274726867676,
+        0.02154429443180561,
+        -0.399748831987381
+      ],
+      "max": [
+        2.4328274726867676,
+        0.02154429443180561,
+        -0.399748831987381
+      ],
+      "minY": 0.02154429443180561
+    }
+  ],
+  "requiredTranslationXLower": -0.568290114402771,
+  "requiredTranslationXUpper": -0.7128274440765381,
+  "feasibleTranslation": false,
+  "centredTrialPosition": {
+    "x": 1.509441316127777,
+    "y": 0.1834557059407234,
+    "z": -0.36000001430511475
+  },
+  "trialDelta": [
+    -0.6405587792396545,
+    0.15845570556819438,
+    0
+  ],
+  "minimumSymmetricOverhangEachSide": 0.07226866483688354,
+  "decision": "Do not save or adopt a floating/penetrating stand. Produce same-camera translation trial as rejection evidence. A local tripod or tread geometry choice is necessary; no unrelated stairs/plant/building changes authorized by this diagnosis.",
+  "nextOwner": "Director selection: choose a scoped foot-span correction or lowest-tread extension based on reference proportions. Root keeps RI03 and prepares diagnostic images. Claude shape work remains isolated.",
+  "yawFeasibility": {
+    "method": "Exact convex-hull edge-normal support width; not coarse angle sampling",
+    "minimumPossibleFootprintWidth": 0.42969234771551695,
+    "rotationAboutYDegrees": -128.2074041658604,
+    "lowestTreadWidth": 0.3200000524520874,
+    "fitsAtAnyYaw": false,
+    "requiredRelativeFootSpanAtMost": 0.7447189929105913
+  }
+}

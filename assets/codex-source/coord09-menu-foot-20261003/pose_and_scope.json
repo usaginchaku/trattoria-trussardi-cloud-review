@@ -1,0 +1,49 @@
+{
+  "sourceSceneSha256": "5d6e32a94801c3f8af8243b33604fc624da3d2a8a7a9cdc80375d4bb94f8b443",
+  "worldScale": 0.7825509309768677,
+  "units": "Design metres, Blender X right/Y rear/Z up; Unity X right/Y up/Z rear.",
+  "existingParentPosition": {
+    "x": 2.1500000953674316,
+    "y": 0.02500000037252903,
+    "z": -0.36000001430511475
+  },
+  "existingParentRotation": {
+    "x": 0.0,
+    "y": 0.06975647062063217,
+    "z": 0.0,
+    "w": 0.9975640773773193
+  },
+  "existingParentScale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "currentGeometryChildLocalQuaternion": {
+    "x": 0.7071068,
+    "y": 0,
+    "z": 0,
+    "w": 0.7071067
+  },
+  "sourceMeshPath": "UnityProject/Assets/Trattoria/Lighting/LGT01/MeshesUV2/546b0c4cceb0fae4c8ea42c23f5d39ea_8849001647220070085.asset",
+  "selection": "Only reduce three swept feet horizontal spread to fit lowest tread. Preserve menu board/text/full height/post/unchanged UV and normal values. Do not enlarge stairs.",
+  "targetDesignDepthAlongStairX": [
+    0.28,
+    0.3
+  ],
+  "lowestTreadX": [
+    1.4,
+    1.72
+  ],
+  "lowestTreadZ": [
+    -1.49,
+    0
+  ],
+  "lowestTreadTopY": 0.18,
+  "requestedOutputs": [
+    "New isolated candidate .blend + FBX",
+    "Vertex delta/mapping to original, or deterministic foot-only selection and transform",
+    "Before/after dimensions and three foot contact checks; unchanged non-foot shape/UV/normals proof"
+  ],
+  "integrationRule": "Original FBX has source UV0; current saved Unity mesh has generated UV2. Never wholesale replace current UV2 with old FBX. Root can transfer verified foot-only position/normal deltas onto split Unity vertices while retaining both original UV channels.",
+  "textures": "Menu_FOLLOWUP04.png is author-generated lettering already selected in RI03. It is input reference only; do not repaint."
+}

@@ -1,0 +1,58 @@
+{
+  "inputs": [
+    {
+      "source": "UnityProject/Assets/Trattoria/Exterior/EX01/MenuStand_EX01.fbx",
+      "path": "MenuStand_EX01.fbx",
+      "sha256": "01610abcb63527d34d1489adba63299c2238876dde563bfae3ee13f99cb0b50b"
+    },
+    {
+      "source": "UnityProject/Assets/Trattoria/Lighting/LGT01/MeshesUV2/546b0c4cceb0fae4c8ea42c23f5d39ea_8849001647220070085.asset",
+      "path": "MenuStand_RI03_CurrentUV2.asset",
+      "sha256": "c58241c0c3a0cc602963add872c015d85f6a79f09457ecd2c9b1cccdced3edfa"
+    },
+    {
+      "source": "UnityProject/Assets/Trattoria/ReviewIntegration/RI03/Textures/Menu_FOLLOWUP04.png",
+      "path": "Menu_FOLLOWUP04.png",
+      "sha256": "64c3d6219f21f389d74fde23dfc6501d9270fbdef18c0897d0d324680f39b4c1"
+    },
+    {
+      "source": "Reports/COORD09_MENU01_support_feasibility.json",
+      "path": "support_feasibility.json",
+      "sha256": "f64bc45eca4b81f11d6ffc3cee0df73c002f26972666ff77c6e4e5559659079f"
+    }
+  ],
+  "files": [
+    {
+      "path": "Menu_FOLLOWUP04.png",
+      "bytes": 767195,
+      "sha256": "64c3d6219f21f389d74fde23dfc6501d9270fbdef18c0897d0d324680f39b4c1"
+    },
+    {
+      "path": "MenuStand_EX01.fbx",
+      "bytes": 197052,
+      "sha256": "01610abcb63527d34d1489adba63299c2238876dde563bfae3ee13f99cb0b50b"
+    },
+    {
+      "path": "MenuStand_RI03_CurrentUV2.asset",
+      "bytes": 874372,
+      "sha256": "c58241c0c3a0cc602963add872c015d85f6a79f09457ecd2c9b1cccdced3edfa"
+    },
+    {
+      "path": "pose_and_scope.json",
+      "bytes": 1862,
+      "sha256": "8b1694efe8f070ddc213f7a2dcaf09c14219e5d99ca3233dc43999ef50bfe722"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1008,
+      "sha256": "ca8726f7f1b676dcf55a488554860433d534dbae24b389bcabb2457499207b7a"
+    },
+    {
+      "path": "support_feasibility.json",
+      "bytes": 3216,
+      "sha256": "f64bc45eca4b81f11d6ffc3cee0df73c002f26972666ff77c6e4e5559659079f"
+    }
+  ],
+  "referencePixelsIncluded": false,
+  "scope": "Foot-only model candidate"
+}
