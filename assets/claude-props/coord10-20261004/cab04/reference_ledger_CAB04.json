@@ -1,0 +1,52 @@
+{
+ "columns": [
+  "ref_id",
+  "part",
+  "observation",
+  "confidence",
+  "undetermined_or_inferred",
+  "used_in_C4"
+ ],
+ "rows": [
+  {
+   "ref_id": "IMG_3591",
+   "part": "crown tiers",
+   "observation": "左端のシルエットに3つの段(張り出し 25.5 / 20.5 / 14.5 px、高さ 16 / 24 / 14+8 px)。正面には上2段の下に影の線が2本",
+   "confidence": "medium-high",
+   "undetermined_or_inferred": "最下段と本体の間の8 pxは曲線(cove)に見えるが、形は読めない",
+   "used_in_C4": "3段の水平な段(笠木・中段・下段)"
+  },
+  {
+   "ref_id": "IMG_3591",
+   "part": "overhang",
+   "observation": "張り出しの比は 25:21:15",
+   "confidence": "medium",
+   "undetermined_or_inferred": "張り出しの絶対量は不明(横の縮尺が未校正)",
+   "used_in_C4": "既存天板の張り出し16 mmを上限とし、比で配分(16 / 13.4 / 9.6 mm)"
+  },
+  {
+   "ref_id": "IMG_3591",
+   "part": "front depth",
+   "observation": "正面は真横に近い角度で見え、段の前後の出は読めない",
+   "confidence": "low",
+   "undetermined_or_inferred": "前方への出は推定。扉の前面(-0.281)と天板の前面(-0.28)より前へは出さない",
+   "used_in_C4": "前方の出 18 / 15.1 / 10.8 mm(側面と同じ比)"
+  },
+  {
+   "ref_id": "IMG_3591",
+   "part": "right end / depth",
+   "observation": "右端と右側面は人物で隠れる",
+   "confidence": "high(遮蔽の事実)",
+   "undetermined_or_inferred": "隠れた部分は作らない。左右対称と仮定",
+   "used_in_C4": "左右対称"
+  },
+  {
+   "ref_id": "IMG_3591",
+   "part": "moire",
+   "observation": "画面全体の細かい網目は撮影モアレ",
+   "confidence": "high",
+   "undetermined_or_inferred": "—",
+   "used_in_C4": "形と色に使わない"
+  }
+ ]
+}

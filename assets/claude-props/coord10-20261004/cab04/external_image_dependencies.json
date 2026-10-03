@@ -1,0 +1,12 @@
+{
+ "scope": "WallCabinet (C4) のみ",
+ "fbx": "C4/fbx/WallCabinet_FUR06.fbx → texture 参照はファイル名 FinishAtlas_FUR06.png だけ(同じフォルダにバイト同一の複製あり)",
+ "blend": "C4/models/WallCabinet_FUR06.blend → //../fbx/FinishAtlas_FUR06.png(相対パス、解決を確認済み)",
+ "material_slots": [
+  "FinishAtlas_FUR06(元と同じ 1 slot)"
+ ],
+ "preview_only": "previews の濃茶・灰緑・金は描画専用(CAB03 の ba_cabcol.py と同じ条件)。書き出していない",
+ "not_used": [
+  "参考画像(repoに含めない)"
+ ]
+}

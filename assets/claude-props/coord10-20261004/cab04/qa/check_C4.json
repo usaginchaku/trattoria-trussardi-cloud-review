@@ -1,0 +1,83 @@
+{
+ "bbox_C3m": [
+  [
+   -0.44,
+   -0.301,
+   0.0
+  ],
+  [
+   0.44,
+   0.0,
+   0.8
+  ]
+ ],
+ "bbox_C4": [
+  [
+   -0.44,
+   -0.301,
+   0.0
+  ],
+  [
+   0.44,
+   0.0,
+   0.8
+  ]
+ ],
+ "transform_C4": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot": [
+   -2.821299744937278e-07,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "uv_layers": [
+  "FurnitureUV"
+ ],
+ "materials": [
+  "FinishAtlas_FUR06"
+ ],
+ "verts": [
+  2132,
+  2228
+ ],
+ "tris": [
+  4220,
+  4408
+ ],
+ "original_faces_identical_order_and_indices": true,
+ "original_loops_vertex_identical": true,
+ "original_loops_uv_identical": true,
+ "original_verts_moved": 144,
+ "moved_only_crown_boxes": true,
+ "mount_face_y0_verts": [
+  12,
+  16
+ ],
+ "zero_area_faces": 0,
+ "faces_flipped_vs_C3m": 0,
+ "face_normal_max_change_original_faces": 1.1920928955078125e-07,
+ "new_faces_material": [
+  0
+ ],
+ "zmax": [
+  0.800000011920929,
+  0.800000011920929
+ ],
+ "zmin": [
+  0.0,
+  0.0
+ ],
+ "new_tier_uv_equals_top_plate_uv": true,
+ "corner_normals_vs_identity_passthrough_changed_gt1e-3": 0,
+ "identity_passthrough_vs_C3m_import_changed_gt1e-3": 0
+}

@@ -1,0 +1,257 @@
+{
+ "work": "COORD10-CAB04 cabinet crown (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "claude/coord09-model-review-20261003@8b12ec3983482e7101fdb175883fe5f1d4ab8adb:assets/claude-props/coord09-20261003/cabinet_ref/C3/C3m/"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "C4/build_C4.json",
+   "bytes": 2090,
+   "role": "C4 stepped-crown shape candidate (FBX / editable blend / texture copy / correspondence)",
+   "sha256": "ed72fba9f4003598a2cdf7bfbdd2002778f2fe333c173b015a7966d298db3c34"
+  },
+  {
+   "path": "C4/fbx/FinishAtlas_FUR06.png",
+   "bytes": 144835,
+   "role": "C4 stepped-crown shape candidate (FBX / editable blend / texture copy / correspondence)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+  },
+  {
+   "path": "C4/fbx/WallCabinet_FUR06.fbx",
+   "bytes": 174252,
+   "role": "C4 stepped-crown shape candidate (FBX / editable blend / texture copy / correspondence)",
+   "sha256": "779c3f2ef3e38b605932e423175062a7687ffe74b690d95ce495880db5308172"
+  },
+  {
+   "path": "C4/models/WallCabinet_FUR06.blend",
+   "bytes": 203092,
+   "role": "C4 stepped-crown shape candidate (FBX / editable blend / texture copy / correspondence)",
+   "sha256": "bf52b9d652a7e8a29c24cff75246a5d88b2fdea3c2b4641f2ec2e0629a93edbd"
+  },
+  {
+   "path": "C4/native_correspondence_C4.csv",
+   "bytes": 881,
+   "role": "C4 stepped-crown shape candidate (FBX / editable blend / texture copy / correspondence)",
+   "sha256": "1244befcc6e24eca39cb1f9974089b8bd3465611cadd6fd7d0312f66cffee88d"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 4256,
+   "role": "document",
+   "sha256": "ddf88488598d2d966d359077fd691957a8197a088a16eac047a397f2a3c5a360"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 2139,
+   "role": "document",
+   "sha256": "c501de9d87c3fe34c8746856bc5d74417cb7111a067166da01980322965760ce"
+  },
+  {
+   "path": "external_image_dependencies.json",
+   "bytes": 579,
+   "role": "document",
+   "sha256": "9896da4d0fe937feb11c1d966ed301012b376cc1fae8dbd630c4a5d59e74e9f2"
+  },
+  {
+   "path": "previews/C3m_C4_same_camera.png",
+   "bytes": 565065,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 1200,
+   "png_height": 1088,
+   "rgba_sha256": "3f6f74dce36157b84bff3a704a06e018e3673ebed187d2e0343051bb78b2428d"
+  },
+  {
+   "path": "previews/C3m_front_close.png",
+   "bytes": 585059,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 1200,
+   "png_height": 500,
+   "rgba_sha256": "dd3114f525172f376140a7913b15a8da1c57d5dfd7e3c4db14221f4cf64b09e1"
+  },
+  {
+   "path": "previews/C3m_oblique_low_left.png",
+   "bytes": 1007152,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 1200,
+   "png_height": 800,
+   "rgba_sha256": "d2245a687963d35e4633311d45c00a6e85f9305fc887702fd1ad1652d7c8f71b"
+  },
+  {
+   "path": "previews/C3m_room_distance.png",
+   "bytes": 435386,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 800,
+   "png_height": 600,
+   "rgba_sha256": "0c4d6f3062f3acb06822be55401c75cca6c86d083e03e9a9daeee70eb8dd541b"
+  },
+  {
+   "path": "previews/C3m_side_close.png",
+   "bytes": 530447,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 900,
+   "png_height": 600,
+   "rgba_sha256": "d431cc08b8863d7d98eb8bc99dde4900f5aa47d8a68db1a94deb5dad2287883d"
+  },
+  {
+   "path": "previews/C4_front_close.png",
+   "bytes": 583076,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 1200,
+   "png_height": 500,
+   "rgba_sha256": "08eb177f41ecad2c926c241b4903718366afd7bdc9b6d1d9b8689dfab48d6d57"
+  },
+  {
+   "path": "previews/C4_oblique_low_left.png",
+   "bytes": 1026971,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 1200,
+   "png_height": 800,
+   "rgba_sha256": "a7fe415ca95d0fcc2b405b57e65b4feec43956c4b128c765e7a7a1d63b0b22f8"
+  },
+  {
+   "path": "previews/C4_room_distance.png",
+   "bytes": 436556,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 800,
+   "png_height": 600,
+   "rgba_sha256": "ad4543c769cc04bf4dfcbb1e91e4748e83848142e3dbefb60f04bde1fc44a03c"
+  },
+  {
+   "path": "previews/C4_side_close.png",
+   "bytes": 535846,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 900,
+   "png_height": 600,
+   "rgba_sha256": "5abdde0fcd8b9621aa775e8ebe02c500cab74d26fd4fe862157fe09ac8aa4f8d"
+  },
+  {
+   "path": "previews/section_side_C3m_vs_C4.png",
+   "bytes": 16863,
+   "role": "same-camera comparison render or self-drawn section (no reference pixels)",
+   "png_width": 1000,
+   "png_height": 560,
+   "rgba_sha256": "7c8754344d791f7b0ea2498dcaab1798c90b6505d174c90ebeaa2e96b7a6747a"
+  },
+  {
+   "path": "qa/check_C4.json",
+   "bytes": 1107,
+   "role": "verification record",
+   "sha256": "66db3923cf743af03ca3b2dfa5e940242cc9cb41b9a77e03eaa61c30b374b5f8"
+  },
+  {
+   "path": "qa/pen.txt",
+   "bytes": 152,
+   "role": "verification record",
+   "sha256": "e75dc83e3369ddb093497fa601f61aa933654a8c4d53840efd206aadb93fb229"
+  },
+  {
+   "path": "qa/pen_parts.txt",
+   "bytes": 617,
+   "role": "verification record",
+   "sha256": "03efa29d4addcc5187689d3ad272046113d7411f3dd240390865078f01b0684e"
+  },
+  {
+   "path": "qa/reference_profile_IMG3591.json",
+   "bytes": 2715,
+   "role": "verification record",
+   "sha256": "e7059a9280d5a77c19355a83187d0f4356a459d8b0a2907dd6d0062205118fd1"
+  },
+  {
+   "path": "qa/verify_C4.json",
+   "bytes": 5841,
+   "role": "verification record",
+   "sha256": "ff9aab4e9e0783c0bb52f44b4969da9863d5025a8b147d8de3c4534c424d5216"
+  },
+  {
+   "path": "qa/written_normals.txt",
+   "bytes": 206,
+   "role": "verification record",
+   "sha256": "3328b383b1b5715e9cb6b0ca46830617ea95705a96b213f3abf50a7dfde21faf"
+  },
+  {
+   "path": "reference_ledger_CAB04.csv",
+   "bytes": 1161,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "c054882b0ac496881cb2bf5eb5e972a1cb6d3e0a60a9a404eafc14ad3af4cb74"
+  },
+  {
+   "path": "reference_ledger_CAB04.json",
+   "bytes": 1817,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "f4a43cf94d763648ffe25e283cc6dbb8ebacd6ed1fa47210bdd72509fa5f286b"
+  },
+  {
+   "path": "tools/build_c4.py",
+   "bytes": 5818,
+   "role": "self-written code",
+   "sha256": "a72f75f7f8c0bc2fc6ac562e2d616cd74498d50ff2cda3083873e0fe8ed043a0"
+  },
+  {
+   "path": "tools/check_c4.py",
+   "bytes": 3222,
+   "role": "self-written code",
+   "sha256": "184261e7d4a7c04bab06f718e73608b13fa8297a6e4d71888f99ae2fa1c0280f"
+  },
+  {
+   "path": "tools/fbx_normals.py",
+   "bytes": 1134,
+   "role": "self-written code",
+   "sha256": "b23f6f52d5667c015156ae2b68336e7caf4351f1699cf5b9f04f3f91234072ee"
+  },
+  {
+   "path": "tools/fbx_strip_paths.py",
+   "bytes": 1585,
+   "role": "self-written code",
+   "sha256": "a53ff3acbf960d1b0c405d7b94806d54514aa4ee1524e9689e0742d38ef55610"
+  },
+  {
+   "path": "tools/mkmanifest_cab04.py",
+   "bytes": 1875,
+   "role": "self-written code",
+   "sha256": "be52e6e54d3c27b80f0c62a24e65ad36eaf83f4b61a6d115210eeeee39712dd6"
+  },
+  {
+   "path": "tools/pen.py",
+   "bytes": 1103,
+   "role": "self-written code",
+   "sha256": "70467db01b2da9cb296d1d01c20f0faa2168f68205853e199499e562859689bd"
+  },
+  {
+   "path": "tools/pen_parts.py",
+   "bytes": 1398,
+   "role": "self-written code",
+   "sha256": "0ea3cf5bdb6c2bca29e809e49b6519f955779734dfe60a8d00be3fb2bd6ac979"
+  },
+  {
+   "path": "tools/render_cab.py",
+   "bytes": 3545,
+   "role": "self-written code",
+   "sha256": "3576106a2278b6dc859854620749741d8f01080fadfa7312b872f03ab1e8ac06"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_art03.py",
+   "bytes": 4870,
+   "role": "self-written code",
+   "sha256": "bccd27d2f18de89bc575a4ce5d46364754489d7f83bf78b794ecf7893088765e"
+  },
+  {
+   "path": "tools/write_records.py",
+   "bytes": 5509,
+   "role": "self-written code",
+   "sha256": "93e66ab0c76202d905a8d8d3f4d50c4dc01f34451b9b7705023cd1b810a375d6"
+  }
+ ]
+}

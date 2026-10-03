@@ -1,0 +1,409 @@
+{
+ "C4": {
+  "source": "WallCabinet_FUR06.fbx",
+  "candidate": "cab04/C4/fbx/WallCabinet_FUR06.fbx",
+  "fbx_global_settings_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "fbx_global_settings_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "WallCabinet",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.44,
+    -0.301,
+    0.0
+   ],
+   "bbox_max": [
+    0.44,
+    0.0,
+    0.8
+   ],
+   "verts": 2132,
+   "faces": 4220,
+   "tris": 4220,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 32,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 0.2767910957336426,
+   "custom_normals": true,
+   "mount_face_y0_verts": 12
+  },
+  "candidate_info": {
+   "object": "WallCabinet",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.44,
+    -0.301,
+    0.0
+   ],
+   "bbox_max": [
+    0.44,
+    0.0,
+    0.8
+   ],
+   "verts": 2228,
+   "faces": 4408,
+   "tris": 4408,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 32,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 0.2767910957336426,
+   "custom_normals": true,
+   "mount_face_y0_verts": 16
+  },
+  "bbox_identical": true,
+  "transform_identical": true,
+  "mount_face_verts_same": false,
+  "original_verts_moved": 144,
+  "original_verts_moved_idx": [
+   384,
+   385,
+   386,
+   387,
+   388,
+   389,
+   390,
+   391,
+   392,
+   393,
+   394,
+   395,
+   396,
+   397,
+   398,
+   399,
+   400,
+   401,
+   402,
+   403,
+   404,
+   405,
+   406,
+   407,
+   408,
+   409,
+   410,
+   411,
+   412,
+   413,
+   414,
+   415,
+   416,
+   417,
+   418,
+   419,
+   420,
+   421,
+   422,
+   423,
+   424,
+   425,
+   426,
+   427,
+   428,
+   429,
+   430,
+   431,
+   576,
+   577,
+   578,
+   579,
+   580,
+   581,
+   582,
+   583,
+   584,
+   585,
+   586,
+   587,
+   588,
+   589,
+   590,
+   591,
+   592,
+   593,
+   594,
+   595,
+   596,
+   597,
+   598,
+   599,
+   600,
+   601,
+   602,
+   603,
+   604,
+   605,
+   606,
+   607,
+   608,
+   609,
+   610,
+   611,
+   612,
+   613,
+   614,
+   615,
+   616,
+   617,
+   618,
+   619,
+   620,
+   621,
+   622,
+   623,
+   624,
+   625,
+   626,
+   627,
+   628,
+   629,
+   630,
+   631,
+   632,
+   633,
+   634,
+   635,
+   636,
+   637,
+   638,
+   639,
+   640,
+   641,
+   642,
+   643,
+   644,
+   645,
+   646,
+   647,
+   648,
+   649,
+   650,
+   651,
+   652,
+   653,
+   654,
+   655,
+   656,
+   657,
+   658,
+   659,
+   660,
+   661,
+   662,
+   663,
+   664,
+   665,
+   666,
+   667,
+   668,
+   669,
+   670,
+   671
+  ],
+  "max_move_m": 0.03789997100830078,
+  "added_verts": 96,
+  "topology_identical": false,
+  "source_faces_kept_verbatim": 4220,
+  "source_faces_total": 4220,
+  "kept_faces_normal_max_dev": 2.3360119527637835e-07,
+  "material_face_count_source": {
+   "0": 4220
+  },
+  "material_face_count_candidate": {
+   "0": 4408
+  }
+ },
+ "C4_pre_vs_stripped": {
+  "source": "C4.pre.fbx",
+  "candidate": "cab04/C4/fbx/WallCabinet_FUR06.fbx",
+  "fbx_global_settings_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "fbx_global_settings_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "WallCabinet",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.44,
+    -0.301,
+    0.0
+   ],
+   "bbox_max": [
+    0.44,
+    0.0,
+    0.8
+   ],
+   "verts": 2228,
+   "faces": 4408,
+   "tris": 4408,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 32,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 0.2767910957336426,
+   "custom_normals": true,
+   "mount_face_y0_verts": 16
+  },
+  "candidate_info": {
+   "object": "WallCabinet",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.44,
+    -0.301,
+    0.0
+   ],
+   "bbox_max": [
+    0.44,
+    0.0,
+    0.8
+   ],
+   "verts": 2228,
+   "faces": 4408,
+   "tris": 4408,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 32,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 0.2767910957336426,
+   "custom_normals": true,
+   "mount_face_y0_verts": 16
+  },
+  "bbox_identical": true,
+  "transform_identical": true,
+  "mount_face_verts_same": true,
+  "original_verts_moved": 0,
+  "original_verts_moved_idx": [],
+  "max_move_m": 0.0,
+  "added_verts": 0,
+  "topology_identical": true,
+  "uv_identical": true,
+  "corner_normals_changed": 0,
+  "faces_flipped": 0
+ }
+}

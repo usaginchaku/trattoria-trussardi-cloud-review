@@ -1,0 +1,7 @@
+"C4_vertex_range","source_in_C3m","change","uv","normals","note"
+"0-383","0-383 (same index)","none","same","same",""
+"384-479","384-479 top plate","bottom-end verts moved up (z 0.74 -> 0.7779); top verts unchanged","same","directions unchanged (rigid bevel move)","becomes the cap tier"
+"480-575","480-575 (same index)","none","same","same",""
+"576-671","576-671 mould","x/front/top ends moved (x +-0.4181 -> +-0.4336, front -0.268 -> -0.2728, top 0.7395 -> 0.7467)","same","directions unchanged","becomes the lower tier"
+"672-2131","672-2131 (same index)","none","same","same","doors, panes, knobs, base mould untouched"
+"2132-2227","copy of 384-479 (new = 2132 + (src-384))","NEW middle tier, reshaped (x +-0.4374, front -0.2771, z 0.7462-0.7784)","copied from top plate loops","copied from top plate loops","faces 4220-4407 (188 tris) appended after all original faces"
