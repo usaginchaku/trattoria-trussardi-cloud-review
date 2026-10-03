@@ -1,0 +1,29 @@
+{
+ "mode": "T2",
+ "K": 1.6,
+ "hem_fit_harmonics": 8,
+ "r_min_before": 2.545123850924796e-19,
+ "r_min_after": 2.545123850924796e-19,
+ "cloth_verts": 6530,
+ "cloth_wood_tri_overlaps": 0,
+ "dims_before": [
+  1.532796561717987,
+  1.532796561717987,
+  0.7200000286102295
+ ],
+ "dims_after": [
+  1.5236341953277588,
+  1.5236341953277588,
+  0.7200000286102295
+ ],
+ "zmin_after": 0.0,
+ "cloth_zmin_after": 0.23035018146038055,
+ "tris": 15952,
+ "uv_unchanged": true,
+ "wood_normals_unchanged": true,
+ "wood_verts_unchanged": true,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "zero_len_corner_normals": 0
+}

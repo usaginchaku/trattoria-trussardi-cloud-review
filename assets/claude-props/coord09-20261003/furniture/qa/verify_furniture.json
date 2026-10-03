@@ -1,0 +1,144 @@
+{
+ "table_T0": {
+  "source": "DiningTable_FUR01.fbx",
+  "candidate": "c9/exp_T0/fbx/DiningTable_FUR01.fbx",
+  "gs_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "DiningTable",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    1.5328,
+    1.5328,
+    0.72
+   ],
+   "verts": 7988,
+   "tris": 15952,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "wood_FUR01",
+    "linen_FUR01",
+    "linen_stripe_FUR01"
+   ],
+   "images": [
+    [
+     "linen_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "linen_stripe_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "candidate_info": {
+   "object": "DiningTable",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    1.5328,
+    1.5328,
+    0.72
+   ],
+   "verts": 7988,
+   "tris": 15952,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "wood_FUR01",
+    "linen_FUR01",
+    "linen_stripe_FUR01"
+   ],
+   "images": [
+    [
+     "linen_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "linen_stripe_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ],
+    [
+     "wood_FUR01.png",
+     [
+      512,
+      512
+     ]
+    ]
+   ],
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "verts_moved": 0,
+  "max_move_m": 0.0,
+  "faces_flipped_vs_source": 0,
+  "uv_identical": true,
+  "corner_normals_changed": 0
+ }
+}
