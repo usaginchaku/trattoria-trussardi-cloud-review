@@ -1,0 +1,338 @@
+{
+ "07_Dinner_Fork": {
+  "source": {
+   "length_y": 0.20556,
+   "y_range": [
+    -0.1025,
+    0.10306
+   ],
+   "width_max_x": 0.0264,
+   "x_range": [
+    -0.0132,
+    0.0132
+   ],
+   "height_z": 0.01369,
+   "stations": {
+    "-0.080": {
+     "width_x": 0.01488,
+     "thickness_z": 0.00261,
+     "z_bottom": 0.0,
+     "z_top": 0.00261
+    },
+    "-0.040": {
+     "width_x": 0.01177,
+     "thickness_z": 0.00239,
+     "z_bottom": 0.0,
+     "z_top": 0.00239
+    },
+    "+0.000": {
+     "width_x": 0.00874,
+     "thickness_z": 0.00227,
+     "z_bottom": 0.0,
+     "z_top": 0.00227
+    },
+    "+0.030": {
+     "width_x": 0.00685,
+     "thickness_z": 0.00224,
+     "z_bottom": 0.0,
+     "z_top": 0.00224
+    },
+    "+0.045": {
+     "width_x": 0.026,
+     "thickness_z": 0.0065,
+     "z_bottom": 0.0,
+     "z_top": 0.0065
+    },
+    "+0.060": {
+     "width_x": 0.026,
+     "thickness_z": 0.005,
+     "z_bottom": 0.0015,
+     "z_top": 0.0065
+    },
+    "+0.085": {
+     "width_x": 0.02557,
+     "thickness_z": 0.0032,
+     "z_bottom": 0.00853,
+     "z_top": 0.01172
+    }
+   }
+  },
+  "CUT02_A1": {
+   "length_y": 0.20556,
+   "y_range": [
+    -0.1025,
+    0.10306
+   ],
+   "width_max_x": 0.025,
+   "x_range": [
+    -0.0125,
+    0.0125
+   ],
+   "height_z": 0.01129,
+   "stations": {
+    "-0.080": {
+     "width_x": 0.01147,
+     "thickness_z": 0.00233,
+     "z_bottom": 0.00058,
+     "z_top": 0.00291
+    },
+    "-0.040": {
+     "width_x": 0.0102,
+     "thickness_z": 0.00239,
+     "z_bottom": 0.00234,
+     "z_top": 0.00473
+    },
+    "+0.000": {
+     "width_x": 0.00861,
+     "thickness_z": 0.00252,
+     "z_bottom": 0.00516,
+     "z_top": 0.00768
+    },
+    "+0.030": {
+     "width_x": 0.00744,
+     "thickness_z": 0.0025,
+     "z_bottom": 0.008,
+     "z_top": 0.0105
+    },
+    "+0.045": {
+     "width_x": 0.01286,
+     "thickness_z": 0.0022,
+     "z_bottom": 0.0086,
+     "z_top": 0.0108
+    },
+    "+0.060": {
+     "width_x": 0.02493,
+     "thickness_z": 0.00264,
+     "z_bottom": 0.00864,
+     "z_top": 0.01128
+    },
+    "+0.085": {
+     "width_x": 0.02367,
+     "thickness_z": 0.00247,
+     "z_bottom": 0.00653,
+     "z_top": 0.00899
+    }
+   }
+  }
+ },
+ "08_Dinner_Spoon": {
+  "source": {
+   "length_y": 0.212,
+   "y_range": [
+    -0.102,
+    0.11
+   ],
+   "width_max_x": 0.038,
+   "x_range": [
+    -0.019,
+    0.019
+   ],
+   "height_z": 0.022,
+   "stations": {
+    "-0.080": {
+     "width_x": 0.0155,
+     "thickness_z": 0.002,
+     "z_bottom": 0.0015,
+     "z_top": 0.0035
+    },
+    "-0.040": {
+     "width_x": 0.012,
+     "thickness_z": 0.002,
+     "z_bottom": 0.004,
+     "z_top": 0.006
+    },
+    "+0.000": {
+     "width_x": 0.009,
+     "thickness_z": 0.002,
+     "z_bottom": 0.008,
+     "z_top": 0.01
+    },
+    "+0.030": {
+     "width_x": 0.0096,
+     "thickness_z": 0.002,
+     "z_bottom": 0.012,
+     "z_top": 0.014
+    },
+    "+0.050": {
+     "width_x": 0.021,
+     "thickness_z": 0.0085,
+     "z_bottom": 0.0105,
+     "z_top": 0.019
+    },
+    "+0.075": {
+     "width_x": 0.03717,
+     "thickness_z": 0.02117,
+     "z_bottom": 0.00083,
+     "z_top": 0.022
+    }
+   }
+  },
+  "CUT02_A1": {
+   "length_y": 0.212,
+   "y_range": [
+    -0.102,
+    0.11
+   ],
+   "width_max_x": 0.03799,
+   "x_range": [
+    -0.019,
+    0.019
+   ],
+   "height_z": 0.0105,
+   "stations": {
+    "-0.080": {
+     "width_x": 0.01227,
+     "thickness_z": 0.00299,
+     "z_bottom": 0.00079,
+     "z_top": 0.00378
+    },
+    "-0.040": {
+     "width_x": 0.01113,
+     "thickness_z": 0.00307,
+     "z_bottom": 0.00269,
+     "z_top": 0.00576
+    },
+    "+0.000": {
+     "width_x": 0.00931,
+     "thickness_z": 0.00316,
+     "z_bottom": 0.00524,
+     "z_top": 0.0084
+    },
+    "+0.030": {
+     "width_x": 0.00681,
+     "thickness_z": 0.00341,
+     "z_bottom": 0.00705,
+     "z_top": 0.01046
+    },
+    "+0.050": {
+     "width_x": 0.02746,
+     "thickness_z": 0.00454,
+     "z_bottom": 0.00296,
+     "z_top": 0.0075
+    },
+    "+0.075": {
+     "width_x": 0.03798,
+     "thickness_z": 0.00749,
+     "z_bottom": 0.0,
+     "z_top": 0.0075
+    }
+   }
+  }
+ },
+ "09_Dinner_Knife": {
+  "source": {
+   "length_y": 0.23626,
+   "y_range": [
+    -0.1125,
+    0.12376
+   ],
+   "width_max_x": 0.0225,
+   "x_range": [
+    -0.0085,
+    0.014
+   ],
+   "height_z": 0.003,
+   "stations": {
+    "-0.080": {
+     "width_x": 0.01522,
+     "thickness_z": 0.00257,
+     "z_bottom": 0.0,
+     "z_top": 0.00257
+    },
+    "-0.040": {
+     "width_x": 0.01222,
+     "thickness_z": 0.00238,
+     "z_bottom": 0.0,
+     "z_top": 0.00238
+    },
+    "+0.000": {
+     "width_x": 0.00929,
+     "thickness_z": 0.00227,
+     "z_bottom": 0.0,
+     "z_top": 0.00227
+    },
+    "+0.010": {
+     "width_x": 0.00855,
+     "thickness_z": 0.00225,
+     "z_bottom": 0.0,
+     "z_top": 0.00225
+    },
+    "+0.040": {
+     "width_x": 0.01159,
+     "thickness_z": 0.003,
+     "z_bottom": 0.0,
+     "z_top": 0.003
+    },
+    "+0.075": {
+     "width_x": 0.01583,
+     "thickness_z": 0.003,
+     "z_bottom": 0.0,
+     "z_top": 0.003
+    },
+    "+0.110": {
+     "width_x": 0.01097,
+     "thickness_z": 0.003,
+     "z_bottom": 0.0,
+     "z_top": 0.003
+    }
+   }
+  },
+  "CUT02_A1": {
+   "length_y": 0.23626,
+   "y_range": [
+    -0.1125,
+    0.12376
+   ],
+   "width_max_x": 0.02026,
+   "x_range": [
+    -0.00626,
+    0.014
+   ],
+   "height_z": 0.00435,
+   "stations": {
+    "-0.080": {
+     "width_x": 0.01199,
+     "thickness_z": 0.00417,
+     "z_bottom": 0.0,
+     "z_top": 0.00417
+    },
+    "-0.040": {
+     "width_x": 0.01248,
+     "thickness_z": 0.00432,
+     "z_bottom": 0.0,
+     "z_top": 0.00432
+    },
+    "+0.000": {
+     "width_x": 0.009,
+     "thickness_z": 0.00416,
+     "z_bottom": 0.0,
+     "z_top": 0.00416
+    },
+    "+0.010": {
+     "width_x": 0.01,
+     "thickness_z": 0.00242,
+     "z_bottom": 0.0,
+     "z_top": 0.00242
+    },
+    "+0.040": {
+     "width_x": 0.01991,
+     "thickness_z": 0.0019,
+     "z_bottom": 0.0,
+     "z_top": 0.0019
+    },
+    "+0.075": {
+     "width_x": 0.0202,
+     "thickness_z": 0.0019,
+     "z_bottom": 0.0,
+     "z_top": 0.0019
+    },
+    "+0.110": {
+     "width_x": 0.01605,
+     "thickness_z": 0.0019,
+     "z_bottom": 0.0,
+     "z_top": 0.0019
+    }
+   }
+  }
+ }
+}

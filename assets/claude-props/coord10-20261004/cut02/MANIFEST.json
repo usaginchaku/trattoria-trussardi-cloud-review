@@ -1,0 +1,321 @@
+{
+ "work": "COORD10-CUT02 cutlery remake A1 (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "dot/props-v02-20261002@7bacd4cc8d7b86b9559f9851e2ecd31dfa818571:assets/dot-props/v02/fbx/{07_Dinner_Fork,08_Dinner_Spoon,09_Dinner_Knife}.fbx"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "CUT02_A1/fbx/07_Dinner_Fork.fbx",
+   "bytes": 63964,
+   "role": "CUT02_A1 candidate mesh (FBX)",
+   "sha256": "acb7eb95d32241833de78a075fc583a6dba341ff250c4d6dffbc80bac5ecbbb8"
+  },
+  {
+   "path": "CUT02_A1/fbx/08_Dinner_Spoon.fbx",
+   "bytes": 80508,
+   "role": "CUT02_A1 candidate mesh (FBX)",
+   "sha256": "10783c9b2421c1890e85199172e9a095335e517bb12af4440caf667e33ceddac"
+  },
+  {
+   "path": "CUT02_A1/fbx/09_Dinner_Knife.fbx",
+   "bytes": 51324,
+   "role": "CUT02_A1 candidate mesh (FBX)",
+   "sha256": "30ff436f5bf6705fd85945d3036656f517044717d420146c229391412f02fbf0"
+  },
+  {
+   "path": "CUT02_A1/fbx/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "atlas image referenced by the FBX (byte copy of the v02 .fbm image @7bacd4c)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "CUT02_A1/fbx/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "atlas image referenced by the FBX (byte copy of the v02 .fbm image @7bacd4c)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "CUT02_A1/fbx/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "atlas image referenced by the FBX (byte copy of the v02 .fbm image @7bacd4c)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "CUT02_A1/models/07_Dinner_Fork.blend",
+   "bytes": 129275,
+   "role": "CUT02_A1 editable blend",
+   "sha256": "90e35398b48946481d6bc049a284a2178ce248887cbddadeba50b5c16149de14"
+  },
+  {
+   "path": "CUT02_A1/models/08_Dinner_Spoon.blend",
+   "bytes": 143669,
+   "role": "CUT02_A1 editable blend",
+   "sha256": "d7f56d32e05b6450844bc27fc4a0a5252b17d5a702941ec2f4c7db763237ea9c"
+  },
+  {
+   "path": "CUT02_A1/models/09_Dinner_Knife.blend",
+   "bytes": 118161,
+   "role": "CUT02_A1 editable blend",
+   "sha256": "94b3bec1a0794d55ba3517a0344ff8530f55c793160c8776b87a95f5668ec843"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 5201,
+   "role": "document",
+   "sha256": "779125d3de147457f76afe25b6046d69f17bd5405ac8804b19882a835e9fd164"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 878,
+   "role": "document",
+   "sha256": "9b75d2ed29b69bf58c8ffe12b07d02739732a4879c1292712719309ff9a1fcfc"
+  },
+  {
+   "path": "external_image_dependencies.json",
+   "bytes": 563,
+   "role": "document",
+   "sha256": "122fe94a0e8a23b3335976d6bc5864b00cc5a8f168e9471804ae7cbd2622b5b5"
+  },
+  {
+   "path": "previews/CUT02_A1_oblique.png",
+   "bytes": 913659,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1100,
+   "png_height": 800,
+   "rgba_sha256": "0518ade1e021976fcfd436eed9d18bab3183e4156d833b8b72c2aa7cbaf4e91f"
+  },
+  {
+   "path": "previews/CUT02_A1_oblique_closeup.png",
+   "bytes": 511040,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1125,
+   "png_height": 675,
+   "rgba_sha256": "cef9bb321b835343f7821dde9b37fbfbe9b7cf79221fca84bed2e1ad5293d086"
+  },
+  {
+   "path": "previews/CUT02_A1_side0.png",
+   "bytes": 159669,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "a23b1e6869940986bd4c401f9a063cea488a8afccfa96585e33dd378f675a39f"
+  },
+  {
+   "path": "previews/CUT02_A1_side1.png",
+   "bytes": 167384,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "7694d0decdb2e545e4bba4436953aac3a2f08192c6c203f77564161760baf804"
+  },
+  {
+   "path": "previews/CUT02_A1_side2.png",
+   "bytes": 171818,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "5aab691e8ab51073391420cc4dbe079aeb3c13e8da0744d8106b9063c12f6e1c"
+  },
+  {
+   "path": "previews/CUT02_A1_table.png",
+   "bytes": 680419,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1000,
+   "png_height": 700,
+   "rgba_sha256": "ee934fc2acda8a31dd8413eb6233b46c0d600437a06a5c1f8447f53cb4e9916a"
+  },
+  {
+   "path": "previews/CUT02_A1_top.png",
+   "bytes": 861124,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1000,
+   "rgba_sha256": "52f03cc6533eb1f99090d7df6758025854b8886e3ba443bdadd452399e5d3e7f"
+  },
+  {
+   "path": "previews/source_oblique.png",
+   "bytes": 949289,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1100,
+   "png_height": 800,
+   "rgba_sha256": "a139b0e9cb1acb5fb130db234e2909730be3439d8c6bdcc3cff13f5d922e493d"
+  },
+  {
+   "path": "previews/source_oblique_closeup.png",
+   "bytes": 570829,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1125,
+   "png_height": 675,
+   "rgba_sha256": "5d7558a71d4f4f9f5d632a0fb34bce6d578d79b3b39015e2500ad3a6c4f57d39"
+  },
+  {
+   "path": "previews/source_side0.png",
+   "bytes": 167386,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "fa47732c7be07f65587191dc269d6cb919badfa0551baf7330e88d6d3c12b3dc"
+  },
+  {
+   "path": "previews/source_side1.png",
+   "bytes": 170840,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "fb5e0c137bfe3affd9489b9e8c8487d5ebce64a9107c1d1d0af66e0c6a8d5bb0"
+  },
+  {
+   "path": "previews/source_side2.png",
+   "bytes": 168534,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "05998828cc015e9dbd66fdcaaf9033ddb6b9f0bdb21291be304950def1ddca8c"
+  },
+  {
+   "path": "previews/source_table.png",
+   "bytes": 684683,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1000,
+   "png_height": 700,
+   "rgba_sha256": "b4ac0285fca7992fd960e3646465b7d969d9a19b373121891e8060dd26f5d8b4"
+  },
+  {
+   "path": "previews/source_top.png",
+   "bytes": 893541,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1000,
+   "rgba_sha256": "9fc7d67913acb64e87bb96e96c4719d1f8d03f33e492c56a64f74645770c55a0"
+  },
+  {
+   "path": "previews/source_vs_CUT02_A1_side_each.png",
+   "bytes": 108145,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 351,
+   "rgba_sha256": "b9714e626b9198f4dea71dac6b94c684106d4dcf3a2341123699cebabab9cca4"
+  },
+  {
+   "path": "previews/source_vs_CUT02_A1_top_oblique_table.png",
+   "bytes": 817010,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1566,
+   "rgba_sha256": "75fab307ed9016b266fb34e94d6efe100b85bcaa524c424ef9c0d0a21b612a60"
+  },
+  {
+   "path": "qa/build_report.json",
+   "bytes": 2021,
+   "role": "verification record",
+   "sha256": "2bdcb47b38e7ff7206d53900fa10e35cb4b0ae1d330dfe317d394a5e93be0c46"
+  },
+  {
+   "path": "qa/dimensions_before_after.json",
+   "bytes": 6139,
+   "role": "verification record",
+   "sha256": "68c4009a83e1c2d9815d52d3b92e271e70efaf1905168db24e22559d3fa3dd1b"
+  },
+  {
+   "path": "qa/fbx_path_strip_check.json",
+   "bytes": 7989,
+   "role": "verification record",
+   "sha256": "d5162396e883cf01fe503cd13182fe1ef341968782d42de93953b4e220eaf9ba"
+  },
+  {
+   "path": "qa/geometry_uv_checks.json",
+   "bytes": 7215,
+   "role": "verification record",
+   "sha256": "47c8738d118881a2f39640bbe7515d7c447a3f998113590aa01008022d55accf"
+  },
+  {
+   "path": "qa/preview_material_both.json",
+   "bytes": 72,
+   "role": "verification record",
+   "sha256": "a04d0e7c1e61e399e66f44bdb413be3a75ab6a2d7143f2d87ea7589944a6d3b7"
+  },
+  {
+   "path": "reference_ledger_CUT02.csv",
+   "bytes": 2459,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "688d05fdec74db7346e6febfd27d26408565481b60d2ac7c9e0ce094858d9c30"
+  },
+  {
+   "path": "reference_ledger_CUT02.json",
+   "bytes": 3626,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "58f682082b2dd08d8160671bad2fce9185dbe8a422f08821aba80cb4bea0f791"
+  },
+  {
+   "path": "tools/build_cut02.py",
+   "bytes": 11549,
+   "role": "self-written code",
+   "sha256": "75abe66f5f42b660ebba5d3c0fef15b6b33a9aaee5ee261ce14fb91cb6c27198"
+  },
+  {
+   "path": "tools/check_cut.py",
+   "bytes": 4582,
+   "role": "self-written code",
+   "sha256": "267558dd6890b459e56005e76cdd33e2039dc6574fff9ccdece37ca0754a70e9"
+  },
+  {
+   "path": "tools/dims.py",
+   "bytes": 1928,
+   "role": "self-written code",
+   "sha256": "6f2f72da80f1ec1894f4df9f9a6667a4136148f3a0ddfc97397f613cdf9b6f41"
+  },
+  {
+   "path": "tools/fbx_strip_paths.py",
+   "bytes": 1585,
+   "role": "self-written code",
+   "sha256": "a53ff3acbf960d1b0c405d7b94806d54514aa4ee1524e9689e0742d38ef55610"
+  },
+  {
+   "path": "tools/mkmanifest_cut02.py",
+   "bytes": 2036,
+   "role": "self-written code",
+   "sha256": "a0af53e51fbed2903bb7454e3c8dc16b3a56cda203e48811423cec63ca83aec5"
+  },
+  {
+   "path": "tools/render_cut.py",
+   "bytes": 3982,
+   "role": "self-written code",
+   "sha256": "987d51e7b8054caaa0d363e7db9184541a0fec8ecfdacb8f17df3a1750e34d28"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_art03.py",
+   "bytes": 4870,
+   "role": "self-written code",
+   "sha256": "bccd27d2f18de89bc575a4ce5d46364754489d7f83bf78b794ecf7893088765e"
+  },
+  {
+   "path": "tools/write_ledger_cut02.py",
+   "bytes": 3173,
+   "role": "self-written code",
+   "sha256": "8d20b3642dec11c0793a4c19aafbf2d7ad8047d0ef246f738f095eceb9749f97"
+  },
+  {
+   "path": "units_axes_handoff.json",
+   "bytes": 7541,
+   "role": "document",
+   "sha256": "e923b86f972e971fa7920802383282461e98e117d148664b92f7f2833f14ad16"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "fbx": "CUT02_A1/fbx/*.fbx -> texture references are bare names (Trussardi_Atlas_BaseColor/Metallic/Roughness.png) resolved by the copies in the same fbx/ folder (byte copies of the v02 .fbm images @7bacd4c)",
+ "blend": "CUT02_A1/models/*.blend -> //../fbx/<name>.png (relative, checked to resolve)",
+ "preview_material": "qa/preview_material_both.json: plain silver used for BOTH source and candidate renders. It is a Cloud preview, not the RI11 Unity Silver material",
+ "not_used": [
+  "reference photos (not stored)",
+  "other props",
+  "Unity project"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "note": "原作写真・切抜きは含めない。画像IDと観察記述のみ",
+ "columns": [
+  "ref_id",
+  "item",
+  "visible_part",
+  "observation",
+  "confidence",
+  "hidden_moire_or_inferred",
+  "used_in_CUT02_A1"
+ ],
+ "rows": [
+  {
+   "ref_id": "IMG_3624",
+   "item": "fork",
+   "visible_part": "頭・首・柄の上部(画面左端。2本目は一部)",
+   "observation": "4歯で長く細い。歯の根元から首へ、肩が丸く絞られる。頭の付け根に影があり、わずかに匙状。柄は細く首から連続",
+   "confidence": "high",
+   "hidden_moire_or_inferred": "柄の端は画面外。斜めの遠近で頭が大きく見える。画面モアレあり(柄に写さない)",
+   "used_in_CUT02_A1": "4歯(根元4.0→先2.6mm、間隔3mm、V字の歯底)、丸い肩(S字で24mmかけて絞る)、首幅7.4mm、頭を横方向にわずかに反らせる"
+  },
+  {
+   "ref_id": "IMG_3624",
+   "item": "knife",
+   "visible_part": "刃と首(画面右端)",
+   "observation": "刃は広く、先は穏やかに丸い。背は直線に近く、刃側が曲線。刃から細い首を経て柄へ連続",
+   "confidence": "high",
+   "hidden_moire_or_inferred": "柄の大部分は画面外。厚みは読めない",
+   "used_in_CUT02_A1": "刃幅20mm、先端を刃幅の半円で丸め、首9mmに絞ってから柄へ。刃は背1.9→刃先0.5mmのくさび"
+  },
+  {
+   "ref_id": "IMG_3615",
+   "item": "fork x2 / knife / spoon",
+   "visible_part": "卓上を真上から見た配置",
+   "observation": "フォークの柄は細く、端がわずかに広がり丸い。首は細い。スプーンの椀はほぼ楕円",
+   "confidence": "medium",
+   "hidden_moire_or_inferred": "字幕と手でスプーンとナイフの一部が隠れる。小さく写るので寸法比は目安",
+   "used_in_CUT02_A1": "柄の端を丸くし、端に向けてやや幅を広げる。スプーンの椀を楕円(38×71mm)に"
+  },
+  {
+   "ref_id": "IMG_3651",
+   "item": "fork",
+   "visible_part": "手持ちのフォーク(小さい)",
+   "observation": "薄い側面と反りが見える",
+   "confidence": "low-medium",
+   "hidden_moire_or_inferred": "柄の端は手で隠れる。全形状は断定しない",
+   "used_in_CUT02_A1": "横から見た緩い反り(柄の端は接地、頭は持ち上がる)"
+  },
+  {
+   "ref_id": "IMG_3682",
+   "item": "fork?",
+   "visible_part": "歯先のみ",
+   "observation": "先端以外はほぼ隠れる",
+   "confidence": "low",
+   "hidden_moire_or_inferred": "このカットから全形状は断定しない",
+   "used_in_CUT02_A1": "使用せず"
+  },
+  {
+   "ref_id": "IMG_3755 / IMG_3756 / IMG_3824",
+   "item": "spoon",
+   "visible_part": "プリン/コーヒーの卓",
+   "observation": "読めるスプーンは写っていない(カップと皿のみ)",
+   "confidence": "high(写っていないこと)",
+   "hidden_moire_or_inferred": "スプーンの裏面・深さ・首の形は資料なし → 推測",
+   "used_in_CUT02_A1": "スプーンの深さ6.2mm、肉厚1.3mm、首・柄は一般的な形の推測"
+  },
+  {
+   "ref_id": "指示役のローカル観察",
+   "item": "fork / knife / spoon",
+   "visible_part": "—",
+   "observation": "(指示文) フォーク4歯、丸い肩と首、頭がやや匙状に反る。ナイフは丸い先端と広い刃から首への連続。スプーンの裏面・深さは推測",
+   "confidence": "—",
+   "hidden_moire_or_inferred": "観察した原画像は指示役側。クラウドで見た同じ画像と矛盾はない",
+   "used_in_CUT02_A1": "上記の各項目に反映"
+  }
+ ]
+}

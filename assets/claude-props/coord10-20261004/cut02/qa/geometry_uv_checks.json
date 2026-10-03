@@ -1,0 +1,530 @@
+{
+ "07_Dinner_Fork.fbx": {
+  "objects": [
+   "07_Dinner_Fork_Mesh"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 311,
+  "tris": 618,
+  "bbox": [
+   [
+    -0.0132,
+    -0.1025,
+    0.0
+   ],
+   [
+    0.0132,
+    0.10306,
+    0.01369
+   ]
+  ],
+  "size_m": [
+   0.0264,
+   0.20556,
+   0.01369
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 10,
+  "min_tri_area": 0.0,
+  "signed_volume_m3": 8.57136433535769e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.1333,
+     0.133
+    ],
+    [
+     0.2284,
+     0.242
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.003,
+     0.0299
+    ],
+    [
+     0.997,
+     0.9841
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 254741
+ },
+ "08_Dinner_Spoon.fbx": {
+  "objects": [
+   "08_Dinner_Spoon_Mesh"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 1040,
+  "tris": 2076,
+  "bbox": [
+   [
+    -0.019,
+    -0.102,
+    0.0
+   ],
+   [
+    0.019,
+    0.11,
+    0.022
+   ]
+  ],
+  "size_m": [
+   0.038,
+   0.212,
+   0.022
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 0,
+  "min_tri_area": 7.02075553249415e-08,
+  "signed_volume_m3": 7.10880386624313e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.1337,
+     0.1337
+    ],
+    [
+     0.1955,
+     0.2413
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0053,
+     0.0053
+    ],
+    [
+     0.5654,
+     0.9947
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 202129
+ },
+ "09_Dinner_Knife.fbx": {
+  "objects": [
+   "09_Dinner_Knife_Mesh"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 205,
+  "tris": 406,
+  "bbox": [
+   [
+    -0.0085,
+    -0.1125,
+    0.0
+   ],
+   [
+    0.014,
+    0.12376,
+    0.003
+   ]
+  ],
+  "size_m": [
+   0.0225,
+   0.23626,
+   0.003
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 10,
+  "min_tri_area": 3.3852044431514905e-14,
+  "signed_volume_m3": 7.474857212404327e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.1333,
+     0.1333
+    ],
+    [
+     0.1846,
+     0.2417
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0023,
+     0.0023
+    ],
+    [
+     0.2603,
+     0.9977
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 122403
+ },
+ "07_Dinner_Fork.fbx@CUT02_A1": {
+  "objects": [
+   "07_Dinner_Fork_Mesh.001"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 634,
+  "tris": 1264,
+  "bbox": [
+   [
+    -0.0125,
+    -0.1025,
+    0.0
+   ],
+   [
+    0.0125,
+    0.10306,
+    0.01129
+   ]
+  ],
+  "size_m": [
+   0.025,
+   0.20556,
+   0.01129
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 0,
+  "min_tri_area": 6.962694243384249e-08,
+  "signed_volume_m3": 4.995912607346383e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.14,
+     0.14
+    ],
+    [
+     0.185,
+     0.235
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0027,
+     0.0027
+    ],
+    [
+     0.3675,
+     0.9973
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 146810
+ },
+ "08_Dinner_Spoon.fbx@CUT02_A1": {
+  "objects": [
+   "08_Dinner_Spoon_Mesh.001"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 830,
+  "tris": 1656,
+  "bbox": [
+   [
+    -0.019,
+    -0.102,
+    0.0
+   ],
+   [
+    0.019,
+    0.11,
+    0.0105
+   ]
+  ],
+  "size_m": [
+   0.03799,
+   0.212,
+   0.0105
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 0,
+  "min_tri_area": 2.163210837125007e-07,
+  "signed_volume_m3": 6.589238885737544e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.14,
+     0.14
+    ],
+    [
+     0.185,
+     0.235
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0024,
+     0.0024
+    ],
+    [
+     0.4318,
+     0.9976
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 181466
+ },
+ "09_Dinner_Knife.fbx@CUT02_A1": {
+  "objects": [
+   "09_Dinner_Knife_Mesh.001"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 458,
+  "tris": 912,
+  "bbox": [
+   [
+    -0.00626,
+    -0.1125,
+    0.0
+   ],
+   [
+    0.014,
+    0.12376,
+    0.00435
+   ]
+  ],
+  "size_m": [
+   0.02026,
+   0.23626,
+   0.00435
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 0,
+  "min_tri_area": 4.759931471198797e-08,
+  "signed_volume_m3": 7.486416510303079e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.14,
+     0.14
+    ],
+    [
+     0.185,
+     0.235
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0018,
+     0.0018
+    ],
+    [
+     0.216,
+     0.9982
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 142731
+ }
+}
