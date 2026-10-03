@@ -1,0 +1,104 @@
+{
+ "note": "参考画像・切抜き・スクリーンショットは含めない。Drive画像ID(ファイル名)と観察記述のみ。IMG_3659-3661は不使用。",
+ "columns": [
+  "ref_id",
+  "target",
+  "part",
+  "observation",
+  "confidence",
+  "undetermined_or_speculation",
+  "mapping_in_candidate"
+ ],
+ "rows": [
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_22(UL)",
+   "part": "painting",
+   "observation": "淡い空色地に青い斑、テラコッタ/橙の塊が右下へ段状・斜めに下る",
+   "confidence": "high(4枚とも正面に近く明瞭)",
+   "undetermined_or_speculation": "上辺付近は画像端で額ごと切れ不明。3638で上部が淡色と確認するが細部は推測",
+   "mapping_in_candidate": "A1 tile21: 淡空色地+青斑+橙の段状斜め塊(自作手描き)"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_22(UL)",
+   "part": "frame/mat",
+   "observation": "太いオリーブ額に放射状の彫り溝、クリーム色マット、細い暗色内線",
+   "confidence": "medium(画面撮影で色は露出補正x1.2の推定値)",
+   "undetermined_or_speculation": "彫り溝の本数/深さは解像度不足で不明",
+   "mapping_in_candidate": "A2 F22: olive暗め(84,88,60)+青マット→クリーム(226,221,198)。彫り溝は未対応(形状変更要)"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_23(UR)",
+   "part": "painting",
+   "observation": "白い上部、ラベンダーの丸い山が3〜4個、中央が最も高い",
+   "confidence": "high",
+   "undetermined_or_speculation": "山の境目の細部は画面モアレで不明。モアレは柄に写していない",
+   "mapping_in_candidate": "A1 tile22: 白地+中央高のラベンダー丸山4個(基部連結)"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_23(UR)",
+   "part": "frame/mat",
+   "observation": "細い暗オリーブ額、広い青灰マット、絵は小さい",
+   "confidence": "medium",
+   "undetermined_or_speculation": "マット幅は実物の方が広い(=絵が小さい)。幅変更は形状変更要でA1/A2範囲外",
+   "mapping_in_candidate": "A2 F23: 額 青→暗緑(66,70,54)、内リム クリーム→青灰(200,214,214)"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_24(LL)",
+   "part": "painting",
+   "observation": "左に青い縦積みの塊、右に黄土色の縦塊、白い地",
+   "confidence": "high",
+   "undetermined_or_speculation": "塊の内部筆致は不明",
+   "mapping_in_candidate": "A1 tile23: 白地+左青縦積み楕円群+右黄土縦塊"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_24(LL)",
+   "part": "frame/mat",
+   "observation": "マルーン額、クリームマット",
+   "confidence": "medium",
+   "undetermined_or_speculation": "なし",
+   "mapping_in_candidate": "A2 F24: pink→maroon(112,58,62)"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_25(LR)",
+   "part": "painting",
+   "observation": "紫の角/珊瑚状のY字分岐、下部に明るいラベンダーの塊",
+   "confidence": "high",
+   "undetermined_or_speculation": "枝先の本数は推定(3〜5)",
+   "mapping_in_candidate": "A1 tile24: 淡地+紫Y字分岐(太線丸端)+下部淡ラベンダー塊"
+  },
+  {
+   "ref_id": "IMG_3669",
+   "target": "Left_Frame_25(LR)",
+   "part": "frame/mat",
+   "observation": "オリーブ額、淡いラベンダー白マット",
+   "confidence": "medium",
+   "undetermined_or_speculation": "なし",
+   "mapping_in_candidate": "A2 F25: olive暗め+青マット→淡ラベンダー白(228,228,240)"
+  },
+  {
+   "ref_id": "IMG_3638",
+   "target": "Left_Frame_22..25",
+   "part": "all",
+   "observation": "反対側からの視点。人物で一部遮蔽。UL上部が淡色である補助確認",
+   "confidence": "low-medium(遮蔽・斜め)",
+   "undetermined_or_speculation": "遮蔽部は判定に使わず人物形状は柄に写していない",
+   "mapping_in_candidate": "補助確認のみ"
+  },
+  {
+   "ref_id": "user_layout_reference_1.jpg",
+   "target": "-",
+   "part": "-",
+   "observation": "クラウドに未提供のため未閲覧",
+   "confidence": "-",
+   "undetermined_or_speculation": "未閲覧",
+   "mapping_in_candidate": "使用せず"
+  }
+ ]
+}
