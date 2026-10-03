@@ -1,0 +1,28 @@
+{
+ "work": "COORD10-ART06ISO isolation options review (read-only, text only, Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord10-art05-input-20261004@03bfdaef576cb4649e9356d20f6f0c4edd5f4964",
+  "records_read": [
+   "ART06P 779ee005",
+   "ART06 5b873d58"
+  ],
+  "facts": "元Codex local report as relayed by director (not re-measured here)"
+ },
+ "excluded": "no images, reference pixels, Unity data, history, credentials",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 8111,
+   "sha256": "7988e636d87ac02a76c381817d4c18135c5e3aa0f0765bcb9441aa5c403652ec",
+   "role": "document (text only)"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 779,
+   "sha256": "fa446147dccc5904e5e19410dc8a0d5ead6c99bf11a744d3d5b044bf7c896b05",
+   "role": "document (text only)"
+  }
+ ]
+}

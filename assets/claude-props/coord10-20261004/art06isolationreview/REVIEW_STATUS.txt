@@ -1,0 +1,7 @@
+COORD10-ART06ISO REVIEW_STATUS (2026-10-04 JST, Claude cloud)
+- 状態: 読み取りだけで整理した(テキストのみ)。実装、候補制作、再描画、Unity、Blender は行っていない。
+- 採用の状態: ローカルの RI16 を採用中。ART06 の色は保留。
+- 結論: texel の不変(tile5 外)と filtered 描画の不変は別物。後者は境界で微差があり、未確定。
+- 推奨: 最小確認 (A)(B)(読み取りのみ)→ 選択肢 1 の視覚判断 → 必要な場合だけ選択肢 2(native import に依存)。選択肢 3 は勧めない。
+- 次の担当: 元Codex(最小確認)、指示役(採用の判断)。
+- 実行していないこと: Bake、AO、Play、Build、SDK、upload、インストール、認証や課金の変更。
