@@ -1,0 +1,1 @@
+top view (fork A1, spoon A1, knife A2): (1000, 900, 4) RGBA identical True 4bc4e3fe23fe872ceaf7b19e0602eb7211717771d5035877da9cd8afe2324d26 4bc4e3fe23fe872ceaf7b19e0602eb7211717771d5035877da9cd8afe2324d26

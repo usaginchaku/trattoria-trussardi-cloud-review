@@ -1,0 +1,6 @@
+COORD10-CUT05 REVIEW_STATUS (2026-10-04 JST, Claude cloud, pip bpy 4.3.0)
+- 修正コピー 4 点(CUT02 A1 の Fork / Spoon / Knife、CUT03 A2 の Knife): 納品。
+- 実証: 全木構造の差は Shading の型 B → C の 1 か所だけ。全配列の値ハッシュは同一。Blender 再読込で形状/法線/UV/材質が同一。
+        無地の銀の上面で RGBA が完全一致。
+- 保持: .001 付きのオブジェクト名(原本名と不一致。元Codex が対応を記録して扱う)。他の旧 FBX 7 個と既存 blend は変更なし。
+- 未実施 → 元Codex: Unity / Autodesk FBX SDK での読み込み互換の確認、Blender 5.2.2 での確認。

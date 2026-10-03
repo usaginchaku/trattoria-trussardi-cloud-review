@@ -1,0 +1,202 @@
+{
+ "work": "COORD10-CUT05 FBX bool type-code repaired copies (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "CUT02": "claude/coord09-model-review-20261003@91bbcff37e569b6cd630c70bbc9b64949bccb389",
+  "CUT03": "claude/coord09-model-review-20261003@0dce019df77f5a228e5f307984b11b78665f4458"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 2751,
+   "role": "document",
+   "sha256": "11ed77cff3da7893959c489769893b59a70c9a5b9395833ca77ab406d8f825c2"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 677,
+   "role": "document",
+   "sha256": "23c4d317fdc0c298dd218d2923ed298238c364bc45cda08ea51ab88273f5a1b2"
+  },
+  {
+   "path": "TARGETS.json",
+   "bytes": 2203,
+   "role": "document",
+   "sha256": "77b0380076aadc8a760bebef1fadc1fd68b55cf728410f01431f95e9d8adb9e8"
+  },
+  {
+   "path": "fbx_A1/07_Dinner_Fork.fbx",
+   "bytes": 63964,
+   "role": "type-code repaired copy (only Model/Shading B->C)",
+   "sha256": "1ce40a7e1d9f5b3a7d2d0ba05183d0cf93b432cbb4f797e755a01b712e8d698c"
+  },
+  {
+   "path": "fbx_A1/08_Dinner_Spoon.fbx",
+   "bytes": 80508,
+   "role": "type-code repaired copy (only Model/Shading B->C)",
+   "sha256": "88db572dab6424b0fa89e1090bfbba77cc33b986dfbb0dbe7f329ae563e8db2f"
+  },
+  {
+   "path": "fbx_A1/09_Dinner_Knife.fbx",
+   "bytes": 51324,
+   "role": "type-code repaired copy (only Model/Shading B->C)",
+   "sha256": "8d863f8523cae1a45dfe313ae2fe6bcfeb1e386c2def3fcba00e18e3112d6055"
+  },
+  {
+   "path": "fbx_A1/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "atlas image (byte copy of the source commit file)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "fbx_A1/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "atlas image (byte copy of the source commit file)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "fbx_A1/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "atlas image (byte copy of the source commit file)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "fbx_A2knife/09_Dinner_Knife.fbx",
+   "bytes": 58252,
+   "role": "type-code repaired copy (only Model/Shading B->C)",
+   "sha256": "ad9ae551d31aadca0aed3a3b5dfaf7fdbc12cb9c08055ae599ef8bb5af699dd7"
+  },
+  {
+   "path": "fbx_A2knife/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "atlas image (byte copy of the source commit file)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "fbx_A2knife/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "atlas image (byte copy of the source commit file)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "fbx_A2knife/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "atlas image (byte copy of the source commit file)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "previews/old_vs_typecode_repaired_top.png",
+   "bytes": 241934,
+   "role": "old vs repaired plain-silver render (one pair)",
+   "png_width": 1080,
+   "png_height": 622,
+   "rgba_sha256": "51c2c85afde9f09411ff0937e3a6337bed435a5548ace94fb3e31a59744fe8e0"
+  },
+  {
+   "path": "qa/array_hashes_and_reimport.json",
+   "bytes": 9968,
+   "role": "verification record",
+   "sha256": "5ad856405649c06566c3fe0e962b6507ed053c5c7fd4fd3f9a1291a534b5404b"
+  },
+  {
+   "path": "qa/plain_silver_top_rgba_compare.txt",
+   "bytes": 205,
+   "role": "verification record",
+   "sha256": "901e717da6d5d4c03213ca4fd531bec2bb0b208138859125cdec126748a65df6"
+  },
+  {
+   "path": "qa/preview_material_both.json",
+   "bytes": 72,
+   "role": "verification record",
+   "sha256": "a04d0e7c1e61e399e66f44bdb413be3a75ab6a2d7143f2d87ea7589944a6d3b7"
+  },
+  {
+   "path": "qa/tree_diff_A1_07_Dinner_Fork.json",
+   "bytes": 205,
+   "role": "verification record",
+   "sha256": "daabeb8f46927d17144fd1b8241f5cb9d114bd2aeddd8a4f607785024bc58cdd"
+  },
+  {
+   "path": "qa/tree_diff_A1_08_Dinner_Spoon.json",
+   "bytes": 207,
+   "role": "verification record",
+   "sha256": "278183a28ca445996c0f543c21edaa9d937f1d67ce5a8884d0911c425daddd2d"
+  },
+  {
+   "path": "qa/tree_diff_A1_09_Dinner_Knife.json",
+   "bytes": 207,
+   "role": "verification record",
+   "sha256": "f440815ad24ec357d5cfd2f46c0a05e1a4ec976775cf393a490ecfb95ca3b8dc"
+  },
+  {
+   "path": "qa/tree_diff_A2_09_Dinner_Knife.json",
+   "bytes": 207,
+   "role": "verification record",
+   "sha256": "f5b87f72199c0e4abf1555d7855159be81703d51a2b6f54ad3e26cd9384e2900"
+  },
+  {
+   "path": "qa/typecode_audit_cut05.json",
+   "bytes": 612,
+   "role": "verification record",
+   "sha256": "9644a277482d4323c9fcab7ac4ec605a667c4e91e64d6aaf8252e7a677de2c91"
+  },
+  {
+   "path": "tools/array_hash_and_reimport.py",
+   "bytes": 2577,
+   "role": "self-written code",
+   "sha256": "e29d53a060a7c847f9186f18ca97a63d416df895403b8918e6b18e168b3c7ecc"
+  },
+  {
+   "path": "tools/fbx_bool_typecode_repair.py",
+   "bytes": 1522,
+   "role": "self-written code",
+   "sha256": "55342d5bc1961bd8114dc6bb7405e7209eca53b4f192a547b1d14868a01866b0"
+  },
+  {
+   "path": "tools/fbx_tree_diff.py",
+   "bytes": 1717,
+   "role": "self-written code",
+   "sha256": "f4ca4ceffc38b80e7000b9f2687b0ba92d9cb9c94073fb4aca595de6bea82581"
+  },
+  {
+   "path": "tools/fbx_typecode_audit.py",
+   "bytes": 1503,
+   "role": "self-written code",
+   "sha256": "46b642294373b1f412908bf9089d2862ae80cc83d3fa6e86dcf4caa07f628489"
+  },
+  {
+   "path": "tools/mkmanifest_cut05.py",
+   "bytes": 1883,
+   "role": "self-written code",
+   "sha256": "249fbbd2b2bf15fb388a7974a786069654ac43a246b9648a4dd7eb6547cbdf28"
+  },
+  {
+   "path": "tools/render_top.py",
+   "bytes": 3433,
+   "role": "self-written code",
+   "sha256": "ef11b40d0ad27159a255599438a2b8a55f5dd6b77a08336fb3a6f5c605fdcd13"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  }
+ ]
+}

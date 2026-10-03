@@ -1,0 +1,274 @@
+{
+ "A1_07_Dinner_Fork": {
+  "old_sha256": "acb7eb95d32241833de78a075fc583a6dba341ff250c4d6dffbc80bac5ecbbb8",
+  "new_sha256": "1ce40a7e1d9f5b3a7d2d0ba05183d0cf93b432cbb4f797e755a01b712e8d698c",
+  "arrays_compared": 11,
+  "array_value_hashes_identical": true,
+  "array_hashes": {
+   "/Objects/Geometry/Vertices/p0": "64121b5616005fc00598d3a99636da5e110851cf8fbda26b83b93cdcc974c39c",
+   "/Objects/Geometry/PolygonVertexIndex/p0": "7cc3529169bdd1ea36453e8d88a02124b2fffd07878e0725da4ad99ce24dc15d",
+   "/Objects/Geometry/Edges/p0": "9b6c40fb6a3e6a0d2863ce06750c36c35b41065888c7f2c74cd6f832599b992c",
+   "/Objects/Geometry/LayerElementSmoothing/Smoothing/p0": "8ac542ff00f43cbfca6d6c8a3196d3a5422922e83bec97f8b35ed028e656742c",
+   "/Objects/Geometry/LayerElementNormal/Normals/p0": "50c402088c493442eb51d589a7cfc6226049209991402e0dac20a5363e93d1e8",
+   "/Objects/Geometry/LayerElementNormal/NormalsIndex/p0": "530d0192f994396b79c4ad74031b54ae0ca4aa112d5599cfd7460194a89f6d38",
+   "/Objects/Geometry/LayerElementUV/UV/p0": "4bd220fcb578c863a82cecdb4cf71c375fa73468f3a53d498c105a941b5d87f4",
+   "/Objects/Geometry/LayerElementUV/UVIndex/p0": "b676a0e00f0900399b6a0ee88d851ef0c4d1a53a9597eeb450344f5b47475806",
+   "/Objects/Geometry/LayerElementUV[1]/UV/p0": "f4801312f1cde2f7a11935871d5009a64970e27d8cd99efee44dd3c676e2ba76",
+   "/Objects/Geometry/LayerElementUV[1]/UVIndex/p0": "3889d749411d4a5198abe9a494a813c8f0c131749d916cec27397c76f4a065b2",
+   "/Objects/Geometry/LayerElementMaterial/Materials/p0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "reimport": {
+   "object_name": [
+    "07_Dinner_Fork_Mesh.001",
+    "07_Dinner_Fork_Mesh.001"
+   ],
+   "verts_identical": true,
+   "loop_order_identical": true,
+   "corner_normals_identical": true,
+   "uv_identical": {
+    "UVMap": true,
+    "LightmapUV": true
+   },
+   "materials": [
+    [
+     "Trussardi_Atlas"
+    ],
+    [
+     "Trussardi_Atlas"
+    ]
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ],
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_BaseColor.png.002",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ]
+   ],
+   "transform_identical": true,
+   "bbox": [
+    [
+     -0.0125,
+     -0.1025,
+     0.0
+    ],
+    [
+     0.0125,
+     0.10306,
+     0.01129
+    ]
+   ]
+  }
+ },
+ "A1_08_Dinner_Spoon": {
+  "old_sha256": "10783c9b2421c1890e85199172e9a095335e517bb12af4440caf667e33ceddac",
+  "new_sha256": "88db572dab6424b0fa89e1090bfbba77cc33b986dfbb0dbe7f329ae563e8db2f",
+  "arrays_compared": 11,
+  "array_value_hashes_identical": true,
+  "array_hashes": {
+   "/Objects/Geometry/Vertices/p0": "8a9d1c98440cf286e7b27da3d78e6106ed0c2c66d59b1f5c6ccd4d82992b47e5",
+   "/Objects/Geometry/PolygonVertexIndex/p0": "c2500fa8ede3146b98eb559b9d33c1b2ba4e2e96c1ab891a3d8d959cd5b7c498",
+   "/Objects/Geometry/Edges/p0": "ea66b3f6953ce304411c834a91da67e610398f75a2a9ec1180f6537214dbdad7",
+   "/Objects/Geometry/LayerElementSmoothing/Smoothing/p0": "53bc9ee1f0e10ecb19976521d8cebf53105890f368f5b6169cfe99dea3bd63b1",
+   "/Objects/Geometry/LayerElementNormal/Normals/p0": "e5e60b681079efb303dea02a42e14311c87e26fc7d919835c88c3fcd5e7e54e9",
+   "/Objects/Geometry/LayerElementNormal/NormalsIndex/p0": "5f037ebc70dd1c46b3e6a6c9773b3731cf8c2067f7fe59ccabce9a627bbdabe9",
+   "/Objects/Geometry/LayerElementUV/UV/p0": "8664c8a9f1cab2b1c6fa85847675aca6ac96ca6c40851a312160a542bbf32895",
+   "/Objects/Geometry/LayerElementUV/UVIndex/p0": "70c18f808029b415b3ab7a8d1e667dde0dddf983ad74ff63917f5fec2be76af9",
+   "/Objects/Geometry/LayerElementUV[1]/UV/p0": "2b66ca378a168a84e7ee4cb59fdf0663eba77f3e7c497f8fc1310f3a7f067595",
+   "/Objects/Geometry/LayerElementUV[1]/UVIndex/p0": "aeebf6c9b65d3081637538c6fa66e27534ea8f95e2bcbb8cf45fdfea833b8bad",
+   "/Objects/Geometry/LayerElementMaterial/Materials/p0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "reimport": {
+   "object_name": [
+    "08_Dinner_Spoon_Mesh.001",
+    "08_Dinner_Spoon_Mesh.001"
+   ],
+   "verts_identical": true,
+   "loop_order_identical": true,
+   "corner_normals_identical": true,
+   "uv_identical": {
+    "UVMap": true,
+    "LightmapUV": true
+   },
+   "materials": [
+    [
+     "Trussardi_Atlas"
+    ],
+    [
+     "Trussardi_Atlas"
+    ]
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ],
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_BaseColor.png.002",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ]
+   ],
+   "transform_identical": true,
+   "bbox": [
+    [
+     -0.019,
+     -0.102,
+     0.0
+    ],
+    [
+     0.019,
+     0.11,
+     0.0105
+    ]
+   ]
+  }
+ },
+ "A1_09_Dinner_Knife": {
+  "old_sha256": "30ff436f5bf6705fd85945d3036656f517044717d420146c229391412f02fbf0",
+  "new_sha256": "8d863f8523cae1a45dfe313ae2fe6bcfeb1e386c2def3fcba00e18e3112d6055",
+  "arrays_compared": 11,
+  "array_value_hashes_identical": true,
+  "array_hashes": {
+   "/Objects/Geometry/Vertices/p0": "6629c7a50df5543a488f7bc35195df841e80ae770d5267c0ad92b0a0bd09dc6b",
+   "/Objects/Geometry/PolygonVertexIndex/p0": "1ce405b5780f0be085f9d379c31d643787aba8f8caca0b82dcc5ea08783b1b2c",
+   "/Objects/Geometry/Edges/p0": "e6167950decec375d2e65ca7dcea4c41ce2fa5ea3f59fe3c88bec7803f84ca02",
+   "/Objects/Geometry/LayerElementSmoothing/Smoothing/p0": "3c325cfddf38880ec4905c38227e941fc27a24acd652c9cefd8df5d572212fd7",
+   "/Objects/Geometry/LayerElementNormal/Normals/p0": "eca7b988a61918f555b4ffbd3ad6890b3a9e053b722dfa7bb8777ce706920c7f",
+   "/Objects/Geometry/LayerElementNormal/NormalsIndex/p0": "ab8b10e622f2685a0d24b7e17997ace058c2a35f62aa0947b4085454cc1c27d1",
+   "/Objects/Geometry/LayerElementUV/UV/p0": "d5a76ac679cb3d47909eba9e5ff8d5606ed3477d24abff13e5ac81a68878cbca",
+   "/Objects/Geometry/LayerElementUV/UVIndex/p0": "56fbbb8096f5aa0413059c29d3b04e290e52a2619c4ac6399e9675edd71e7870",
+   "/Objects/Geometry/LayerElementUV[1]/UV/p0": "efa17a89596cd06f50f6af2aa11a7380638bc7a6af3dd126ed9082839742ba61",
+   "/Objects/Geometry/LayerElementUV[1]/UVIndex/p0": "14df9797fbe8c6a18aa094778f2f6b69f69f223969660dce0e1d7fe085b7e93a",
+   "/Objects/Geometry/LayerElementMaterial/Materials/p0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "reimport": {
+   "object_name": [
+    "09_Dinner_Knife_Mesh.001",
+    "09_Dinner_Knife_Mesh.001"
+   ],
+   "verts_identical": true,
+   "loop_order_identical": true,
+   "corner_normals_identical": true,
+   "uv_identical": {
+    "UVMap": true,
+    "LightmapUV": true
+   },
+   "materials": [
+    [
+     "Trussardi_Atlas"
+    ],
+    [
+     "Trussardi_Atlas"
+    ]
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ],
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_BaseColor.png.002",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ]
+   ],
+   "transform_identical": true,
+   "bbox": [
+    [
+     -0.00626,
+     -0.1125,
+     0.0
+    ],
+    [
+     0.014,
+     0.12376,
+     0.00435
+    ]
+   ]
+  }
+ },
+ "A2_09_Dinner_Knife": {
+  "old_sha256": "722593376524ff57c777282ff6df880957666d432a6b45c08731ef57aaf75f82",
+  "new_sha256": "ad9ae551d31aadca0aed3a3b5dfaf7fdbc12cb9c08055ae599ef8bb5af699dd7",
+  "arrays_compared": 11,
+  "array_value_hashes_identical": true,
+  "array_hashes": {
+   "/Objects/Geometry/Vertices/p0": "63f16471971e63c88b62610f2863076030c4c8f514f78e706ffcd8d649235176",
+   "/Objects/Geometry/PolygonVertexIndex/p0": "e92305dfbfc50c0744ac52541cbe3bbab5797046c19214a1673f1538b59b3171",
+   "/Objects/Geometry/Edges/p0": "3414d8d21da99d8c67bf7056e46871aaa671a121a1226ae859ee2fc07cd1738c",
+   "/Objects/Geometry/LayerElementSmoothing/Smoothing/p0": "16dbb9f626bbd61812dc279da70e95c351a09690f3840c2b19bd77bfb6dcf03a",
+   "/Objects/Geometry/LayerElementNormal/Normals/p0": "b63bc19a036408db0aff04b51c8c9523710cc132da685c298908087bf30ef37c",
+   "/Objects/Geometry/LayerElementNormal/NormalsIndex/p0": "3202aa0b67561361643c61f5b13759624989027257a885decdc5cc21a0dde6b8",
+   "/Objects/Geometry/LayerElementUV/UV/p0": "465d3d22a771a4c5f6d0aa0a26c80f7f7628c5c4a00fc8c75501ae93b58afc2d",
+   "/Objects/Geometry/LayerElementUV/UVIndex/p0": "fa7a7121f4b657a340b5daf0bb2e9115bb7a1fc50f302a412f455b94ecf6496e",
+   "/Objects/Geometry/LayerElementUV[1]/UV/p0": "e2adeb5e60cd5b82c5390a3d43f74defd5eb03fe09b63ec4abdcefac58572cc6",
+   "/Objects/Geometry/LayerElementUV[1]/UVIndex/p0": "9b65c8814fc0f11dfa2160005b681885dc75d01caabb8383b488d9b4155ce9da",
+   "/Objects/Geometry/LayerElementMaterial/Materials/p0": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  "reimport": {
+   "object_name": [
+    "09_Dinner_Knife_Mesh.001",
+    "09_Dinner_Knife_Mesh.001"
+   ],
+   "verts_identical": true,
+   "loop_order_identical": true,
+   "corner_normals_identical": true,
+   "uv_identical": {
+    "UVMap": true,
+    "LightmapUV": true
+   },
+   "materials": [
+    [
+     "Trussardi_Atlas"
+    ],
+    [
+     "Trussardi_Atlas"
+    ]
+   ],
+   "images": [
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ],
+    [
+     "Trussardi_Atlas_BaseColor.png",
+     "Trussardi_Atlas_BaseColor.png.001",
+     "Trussardi_Atlas_BaseColor.png.002",
+     "Trussardi_Atlas_Metallic.png",
+     "Trussardi_Atlas_Roughness.png"
+    ]
+   ],
+   "transform_identical": true,
+   "bbox": [
+    [
+     -0.00626,
+     -0.1125,
+     0.0
+    ],
+    [
+     0.014,
+     0.12376,
+     0.00435
+    ]
+   ]
+  }
+ }
+}

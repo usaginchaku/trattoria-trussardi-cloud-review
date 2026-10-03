@@ -1,0 +1,13 @@
+{
+ "a": "A1_07_Dinner_Fork.fbx",
+ "b": "07_Dinner_Fork.fbx",
+ "differences": [
+  {
+   "path": "/Objects/Model/Shading/prop0",
+   "type_a": "B",
+   "type_b": "C",
+   "a": "True",
+   "b": "b'\\x01'"
+  }
+ ]
+}

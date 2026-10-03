@@ -1,0 +1,25 @@
+{
+ "note": "'B' type code found = written by the earlier tools/fbx_strip_paths.py (bool -> 'B'); value is the same as the standard 'C' 1-byte bool",
+ "files": [
+  {
+   "file": "coord10-20261004/cut05/fbx_A2knife/09_Dinner_Knife.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "coord10-20261004/cut05/fbx_A1/07_Dinner_Fork.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "coord10-20261004/cut05/fbx_A1/08_Dinner_Spoon.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "coord10-20261004/cut05/fbx_A1/09_Dinner_Knife.fbx",
+   "B_typed_props": 0,
+   "where": []
+  }
+ ]
+}

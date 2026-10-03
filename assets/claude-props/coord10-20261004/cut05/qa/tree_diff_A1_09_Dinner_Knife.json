@@ -1,0 +1,13 @@
+{
+ "a": "A1_09_Dinner_Knife.fbx",
+ "b": "09_Dinner_Knife.fbx",
+ "differences": [
+  {
+   "path": "/Objects/Model/Shading/prop0",
+   "type_a": "B",
+   "type_b": "C",
+   "a": "True",
+   "b": "b'\\x01'"
+  }
+ ]
+}

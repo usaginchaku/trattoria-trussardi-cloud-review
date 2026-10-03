@@ -1,0 +1,13 @@
+{
+ "a": "A1_08_Dinner_Spoon.fbx",
+ "b": "08_Dinner_Spoon.fbx",
+ "differences": [
+  {
+   "path": "/Objects/Model/Shading/prop0",
+   "type_a": "B",
+   "type_b": "C",
+   "a": "True",
+   "b": "b'\\x01'"
+  }
+ ]
+}

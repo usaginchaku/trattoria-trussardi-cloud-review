@@ -1,0 +1,38 @@
+{
+ "A1_07_Dinner_Fork": {
+  "source": "claude/coord09-model-review-20261003@91bbcff37e569b6cd630c70bbc9b64949bccb389:assets/claude-props/coord10-20261004/cut02/CUT02_A1/fbx/07_Dinner_Fork.fbx",
+  "source_sha256": "acb7eb95d32241833de78a075fc583a6dba341ff250c4d6dffbc80bac5ecbbb8",
+  "repaired": "fbx_A1/07_Dinner_Fork.fbx",
+  "repaired_sha256": "1ce40a7e1d9f5b3a7d2d0ba05183d0cf93b432cbb4f797e755a01b712e8d698c",
+  "only_difference": "/Objects/Model/Shading prop0: type 'B' (bool True) -> 'C' (b'\\x01')",
+  "array_value_hashes_identical": true,
+  "object_name_kept": "07_Dinner_Fork_Mesh.001"
+ },
+ "A1_08_Dinner_Spoon": {
+  "source": "…@91bbcff…:cut02/CUT02_A1/fbx/08_Dinner_Spoon.fbx",
+  "source_sha256": "10783c9b2421c1890e85199172e9a095335e517bb12af4440caf667e33ceddac",
+  "repaired": "fbx_A1/08_Dinner_Spoon.fbx",
+  "repaired_sha256": "88db572dab6424b0fa89e1090bfbba77cc33b986dfbb0dbe7f329ae563e8db2f",
+  "only_difference": "/Objects/Model/Shading prop0: type 'B' (bool True) -> 'C' (b'\\x01')",
+  "array_value_hashes_identical": true,
+  "object_name_kept": "08_Dinner_Spoon_Mesh.001"
+ },
+ "A1_09_Dinner_Knife": {
+  "source": "…@91bbcff…:cut02/CUT02_A1/fbx/09_Dinner_Knife.fbx",
+  "source_sha256": "30ff436f5bf6705fd85945d3036656f517044717d420146c229391412f02fbf0",
+  "repaired": "fbx_A1/09_Dinner_Knife.fbx",
+  "repaired_sha256": "8d863f8523cae1a45dfe313ae2fe6bcfeb1e386c2def3fcba00e18e3112d6055",
+  "only_difference": "/Objects/Model/Shading prop0: type 'B' (bool True) -> 'C' (b'\\x01')",
+  "array_value_hashes_identical": true,
+  "object_name_kept": "09_Dinner_Knife_Mesh.001"
+ },
+ "A2_09_Dinner_Knife": {
+  "source": "claude/coord09-model-review-20261003@0dce019df77f5a228e5f307984b11b78665f4458:assets/claude-props/coord10-20261004/cut03/CUT03_A2/fbx/09_Dinner_Knife.fbx",
+  "source_sha256": "722593376524ff57c777282ff6df880957666d432a6b45c08731ef57aaf75f82",
+  "repaired": "fbx_A2knife/09_Dinner_Knife.fbx",
+  "repaired_sha256": "ad9ae551d31aadca0aed3a3b5dfaf7fdbc12cb9c08055ae599ef8bb5af699dd7",
+  "only_difference": "/Objects/Model/Shading prop0: type 'B' (bool True) -> 'C' (b'\\x01')",
+  "array_value_hashes_identical": true,
+  "object_name_kept": "09_Dinner_Knife_Mesh.001"
+ }
+}
