@@ -1,0 +1,5 @@
+現在の保存RI03で使用しているFUR04花かご現物の最小追加sourceです。FBX1点＋自作共有atlas1点、MANIFESTと本ファイルのみ。
+Cloud07 A/Bは現物とのUnity比較で全体置換不採用。現在の密な葉の塊と市松編み目を基準に、必要な差だけを新しい未使用候補へ作成してください。
+入力原本/既存候補/本体は上書きしない。FBXの軸と単位を尊重。UnityはuseFileScale=true/useFileUnits=true、globalScale=1、Normals=Import。FBXルート変換と配置用親を分離し、WorldContent倍率を二重適用しない。
+参照元画像は含みません。Atlasには他のFUR04小物の領域もあるので、不用意に全体を塗り替えない。材質変更・形状変更は別要因。元配置はMANIFEST.objects参照。
+本パッケージはローカル準備済み。公開pushは指示役のscope確認担当です。

@@ -1,0 +1,193 @@
+{
+  "status": "EXACT_CURRENT_MODEL_INPUT_ONLY",
+  "files": [
+    {
+      "path": "Assets/Trattoria/Furniture/FUR04/FlowerBasket_FUR04.fbx",
+      "bytes": 1068428,
+      "sha256": "918b533b90435b0a449097cae193945ea351281e48c6df1c4b05e1f7ae6b9b17"
+    },
+    {
+      "path": "Assets/Trattoria/Furniture/FUR04/TabletopAtlas_FUR04.png",
+      "bytes": 389494,
+      "sha256": "3c42d5342fb4eacaea5609e163d3e2b5fb7bd72995989c5397cefcc1f54cbbd4"
+    }
+  ],
+  "objects": [
+    {
+      "path": "WorldContent_EkuScale/Detailed_Tabletop_FUR04/F01A_FlowerBasket",
+      "prefab": "Assets/Trattoria/Furniture/FUR04/Prefabs/FlowerBasket_FUR04.prefab",
+      "localPosition": {
+        "x": 2.330000162124634,
+        "y": 1.2599999904632568,
+        "z": 4.119999885559082
+      },
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": 1.8233437538146973,
+        "y": 0.986014187335968,
+        "z": 3.224109649658203
+      },
+      "boundsMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "boundsMax": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "active": true,
+      "rendererEnabled": false,
+      "mesh": "",
+      "materials": []
+    },
+    {
+      "path": "WorldContent_EkuScale/Detailed_Tabletop_FUR04/F01A_FlowerBasket/Geometry",
+      "prefab": "Assets/Trattoria/Furniture/FUR04/Prefabs/FlowerBasket_FUR04.prefab",
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": 1.8233437538146973,
+        "y": 0.986014187335968,
+        "z": 3.224109649658203
+      },
+      "boundsMin": {
+        "x": 2.2065577507019043,
+        "y": 1.2600001096725464,
+        "z": 3.990413188934326
+      },
+      "boundsMax": {
+        "x": 2.4583048820495605,
+        "y": 1.4575071334838867,
+        "z": 4.241404056549072
+      },
+      "localRotation": {
+        "x": 0.7071068286895752,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.7071067094802856
+      },
+      "active": true,
+      "rendererEnabled": true,
+      "mesh": "Assets/Trattoria/Furniture/FUR04/FlowerBasket_FUR04.fbx",
+      "materials": [
+        "Assets/Trattoria/Furniture/FUR04/Materials/TabletopAtlas_FUR04.mat"
+      ]
+    },
+    {
+      "path": "WorldContent_EkuScale/Detailed_Tabletop_FUR04/F01B_FlowerBasket",
+      "prefab": "Assets/Trattoria/Furniture/FUR04/Prefabs/FlowerBasket_FUR04.prefab",
+      "localPosition": {
+        "x": -2.119999885559082,
+        "y": 1.2599999904632568,
+        "z": 3.619999885559082
+      },
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": -1.6590079069137573,
+        "y": 0.986014187335968,
+        "z": 2.832834243774414
+      },
+      "boundsMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "boundsMax": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "active": true,
+      "rendererEnabled": false,
+      "mesh": "",
+      "materials": []
+    },
+    {
+      "path": "WorldContent_EkuScale/Detailed_Tabletop_FUR04/F01B_FlowerBasket/Geometry",
+      "prefab": "Assets/Trattoria/Furniture/FUR04/Prefabs/FlowerBasket_FUR04.prefab",
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": -1.6590079069137573,
+        "y": 0.986014187335968,
+        "z": 2.832834243774414
+      },
+      "boundsMin": {
+        "x": -2.2434422969818115,
+        "y": 1.2600001096725464,
+        "z": 3.4904134273529053
+      },
+      "boundsMax": {
+        "x": -1.9916950464248657,
+        "y": 1.4575071334838867,
+        "z": 3.7414040565490723
+      },
+      "localRotation": {
+        "x": 0.7071068286895752,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.7071067094802856
+      },
+      "active": true,
+      "rendererEnabled": true,
+      "mesh": "Assets/Trattoria/Furniture/FUR04/FlowerBasket_FUR04.fbx",
+      "materials": [
+        "Assets/Trattoria/Furniture/FUR04/Materials/TabletopAtlas_FUR04.mat"
+      ]
+    }
+  ],
+  "scale": 0.7825509309768677,
+  "sourceSceneSha256": "5d6e32a94801c3f8af8243b33604fc624da3d2a8a7a9cdc80375d4bb94f8b443",
+  "material": {
+    "name": "TabletopAtlas_FUR04",
+    "shader": "Standard",
+    "baseColor": "white",
+    "metallic": 0,
+    "smoothness": 0.3,
+    "textureGuid": "0cabb7c819d98714aad9f22a9e830fde"
+  },
+  "textureProvenance": {
+    "source": "Source/paint_tabletop_FUR04.py",
+    "reference_pixels_used": false
+  },
+  "review": "Current FUR04 retained by director after actual Unity comparison. Read this exact existing model before proposing changes. No production adoption of Cloud07 A/B.",
+  "excluded": "No reference pixels, full scene, Library, SDK, credentials, avatar, repository history or producer scripts."
+}
