@@ -1,0 +1,63 @@
+{
+  "sourceContractSha256": "c84e223cbad9d25033bc73f7b1cfc33c0985b62e958fae75fe1bda9728e3aaa8",
+  "historicalAssetContract": {
+    "name": "Register",
+    "sha256": "5a430c207b5f552083399c1123fae854d54394c2bb90c62a37cddff97b953c76",
+    "triangles": 5260,
+    "size": {
+      "x": 0.30000001192092896,
+      "y": 0.24999999903463888,
+      "z": 0.3607500344514847
+    },
+    "materials": [
+      "register_FUR05",
+      "register_shadow_FUR05",
+      "panel_FUR05",
+      "keys_FUR05"
+    ]
+  },
+  "historicalMaterialContract": [
+    {
+      "name": "register_FUR05",
+      "texture": "register_FUR05",
+      "color": "#FFFFFF",
+      "alpha": 1,
+      "metallic": 0,
+      "smoothness": 0.57,
+      "emission": 0
+    },
+    {
+      "name": "register_shadow_FUR05",
+      "texture": "register_shadow_FUR05",
+      "color": "#FFFFFF",
+      "alpha": 1,
+      "metallic": 0,
+      "smoothness": 0.57,
+      "emission": 0
+    },
+    {
+      "name": "panel_FUR05",
+      "texture": "panel_FUR05",
+      "color": "#FFFFFF",
+      "alpha": 1,
+      "metallic": 0,
+      "smoothness": 0.57,
+      "emission": 0
+    },
+    {
+      "name": "keys_FUR05",
+      "texture": "keys_FUR05",
+      "color": "#FFFFFF",
+      "alpha": 1,
+      "metallic": 0,
+      "smoothness": 0.57,
+      "emission": 0
+    }
+  ],
+  "scaleConstraint": 0.7825509309768677,
+  "referenceScope": "Existing privately supplied DU_ep10-4 only if accessible; director IMG3577 observations in brief are not Claude direct viewing",
+  "currentScene": "RI16 retained",
+  "nativeImportedPoseAndChannels": "Original Codex verification required; historical FUR05 contract and old preview are not current RI16 proof",
+  "doNotImportContractOldWorldScale": true,
+  "unchangedSources": true
+}

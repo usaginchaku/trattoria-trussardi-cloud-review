@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "path": "Register_FUR05.fbx",
+      "source": "UnityProject/Assets/Trattoria/Furniture/FUR05/Register_FUR05.fbx",
+      "bytes": 163516,
+      "sha256": "5a430c207b5f552083399c1123fae854d54394c2bb90c62a37cddff97b953c76"
+    },
+    {
+      "path": "register_FUR05.png",
+      "source": "UnityProject/Assets/Trattoria/Furniture/FUR05/register_FUR05.png",
+      "bytes": 36485,
+      "sha256": "5ccf95657461f800033e891fda2847956124894922de18279ba4954964493f50",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "decodedRgbaSha256": "f00d89ea9ae3860e4661c5bd9117ed5ca1ebb62d94670831b68250721f727ac9"
+    },
+    {
+      "path": "register_shadow_FUR05.png",
+      "source": "UnityProject/Assets/Trattoria/Furniture/FUR05/register_shadow_FUR05.png",
+      "bytes": 36473,
+      "sha256": "f75a2488bc82f3528038e1ce62e65f9377a8b834c00a1937f1aab24fc7efc9dd",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "decodedRgbaSha256": "be3fcb596ffa71323301d8aef1f6dca612382b46a48acffbbe99c9b887206170"
+    },
+    {
+      "path": "panel_FUR05.png",
+      "source": "UnityProject/Assets/Trattoria/Furniture/FUR05/panel_FUR05.png",
+      "bytes": 36384,
+      "sha256": "dc093fdbb75cf58a01f8d59d42f997507c48e10d89b9481fa1329c95fe84fcf7",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "decodedRgbaSha256": "8227f597ed9f28a3db28ac841992020204f3c82a8ce14c43eff1880548b9d38f"
+    },
+    {
+      "path": "keys_FUR05.png",
+      "source": "UnityProject/Assets/Trattoria/Furniture/FUR05/keys_FUR05.png",
+      "bytes": 34506,
+      "sha256": "b5e53bd8625c4e2a9f21e9931cf2b09f87946ac106d216dd7e09a99da438c95a",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "decodedRgbaSha256": "ff118202d1a70cab829132b185738379ab91494f1669f783b8383e60a7ad119e"
+    },
+    {
+      "path": "INPUT_SCOPE.json",
+      "bytes": 1805,
+      "sha256": "759c5cb4ceb8bff47e02c91a94ee2c3b983b62a978b78d573179b0d9364e2da8"
+    },
+    {
+      "path": "README_JA.txt",
+      "bytes": 422,
+      "sha256": "2265a4abe8c5763f7093390b4d392bc0c03371e5226202ca4e4a3d371d0e4fb2"
+    }
+  ],
+  "manifestSelfExcluded": true,
+  "status": "LOCAL_READY_NOT_SENT"
+}
