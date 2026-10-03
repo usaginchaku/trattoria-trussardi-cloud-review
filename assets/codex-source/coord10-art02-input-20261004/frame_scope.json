@@ -1,0 +1,715 @@
+{
+  "status": "PASS_BLENDER522_INPUT_EXPORT_AND_ROUNDTRIP",
+  "exactScope": "Only LAY03_UpperFrame_1, LAY03_UpperFrame_2, LAY03_UpperFrame_3",
+  "frames": [
+    {
+      "name": "LAY03_UpperFrame_1",
+      "sourcePrototype": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Front_Frame_04",
+      "rendererPath": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_1/Geometry",
+      "meshSource": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_Mesh0.asset",
+      "meshSourceSha256": "b8e06b5577ff2eef4c34d049f1d9573c78e5e116bd496c5aacd74660ff9521b2",
+      "vertices": 5506,
+      "triangles": 2444,
+      "materialSlots": [
+        {
+          "slot": 0,
+          "name": "LAY03_UpperFrame_1_Finish",
+          "source": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_R0_M0.mat",
+          "sourceSha256": "145415e44266ebf265136d3323eacd91fc956d15dc9b11150fd8e6b3a06e2cb7",
+          "shader": "Unity Builtin Standard",
+          "baseColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "smoothness": 0.52,
+          "texture": "FinishAtlas_FUR06.png",
+          "textureScale": [
+            1,
+            1
+          ],
+          "textureOffset": [
+            0,
+            0
+          ],
+          "uv0Min": [
+            0.006300618872046471,
+            0.5062500238418579
+          ],
+          "uv0Max": [
+            0.7437052726745605,
+            0.9936858415603638
+          ],
+          "triangles": 2432
+        },
+        {
+          "slot": 1,
+          "name": "LAY03_UpperFrame_1_Painting",
+          "source": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_R0_M1.mat",
+          "sourceSha256": "c7a828bf19c70ab6dcc6cbd5582e051d71f9a4f663adb8bd81d2735ad65489d3",
+          "shader": "Unity Builtin Standard",
+          "baseColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "smoothness": 0.52,
+          "texture": "PaintingAtlas_FUR06.png",
+          "textureScale": [
+            1,
+            1
+          ],
+          "textureOffset": [
+            0,
+            0
+          ],
+          "uv0Min": [
+            0.5041666626930237,
+            0.8374999761581421
+          ],
+          "uv0Max": [
+            0.6625000238418579,
+            0.9958333373069763
+          ],
+          "triangles": 12
+        }
+      ],
+      "nativeChannelKeys": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "nativeBounds": [
+        [
+          -0.25999999046325684,
+          -0.035999998450279236,
+          -0.38999998569488525
+        ],
+        [
+          0.25999999046325684,
+          0.0,
+          0.0
+        ]
+      ],
+      "blenderLocalBounds": [
+        [
+          -0.25999999046325684,
+          -0.035999998450279236,
+          -0.0
+        ],
+        [
+          0.25999999046325684,
+          0.0,
+          0.38999998569488525
+        ]
+      ],
+      "placementUnityParent": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_1",
+        "prefab": "",
+        "localPosition": {
+          "x": -4.400000095367432,
+          "y": 3.3550000190734863,
+          "z": 3.7200000286102295
+        },
+        "localScale": {
+          "x": 0.8500000238418579,
+          "y": 0.8500000238418579,
+          "z": 0.8500000238418579
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.6254584789276123,
+          "z": 2.9110894203186035
+        },
+        "boundsMin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "boundsMax": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.7071068286895752,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "active": true,
+        "rendererEnabled": false,
+        "mesh": "",
+        "materials": []
+      },
+      "geometryTransform": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_1/Geometry",
+        "prefab": "",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.6254584789276123,
+          "z": 2.9110894203186035
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 3.3550000190734863,
+          "z": 3.498999834060669
+        },
+        "boundsMax": {
+          "x": -4.3694000244140625,
+          "y": 3.686500072479248,
+          "z": 3.940999984741211
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_Mesh0.asset",
+        "materials": [
+          "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_R0_M0.mat",
+          "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_R0_M1.mat"
+        ]
+      },
+      "acceptedYaw": -90,
+      "acceptedScale": 0.85,
+      "proposedFbx": "LAY03_UpperFrame_1.fbx",
+      "arrays": "LAY03_UpperFrame_1_native.npz",
+      "nativeCrossNormalSign": "positive",
+      "reverseWindingToBlender": true,
+      "artworkStatus": "Existing copied motif is a placeholder, not reference-approved.",
+      "paintingAtlasTile": 3,
+      "editablePixelRectExclusive": [
+        1023,
+        0,
+        1364,
+        341
+      ],
+      "sourceSpec": {
+        "name": "Frame_04",
+        "width": 0.52,
+        "height": 0.39,
+        "color": "olive",
+        "motif": "blue_landscape",
+        "tile": 3
+      },
+      "arraysSha256": "9204837717e8257e0e17f80354f9f43adb24606afefe1852fe3a110e1c6a8792"
+    },
+    {
+      "name": "LAY03_UpperFrame_2",
+      "sourcePrototype": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_19",
+      "rendererPath": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_2/Geometry",
+      "meshSource": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_Mesh0.asset",
+      "meshSourceSha256": "b50c45c7a0436b85b24bdcb6ca262d8b80722e08c881de7b961ff14c4e59d4e1",
+      "vertices": 5594,
+      "triangles": 2444,
+      "materialSlots": [
+        {
+          "slot": 0,
+          "name": "LAY03_UpperFrame_2_Finish",
+          "source": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_R0_M0.mat",
+          "sourceSha256": "4481e3298baf52587e993eb5a3c1e0dfee4a4c3141a8ca308a135addbdd1fcb3",
+          "shader": "Unity Builtin Standard",
+          "baseColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "smoothness": 0.52,
+          "texture": "FinishAtlas_FUR06.png",
+          "textureScale": [
+            1,
+            1
+          ],
+          "textureOffset": [
+            0,
+            0
+          ],
+          "uv0Min": [
+            0.006308334413915873,
+            0.5062500238418579
+          ],
+          "uv0Max": [
+            0.9936954975128174,
+            0.993679404258728
+          ],
+          "triangles": 2432
+        },
+        {
+          "slot": 1,
+          "name": "LAY03_UpperFrame_2_Painting",
+          "source": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_R0_M1.mat",
+          "sourceSha256": "99d5e59c0c03d814104ad403726e3727bf0c155bc25f52123bd48d46dcdf6360",
+          "shader": "Unity Builtin Standard",
+          "baseColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "smoothness": 0.52,
+          "texture": "PaintingAtlas_FUR06.png",
+          "textureScale": [
+            1,
+            1
+          ],
+          "textureOffset": [
+            0,
+            0
+          ],
+          "uv0Min": [
+            0.004166666883975267,
+            0.3375000059604645
+          ],
+          "uv0Max": [
+            0.16249999403953552,
+            0.4958333373069763
+          ],
+          "triangles": 12
+        }
+      ],
+      "nativeChannelKeys": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "nativeBounds": [
+        [
+          -0.22499999403953552,
+          -0.035999998450279236,
+          -0.33000001311302185
+        ],
+        [
+          0.22499999403953552,
+          0.0,
+          0.0
+        ]
+      ],
+      "blenderLocalBounds": [
+        [
+          -0.22499999403953552,
+          -0.035999998450279236,
+          -0.0
+        ],
+        [
+          0.22499999403953552,
+          0.0,
+          0.33000001311302185
+        ]
+      ],
+      "placementUnityParent": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_2",
+        "prefab": "",
+        "localPosition": {
+          "x": -4.400000095367432,
+          "y": 3.3929998874664307,
+          "z": 4.75
+        },
+        "localScale": {
+          "x": 0.8500000238418579,
+          "y": 0.8500000238418579,
+          "z": 0.8500000238418579
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.6551952362060547,
+          "z": 3.7171168327331543
+        },
+        "boundsMin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "boundsMax": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.7071068286895752,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "active": true,
+        "rendererEnabled": false,
+        "mesh": "",
+        "materials": []
+      },
+      "geometryTransform": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_2/Geometry",
+        "prefab": "",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.6551952362060547,
+          "z": 3.7171168327331543
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 3.3929998874664307,
+          "z": 4.558749675750732
+        },
+        "boundsMax": {
+          "x": -4.3694000244140625,
+          "y": 3.673499584197998,
+          "z": 4.941249847412109
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_Mesh0.asset",
+        "materials": [
+          "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_R0_M0.mat",
+          "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_R0_M1.mat"
+        ]
+      },
+      "acceptedYaw": -90,
+      "acceptedScale": 0.85,
+      "proposedFbx": "LAY03_UpperFrame_2.fbx",
+      "arrays": "LAY03_UpperFrame_2_native.npz",
+      "nativeCrossNormalSign": "positive",
+      "reverseWindingToBlender": true,
+      "artworkStatus": "Existing copied motif is a placeholder, not reference-approved.",
+      "paintingAtlasTile": 18,
+      "editablePixelRectExclusive": [
+        0,
+        1023,
+        341,
+        1364
+      ],
+      "sourceSpec": {
+        "name": "Frame_19",
+        "width": 0.45,
+        "height": 0.33,
+        "color": "pink",
+        "motif": "gray_shapes",
+        "tile": 18
+      },
+      "arraysSha256": "957033276cddab5ca38d9a384a2796557995d042952e7ca2ac31d5a8e9c1f4fb"
+    },
+    {
+      "name": "LAY03_UpperFrame_3",
+      "sourcePrototype": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Rear_Frame_12",
+      "rendererPath": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_3/Geometry",
+      "meshSource": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_Mesh0.asset",
+      "meshSourceSha256": "903b36fe043e2f9d188e6f4a437cfa88984b619f5f015ba1e6ff075097dd0f13",
+      "vertices": 5612,
+      "triangles": 2444,
+      "materialSlots": [
+        {
+          "slot": 0,
+          "name": "LAY03_UpperFrame_3_Finish",
+          "source": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_R0_M0.mat",
+          "sourceSha256": "a43fb99fdd98fdcf1420a6d01ec3d6a380530c97be23934a73bd65f472ce4f70",
+          "shader": "Unity Builtin Standard",
+          "baseColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "smoothness": 0.52,
+          "texture": "FinishAtlas_FUR06.png",
+          "textureScale": [
+            1,
+            1
+          ],
+          "textureOffset": [
+            0,
+            0
+          ],
+          "uv0Min": [
+            0.0062500000931322575,
+            0.5062500238418579
+          ],
+          "uv0Max": [
+            0.7437027096748352,
+            0.9936918020248413
+          ],
+          "triangles": 2432
+        },
+        {
+          "slot": 1,
+          "name": "LAY03_UpperFrame_3_Painting",
+          "source": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_R0_M1.mat",
+          "sourceSha256": "a54a881ed27bf72d5964850af7a8a72b12dc25bfa8eba62833c0d120e1efaa4e",
+          "shader": "Unity Builtin Standard",
+          "baseColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 0,
+          "smoothness": 0.52,
+          "texture": "PaintingAtlas_FUR06.png",
+          "textureScale": [
+            1,
+            1
+          ],
+          "textureOffset": [
+            0,
+            0
+          ],
+          "uv0Min": [
+            0.8374999761581421,
+            0.6708333492279053
+          ],
+          "uv0Max": [
+            0.9958333373069763,
+            0.8291666507720947
+          ],
+          "triangles": 12
+        }
+      ],
+      "nativeChannelKeys": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "nativeBounds": [
+        [
+          -0.25999999046325684,
+          -0.035999998450279236,
+          -0.4000000059604645
+        ],
+        [
+          0.25999999046325684,
+          0.0,
+          0.0
+        ]
+      ],
+      "blenderLocalBounds": [
+        [
+          -0.25999999046325684,
+          -0.035999998450279236,
+          -0.0
+        ],
+        [
+          0.25999999046325684,
+          0.0,
+          0.4000000059604645
+        ]
+      ],
+      "placementUnityParent": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_3",
+        "prefab": "",
+        "localPosition": {
+          "x": -4.400000095367432,
+          "y": 3.359999895095825,
+          "z": 5.71999979019165
+        },
+        "localScale": {
+          "x": 0.800000011920929,
+          "y": 0.800000011920929,
+          "z": 0.800000011920929
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.629370927810669,
+          "z": 4.47619104385376
+        },
+        "boundsMin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "boundsMax": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": -0.7071068286895752,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "active": true,
+        "rendererEnabled": false,
+        "mesh": "",
+        "materials": []
+      },
+      "geometryTransform": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_3/Geometry",
+        "prefab": "",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.629370927810669,
+          "z": 4.47619104385376
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 3.359999656677246,
+          "z": 5.511999607086182
+        },
+        "boundsMax": {
+          "x": -4.371200084686279,
+          "y": 3.679999589920044,
+          "z": 5.927999973297119
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_Mesh0.asset",
+        "materials": [
+          "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_R0_M0.mat",
+          "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_R0_M1.mat"
+        ]
+      },
+      "acceptedYaw": -90,
+      "acceptedScale": 0.8,
+      "proposedFbx": "LAY03_UpperFrame_3.fbx",
+      "arrays": "LAY03_UpperFrame_3_native.npz",
+      "nativeCrossNormalSign": "positive",
+      "reverseWindingToBlender": true,
+      "artworkStatus": "Existing copied motif is a placeholder, not reference-approved.",
+      "paintingAtlasTile": 11,
+      "editablePixelRectExclusive": [
+        1705,
+        341,
+        2046,
+        682
+      ],
+      "sourceSpec": {
+        "name": "Frame_12",
+        "width": 0.52,
+        "height": 0.4,
+        "color": "olive",
+        "motif": "yellow_flower",
+        "tile": 11
+      },
+      "arraysSha256": "1461cd6512b4661eff08031c80e14a3f348f1f45b52d2480dac15d452816fa7b"
+    }
+  ],
+  "textures": [
+    {
+      "file": "FinishAtlas_FUR06.png",
+      "source": "Assets\\Trattoria\\Furniture\\FUR06\\FinishAtlas_FUR06.png",
+      "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715",
+      "bytes": 144835,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "PaintingAtlas_FUR06.png",
+      "source": "Assets\\Trattoria\\Furniture\\FUR06\\PaintingAtlas_FUR06.png",
+      "sha256": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b",
+      "bytes": 54900,
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "worldParentScale": 0.7825509309768677,
+  "meshAxes": "Canonical Blender local X horizontal, Y depth, Z up. Native Unity mesh=(BlenderX, BlenderY, -BlenderZ); original Geometry child X+90 then parent yaw -90. Do not apply world parent scale to mesh.",
+  "scaleInterpretation": "One Blender unit is one design metre. The saved frame parent scale .85/.85/.8 and world scale .7825509309768677 are instance transforms, not baked into the mesh.",
+  "placementInterpretation": "Frame1 nearest entry (design Z3.72), Frame2 middle (Z4.75), Frame3 rear (Z5.72). Parent design position is bottom-centre on attachment wall X=-4.4. Front face projects into room toward positive design X.",
+  "protected": "No changes to lower interwindow Left_Frame22-25, LAY02 GapFrames, any existing/shared atlas or material, dimensions, geometry, placement, UV0, UV2, normals, source files. Any future candidate atlas must be newly named and dedicated to only these renderers.",
+  "textureDecision": "Both original PNG atlases total under 200 KB. Keep full atlas dimensions/pixels to preserve exact UV coordinates, texel density and padding; no crop, resize or unwrap.",
+  "references": "Use existing private Cloud IMG3638 and IMG3669 for visible upper motifs. Reference photographs are deliberately absent. Hidden/unclear detail must be marked inferred, never presented as verified.",
+  "proposedOutputs": [
+    "Three texture-only motif candidates with exact unchanged pixels outside selected painting regions",
+    "Same-angle previews and source attribution/uncertainty notes",
+    "SHA-256 manifest and affected slot/rectangle list"
+  ],
+  "sourcePins": {
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_R0_M0.mat": "145415e44266ebf265136d3323eacd91fc956d15dc9b11150fd8e6b3a06e2cb7",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_R0_M1.mat": "c7a828bf19c70ab6dcc6cbd5582e051d71f9a4f663adb8bd81d2735ad65489d3",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_1_Mesh0.asset": "b8e06b5577ff2eef4c34d049f1d9573c78e5e116bd496c5aacd74660ff9521b2",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_R0_M0.mat": "4481e3298baf52587e993eb5a3c1e0dfee4a4c3141a8ca308a135addbdd1fcb3",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_R0_M1.mat": "99d5e59c0c03d814104ad403726e3727bf0c155bc25f52123bd48d46dcdf6360",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_2_Mesh0.asset": "b50c45c7a0436b85b24bdcb6ca262d8b80722e08c881de7b961ff14c4e59d4e1",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_R0_M0.mat": "a43fb99fdd98fdcf1420a6d01ec3d6a380530c97be23934a73bd65f472ce4f70",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_R0_M1.mat": "a54a881ed27bf72d5964850af7a8a72b12dc25bfa8eba62833c0d120e1efaa4e",
+    "Assets/Trattoria/ReviewIntegration/RI09_Layout/LAY03_UpperFrame_3_Mesh0.asset": "903b36fe043e2f9d188e6f4a437cfa88984b619f5f015ba1e6ff075097dd0f13",
+    "Assets\\Trattoria\\Furniture\\FUR06\\FinishAtlas_FUR06.png": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715",
+    "Assets\\Trattoria\\Furniture\\FUR06\\PaintingAtlas_FUR06.png": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b"
+  },
+  "paintingAtlasGrid": {
+    "size": [
+      2048,
+      2048
+    ],
+    "cells": [
+      6,
+      6
+    ],
+    "painterCellPixels": 341,
+    "uvPaddingFraction": 0.025,
+    "warning": "Painter cells are 341 pixels while UV cells are exact sixths of2048. Preserve original UV and the full atlas. Bounds are original painter top-left pixel coordinates, exclusive at right/bottom."
+  },
+  "blendFile": "ART02_UpperThree_placed.blend",
+  "blenderVersion": "5.2.2 LTS",
+  "normalInterchangeAcceptance": {
+    "normalAngleDegrees": 0.05,
+    "normalLengthError": 2e-06,
+    "positionUvError": 2e-06,
+    "derivation": "0.05 degree chord error = 2*sin(0.05*pi/360) = 0.0008726646, below quarter of one 8-bit linear response unit 1/(4*255) = 0.0009803922. This limits direction error independently from observed probe values. Specular/nonlinear appearance is not certified.",
+    "storageEvidence": "All 18 local Blender5.2.2 probes show custom_normal CORNER INT16_2D, regardless of construction/update/normalization method. The encoder uses reference-space angles, float32 trigonometry and short2 storage; component-exact float3 recovery is not promised.",
+    "implementationReference": "https://github.com/blender/blender/blob/v5.2.2/source/blender/blenkernel/intern/mesh_normals.cc",
+    "originalSourceTruth": "Original native normals/UV/index arrays remain exact in the SHA-pinned NPZ. Acceptance is measured against native normals again after FBX and saved BLEND, preventing cumulative unchecked drift."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "status": "READY_FOR_DIRECTOR_REVIEW_NOT_SENT",
+  "files": [
+    {
+      "path": "ART02_UpperThree_placed.blend",
+      "bytes": 585567,
+      "sha256": "ef33bdd2e0572eb0de3bf18d08786c0ed29901b483ca76317ce3a7f5d32e7ac6"
+    },
+    {
+      "path": "FinishAtlas_FUR06.png",
+      "bytes": 144835,
+      "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715"
+    },
+    {
+      "path": "frame_scope.json",
+      "bytes": 23902,
+      "sha256": "1135863cacf55f12129ed8e7e05841f613429a1681a64d6338c4f8a9be9abc3f"
+    },
+    {
+      "path": "LAY03_UpperFrame_1.fbx",
+      "bytes": 409820,
+      "sha256": "3bb66a4f38d53707166d5b9c528fd59067637cf251aabbc9df93ef75ca788cb0"
+    },
+    {
+      "path": "LAY03_UpperFrame_2.fbx",
+      "bytes": 407436,
+      "sha256": "141fe9c0801b36d1f21ec9a5dca871aca426c9bb3375b6dbbdf1a5d173e5604d"
+    },
+    {
+      "path": "LAY03_UpperFrame_3.fbx",
+      "bytes": 408348,
+      "sha256": "e03f572dca205f325554ecf684c52120a36422b466ad70d40e9615650180d20d"
+    },
+    {
+      "path": "PaintingAtlas_FUR06.png",
+      "bytes": 54900,
+      "sha256": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b"
+    },
+    {
+      "path": "README_JA.txt",
+      "bytes": 1976,
+      "sha256": "c294e87fb4b3e47c057cd81371e21967d15741114ae083265490485d334fc3c0"
+    }
+  ],
+  "meshFiles": 3,
+  "placedBlendObjects": 3,
+  "textureFiles": 2,
+  "referencePhotosIncluded": false,
+  "publishPerformed": false
+}
