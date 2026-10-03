@@ -1,0 +1,332 @@
+{
+ "C3_vs_K2": {
+  "source": "WallCabinet_FUR06.fbx",
+  "candidate": "C3/C3/fbx/WallCabinet_FUR06.fbx",
+  "gs_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "WallCabinet",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.88,
+    0.301,
+    0.8
+   ],
+   "verts": 2132,
+   "tris": 4220,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "images": [
+    [
+     "FinishAtlas_FUR06.png",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 32,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "candidate_info": {
+   "object": "WallCabinet",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.88,
+    0.301,
+    0.8
+   ],
+   "verts": 2132,
+   "tris": 4220,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "images": [
+    [
+     "FinishAtlas_FUR06.png",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 32,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "verts_moved": 1116,
+  "max_move_m": 0.06287803714962603,
+  "faces_flipped_vs_source": 0,
+  "uv_identical": true,
+  "corner_normals_changed": 3160
+ },
+ "C3m_vs_K2": {
+  "source": "WallCabinet_FUR06.fbx",
+  "candidate": "C3/C3m/fbx/WallCabinet_FUR06.fbx",
+  "gs_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "WallCabinet",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.88,
+    0.301,
+    0.8
+   ],
+   "verts": 2132,
+   "tris": 4220,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "images": [
+    [
+     "FinishAtlas_FUR06.png",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 32,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "candidate_info": {
+   "object": "WallCabinet",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.88,
+    0.301,
+    0.8
+   ],
+   "verts": 2132,
+   "tris": 4220,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "images": [
+    [
+     "FinishAtlas_FUR06.png",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 32,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "verts_moved": 1308,
+  "max_move_m": 0.06287803714962603,
+  "faces_flipped_vs_source": 0,
+  "uv_identical": true,
+  "corner_normals_changed": 4216
+ },
+ "C3_vs_source": {
+  "source": "WallCabinet_FUR06.fbx",
+  "candidate": "C3/C3/fbx/WallCabinet_FUR06.fbx",
+  "gs_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "WallCabinet",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.88,
+    0.301,
+    0.56
+   ],
+   "verts": 2132,
+   "tris": 4220,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "images": [
+    [
+     "FinishAtlas_FUR06.png",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 32,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "candidate_info": {
+   "object": "WallCabinet",
+   "rot": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dims": [
+    0.88,
+    0.301,
+    0.8
+   ],
+   "verts": 2132,
+   "tris": 4220,
+   "zmin": 0.0,
+   "uv": [
+    "FurnitureUV"
+   ],
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "images": [
+    [
+     "FinishAtlas_FUR06.png",
+     [
+      1024,
+      1024
+     ]
+    ]
+   ],
+   "nonmanifold": 32,
+   "boundary": 0,
+   "zero_area": 0,
+   "zero_len_corner_normals": 0,
+   "custom_normals": true
+  },
+  "verts_moved": 1676,
+  "max_move_m": 0.240000011306594,
+  "faces_flipped_vs_source": 0,
+  "uv_identical": true,
+  "corner_normals_changed": 5444
+ }
+}

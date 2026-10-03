@@ -15,7 +15,8 @@
   "final_manifest": "dfa4eed",
   "menu_foot_MENU02": "280865b",
   "kitchen_review_K1": "acc02db",
-  "cloth_contour_CLOTH02": "this commit (see git log)"
+  "cloth_contour_CLOTH02": "ce765d8",
+  "cabinet_ref_CAB03": "this commit (see git log)"
  },
  "status": {
   "delivered_candidates": [
@@ -275,6 +276,140 @@
    "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
    "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
    "sha256": "c748bf8204f1d5bab99fd79418091f6d1c33c8742d759ed36756401a9e4f809a"
+  },
+  {
+   "path": "cabinet_ref/C3/C3/fbx/FinishAtlas_FUR06.png",
+   "bytes": 144835,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+  },
+  {
+   "path": "cabinet_ref/C3/C3/fbx/WallCabinet_FUR06.fbx",
+   "bytes": 173660,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "sha256": "3e67952cef56e3319a41336e334daa859e229753ddb4512764fbc81eea36a684"
+  },
+  {
+   "path": "cabinet_ref/C3/C3/models/WallCabinet_FUR06.blend",
+   "bytes": 198174,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "sha256": "559e8f1543f453f760815940d7525506de8575a4853bc12ac61d18cf8c54f887"
+  },
+  {
+   "path": "cabinet_ref/C3/C3/vertex_delta_vs_K2_C3.csv",
+   "bytes": 48116,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "sha256": "d4e14bd47f90c06feb1d1ac90028a20f3798df2d41d65e5d9c2ca08a5ca62cf6"
+  },
+  {
+   "path": "cabinet_ref/C3/C3m/fbx/FinishAtlas_FUR06.png",
+   "bytes": 144835,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+  },
+  {
+   "path": "cabinet_ref/C3/C3m/fbx/WallCabinet_FUR06.fbx",
+   "bytes": 174348,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "sha256": "f30b772438b626d02f6fbedda1634a05a303fb9ff498fdc11678869886fd4c57"
+  },
+  {
+   "path": "cabinet_ref/C3/C3m/models/WallCabinet_FUR06.blend",
+   "bytes": 198377,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "sha256": "ffd6e24f2327f3b754ac466d0120e2a81439839f582a8b4b3e1d1d22842968a6"
+  },
+  {
+   "path": "cabinet_ref/C3/C3m/vertex_delta_vs_K2_C3m.csv",
+   "bytes": 56084,
+   "role": "CAB03 wall cabinet C3/C3m shape candidate on K2 (FUR06 6b8c26f)",
+   "sha256": "9f3fe42218623a9efb4843dfad4d9cf541f7db8104c37cc247f8ce17637bce39"
+  },
+  {
+   "path": "cabinet_ref/C3/README_CAB03_JA.txt",
+   "bytes": 5705,
+   "role": "CAB03 review record/preview",
+   "sha256": "498b90af9045bee6ef2e5e27e04d380215350b32b723860280ce521efea3ec47"
+  },
+  {
+   "path": "cabinet_ref/C3/previews/C3m_colour_preview_render_only.png",
+   "bytes": 1360412,
+   "role": "CAB03 review record/preview",
+   "png_width": 1800,
+   "png_height": 1400,
+   "rgba_sha256": "3a4c7329cdc19b0a0965e119afb87ad066ab22355a237864c81b46ee36038cea"
+  },
+  {
+   "path": "cabinet_ref/C3/previews/K2_C3_C3m_same_camera.png",
+   "bytes": 2320310,
+   "role": "CAB03 review record/preview",
+   "png_width": 2700,
+   "png_height": 2100,
+   "rgba_sha256": "b0c0f1baf11a29770f00d36713d5d172e0dbbad51062d0ab44d1a0b272014430"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/ba_cabcol.py",
+   "bytes": 1566,
+   "role": "CAB03 review record/preview",
+   "sha256": "33b2a422b58c624f349a1ad1ff096732795a7bc901a5c8aa9a7af823af04a5f4"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/ba_fix.py",
+   "bytes": 2039,
+   "role": "CAB03 review record/preview",
+   "sha256": "c07b46a13975bd51f439f07f5fb0d646e431ee7d3dbc5a4b1a26f5ab5cb89beb"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/cab_C3.json",
+   "bytes": 1455,
+   "role": "CAB03 review record/preview",
+   "sha256": "36b4b951658f30b3901380963ab9514d17277ef007619c0fd6e98b7394992a0f"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/cab_C3m.json",
+   "bytes": 1501,
+   "role": "CAB03 review record/preview",
+   "sha256": "7cbe466f40fd55d1df65d37313526d4b2c9adecaa3116b293a7ebde036371017"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/cab_c3.py",
+   "bytes": 5599,
+   "role": "CAB03 review record/preview",
+   "sha256": "b603b90f68632fcc677548fdecfe52d40325840a605c3e4624066483b7816f7c"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/exp_furn.py",
+   "bytes": 1281,
+   "role": "CAB03 review record/preview",
+   "sha256": "8e2f171112996c732d13b7d6ef7807060819bc6f2437b3cf4d2f1770d82fcb81"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/verify_cab3.json",
+   "bytes": 5098,
+   "role": "CAB03 review record/preview",
+   "sha256": "1f7532b2af9a5526929671782191fcafa499b4b3c06d0b7295834bde5c18bfa0"
+  },
+  {
+   "path": "cabinet_ref/C3/qa/verify_furn.py",
+   "bytes": 3535,
+   "role": "CAB03 review record/preview",
+   "sha256": "ccd1a1a03b1d6cbecf76b5a8c53d45cd5fa1b58260445b00704fa7e66f4bcfaa"
+  },
+  {
+   "path": "cabinet_ref/C3/reference_ledger_CAB03.csv",
+   "bytes": 1856,
+   "role": "CAB03 review record/preview",
+   "sha256": "a7d9bd957e84b0b0cb58f22a921d8fb3003cccc4faebea2ea7e63aeb71e3cb22"
+  },
+  {
+   "path": "cabinet_ref/C3/reference_ledger_CAB03.json",
+   "bytes": 2559,
+   "role": "CAB03 review record/preview",
+   "sha256": "80a776b2a2d8c8f23ad8d9a825e3a1bd31cb8e5b4f7c669ddddf459980d224d8"
   },
   {
    "path": "cloth_contour/README_CLOTH02_JA.txt",
