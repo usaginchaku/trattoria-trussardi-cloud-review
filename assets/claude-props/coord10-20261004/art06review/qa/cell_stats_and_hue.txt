@@ -1,0 +1,8 @@
+tile4 cream (col0,row1) mean [232.0, 227.0, 208.0] std [0.58, 0.58, 0.58] min [227, 222, 203] max [237, 232, 213]
+tile5 blue (col1,row1) mean [186.0, 199.0, 210.0] std [0.58, 0.58, 0.58] min [181, 194, 205] max [191, 204, 215]
+HSV model F19 mat panel tile5 (186, 199, 210) (207.5, 0.114, 0.824)
+HSV model rim tile4 (232, 227, 208) (47.5, 0.103, 0.91)
+HSV reference R(F19) mat (DU_ep10-4, 5x5 median, ART05P) (217, 215, 228) (249.2, 0.057, 0.894)
+HSV reference L(F17) mat (226, 225, 198) (57.9, 0.124, 0.886)
+HSV reference M(F18) mat (228, 225, 198) (54.0, 0.132, 0.894)
+HSV reference L picture ground (242, 243, 235) (67.5, 0.033, 0.953)

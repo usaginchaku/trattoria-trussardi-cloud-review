@@ -1,0 +1,64 @@
+{
+ "work": "COORD10-ART06P F19 mat colour source review (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord10-art05-input-20261004@03bfdaef576cb4649e9356d20f6f0c4edd5f4964 (Frame_17/18/19_FUR06.fbx, FinishAtlas_FUR06.png, target_mapping.json)",
+  "reference": "DU_ep10-4.png sha256 b9a1c3ac... (private, not stored)"
+ },
+ "tooling": "pip bpy 4.3.0 import/analysis and one emission diagram render. Blender 5.2.2 / Unity not run.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "F19_parts_by_finish_tile.png",
+   "bytes": 377043,
+   "role": "self-model part diagram (no reference pixels)",
+   "png_width": 1280,
+   "png_height": 680,
+   "rgba_sha256": "dbc754b530f8277955f7aab427c2ead5a7867f5c6c4da06b74b94ee53069b014"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 4914,
+   "role": "document",
+   "sha256": "a40ee5cf15ee7d76f8b035bff718b82ece0cffdbfb8510c055272e9235327d97"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 905,
+   "role": "document",
+   "sha256": "eff9d5a8d9cec786012fcfb57c3293f1dc881f9de63ea65d5182d4aff7366940"
+  },
+  {
+   "path": "qa/cell_stats_and_hue.txt",
+   "bytes": 638,
+   "role": "analysis record",
+   "sha256": "d6c49924c5c038c3e5b14fbda8674c4f7bed39835f71e3e28908e9d66671041a"
+  },
+  {
+   "path": "qa/slot0_faces_by_finish_tile_F17_F18_F19.json",
+   "bytes": 7708,
+   "role": "analysis record",
+   "sha256": "6f74177be7f151eada55cc706b0ee8bd5515f5b730683a2229cde397767216bc"
+  },
+  {
+   "path": "tools/an_mat.py",
+   "bytes": 3101,
+   "role": "self-written code",
+   "sha256": "5cc1846e6b2a37038b3f414c285593755bd64ce5414146769a6628e15e837f0a"
+  },
+  {
+   "path": "tools/mkmanifest_art06review.py",
+   "bytes": 1752,
+   "role": "self-written code",
+   "sha256": "e3aa476ab16c6a3cbca28be88822dd0f51f39535d85b9c3be23610cef4913101"
+  },
+  {
+   "path": "tools/part_diagram.py",
+   "bytes": 2266,
+   "role": "self-written code",
+   "sha256": "346405af21ef366da8869c65fcce904a4d6c182f4d5c03948c66c3794fee5680"
+  }
+ ]
+}
