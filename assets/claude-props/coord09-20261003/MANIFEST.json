@@ -14,7 +14,8 @@
   "candle_review": "8fd12b3",
   "final_manifest": "dfa4eed",
   "menu_foot_MENU02": "280865b",
-  "kitchen_review_K1": "this commit (see git log)"
+  "kitchen_review_K1": "acc02db",
+  "cloth_contour_CLOTH02": "this commit (see git log)"
  },
  "status": {
   "delivered_candidates": [
@@ -274,6 +275,24 @@
    "role": "candidate: basket weave material W2 on COORD07 B (candidate-only texture copies)",
    "base": "claude/coord07-props-20261003@400d618 (basket B) + dot v02 atlas",
    "sha256": "c748bf8204f1d5bab99fd79418091f6d1c33c8742d759ed36756401a9e4f809a"
+  },
+  {
+   "path": "cloth_contour/README_CLOTH02_JA.txt",
+   "bytes": 2938,
+   "role": "CLOTH02 hem contour review (findings only, no model change)",
+   "sha256": "6f85ff3f499ed3ecd465005b7db7b02db24b312bb5c8ae8ef9fe90803e4d9c43"
+  },
+  {
+   "path": "cloth_contour/hem_wave_ledger.csv",
+   "bytes": 2075,
+   "role": "CLOTH02 hem contour review (findings only, no model change)",
+   "sha256": "039c0e29abb2aa5420ebcf61d3778af1d2a81947caf9e99b11d742eca917b823"
+  },
+  {
+   "path": "cloth_contour/hem_wave_ledger.json",
+   "bytes": 3902,
+   "role": "CLOTH02 hem contour review (findings only, no model change)",
+   "sha256": "a0026df5a38960c809259a2f7e5af9ef0aaeceb36532d9c18d7e475e8ae18094"
   },
   {
    "path": "drive_image_ledger.csv",
