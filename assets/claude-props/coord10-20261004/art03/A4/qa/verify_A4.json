@@ -1,0 +1,142 @@
+{
+ "A4": {
+  "source": "Frame_22_FUR06.fbx",
+  "candidate": "A4/A4/fbx/Frame_22_FUR06_A4.fbx",
+  "fbx_global_settings_source": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "fbx_global_settings_candidate": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 100.0
+  },
+  "gs_match": true,
+  "source_info": {
+   "object": "Frame_22",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.175,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.175,
+    0.0,
+    0.52
+   ],
+   "verts": 1208,
+   "faces": 2444,
+   "tris": 2444,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 9.269095419295326e-05,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "candidate_info": {
+   "object": "Frame_22",
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "bbox_min": [
+    -0.175,
+    -0.036,
+    0.0
+   ],
+   "bbox_max": [
+    0.175,
+    0.0,
+    0.52
+   ],
+   "verts": 3600,
+   "faces": 7228,
+   "tris": 7228,
+   "uv_layers": [
+    "FurnitureUV"
+   ],
+   "materials": [
+    "FinishAtlas_FUR06",
+    "PaintingAtlas_FUR06"
+   ],
+   "texture_names": [
+    "FinishAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ],
+   "nonmanifold_edges": 52,
+   "boundary_edges": 0,
+   "zero_area_faces": 0,
+   "zero_len_corner_normals": 0,
+   "corner_normal_max_dev_from_face_normal": 0.00017260486981396372,
+   "custom_normals": true,
+   "mount_face_y0_verts": 4
+  },
+  "bbox_identical": true,
+  "transform_identical": true,
+  "mount_face_verts_same": true,
+  "original_verts_moved": 0,
+  "original_verts_moved_idx": [],
+  "max_move_m": 0.0,
+  "added_verts": 2392,
+  "topology_identical": false,
+  "source_faces_kept_verbatim": 2364,
+  "source_faces_total": 2444,
+  "kept_faces_normal_max_dev": 2.1784365866750477e-07,
+  "material_face_count_source": {
+   "0": 2432,
+   "1": 12
+  },
+  "material_face_count_candidate": {
+   "0": 7216,
+   "1": 12
+  }
+ }
+}

@@ -1,0 +1,2 @@
+key changed px 6182 inside rim/mat/painting box 0
+graze changed px 4603 inside rim/mat/painting box 9
