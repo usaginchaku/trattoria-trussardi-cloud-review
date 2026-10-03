@@ -12,7 +12,8 @@
   "lamp_shade": "41b3422",
   "wall_cabinet": "e2e48d9",
   "candle_review": "8fd12b3",
-  "final_manifest": "this commit (see git log)"
+  "final_manifest": "dfa4eed",
+  "menu_foot_MENU02": "this commit (see git log)"
  },
  "status": {
   "delivered_candidates": [
@@ -32,6 +33,9 @@
    "Drive ledger 275 images"
   ],
   "in_progress": [],
+  "menu02": [
+   "menu_foot/M1 (foot-only, worldX footprint 0.284 m)"
+  ],
   "not_done": [
    "Unity import / lilToon / VR checks (Codex)",
    "Blender 5.2.2 independent check (Codex)",
@@ -721,6 +725,124 @@
    "role": "candidate: furniture shape on Codex source 6b8c26f",
    "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
    "sha256": "975a387d8e602075d1e5177217273a51705828f980e11f8f2dad6f4ca09dd9df"
+  },
+  {
+   "path": "menu_foot/M1/fbx/MenuStand_EX01.fbx",
+   "bytes": 207692,
+   "role": "MENU02 menu stand foot-only candidate on codex source 02999be",
+   "sha256": "fb1c0e37cf4cefe1c8c901c35e3b49ed33d66168de9bad2250c572f3383b2e9a"
+  },
+  {
+   "path": "menu_foot/M1/models/MenuStand_EX01.blend",
+   "bytes": 256741,
+   "role": "MENU02 menu stand foot-only candidate on codex source 02999be",
+   "sha256": "af972409c8210ff4b7d99d77fa2102e785e5cdfd18970ed3658c1b425b0483f1"
+  },
+  {
+   "path": "menu_foot/M1/source_vertex_delta_M1.csv",
+   "bytes": 47630,
+   "role": "MENU02 menu stand foot-only candidate on codex source 02999be",
+   "sha256": "07181bb90011ab1586bb3b84fb5fd48abf3215f72c51d5cd088d82781b952a1b"
+  },
+  {
+   "path": "menu_foot/M1/unity_mesh_foot_delta_M1.json",
+   "bytes": 749340,
+   "role": "MENU02 menu stand foot-only candidate on codex source 02999be",
+   "sha256": "3abc340c033c29f49959934b0b2511cb9c24e0d179c5200f5f69f8ff82a44d69"
+  },
+  {
+   "path": "menu_foot/README_MENU02_JA.txt",
+   "bytes": 5478,
+   "role": "MENU02 review record",
+   "sha256": "3292be9f572a7261aebb46aa8e3578dd33b15b8c6c0c6af664b5bcf90fba22f7"
+  },
+  {
+   "path": "menu_foot/previews/menu_M0_M1lin_M1_same_camera.png",
+   "bytes": 2305373,
+   "role": "MENU02 review record",
+   "png_width": 2400,
+   "png_height": 3200,
+   "rgba_sha256": "cb8a85fac4a62816dadc55c72a548e8fa0a4007455b0a45d9c7da760849d84a1"
+  },
+  {
+   "path": "menu_foot/previews/menu_M0_vs_M1_same_camera.png",
+   "bytes": 2036799,
+   "role": "MENU02 review record",
+   "png_width": 1600,
+   "png_height": 3200,
+   "rgba_sha256": "e13db53fc63d2ec80fc151ac6607d68773af39aaaac7649e421e587411d0aa84"
+  },
+  {
+   "path": "menu_foot/qa/ba_menu.py",
+   "bytes": 3100,
+   "role": "MENU02 review record",
+   "sha256": "072a8b4a4a8699f7cfccd3d617392f7077dc0738f5fb9d0d9193a4757efe2db8"
+  },
+  {
+   "path": "menu_foot/qa/exp_menu.py",
+   "bytes": 1153,
+   "role": "MENU02 review record",
+   "sha256": "3935a00a8bed61f3de31f142e549523e1188fcbef6bd83e461139c03c2dd1bfb"
+  },
+  {
+   "path": "menu_foot/qa/menu_M0.json",
+   "bytes": 2100,
+   "role": "MENU02 review record",
+   "sha256": "d7ad26a8aaa2ec78ef8be235a7ae999b14b633f24cd3f3e3adaefcbece7fd5d3"
+  },
+  {
+   "path": "menu_foot/qa/menu_M1.json",
+   "bytes": 2101,
+   "role": "MENU02 review record",
+   "sha256": "76b513a64c7f06f66b10ca4b4bea006316106a220cab3430d2ca344bc022be78"
+  },
+  {
+   "path": "menu_foot/qa/menu_M1lin.json",
+   "bytes": 2100,
+   "role": "MENU02 review record",
+   "sha256": "e0ee7bc0d89b32c16e77f6a3e36cfb2878d7630268dca5f48051f39f9d0dfea1"
+  },
+  {
+   "path": "menu_foot/qa/menu_foot.py",
+   "bytes": 6888,
+   "role": "MENU02 review record",
+   "sha256": "9b78670ab573e210fbfe8a1a4731f7625274b80e122f0d19fa73c8f307a9bdfb"
+  },
+  {
+   "path": "menu_foot/qa/menu_ov.py",
+   "bytes": 1491,
+   "role": "MENU02 review record",
+   "sha256": "d5174e1eea16760487e31c3f633ea4b7ba814876843c3d9ff044cf09b75be801"
+  },
+  {
+   "path": "menu_foot/qa/menu_overlap_locations.txt",
+   "bytes": 556,
+   "role": "MENU02 review record",
+   "sha256": "3ba38ab0ba52938a264b3f7ed0bac2bd8f8681ff516937c96c13445c93e72dae"
+  },
+  {
+   "path": "menu_foot/qa/unity_map.py",
+   "bytes": 4574,
+   "role": "MENU02 review record",
+   "sha256": "9c4f45f11c08127b15d687f22b2dfc30303deeaf7b9fb9b8fc3682f377f1e28d"
+  },
+  {
+   "path": "menu_foot/qa/unity_mapping_sanity.txt",
+   "bytes": 235,
+   "role": "MENU02 review record",
+   "sha256": "430bcfe356dff9dea8ea0c6d7c63dc8c31088e66a3a314c1a598e54c37491c5b"
+  },
+  {
+   "path": "menu_foot/qa/verify_furn.py",
+   "bytes": 3535,
+   "role": "MENU02 review record",
+   "sha256": "ccd1a1a03b1d6cbecf76b5a8c53d45cd5fa1b58260445b00704fa7e66f4bcfaa"
+  },
+  {
+   "path": "menu_foot/qa/verify_menu.json",
+   "bytes": 3227,
+   "role": "MENU02 review record",
+   "sha256": "766cd62ed5c8303bde7cc51ac2aae60e850ed305dec089da6d97c06142d6e1aa"
   },
   {
    "path": "previews/basket_LOD1_local_fix_before_after.png",

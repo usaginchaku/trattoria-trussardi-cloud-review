@@ -1,0 +1,110 @@
+{
+ "tag": "M1",
+ "S_TIP": 0.62,
+ "P": 0.0,
+ "parent_yaw_deg": 7.999999641200034,
+ "post_axis_xy": [
+  0.0,
+  0.0
+ ],
+ "selection": "3 Timber islands of 372 verts (31 rings x 12), min z<0.01, max z<0.3",
+ "foot_vertex_index_ranges": [
+  [
+   338,
+   709
+  ],
+  [
+   710,
+   1081
+  ],
+  [
+   1082,
+   1453
+  ]
+ ],
+ "footprint_worldX_lowest2mm_before_m": 0.4645375510610239,
+ "footprint_worldX_lowest2mm_after_m": 0.2838679769968087,
+ "footprint_world_scaled_after_m": 0.22214114967337273,
+ "legs": [
+  {
+   "joint_ring_radius_m": 2.8912057932946783e-19,
+   "tip_ring_radius_before_m": 0.28999999165534973,
+   "tip_ring_radius_after_m": 0.17979999482631684
+  },
+  {
+   "joint_ring_radius_m": 0.0,
+   "tip_ring_radius_before_m": 0.2899999903537416,
+   "tip_ring_radius_after_m": 0.1797999940193198
+  },
+  {
+   "joint_ring_radius_m": 0.0,
+   "tip_ring_radius_before_m": 0.2899999903537416,
+   "tip_ring_radius_after_m": 0.1797999940193198
+  }
+ ],
+ "tip_relevel_dz_m": [
+  -0.0007773341300586854,
+  -0.0007722896989434958,
+  -0.0007722896989434958
+ ],
+ "tips": [
+  {
+   "min_z_before": -0.003455705940723419,
+   "min_z_after": -0.003455705940723419
+  },
+  {
+   "min_z_before": -0.0033424533903598785,
+   "min_z_after": -0.0033424533903598785
+  },
+  {
+   "min_z_before": -0.0033424533903598785,
+   "min_z_after": -0.0033424533903598785
+  }
+ ],
+ "tip_contact_plane_spread_m": 0.00011325255036354065,
+ "nonfoot_verts": 1772,
+ "nonfoot_positions_identical": true,
+ "nonfoot_corner_normals_max_dev": 0.0003355982640222979,
+ "uv_identical": true,
+ "dims_before": [
+  0.5643929839134216,
+  0.5212876200675964,
+  1.4725665524601936
+ ],
+ "dims_after": [
+  0.5400000214576721,
+  0.3387109786272049,
+  1.4725665524601936
+ ],
+ "zmin_after": -0.003455705940723419,
+ "zmax_after": 1.4691108465194702,
+ "triangle_overlaps_before": {
+  "leg_post": [
+   82,
+   82,
+   82
+  ],
+  "leg_leg": [
+   48,
+   50,
+   37
+  ]
+ },
+ "triangle_overlaps_after": {
+  "leg_post": [
+   93,
+   94,
+   94
+  ],
+  "leg_leg": [
+   57,
+   57,
+   43
+  ]
+ },
+ "tris": 5736,
+ "nonmanifold": 4,
+ "boundary": 0,
+ "zero_area": 0,
+ "zero_len_normals": 0
+}
