@@ -1,0 +1,48 @@
+{
+ "CUT02_A1/09_Dinner_Knife.fbx": {
+  "tris": 912,
+  "mesh_area_m2": 0.007877207897521998,
+  "uv0": {
+   "tris_uv_area_lt_1e-12": 152,
+   "their_3d_area_m2": 0.0008075212232228068,
+   "their_3d_area_fraction": 0.10251363601522258,
+   "tris_uv_area_lt_1e-9": 152
+  },
+  "uv2": {
+   "tiny_tris_uv_area_lt_1e-10": 0,
+   "eps_area": 1e-12,
+   "candidate_pairs_bbox": 4464,
+   "overlapping_pairs_area_gt_eps": 0,
+   "max_overlap_area": 0.0,
+   "non_overlapping_contacts": {
+    "shared_vertex": 3001,
+    "shared_edge": 1182,
+    "bbox_or_point_contact_no_shared_vertex": 281
+   },
+   "note": "3D-adjacent triangles in the same UV island share UV edges; such pairs have zero intersection area and are classified as contacts, not overlaps"
+  }
+ },
+ "CUT03_A2/09_Dinner_Knife.fbx": {
+  "tris": 1104,
+  "mesh_area_m2": 0.00788487389812964,
+  "uv0": {
+   "tris_uv_area_lt_1e-12": 0,
+   "their_3d_area_m2": 0.0,
+   "their_3d_area_fraction": 0.0,
+   "tris_uv_area_lt_1e-9": 5
+  },
+  "uv2": {
+   "tiny_tris_uv_area_lt_1e-10": 0,
+   "eps_area": 1e-12,
+   "candidate_pairs_bbox": 5338,
+   "overlapping_pairs_area_gt_eps": 0,
+   "max_overlap_area": 0.0,
+   "non_overlapping_contacts": {
+    "shared_vertex": 3529,
+    "shared_edge": 1426,
+    "bbox_or_point_contact_no_shared_vertex": 383
+   },
+   "note": "3D-adjacent triangles in the same UV island share UV edges; such pairs have zero intersection area and are classified as contacts, not overlaps"
+  }
+ }
+}

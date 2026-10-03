@@ -1,0 +1,6 @@
+{
+ "fbx": "CUT03_A2/fbx/09_Dinner_Knife.fbx -> bare names Trussardi_Atlas_BaseColor/Metallic/Roughness.png, resolved by byte copies in the same folder (same files as CUT02_A1/fbx, originally v02 .fbm @7bacd4c)",
+ "blend": "CUT03_A2/models/09_Dinner_Knife.blend -> //../fbx/<name>.png (relative)",
+ "fork_spoon": "not re-exported; CUT02_A1 fork/spoon FBX used read-only as background in previews",
+ "preview_material": "qa/preview_material_both.json, identical for A1 and A2 renders and to the CUT02 previews; Cloud silver is not the RI11 Unity material"
+}

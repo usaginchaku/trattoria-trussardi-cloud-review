@@ -1,0 +1,178 @@
+{
+ "09_Dinner_Knife.fbx@CUT02_A1": {
+  "objects": [
+   "09_Dinner_Knife_Mesh.001"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 458,
+  "tris": 912,
+  "bbox": [
+   [
+    -0.00626,
+    -0.1125,
+    0.0
+   ],
+   [
+    0.014,
+    0.12376,
+    0.00435
+   ]
+  ],
+  "size_m": [
+   0.02026,
+   0.23626,
+   0.00435
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 0,
+  "min_tri_area": 4.759931471198797e-08,
+  "signed_volume_m3": 7.486416510303079e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.14,
+     0.14
+    ],
+    [
+     0.185,
+     0.235
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0018,
+     0.0018
+    ],
+    [
+     0.216,
+     0.9982
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 142731
+ },
+ "09_Dinner_Knife.fbx@CUT03_A2": {
+  "objects": [
+   "09_Dinner_Knife_Mesh.001"
+  ],
+  "rot": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "gs": {
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": 1,
+   "CoordAxis": 0,
+   "CoordAxisSign": 1,
+   "UnitScaleFactor": 1.0
+  },
+  "verts": 554,
+  "tris": 1104,
+  "bbox": [
+   [
+    -0.00626,
+    -0.1125,
+    0.0
+   ],
+   [
+    0.014,
+    0.12376,
+    0.00435
+   ]
+  ],
+  "size_m": [
+   0.02026,
+   0.23626,
+   0.00435
+  ],
+  "zmin": 0.0,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "zero_area_tris(<1e-10)": 0,
+  "min_tri_area": 2.206797944381833e-08,
+  "signed_volume_m3": 7.489380313833657e-06,
+  "outward_normals": true,
+  "self_intersections": 0,
+  "normals_finite_unit": true,
+  "materials": [
+   "Trussardi_Atlas"
+  ],
+  "uv_layers": [
+   "UVMap",
+   "LightmapUV"
+  ],
+  "uv_ranges": {
+   "UVMap": [
+    [
+     0.14,
+     0.14
+    ],
+    [
+     0.178,
+     0.235
+    ]
+   ],
+   "LightmapUV": [
+    [
+     0.0019,
+     0.0019
+    ],
+    [
+     0.2568,
+     0.9981
+    ]
+   ]
+  },
+  "lightmap_texels_overlapping_1024": 0,
+  "lightmap_texels_covered_1024": 143073
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "work": "COORD10-CUT03 knife edge smoothing A2 (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "claude/coord09-model-review-20261003@91bbcff37e569b6cd630c70bbc9b64949bccb389:assets/claude-props/coord10-20261004/cut02/CUT02_A1/fbx/09_Dinner_Knife.fbx (sha256 30ff436f5bf6705fd85945d3036656f517044717d420146c229391412f02fbf0)"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "CUT03_A2/fbx/09_Dinner_Knife.fbx",
+   "bytes": 58252,
+   "role": "CUT03_A2 knife candidate mesh (FBX)",
+   "sha256": "722593376524ff57c777282ff6df880957666d432a6b45c08731ef57aaf75f82"
+  },
+  {
+   "path": "CUT03_A2/fbx/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "atlas image referenced by the FBX (byte copy, same as CUT02_A1/fbx)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "CUT03_A2/fbx/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "atlas image referenced by the FBX (byte copy, same as CUT02_A1/fbx)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "CUT03_A2/fbx/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "atlas image referenced by the FBX (byte copy, same as CUT02_A1/fbx)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "CUT03_A2/models/09_Dinner_Knife.blend",
+   "bytes": 126145,
+   "role": "CUT03_A2 knife editable blend",
+   "sha256": "8750b6bea23369ef9ffecd5e714e9f6ab920279c9c5c30c04ab3f2edbcd36f80"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 5057,
+   "role": "document",
+   "sha256": "295919e16835556d39f7ae4f59101ee9a8b1483f3233ae4b4fc6d958b3ebab00"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 858,
+   "role": "document",
+   "sha256": "168f7dce5ab4a9b79121ee704b87b88398453699425a6073a1a2a3f706380351"
+  },
+  {
+   "path": "external_image_dependencies.json",
+   "bytes": 555,
+   "role": "document",
+   "sha256": "5cf32d3fc3e5d1c293ea9e9417aab6ba27c44719ea0235d1958f8177cc1debf6"
+  },
+  {
+   "path": "previews/knifeA1_blade_top.png",
+   "bytes": 871134,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1000,
+   "rgba_sha256": "80291e1ddf5a8456715e5517ffdf5e8471e9a12d9120acdac42b9eee6aacd6ec"
+  },
+  {
+   "path": "previews/knifeA1_oblique.png",
+   "bytes": 913659,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1100,
+   "png_height": 800,
+   "rgba_sha256": "0518ade1e021976fcfd436eed9d18bab3183e4156d833b8b72c2aa7cbaf4e91f"
+  },
+  {
+   "path": "previews/knifeA1_oblique_knife_closeup.png",
+   "bytes": 223446,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 800,
+   "rgba_sha256": "b30812dd4ffd28856fa94bbc75d2b264bc7eb1681de036d74db1e8f60aff7d17"
+  },
+  {
+   "path": "previews/knifeA1_side2.png",
+   "bytes": 171818,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "5aab691e8ab51073391420cc4dbe079aeb3c13e8da0744d8106b9063c12f6e1c"
+  },
+  {
+   "path": "previews/knifeA1_table.png",
+   "bytes": 680419,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1000,
+   "png_height": 700,
+   "rgba_sha256": "ee934fc2acda8a31dd8413eb6233b46c0d600437a06a5c1f8447f53cb4e9916a"
+  },
+  {
+   "path": "previews/knifeA1_top.png",
+   "bytes": 861124,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1000,
+   "rgba_sha256": "52f03cc6533eb1f99090d7df6758025854b8886e3ba443bdadd452399e5d3e7f"
+  },
+  {
+   "path": "previews/knifeA1_vs_A2_blade_top.png",
+   "bytes": 290977,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1080,
+   "png_height": 622,
+   "rgba_sha256": "f1962c0a2060aefce1ac56ca4e0c069d087eee5e72d32d0a1d2cfacb5b9c5e65"
+  },
+  {
+   "path": "previews/knifeA1_vs_A2_oblique.png",
+   "bytes": 279033,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1320,
+   "png_height": 502,
+   "rgba_sha256": "78728fbcb71609f0d985e7a8ec361ba84569daba365140042e27985a1dc8c5ef"
+  },
+  {
+   "path": "previews/knifeA1_vs_A2_oblique_knife_closeup.png",
+   "bytes": 203962,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1080,
+   "png_height": 502,
+   "rgba_sha256": "84dd21bbb1ace4983b6f0eb91cab1426c94374a3e67b67866d13791711dffc54"
+  },
+  {
+   "path": "previews/knifeA1_vs_A2_side2.png",
+   "bytes": 50887,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1560,
+   "png_height": 136,
+   "rgba_sha256": "e81c99dc0ec479f1aab0b21c1827c175623c0b8f7977eb130fcd692d807ae933"
+  },
+  {
+   "path": "previews/knifeA1_vs_A2_table.png",
+   "bytes": 191023,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1200,
+   "png_height": 442,
+   "rgba_sha256": "f607e58cad56dbe09ead20c4edc43338b0aee6fa0eef2cac027de1fa16cf8346"
+  },
+  {
+   "path": "previews/knifeA1_vs_A2_top.png",
+   "bytes": 260449,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1080,
+   "png_height": 622,
+   "rgba_sha256": "43fa8e61be7be5995da9fa850bf83ab75ebd98be6f5a9bd6e3daa59c90a13644"
+  },
+  {
+   "path": "previews/knifeA2_blade_top.png",
+   "bytes": 870917,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1000,
+   "rgba_sha256": "5ad17e2847b369c06b17b45bf0bf12f8cb10e04c2d3204ca12ce7c9b4a268fd6"
+  },
+  {
+   "path": "previews/knifeA2_oblique.png",
+   "bytes": 914168,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1100,
+   "png_height": 800,
+   "rgba_sha256": "afd7dca1997cec4ee7f30635ded1495dcb31f63d6ebe936862bf1fb231c57374"
+  },
+  {
+   "path": "previews/knifeA2_oblique_knife_closeup.png",
+   "bytes": 224155,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 800,
+   "rgba_sha256": "25f70ebc2e3b88c95bc0cb296efeb1f35184cef468b6b9176084d342a5bd70fb"
+  },
+  {
+   "path": "previews/knifeA2_side2.png",
+   "bytes": 171656,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1300,
+   "png_height": 190,
+   "rgba_sha256": "e3eab7d16101e56bd40ef2ac562a7bddb5147f975dcfff4b3d1cb5f5cf37967c"
+  },
+  {
+   "path": "previews/knifeA2_table.png",
+   "bytes": 680496,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 1000,
+   "png_height": 700,
+   "rgba_sha256": "2b9fb3d1a102453f0ced62451af1e8c028c10bdd27c6c1e41cdb5ed6527667b0"
+  },
+  {
+   "path": "previews/knifeA2_top.png",
+   "bytes": 861333,
+   "role": "same-condition comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1000,
+   "rgba_sha256": "4bc4e3fe23fe872ceaf7b19e0602eb7211717771d5035877da9cd8afe2324d26"
+  },
+  {
+   "path": "qa/build_report.json",
+   "bytes": 672,
+   "role": "verification record",
+   "sha256": "9cab59f67214832e90b1c344fa79230080d5bab976df885428546bf16397edf3"
+  },
+  {
+   "path": "qa/dimensions_A1_vs_A2.json",
+   "bytes": 2257,
+   "role": "verification record",
+   "sha256": "bded785e2dc4c802b61cbf364ab5222f015b84490f2152e871961cd1d633873b"
+  },
+  {
+   "path": "qa/fbx_path_strip_check.json",
+   "bytes": 2614,
+   "role": "verification record",
+   "sha256": "08be6a34760f1e65717dab094133d199f892579584534c9a1c28e03f641d4f6a"
+  },
+  {
+   "path": "qa/geometry_checks.json",
+   "bytes": 2432,
+   "role": "verification record",
+   "sha256": "4babbafbc8fab1da834a9c84ad5a09b3d64741e28b57dd210f4f43a755ec4f5f"
+  },
+  {
+   "path": "qa/outline_turning_angles.json",
+   "bytes": 3210,
+   "role": "verification record",
+   "sha256": "795c808950ff6f6bb9c31f49a9f098d2fa6ee87ebfafc435b87b5e0a74aafc28"
+  },
+  {
+   "path": "qa/preview_material_both.json",
+   "bytes": 72,
+   "role": "verification record",
+   "sha256": "a04d0e7c1e61e399e66f44bdb413be3a75ab6a2d7143f2d87ea7589944a6d3b7"
+  },
+  {
+   "path": "qa/scene_triangle_load.json",
+   "bytes": 620,
+   "role": "verification record",
+   "sha256": "bba75c3b546c1e1dfe43b2c9d7cc15b9d6261ca1dbfa8d18fe78bd7e366e96ad"
+  },
+  {
+   "path": "qa/uv_audit.json",
+   "bytes": 1446,
+   "role": "verification record",
+   "sha256": "c0525934ec51dafb4c86884e6ed5d1e025f29c747ec06ed68d7d62cc5f3b93a7"
+  },
+  {
+   "path": "tools/build_knife_a2.py",
+   "bytes": 12538,
+   "role": "self-written code",
+   "sha256": "f844ee4a3a155edc1fc23a983d07f3ac3ec9ed7713203079a960fec6dba852ce"
+  },
+  {
+   "path": "tools/check_cut.py",
+   "bytes": 4582,
+   "role": "self-written code",
+   "sha256": "267558dd6890b459e56005e76cdd33e2039dc6574fff9ccdece37ca0754a70e9"
+  },
+  {
+   "path": "tools/fbx_strip_paths.py",
+   "bytes": 1585,
+   "role": "self-written code",
+   "sha256": "a53ff3acbf960d1b0c405d7b94806d54514aa4ee1524e9689e0742d38ef55610"
+  },
+  {
+   "path": "tools/mkmanifest_cut03.py",
+   "bytes": 2039,
+   "role": "self-written code",
+   "sha256": "e05ba5a468287aa2595a93619aa855ea16dac021d0210f7efe7f9c61dead0c28"
+  },
+  {
+   "path": "tools/outline_kink.py",
+   "bytes": 1764,
+   "role": "self-written code",
+   "sha256": "f3367994b8728e1cd4e86495a5c50e1c4dc888f2c9297144380aad392dddb4b3"
+  },
+  {
+   "path": "tools/render_cut3.py",
+   "bytes": 4117,
+   "role": "self-written code",
+   "sha256": "2616e6e169a53a575a1a7aaf33efa3f85fb40e69a1968b3cf4910bf17394303e"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/uv_audit.py",
+   "bytes": 3828,
+   "role": "self-written code",
+   "sha256": "f885876485d3478d5acd2ff15220d17c7542cc3220b56c9abf9316be25878af2"
+  },
+  {
+   "path": "tools/verify_art03.py",
+   "bytes": 4870,
+   "role": "self-written code",
+   "sha256": "bccd27d2f18de89bc575a4ce5d46364754489d7f83bf78b794ecf7893088765e"
+  }
+ ]
+}
