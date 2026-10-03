@@ -1,0 +1,29 @@
+{
+ "mode": "L1",
+ "shade_width_m": 0.2220000119852471,
+ "shade_height_before_m": 0.2549999952316284,
+ "wh_before": 0.8705882985746495,
+ "wall_scale_z": 0.7451964116752389,
+ "shade_height_after_m": 0.21142858284309246,
+ "wh_after": 1.05,
+ "shade_verts": 852,
+ "moved": 320,
+ "metal_unchanged": true,
+ "dims_before": [
+  0.22200000286102295,
+  0.22200000286102295,
+  0.4350000023841858
+ ],
+ "dims_after": [
+  0.22200000286102295,
+  0.22200000286102295,
+  0.3914285898208618
+ ],
+ "shade_top_after": 0.3914285898208618,
+ "uv_unchanged": true,
+ "tris": 2312,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "zero_len_normals": 0
+}

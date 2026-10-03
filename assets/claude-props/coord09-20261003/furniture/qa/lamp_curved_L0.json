@@ -1,0 +1,26 @@
+{
+ "mode": "L0",
+ "shade_width_m": 0.22200002626609006,
+ "shade_height_before_m": 0.2549999952316284,
+ "wh_before": 0.8705883545779561,
+ "shade_verts": 852,
+ "moved": 0,
+ "metal_unchanged": true,
+ "dims_before": [
+  0.22200000286102295,
+  0.37599998712539673,
+  0.47999998927116394
+ ],
+ "dims_after": [
+  0.22200000286102295,
+  0.37599998712539673,
+  0.47999998927116394
+ ],
+ "shade_top_after": 0.47999998927116394,
+ "uv_unchanged": true,
+ "tris": 3104,
+ "nonmanifold": 0,
+ "boundary": 0,
+ "zero_area": 0,
+ "zero_len_normals": 0
+}
