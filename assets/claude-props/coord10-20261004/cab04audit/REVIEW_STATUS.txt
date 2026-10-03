@@ -1,0 +1,8 @@
+COORD10-CAB04BASE REVIEW_STATUS (2026-10-04 JST, Claude cloud, pip bpy 4.3.0)
+- 無変更書き出しの FBX 1 個と atlas、FBX 配列の直接比較(JSON/CSV/ループ別の表)、設定記録: 納品
+- 確定した比較: C3m vs 基準(最大 0.747°/251)、基準 vs C4(最大 0.033°/0)、C3m vs C4。いずれもループ順・頂点番号が同一であることを確認済み
+- 未検証の境界:
+    Blender 5.2.2 / Unity での再現は未実施(元Codex)
+    0.747° の原因の特定と部位の内訳は未実施
+    native(Unity)ループとの対応は、この repo の FBX どうしの範囲だけで確認(Unity の頂点分割後の対応は未確認)
+- 形状の変更・生成画像・新しい候補はない

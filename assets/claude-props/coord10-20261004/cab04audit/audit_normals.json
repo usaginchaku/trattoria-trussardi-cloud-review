@@ -1,0 +1,210 @@
+{
+ "files": {
+  "C3m_original": {
+   "sha256": "f30b772438b626d02f6fbedda1634a05a303fb9ff498fdc11678869886fd4c57",
+   "bytes": 174348,
+   "fbx_version": 7400,
+   "verts": 2132,
+   "loops": 12660,
+   "faces": 4220,
+   "bbox": [
+    [
+     -0.44,
+     -0.301,
+     0.0
+    ],
+    [
+     0.44,
+     0.0,
+     0.8
+    ]
+   ],
+   "gs": {
+    "UpAxis": 1,
+    "UpAxisSign": 1,
+    "FrontAxis": 2,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": 1,
+    "UnitScaleFactor": 100.0
+   },
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "tex": [
+    "<repo>/assets/claude-props/coord09-20261003/cabinet_ref/C3/C3m/fbx/FinishAtlas_FUR06.png",
+    "FinishAtlas_FUR06.png"
+   ],
+   "path": "WallCabinet_FUR06.fbx"
+  },
+  "baseline_passthrough": {
+   "sha256": "7c5c5b8e80e2a9f272af53d1de9b9d387a73222790b76dc29dd012c3a65fdc80",
+   "bytes": 169100,
+   "fbx_version": 7400,
+   "verts": 2132,
+   "loops": 12660,
+   "faces": 4220,
+   "bbox": [
+    [
+     -0.44,
+     -0.301,
+     0.0
+    ],
+    [
+     0.44,
+     0.0,
+     0.8
+    ]
+   ],
+   "gs": {
+    "UpAxis": 1,
+    "UpAxisSign": 1,
+    "FrontAxis": 2,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": 1,
+    "UnitScaleFactor": 100.0
+   },
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "tex": [
+    "FinishAtlas_FUR06.png"
+   ],
+   "path": "WallCabinet_FUR06_C3m_passthrough_bpy43.fbx"
+  },
+  "baseline_unstripped_used_for_C4_check": {
+   "sha256": "920aec82ca8ee49a793fa02cde0b7faecbacb1801ac0586ef563d1f6638d114d",
+   "bytes": 169500,
+   "fbx_version": 7400,
+   "verts": 2132,
+   "loops": 12660,
+   "faces": 4220,
+   "bbox": [
+    [
+     -0.44,
+     -0.301,
+     0.0
+    ],
+    [
+     0.44,
+     0.0,
+     0.8
+    ]
+   ],
+   "gs": {
+    "UpAxis": 1,
+    "UpAxisSign": 1,
+    "FrontAxis": 2,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": 1,
+    "UnitScaleFactor": 100.0
+   },
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "tex": [
+    "<scratch>/cab4/try/C3m_identity/fbx/FinishAtlas_FUR06.png",
+    "FinishAtlas_FUR06.png"
+   ],
+   "path": "WallCabinet_FUR06.fbx"
+  },
+  "C4": {
+   "sha256": "779c3f2ef3e38b605932e423175062a7687ffe74b690d95ce495880db5308172",
+   "bytes": 174252,
+   "fbx_version": 7400,
+   "verts": 2228,
+   "loops": 13224,
+   "faces": 4408,
+   "bbox": [
+    [
+     -0.44,
+     -0.301,
+     0.0
+    ],
+    [
+     0.44,
+     0.0,
+     0.8
+    ]
+   ],
+   "gs": {
+    "UpAxis": 1,
+    "UpAxisSign": 1,
+    "FrontAxis": 2,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": 1,
+    "UnitScaleFactor": 100.0
+   },
+   "mats": [
+    "FinishAtlas_FUR06"
+   ],
+   "tex": [
+    "FinishAtlas_FUR06.png"
+   ],
+   "path": "WallCabinet_FUR06.fbx"
+  }
+ },
+ "comparisons": {
+  "C3m_original__vs__baseline_passthrough": {
+   "a": "C3m_original",
+   "b": "baseline_passthrough",
+   "compared_loops": 12660,
+   "loop_order_and_vertex_indices_identical": true,
+   "max_angle_deg": 0.7470937565453668,
+   "mean_angle_deg": 0.008238525398869039,
+   "loops_over_0_05deg": 251,
+   "loops_over_0_5deg": 96,
+   "uv_identical": true,
+   "uv_max_diff": 0.0,
+   "material_per_face_identical": "single material index (AllSame) in both",
+   "vertex_position_max_diff_m_common_range": 0.0
+  },
+  "baseline_passthrough__vs__C4": {
+   "a": "baseline_passthrough",
+   "b": "C4",
+   "compared_loops": 12660,
+   "loop_order_and_vertex_indices_identical": true,
+   "max_angle_deg": 0.033328636650155695,
+   "mean_angle_deg": 0.00021791136640396462,
+   "loops_over_0_05deg": 0,
+   "loops_over_0_5deg": 0,
+   "uv_identical": true,
+   "uv_max_diff": 0.0,
+   "material_per_face_identical": "single material index (AllSame) in both",
+   "vertex_position_max_diff_m_common_range": 0.03789997100830078
+  },
+  "C3m_original__vs__C4": {
+   "a": "C3m_original",
+   "b": "C4",
+   "compared_loops": 12660,
+   "loop_order_and_vertex_indices_identical": true,
+   "max_angle_deg": 0.7470937565453668,
+   "mean_angle_deg": 0.008370516768539837,
+   "loops_over_0_05deg": 251,
+   "loops_over_0_5deg": 96,
+   "uv_identical": true,
+   "uv_max_diff": 0.0,
+   "material_per_face_identical": "single material index (AllSame) in both",
+   "vertex_position_max_diff_m_common_range": 0.03789997100830078
+  },
+  "baseline_unstripped_used_for_C4_check__vs__baseline_passthrough": {
+   "a": "baseline_unstripped_used_for_C4_check",
+   "b": "baseline_passthrough",
+   "compared_loops": 12660,
+   "loop_order_and_vertex_indices_identical": true,
+   "max_angle_deg": 1.2074182697257333e-06,
+   "mean_angle_deg": 2.5566012999064907e-07,
+   "loops_over_0_05deg": 0,
+   "loops_over_0_5deg": 0,
+   "uv_identical": true,
+   "uv_max_diff": 0.0,
+   "material_per_face_identical": "single material index (AllSame) in both",
+   "vertex_position_max_diff_m_common_range": 0.0
+  }
+ },
+ "threshold_deg": 0.05,
+ "note": "angles from the Normals arrays written in each FBX (expanded through NormalsIndex). C4 has 564 extra loops (new middle tier) after the original 12660; only the common original range is compared."
+}

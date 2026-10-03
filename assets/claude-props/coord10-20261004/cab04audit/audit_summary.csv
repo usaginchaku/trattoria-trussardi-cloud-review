@@ -1,0 +1,11 @@
+"file","role","sha256","bytes","verts","faces(tris)","normal_loops","bbox_min","bbox_max","UnitScaleFactor","materials","texture_refs"
+"WallCabinet_FUR06.fbx","input (8b12ec3, read only)","f30b772438b626d02f6fbedda1634a05a303fb9ff498fdc11678869886fd4c57","174348","2132","4220","12660","[-0.44, -0.301, 0.0]","[0.44, 0.0, 0.8]","100.0","FinishAtlas_FUR06","<repo>/assets/claude-props/coord09-20261003/cabinet_ref/C3/C3m/fbx/FinishAtlas_FUR06.png;FinishAtlas_FUR06.png"
+"WallCabinet_FUR06_C3m_passthrough_bpy43.fbx","published pass-through (paths stripped)","7c5c5b8e80e2a9f272af53d1de9b9d387a73222790b76dc29dd012c3a65fdc80","169100","2132","4220","12660","[-0.44, -0.301, 0.0]","[0.44, 0.0, 0.8]","100.0","FinishAtlas_FUR06","FinishAtlas_FUR06.png"
+"WallCabinet_FUR06.fbx","scratch file actually used for the C4 0.033 deg check (not published, contains a scratch path)","920aec82ca8ee49a793fa02cde0b7faecbacb1801ac0586ef563d1f6638d114d","169500","2132","4220","12660","[-0.44, -0.301, 0.0]","[0.44, 0.0, 0.8]","100.0","FinishAtlas_FUR06","<scratch>/cab4/try/C3m_identity/fbx/FinishAtlas_FUR06.png;FinishAtlas_FUR06.png"
+"WallCabinet_FUR06.fbx","cab04 candidate (52eac8c)","779c3f2ef3e38b605932e423175062a7687ffe74b690d95ce495880db5308172","174252","2228","4408","13224","[-0.44, -0.301, 0.0]","[0.44, 0.0, 0.8]","100.0","FinishAtlas_FUR06","FinishAtlas_FUR06.png"
+
+"comparison","compared_loops","loop_order_identical","max_angle_deg","loops_over_0.05deg","loops_over_0.5deg","uv_identical","vertex_pos_max_diff_m"
+"C3m_original__vs__baseline_passthrough","12660","True","0.747094","251","96","True","0.0"
+"baseline_passthrough__vs__C4","12660","True","0.033329","0","0","True","0.03789997100830078"
+"C3m_original__vs__C4","12660","True","0.747094","251","96","True","0.03789997100830078"
+"baseline_unstripped_used_for_C4_check__vs__baseline_passthrough","12660","True","1e-06","0","0","True","0.0"

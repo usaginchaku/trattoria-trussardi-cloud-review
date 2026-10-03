@@ -1,0 +1,23 @@
+{
+ "tool": "pip bpy 4.3.0 (Blender 4.3 Python module), Cycles not used here",
+ "baseline_build": "scratchpad cab4/build_c4.py (same file as cab04/tools/build_c4.py, md5 ed9c7312410bb1b2deae7183557bc34c) with argument \"identity\": import C3m FBX -> mark all edges sharp -> normals_split_custom_set(the imported corner normals, unchanged) -> export. No vertex move, no normal recalculation, no UV repair, no material change.",
+ "import": {
+  "operator": "bpy.ops.import_scene.fbx",
+  "options": "defaults of bpy 4.3 (use_custom_normals=True, global_scale=1.0, axis defaults)"
+ },
+ "export": {
+  "operator": "bpy.ops.export_scene.fbx",
+  "use_selection": true,
+  "object_types": [
+   "MESH"
+  ],
+  "apply_unit_scale": true,
+  "apply_scale_options": "FBX_SCALE_UNITS",
+  "bake_space_transform": false,
+  "mesh_smooth_type": "FACE",
+  "add_leaf_bones": false,
+  "path_mode": "STRIP"
+ },
+ "post": "tools/fbx_strip_paths.py (cab04/tools) rewrote only texture Path/FileName strings to bare names; Normals arrays of stripped vs unstripped differ <= 1.2e-6 deg (re-encode of float arrays), loop order identical",
+ "comparison": "audit_normals.py reads Vertices / PolygonVertexIndex / LayerElementNormal(Normals+NormalsIndex) / LayerElementUV directly from each FBX file; no Blender import is involved"
+}

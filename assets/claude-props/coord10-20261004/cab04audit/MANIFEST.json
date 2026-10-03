@@ -1,0 +1,82 @@
+{
+ "work": "COORD10-CAB04BASE pass-through normal audit (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "C4": "claude/coord09-model-review-20261003@52eac8cfd3197d460a4d27438daaa98dc6033cec",
+  "input": "claude/coord09-model-review-20261003@8b12ec3983482e7101fdb175883fe5f1d4ab8adb:assets/claude-props/coord09-20261003/cabinet_ref/C3/C3m/"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 3487,
+   "role": "document",
+   "sha256": "b1f722c193cdf5da0c035c070489146511106a34f5c5ada6975514d3bea94d66"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 735,
+   "role": "document",
+   "sha256": "b237aae9ff81a0a473e4c2cd020d988efbb1b5804ac5c5124ce18e72b7b23325"
+  },
+  {
+   "path": "audit_normals.json",
+   "bytes": 4953,
+   "role": "audit record",
+   "sha256": "b0bd23515aec573dd96a073e8151c5bad872b81ab4f432e995c62c4eb4d0bd4a"
+  },
+  {
+   "path": "audit_summary.csv",
+   "bytes": 1909,
+   "role": "audit record",
+   "sha256": "bc4f35e0cc2bcdbaf4f717572bdb48a4b4bffbc2b68314020d9ed33bf7aec243"
+  },
+  {
+   "path": "baseline_fbx/FinishAtlas_FUR06.png",
+   "bytes": 144835,
+   "role": "unchanged bpy4.3 pass-through export of C3m (+ atlas for relative reference)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+  },
+  {
+   "path": "baseline_fbx/WallCabinet_FUR06_C3m_passthrough_bpy43.fbx",
+   "bytes": 169100,
+   "role": "unchanged bpy4.3 pass-through export of C3m (+ atlas for relative reference)",
+   "sha256": "7c5c5b8e80e2a9f272af53d1de9b9d387a73222790b76dc29dd012c3a65fdc80"
+  },
+  {
+   "path": "export_import_profile.json",
+   "bytes": 1294,
+   "role": "audit record",
+   "sha256": "f21f9e1336f0019088be6eb4c06b4d06305692283609c2a5728e8ee6f11130b0"
+  },
+  {
+   "path": "loop_normal_diff_table.csv",
+   "bytes": 438146,
+   "role": "audit record",
+   "sha256": "512f8ae59ea5de983729ee978c3f02dc54fe606c472e230e20deb082855fc2c2"
+  },
+  {
+   "path": "tools/audit_normals.py",
+   "bytes": 5203,
+   "role": "self-written code",
+   "sha256": "7b32a71645aa1f5b7a0615300820acfa09313907ee47c2b2e3009c7a4fc20eb1"
+  },
+  {
+   "path": "tools/fbx_strip_paths.py",
+   "bytes": 1585,
+   "role": "self-written code",
+   "sha256": "a53ff3acbf960d1b0c405d7b94806d54514aa4ee1524e9689e0742d38ef55610"
+  },
+  {
+   "path": "tools/mkmanifest_cab04audit.py",
+   "bytes": 1772,
+   "role": "self-written code",
+   "sha256": "9f65f70e30f3deb475fb19c181373b4670adb60a7375b91e952f1654e945584d"
+  }
+ ]
+}
