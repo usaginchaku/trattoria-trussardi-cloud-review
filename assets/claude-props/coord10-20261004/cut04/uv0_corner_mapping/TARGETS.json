@@ -1,0 +1,35 @@
+{
+ "fork": {
+  "source_fbx": "07_Dinner_Fork.cut02.fbx",
+  "source_sha256": "acb7eb95d32241833de78a075fc583a6dba341ff250c4d6dffbc80bac5ecbbb8",
+  "new_fbx": "07_Dinner_Fork.fbx",
+  "new_sha256": "55394642a943694ca63777cec0c37a1f17b8fa5572eca30b8ef543ef4c4bb063",
+  "model_names": [
+   "07_Dinner_Fork_Mesh.001"
+  ],
+  "geometry_names": [
+   "Tapered fork handle_CUT02"
+  ],
+  "vertices": 634,
+  "polygons": 1264,
+  "corners": 3792
+ },
+ "spoon": {
+  "source_fbx": "08_Dinner_Spoon.cut02.fbx",
+  "source_sha256": "10783c9b2421c1890e85199172e9a095335e517bb12af4440caf667e33ceddac",
+  "new_fbx": "08_Dinner_Spoon.fbx",
+  "new_sha256": "3d42d8e85d670fd40b5d84c965fcff25948354ac399c531acc95008c7b852012",
+  "model_names": [
+   "08_Dinner_Spoon_Mesh.001"
+  ],
+  "geometry_names": [
+   "Continuous supported spoon bowl and handle_CUT02"
+  ],
+  "vertices": 830,
+  "polygons": 1656,
+  "corners": 4968
+ },
+ "source_commit": "claude/coord09-model-review-20261003@91bbcff37e569b6cd630c70bbc9b64949bccb389 assets/claude-props/coord10-20261004/cut02/CUT02_A1/fbx/",
+ "corner_order": "FBX PolygonVertexIndex order (= Blender loop order of the exported mesh). Each row: corner, polygon, vertex, old UV0, new UV0.",
+ "apply_to_native_mesh": "元Codex: map Unity/native corners to these FBX corners via (polygon, vertex) or by the identical Vertices/PolygonVertexIndex hashes in *_uv0_stats.json. If the native mesh was re-indexed/split on import, match by (polygon index, corner position within polygon); do not use vertex index alone (UV0 is per corner and splits at box-projection seams)."
+}

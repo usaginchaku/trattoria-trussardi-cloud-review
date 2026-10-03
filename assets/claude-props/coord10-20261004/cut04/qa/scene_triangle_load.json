@@ -1,0 +1,12 @@
+{
+ "scene": "元Codex scene = 24 個(Fork 12 / Spoon 6 / Knife 6)。24 組 72 個とは別",
+ "tris": {
+  "fork": 1264,
+  "spoon": 1656,
+  "knife_CUT02_A1": 912,
+  "knife_CUT03_A2": 1104
+ },
+ "scene_CUT02_A1": 30576,
+ "scene_CUT02_A1_with_CUT03_A2_knife": 31728,
+ "CUT04_effect": "UV0 のみ変更なので tri 数・頂点数は不変"
+}

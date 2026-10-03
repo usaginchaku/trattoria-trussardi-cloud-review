@@ -1,0 +1,233 @@
+{
+ "work": "COORD10-CUT04 fork/spoon UV0-only fix (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "claude/coord09-model-review-20261003@91bbcff37e569b6cd630c70bbc9b64949bccb389:assets/claude-props/coord10-20261004/cut02/CUT02_A1/fbx/{07_Dinner_Fork,08_Dinner_Spoon}.fbx"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "CUT04_UV0/fbx/07_Dinner_Fork.fbx",
+   "bytes": 72316,
+   "role": "CUT04 FBX (only UVMap arrays + Shading type code differ from CUT02)",
+   "sha256": "55394642a943694ca63777cec0c37a1f17b8fa5572eca30b8ef543ef4c4bb063"
+  },
+  {
+   "path": "CUT04_UV0/fbx/08_Dinner_Spoon.fbx",
+   "bytes": 93852,
+   "role": "CUT04 FBX (only UVMap arrays + Shading type code differ from CUT02)",
+   "sha256": "3d42d8e85d670fd40b5d84c965fcff25948354ac399c531acc95008c7b852012"
+  },
+  {
+   "path": "CUT04_UV0/fbx/Trussardi_Atlas_BaseColor.png",
+   "bytes": 561878,
+   "role": "atlas image (byte copy, unchanged pixels)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "cd10988a3a7aa81d225474147f342362f032a4084512512bcb5d9fb932f8b942"
+  },
+  {
+   "path": "CUT04_UV0/fbx/Trussardi_Atlas_Metallic.png",
+   "bytes": 6277,
+   "role": "atlas image (byte copy, unchanged pixels)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "e8ee072ff2ecd38c57a39d532c4c988693206822032c010d13153142c95b6d65"
+  },
+  {
+   "path": "CUT04_UV0/fbx/Trussardi_Atlas_Roughness.png",
+   "bytes": 6502,
+   "role": "atlas image (byte copy, unchanged pixels)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "91d40fe9c25a92085b886e6b2d6850b72ae283512fae39412ff1689b65ff3a4c"
+  },
+  {
+   "path": "CUT04_UV0/models/07_Dinner_Fork.blend",
+   "bytes": 127928,
+   "role": "editable blend (via Blender import; use mapping/FBX for adoption)",
+   "sha256": "ed94c18226adb0d2cc122ac5aec774555c61b640252837f31a54a7f53939c8a7"
+  },
+  {
+   "path": "CUT04_UV0/models/08_Dinner_Spoon.blend",
+   "bytes": 143155,
+   "role": "editable blend (via Blender import; use mapping/FBX for adoption)",
+   "sha256": "9e002c56d11cd52564ea7c6a7d59909799554c5759b3350473a685b60d5c1a45"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 5522,
+   "role": "document",
+   "sha256": "c970c53ac199b6f594da8d080dd5b1a1e40dd4a5f6df5ac2b23f1bf99e2b0100"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 995,
+   "role": "document",
+   "sha256": "6056ea92bfbeccfd7113e8153cfa39216c33cf8001cb1b47c37d88219c13f492"
+  },
+  {
+   "path": "previews/A1_vs_CUT04UV0_oblique.png",
+   "bytes": 262044,
+   "role": "same-condition plain silver comparison render",
+   "png_width": 1320,
+   "png_height": 502,
+   "rgba_sha256": "abdde82e3e126bc72dd66a6d68f920b7eecf7378ddc4d1b023fa956612aaeedd"
+  },
+  {
+   "path": "previews/A1_vs_CUT04UV0_side0.png",
+   "bytes": 44913,
+   "role": "same-condition plain silver comparison render",
+   "png_width": 1560,
+   "png_height": 136,
+   "rgba_sha256": "9e82e8696b223a5dfd199bc0e11b59b34e942e20d77097b978fbcad8d9c60e99"
+  },
+  {
+   "path": "previews/A1_vs_CUT04UV0_side1.png",
+   "bytes": 47662,
+   "role": "same-condition plain silver comparison render",
+   "png_width": 1560,
+   "png_height": 136,
+   "rgba_sha256": "a91f8cc1d087eee2ed9cfa57ef485c0f69dbdf97b5b41b9d307c6e080ad6aa66"
+  },
+  {
+   "path": "previews/A1_vs_CUT04UV0_top.png",
+   "bytes": 241934,
+   "role": "same-condition plain silver comparison render",
+   "png_width": 1080,
+   "png_height": 622,
+   "rgba_sha256": "326973a43026cf05e651324d59482447ff2c6bba79cf48599361b8ece9e68e22"
+  },
+  {
+   "path": "previews_diagnostic_only/UV0_checker_A1_vs_CUT04_DIAGNOSTIC.png",
+   "bytes": 604946,
+   "role": "DIAGNOSTIC ONLY checker render (not an adopted material/texture)",
+   "png_width": 1320,
+   "png_height": 502,
+   "rgba_sha256": "8a4bb6842a344cde24d6213d0f1c48bccf935f57256bda9067cc8ca80d2fcc90"
+  },
+  {
+   "path": "qa/07_Dinner_Fork_fbx_tree_diff_cut02_vs_cut04.json",
+   "bytes": 531,
+   "role": "verification record",
+   "sha256": "793c02bd45c5214f449092facd04c2e2290d363de1fd2d3d582f64b86e07c6dd"
+  },
+  {
+   "path": "qa/08_Dinner_Spoon_fbx_tree_diff_cut02_vs_cut04.json",
+   "bytes": 533,
+   "role": "verification record",
+   "sha256": "f1eae6638548fb975911e9c8d017942ce0b3b09d4e48589742064cd82e7d296d"
+  },
+  {
+   "path": "qa/fbx_typecode_audit_all_claude_props.json",
+   "bytes": 4566,
+   "role": "verification record",
+   "sha256": "5f43a2a30035b29bed0b651766e9899b094fd86505fac39545cc8487a7805570"
+  },
+  {
+   "path": "qa/plain_silver_render_rgba_compare.txt",
+   "bytes": 575,
+   "role": "verification record",
+   "sha256": "7b301a793a9d78bc7c6fae7d57ee16e9a1da22b5898b39300a0d8e1a4b2c1d7d"
+  },
+  {
+   "path": "qa/preview_material_both.json",
+   "bytes": 72,
+   "role": "verification record",
+   "sha256": "a04d0e7c1e61e399e66f44bdb413be3a75ab6a2d7143f2d87ea7589944a6d3b7"
+  },
+  {
+   "path": "qa/scene_triangle_load.json",
+   "bytes": 338,
+   "role": "verification record",
+   "sha256": "ab457b762fac4350bc75546e3762b824248b2c9d6c6ab791374b4eaeb08e3382"
+  },
+  {
+   "path": "tools/fbx_tree_diff.py",
+   "bytes": 1717,
+   "role": "self-written code",
+   "sha256": "f4ca4ceffc38b80e7000b9f2687b0ba92d9cb9c94073fb4aca595de6bea82581"
+  },
+  {
+   "path": "tools/fbx_typecode_audit.py",
+   "bytes": 1503,
+   "role": "self-written code",
+   "sha256": "46b642294373b1f412908bf9089d2862ae80cc83d3fa6e86dcf4caa07f628489"
+  },
+  {
+   "path": "tools/mkmanifest_cut04.py",
+   "bytes": 2247,
+   "role": "self-written code",
+   "sha256": "36f3355bbb2004f6f0891011d512a8d34c46f5694c83dbf51bb954fdfafeacc4"
+  },
+  {
+   "path": "tools/render_cut4.py",
+   "bytes": 3906,
+   "role": "self-written code",
+   "sha256": "9c5849b7f4ea5cd21c6b07bb4546aff0c0a33aa3fdc30a936e95724d695012be"
+  },
+  {
+   "path": "tools/render_diag.py",
+   "bytes": 3906,
+   "role": "self-written code",
+   "sha256": "489a1ab92f952820e72139a14f4747a6939bbce98cb890176bb43ba1613b40b3"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/uv0_only.py",
+   "bytes": 8457,
+   "role": "self-written code",
+   "sha256": "0bdb16dc7a1a203013cf5228fc80396525103a621287de2b89086eecaf5cb3bb"
+  },
+  {
+   "path": "uv0_corner_mapping/07_Dinner_Fork_uv0_corner_mapping.csv",
+   "bytes": 218729,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "8e20c2ffbc3cb15838047a092352c3c04a3d7398bb1dfb4fac38b8b374f9164a"
+  },
+  {
+   "path": "uv0_corner_mapping/07_Dinner_Fork_uv0_corner_mapping.npz",
+   "bytes": 30497,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "73d963c1146fd58d5acb6502108e3e35260806f398671a7247351a8e569820d6"
+  },
+  {
+   "path": "uv0_corner_mapping/07_Dinner_Fork_uv0_stats.json",
+   "bytes": 3898,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "63db87902cd0c7636b7b711397a52dbb89f19d493c8fdffded6f66ad55f0f3ac"
+  },
+  {
+   "path": "uv0_corner_mapping/08_Dinner_Spoon_uv0_corner_mapping.csv",
+   "bytes": 288121,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "bee40aeaf86ffa430410de17b736bf1bc4047bea85e48e1b07f89aa9933c59cf"
+  },
+  {
+   "path": "uv0_corner_mapping/08_Dinner_Spoon_uv0_corner_mapping.npz",
+   "bytes": 40555,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "0fd75d4c97e2a8c71af7c4422ccc4f458aa51b89a1196fa6eaa1549b189d6952"
+  },
+  {
+   "path": "uv0_corner_mapping/08_Dinner_Spoon_uv0_stats.json",
+   "bytes": 3958,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "2fdb519c353e01e8c9b1ab2aabe6f2823ea14ef33dbf7fb3e346768877521b6f"
+  },
+  {
+   "path": "uv0_corner_mapping/TARGETS.json",
+   "bytes": 1575,
+   "role": "PRIMARY: UV0 corner mapping / stats / targets",
+   "sha256": "e29d441801f72ba3acd2c4444f64aeb994585ee6280f73f2e2127a7041e495ce"
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "note": "'B' type code found = written by the earlier tools/fbx_strip_paths.py (bool -> 'B'); value is the same as the standard 'C' 1-byte bool",
+ "files": [
+  {
+   "file": "claude-props/coord09-20261003/basket_weave/W2/fbx/02_Flower_Basket.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/cabinet_ref/C3/C3/fbx/WallCabinet_FUR06.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/cabinet_ref/C3/C3m/fbx/WallCabinet_FUR06.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/water_bowl/A/fbx/06_Water_Glass.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/water_bowl/B2/fbx/06_Water_Glass.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/menu_foot/M1/fbx/MenuStand_EX01.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/basket_leaf/L2/fbx/02_Flower_Basket.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/basket_leaf/L2/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/basket_leaf/L3/fbx/02_Flower_Basket.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/basket_leaf/L3/fbx/LOD1/02_Flower_Basket_LOD1.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/lamp_shade/L1/fbx/CurvedLamp_ARCH01.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/lamp_shade/L1/fbx/StraightLamp_ARCH01.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/chair_back/C1/fbx/DiningChair_FUR01.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/table_hem/T2/fbx/DiningTable_FUR01.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/table_hem/T1/fbx/DiningTable_FUR01.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/wall_cabinet/K2/fbx/WallCabinet_FUR06.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord09-20261003/furniture/wall_cabinet/K1/fbx/WallCabinet_FUR06.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord10-20261004/cab04/C4/fbx/WallCabinet_FUR06.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/art04/A5/fbx/Frame_22_FUR06_A5.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/art04/A6/fbx/Frame_22_FUR06_A6.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/art03/A4/A4/fbx/Frame_22_FUR06_A4.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/art03/A3/A3s/fbx/Frame_23_FUR06_A3s.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/art03/A3/A3c/fbx/Frame_23_FUR06_A3c.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/cut03/CUT03_A2/fbx/09_Dinner_Knife.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/cut04/CUT04_UV0/fbx/07_Dinner_Fork.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord10-20261004/cut04/CUT04_UV0/fbx/08_Dinner_Spoon.fbx",
+   "B_typed_props": 0,
+   "where": []
+  },
+  {
+   "file": "claude-props/coord10-20261004/cab04audit/baseline_fbx/WallCabinet_FUR06_C3m_passthrough_bpy43.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/cut02/CUT02_A1/fbx/07_Dinner_Fork.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/cut02/CUT02_A1/fbx/08_Dinner_Spoon.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  },
+  {
+   "file": "claude-props/coord10-20261004/cut02/CUT02_A1/fbx/09_Dinner_Knife.fbx",
+   "B_typed_props": 1,
+   "where": [
+    "//Objects/Model/Shading"
+   ]
+  }
+ ]
+}

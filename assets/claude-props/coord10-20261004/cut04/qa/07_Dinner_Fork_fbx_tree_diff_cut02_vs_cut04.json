@@ -1,0 +1,27 @@
+{
+ "a": "07_Dinner_Fork.cut02.fbx",
+ "b": "07_Dinner_Fork.fbx",
+ "differences": [
+  {
+   "path": "/Objects/Geometry/LayerElementUV(UVMap)/UV/prop0",
+   "type_a": "d",
+   "type_b": "d",
+   "a": "array len 1268",
+   "b": "array len 7584"
+  },
+  {
+   "path": "/Objects/Geometry/LayerElementUV(UVMap)/UVIndex/prop0",
+   "type_a": "i",
+   "type_b": "i",
+   "a": "array len 3792",
+   "b": "array len 3792"
+  },
+  {
+   "path": "/Objects/Model/Shading/prop0",
+   "type_a": "B",
+   "type_b": "C",
+   "a": "True",
+   "b": "b'\\x01'"
+  }
+ ]
+}

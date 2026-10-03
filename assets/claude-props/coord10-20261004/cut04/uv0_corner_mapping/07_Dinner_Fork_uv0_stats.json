@@ -1,0 +1,121 @@
+{
+ "source_fbx": "07_Dinner_Fork.cut02.fbx",
+ "source_sha256": "acb7eb95d32241833de78a075fc583a6dba341ff250c4d6dffbc80bac5ecbbb8",
+ "new_fbx": "07_Dinner_Fork.fbx",
+ "new_sha256": "55394642a943694ca63777cec0c37a1f17b8fa5572eca30b8ef543ef4c4bb063",
+ "model_names": [
+  "07_Dinner_Fork_Mesh.001"
+ ],
+ "geometry_names": [
+  "Tapered fork handle_CUT02"
+ ],
+ "model_names_new": [
+  "07_Dinner_Fork_Mesh.001"
+ ],
+ "vertices": 634,
+ "polygons": 1264,
+ "corners": 3792,
+ "uv0_region_uvmin_uvmax": [
+  0.14,
+  0.14,
+  0.185,
+  0.235
+ ],
+ "uniform_scale_uv_per_m": 0.46215217249159785,
+ "projection": "per-face box projection by dominant normal axis: |nx|->(z,y), |ny|->(x,z), |nz|->(x,y); all faces share one scale",
+ "faces_by_axis": {
+  "x": 184,
+  "y": 36,
+  "z": 1044
+ },
+ "uv0_old": {
+  "tris_area_lt_1e-12": 220,
+  "their_3d_area_fraction": 0.21143483238352104,
+  "min_area": 0.0
+ },
+ "uv0_new": {
+  "tris_area_lt_1e-12": 0,
+  "tris_positive": 1264,
+  "min_area": 1.4867970874621116e-08,
+  "min_area_over_s2_times_3d_area": 0.7138711244992393,
+  "stretch_sigma_max_over_s": [
+   0.999999999999911,
+   1.0000000000001295
+  ],
+  "stretch_sigma_min_over_s": [
+   0.7138711244992454,
+   1.0000000000000109
+  ],
+  "worst_anisotropy_sigma_min_over_max": 0.713871124499227,
+  "bbox": [
+   [
+    0.14,
+    0.14
+   ],
+   [
+    0.15155380448445505,
+    0.235
+   ]
+  ],
+  "margin_to_region": {
+   "left": 0.0,
+   "bottom": 0.0,
+   "right": 0.03344619551554495,
+   "top": 0.0
+  },
+  "margin_to_silver_patch_used_by_sources(u0.1333-0.2284,v0.133-0.2417)": {
+   "left": 0.0067000000000000115,
+   "bottom": 0.007000000000000006,
+   "right": 0.07684619551554495,
+   "top": 0.0067000000000000115
+  },
+  "roundtrip_max_abs_diff": 0.0
+ },
+ "unchanged_channels": {
+  "Vertices": {
+   "cut02_sha256_of_values": "64121b5616005fc00598d3a99636da5e110851cf8fbda26b83b93cdcc974c39c",
+   "cut04_sha256_of_values": "64121b5616005fc00598d3a99636da5e110851cf8fbda26b83b93cdcc974c39c",
+   "identical": true
+  },
+  "PolygonVertexIndex": {
+   "cut02_sha256_of_values": "7cc3529169bdd1ea36453e8d88a02124b2fffd07878e0725da4ad99ce24dc15d",
+   "cut04_sha256_of_values": "7cc3529169bdd1ea36453e8d88a02124b2fffd07878e0725da4ad99ce24dc15d",
+   "identical": true
+  },
+  "Edges": {
+   "cut02_sha256_of_values": "9b6c40fb6a3e6a0d2863ce06750c36c35b41065888c7f2c74cd6f832599b992c",
+   "cut04_sha256_of_values": "9b6c40fb6a3e6a0d2863ce06750c36c35b41065888c7f2c74cd6f832599b992c",
+   "identical": true
+  },
+  "Smoothing": {
+   "cut02_sha256_of_values": "8ac542ff00f43cbfca6d6c8a3196d3a5422922e83bec97f8b35ed028e656742c",
+   "cut04_sha256_of_values": "8ac542ff00f43cbfca6d6c8a3196d3a5422922e83bec97f8b35ed028e656742c",
+   "identical": true
+  },
+  "Normals": {
+   "cut02_sha256_of_values": "50c402088c493442eb51d589a7cfc6226049209991402e0dac20a5363e93d1e8",
+   "cut04_sha256_of_values": "50c402088c493442eb51d589a7cfc6226049209991402e0dac20a5363e93d1e8",
+   "identical": true
+  },
+  "NormalsIndex": {
+   "cut02_sha256_of_values": "530d0192f994396b79c4ad74031b54ae0ca4aa112d5599cfd7460194a89f6d38",
+   "cut04_sha256_of_values": "530d0192f994396b79c4ad74031b54ae0ca4aa112d5599cfd7460194a89f6d38",
+   "identical": true
+  },
+  "UV[LightmapUV]": {
+   "cut02_sha256_of_values": "f4801312f1cde2f7a11935871d5009a64970e27d8cd99efee44dd3c676e2ba76",
+   "cut04_sha256_of_values": "f4801312f1cde2f7a11935871d5009a64970e27d8cd99efee44dd3c676e2ba76",
+   "identical": true
+  },
+  "UVIndex[LightmapUV]": {
+   "cut02_sha256_of_values": "3889d749411d4a5198abe9a494a813c8f0c131749d916cec27397c76f4a065b2",
+   "cut04_sha256_of_values": "3889d749411d4a5198abe9a494a813c8f0c131749d916cec27397c76f4a065b2",
+   "identical": true
+  },
+  "Materials": {
+   "cut02_sha256_of_values": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+   "cut04_sha256_of_values": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+   "identical": true
+  }
+ }
+}

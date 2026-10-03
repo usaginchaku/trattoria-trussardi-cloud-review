@@ -1,0 +1,121 @@
+{
+ "source_fbx": "08_Dinner_Spoon.cut02.fbx",
+ "source_sha256": "10783c9b2421c1890e85199172e9a095335e517bb12af4440caf667e33ceddac",
+ "new_fbx": "08_Dinner_Spoon.fbx",
+ "new_sha256": "3d42d8e85d670fd40b5d84c965fcff25948354ac399c531acc95008c7b852012",
+ "model_names": [
+  "08_Dinner_Spoon_Mesh.001"
+ ],
+ "geometry_names": [
+  "Continuous supported spoon bowl and handle_CUT02"
+ ],
+ "model_names_new": [
+  "08_Dinner_Spoon_Mesh.001"
+ ],
+ "vertices": 830,
+ "polygons": 1656,
+ "corners": 4968,
+ "uv0_region_uvmin_uvmax": [
+  0.14,
+  0.14,
+  0.185,
+  0.235
+ ],
+ "uniform_scale_uv_per_m": 0.44896030632731393,
+ "projection": "per-face box projection by dominant normal axis: |nx|->(z,y), |ny|->(x,z), |nz|->(x,y); all faces share one scale",
+ "faces_by_axis": {
+  "x": 164,
+  "y": 52,
+  "z": 1440
+ },
+ "uv0_old": {
+  "tris_area_lt_1e-12": 184,
+  "their_3d_area_fraction": 0.11702661734509225,
+  "min_area": 0.0
+ },
+ "uv0_new": {
+  "tris_area_lt_1e-12": 0,
+  "tris_positive": 1656,
+  "min_area": 3.496441697419874e-08,
+  "min_area_over_s2_times_3d_area": 0.7482983410497868,
+  "stretch_sigma_max_over_s": [
+   0.9999999999999557,
+   1.0000000000000726
+  ],
+  "stretch_sigma_min_over_s": [
+   0.748298341049814,
+   0.9999999999999898
+  ],
+  "worst_anisotropy_sigma_min_over_max": 0.7482983410498412,
+  "bbox": [
+   [
+    0.14,
+    0.14000515320295617
+   ],
+   [
+    0.1570565121965759,
+    0.235
+   ]
+  ],
+  "margin_to_region": {
+   "left": 0.0,
+   "bottom": 5.153202956159619e-06,
+   "right": 0.027943487803424094,
+   "top": 0.0
+  },
+  "margin_to_silver_patch_used_by_sources(u0.1333-0.2284,v0.133-0.2417)": {
+   "left": 0.0067000000000000115,
+   "bottom": 0.007005153202956166,
+   "right": 0.07134348780342409,
+   "top": 0.0067000000000000115
+  },
+  "roundtrip_max_abs_diff": 0.0
+ },
+ "unchanged_channels": {
+  "Vertices": {
+   "cut02_sha256_of_values": "8a9d1c98440cf286e7b27da3d78e6106ed0c2c66d59b1f5c6ccd4d82992b47e5",
+   "cut04_sha256_of_values": "8a9d1c98440cf286e7b27da3d78e6106ed0c2c66d59b1f5c6ccd4d82992b47e5",
+   "identical": true
+  },
+  "PolygonVertexIndex": {
+   "cut02_sha256_of_values": "c2500fa8ede3146b98eb559b9d33c1b2ba4e2e96c1ab891a3d8d959cd5b7c498",
+   "cut04_sha256_of_values": "c2500fa8ede3146b98eb559b9d33c1b2ba4e2e96c1ab891a3d8d959cd5b7c498",
+   "identical": true
+  },
+  "Edges": {
+   "cut02_sha256_of_values": "ea66b3f6953ce304411c834a91da67e610398f75a2a9ec1180f6537214dbdad7",
+   "cut04_sha256_of_values": "ea66b3f6953ce304411c834a91da67e610398f75a2a9ec1180f6537214dbdad7",
+   "identical": true
+  },
+  "Smoothing": {
+   "cut02_sha256_of_values": "53bc9ee1f0e10ecb19976521d8cebf53105890f368f5b6169cfe99dea3bd63b1",
+   "cut04_sha256_of_values": "53bc9ee1f0e10ecb19976521d8cebf53105890f368f5b6169cfe99dea3bd63b1",
+   "identical": true
+  },
+  "Normals": {
+   "cut02_sha256_of_values": "e5e60b681079efb303dea02a42e14311c87e26fc7d919835c88c3fcd5e7e54e9",
+   "cut04_sha256_of_values": "e5e60b681079efb303dea02a42e14311c87e26fc7d919835c88c3fcd5e7e54e9",
+   "identical": true
+  },
+  "NormalsIndex": {
+   "cut02_sha256_of_values": "5f037ebc70dd1c46b3e6a6c9773b3731cf8c2067f7fe59ccabce9a627bbdabe9",
+   "cut04_sha256_of_values": "5f037ebc70dd1c46b3e6a6c9773b3731cf8c2067f7fe59ccabce9a627bbdabe9",
+   "identical": true
+  },
+  "UV[LightmapUV]": {
+   "cut02_sha256_of_values": "2b66ca378a168a84e7ee4cb59fdf0663eba77f3e7c497f8fc1310f3a7f067595",
+   "cut04_sha256_of_values": "2b66ca378a168a84e7ee4cb59fdf0663eba77f3e7c497f8fc1310f3a7f067595",
+   "identical": true
+  },
+  "UVIndex[LightmapUV]": {
+   "cut02_sha256_of_values": "aeebf6c9b65d3081637538c6fa66e27534ea8f95e2bcbb8cf45fdfea833b8bad",
+   "cut04_sha256_of_values": "aeebf6c9b65d3081637538c6fa66e27534ea8f95e2bcbb8cf45fdfea833b8bad",
+   "identical": true
+  },
+  "Materials": {
+   "cut02_sha256_of_values": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+   "cut04_sha256_of_values": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+   "identical": true
+  }
+ }
+}

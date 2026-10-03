@@ -1,0 +1,27 @@
+{
+ "a": "08_Dinner_Spoon.cut02.fbx",
+ "b": "08_Dinner_Spoon.fbx",
+ "differences": [
+  {
+   "path": "/Objects/Geometry/LayerElementUV(UVMap)/UV/prop0",
+   "type_a": "d",
+   "type_b": "d",
+   "a": "array len 1660",
+   "b": "array len 9936"
+  },
+  {
+   "path": "/Objects/Geometry/LayerElementUV(UVMap)/UVIndex/prop0",
+   "type_a": "i",
+   "type_b": "i",
+   "a": "array len 4968",
+   "b": "array len 4968"
+  },
+  {
+   "path": "/Objects/Model/Shading/prop0",
+   "type_a": "B",
+   "type_b": "C",
+   "a": "True",
+   "b": "b'\\x01'"
+  }
+ ]
+}

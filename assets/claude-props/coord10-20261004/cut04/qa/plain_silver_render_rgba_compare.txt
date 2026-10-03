@@ -1,0 +1,5 @@
+oblique.png (800, 1100) identical_RGBA True max_diff 0 pixels_diff>0 0 sha_A 0518ade1e021976f sha_B 0518ade1e021976f
+side0.png (190, 1300) identical_RGBA True max_diff 0 pixels_diff>0 0 sha_A a23b1e6869940986 sha_B a23b1e6869940986
+side1.png (190, 1300) identical_RGBA True max_diff 0 pixels_diff>0 0 sha_A 7694d0decdb2e545 sha_B 7694d0decdb2e545
+side2.png (190, 1300) identical_RGBA True max_diff 0 pixels_diff>0 0 sha_A 5aab691e8ab51073 sha_B 5aab691e8ab51073
+top.png (1000, 900) identical_RGBA True max_diff 0 pixels_diff>0 0 sha_A 52f03cc6533eb1f9 sha_B 52f03cc6533eb1f9
