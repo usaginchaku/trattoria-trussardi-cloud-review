@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "status": "PREPARED_FOR_DIRECTOR_VERIFICATION_NOT_PUBLISHED",
+  "files": [
+    {
+      "path": "FinishAtlas_FUR06.png",
+      "bytes": 144835,
+      "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "rgba_sha256": "8d9749c22cfafcfb163b59bdb228a8d5a8b83894f4dbd007c50db0b467bd87c9"
+    },
+    {
+      "path": "Frame_17_FUR06.fbx",
+      "bytes": 99164,
+      "sha256": "0e1c0dc9cd29c759d4f6539d2437fa142cf195a19bb2081794b5b102cd71967d"
+    },
+    {
+      "path": "Frame_18_FUR06.fbx",
+      "bytes": 98252,
+      "sha256": "0c4c591b43966e8190d286a7b7a32cd4b3739545e115b4f3be14af4a06c6e352"
+    },
+    {
+      "path": "Frame_19_FUR06.fbx",
+      "bytes": 98588,
+      "sha256": "17d2de842784ff9241f90ec6a11bbd407e8824b9e879ad1f02cd2f49b05ebd4e"
+    },
+    {
+      "path": "PaintingAtlas_FUR06.png",
+      "bytes": 54900,
+      "sha256": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGB",
+      "rgba_sha256": "f9a5f7d3aa937231f527f3db2f52370ecc64830906f7d29fb8e28860b65a7ad0"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 3222,
+      "sha256": "14ac599c9acf1fa230ae488511a7857c759ef4e2ce81750b348c36425197f18c"
+    },
+    {
+      "path": "target_mapping.json",
+      "bytes": 25042,
+      "sha256": "828f3104f4a38b8d2822d30ac6f8a3428a144eff068ac280a5ac72fc356c172c"
+    }
+  ],
+  "allowedFileSet": [
+    "FinishAtlas_FUR06.png",
+    "Frame_17_FUR06.fbx",
+    "Frame_18_FUR06.fbx",
+    "Frame_19_FUR06.fbx",
+    "MANIFEST.json",
+    "PaintingAtlas_FUR06.png",
+    "README.txt",
+    "target_mapping.json"
+  ],
+  "sourceMappingEvidenceSha256": "de4b4554b5ef34f7166aeedfdae58f8792f028a6939df78f16c3f5c42a94f8be"
+}

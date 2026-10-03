@@ -1,0 +1,960 @@
+{
+  "schemaVersion": 1,
+  "purpose": "ART05 bounded image-only candidate inputs; not approved for integration",
+  "baseScene": "Trattoria_ReviewIntegration_RI14.unity",
+  "baseSceneSha256": "029b567647bdcf1ba6781888e814aeb9af6ac6e569913289404b9b301f9ca415",
+  "worldScale": 0.7825509309768677,
+  "coordinates": "Positions/bounds prefixed design are metres before common worldScale; worldPosition is already scaled. Do not rescale, rotate, re-export or remodel the supplied FBX.",
+  "targets": [
+    {
+      "id": "Frame_17",
+      "sceneRendererPath": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_17/Geometry",
+      "previewFBX": "Frame_17_FUR06.fbx",
+      "nativeReference": {
+        "assetPath": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/b90df5e2c3c67fe4fbd7134b891c2079_-7267981607974440608.asset",
+        "sha256": "ca8d82f513305bea0e0fcd0263c94887b248f9d940e4f8bf47f1519601d57d4f",
+        "notIncluded": true
+      },
+      "wrapperLocalPosition": {
+        "x": -5.150000095367432,
+        "y": 3.200000047683716,
+        "z": 0.5299999713897705
+      },
+      "wrapperLocalRotation": {
+        "x": 0.0,
+        "y": -0.7071068286895752,
+        "z": 0.0,
+        "w": 0.7071068286895752
+      },
+      "wrapperLocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "geometryLocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "geometryLocalRotation": {
+        "x": 0.7071068286895752,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.7071067094802856
+      },
+      "geometryLocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": -4.030137538909912,
+        "y": 2.5041630268096924,
+        "z": 0.41475197672843933
+      },
+      "designBounds": [
+        {
+          "x": -5.150000095367432,
+          "y": 3.200000047683716,
+          "z": 0.34999990463256836
+        },
+        {
+          "x": -5.1140007972717285,
+          "y": 3.4599997997283936,
+          "z": 0.7100000381469727
+        }
+      ],
+      "sourceDimensions": {
+        "width": 0.36,
+        "height": 0.26,
+        "depth": 0.036
+      },
+      "rawFBXBounds": [
+        [
+          -0.18000000715255737,
+          -0.035999998450279236,
+          0.0
+        ],
+        [
+          0.18000000715255737,
+          0.0,
+          0.25999999046325684
+        ]
+      ],
+      "fbxAxesAndUnits": {
+        "UpAxis": [
+          1
+        ],
+        "UpAxisSign": [
+          1
+        ],
+        "FrontAxis": [
+          2
+        ],
+        "FrontAxisSign": [
+          1
+        ],
+        "CoordAxis": [
+          0
+        ],
+        "CoordAxisSign": [
+          1
+        ],
+        "OriginalUpAxis": [
+          -1
+        ],
+        "OriginalUpAxisSign": [
+          1
+        ],
+        "UnitScaleFactor": [
+          100.0
+        ],
+        "OriginalUnitScaleFactor": [
+          100.0
+        ],
+        "AmbientColor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "DefaultCamera": [
+          "Producer Perspective"
+        ],
+        "TimeMode": [
+          11
+        ],
+        "TimeSpanStart": [
+          0
+        ],
+        "TimeSpanStop": [
+          46186158000
+        ],
+        "CustomFrameRate": [
+          24.0
+        ]
+      },
+      "fbxModelTransform": {
+        "Lcl Rotation": [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        "DefaultAttributeIndex": [
+          0
+        ],
+        "InheritType": [
+          1
+        ]
+      },
+      "slotUVs": [
+        {
+          "slot": 0,
+          "indexCount": 7296,
+          "uvMin": [
+            0.0062500000931322575,
+            0.5062500238418579
+          ],
+          "uvMax": [
+            0.7436853051185608,
+            0.9936602711677551
+          ],
+          "nativeFbxUVSetExact": true,
+          "uniqueUVCount": 1369,
+          "finishAtlasCells": [
+            {
+              "column": 0,
+              "row": 1,
+              "tile": 4,
+              "uvMin": [
+                0.0062500000931322575,
+                0.5062500238418579
+              ],
+              "uvMax": [
+                0.24375000596046448,
+                0.7437499761581421
+              ]
+            },
+            {
+              "column": 1,
+              "row": 0,
+              "tile": 1,
+              "uvMin": [
+                0.2563386559486389,
+                0.7563729882240295
+              ],
+              "uvMax": [
+                0.49366137385368347,
+                0.9932891130447388
+              ]
+            },
+            {
+              "column": 2,
+              "row": 0,
+              "tile": 2,
+              "uvMin": [
+                0.5063146948814392,
+                0.7563396692276001
+              ],
+              "uvMax": [
+                0.7436853051185608,
+                0.9936602711677551
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 1,
+          "indexCount": 36,
+          "uvMin": [
+            0.6708333492279053,
+            0.5041666626930237
+          ],
+          "uvMax": [
+            0.8291666507720947,
+            0.6625000238418579
+          ],
+          "nativeFbxUVSetExact": true,
+          "uniqueUVCount": 4,
+          "finishAtlasCells": null
+        }
+      ],
+      "paintCell": {
+        "tile": 16,
+        "column": 4,
+        "row": 2,
+        "drawingCellPixelsXYXYExclusive": [
+          1364,
+          682,
+          1705,
+          1023
+        ],
+        "sampledPixelBoundsTopLeft": [
+          1373.86669921875,
+          691.199951171875,
+          1698.13330078125,
+          1015.4666748046875
+        ],
+        "marginsInsideDrawingCellLeftTopRightBottom": [
+          9.86669921875,
+          9.199951171875,
+          6.86669921875,
+          7.5333251953125
+        ],
+        "exactColorsAndCounts": [
+          {
+            "rgb": [
+              173,
+              175,
+              165
+            ],
+            "pixels": 15750
+          },
+          {
+            "rgb": [
+              211,
+              218,
+              204
+            ],
+            "pixels": 2616
+          },
+          {
+            "rgb": [
+              232,
+              236,
+              223
+            ],
+            "pixels": 97915
+          }
+        ],
+        "cellDecodedSha256": "3301967e9a60426dae02849c05051bc2e69c006baae56c4db455141fba119abe"
+      },
+      "designClearances": {
+        "aboveCabinet": 0.19999933242797852,
+        "aboveLowerBand": 0.03000020980834961,
+        "belowUpperBand": 0.09000015258789062
+      },
+      "observedFramePalette": "olive",
+      "currentMotif": "gray_shapes procedural placeholder"
+    },
+    {
+      "id": "Frame_18",
+      "sceneRendererPath": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_18/Geometry",
+      "previewFBX": "Frame_18_FUR06.fbx",
+      "nativeReference": {
+        "assetPath": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/8c1aaa985eb32f04f9b428bd9ad3a7e3_1064598858789004276.asset",
+        "sha256": "67f4c968efb2a709b6c40172e03d8ff66c6fc7de96d0f4b40929dcb60f35fb03",
+        "notIncluded": true
+      },
+      "wrapperLocalPosition": {
+        "x": -5.150000095367432,
+        "y": 3.200000047683716,
+        "z": 1.2899999618530273
+      },
+      "wrapperLocalRotation": {
+        "x": 0.0,
+        "y": -0.7071068286895752,
+        "z": 0.0,
+        "w": 0.7071068286895752
+      },
+      "wrapperLocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "geometryLocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "geometryLocalRotation": {
+        "x": 0.7071068286895752,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.7071067094802856
+      },
+      "geometryLocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": -4.030137538909912,
+        "y": 2.5041630268096924,
+        "z": 1.009490728378296
+      },
+      "designBounds": [
+        {
+          "x": -5.150000095367432,
+          "y": 3.200000047683716,
+          "z": 1.0800000429153442
+        },
+        {
+          "x": -5.1140007972717285,
+          "y": 3.5199999809265137,
+          "z": 1.5000001192092896
+        }
+      ],
+      "sourceDimensions": {
+        "width": 0.42,
+        "height": 0.32,
+        "depth": 0.036
+      },
+      "rawFBXBounds": [
+        [
+          -0.20999999344348907,
+          -0.035999998450279236,
+          0.0
+        ],
+        [
+          0.20999999344348907,
+          0.0,
+          0.3199999928474426
+        ]
+      ],
+      "fbxAxesAndUnits": {
+        "UpAxis": [
+          1
+        ],
+        "UpAxisSign": [
+          1
+        ],
+        "FrontAxis": [
+          2
+        ],
+        "FrontAxisSign": [
+          1
+        ],
+        "CoordAxis": [
+          0
+        ],
+        "CoordAxisSign": [
+          1
+        ],
+        "OriginalUpAxis": [
+          -1
+        ],
+        "OriginalUpAxisSign": [
+          1
+        ],
+        "UnitScaleFactor": [
+          100.0
+        ],
+        "OriginalUnitScaleFactor": [
+          100.0
+        ],
+        "AmbientColor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "DefaultCamera": [
+          "Producer Perspective"
+        ],
+        "TimeMode": [
+          11
+        ],
+        "TimeSpanStart": [
+          0
+        ],
+        "TimeSpanStop": [
+          46186158000
+        ],
+        "CustomFrameRate": [
+          24.0
+        ]
+      },
+      "fbxModelTransform": {
+        "Lcl Rotation": [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        "DefaultAttributeIndex": [
+          0
+        ],
+        "InheritType": [
+          1
+        ]
+      },
+      "slotUVs": [
+        {
+          "slot": 0,
+          "indexCount": 7296,
+          "uvMin": [
+            0.0062500000931322575,
+            0.5062500238418579
+          ],
+          "uvMax": [
+            0.743694543838501,
+            0.993671715259552
+          ],
+          "nativeFbxUVSetExact": true,
+          "uniqueUVCount": 1347,
+          "finishAtlasCells": [
+            {
+              "column": 0,
+              "row": 1,
+              "tile": 4,
+              "uvMin": [
+                0.0062500000931322575,
+                0.5062500238418579
+              ],
+              "uvMax": [
+                0.24375000596046448,
+                0.7437499761581421
+              ]
+            },
+            {
+              "column": 1,
+              "row": 0,
+              "tile": 1,
+              "uvMin": [
+                0.256325900554657,
+                0.7563498020172119
+              ],
+              "uvMax": [
+                0.493674099445343,
+                0.9933760762214661
+              ]
+            },
+            {
+              "column": 2,
+              "row": 0,
+              "tile": 2,
+              "uvMin": [
+                0.506305456161499,
+                0.7563228011131287
+              ],
+              "uvMax": [
+                0.743694543838501,
+                0.993671715259552
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 1,
+          "indexCount": 36,
+          "uvMin": [
+            0.8374999761581421,
+            0.5041666626930237
+          ],
+          "uvMax": [
+            0.9958333373069763,
+            0.6625000238418579
+          ],
+          "nativeFbxUVSetExact": true,
+          "uniqueUVCount": 4,
+          "finishAtlasCells": null
+        }
+      ],
+      "paintCell": {
+        "tile": 17,
+        "column": 5,
+        "row": 2,
+        "drawingCellPixelsXYXYExclusive": [
+          1705,
+          682,
+          2046,
+          1023
+        ],
+        "sampledPixelBoundsTopLeft": [
+          1715.199951171875,
+          691.199951171875,
+          2039.4666748046875,
+          1015.4666748046875
+        ],
+        "marginsInsideDrawingCellLeftTopRightBottom": [
+          10.199951171875,
+          9.199951171875,
+          6.5333251953125,
+          7.5333251953125
+        ],
+        "exactColorsAndCounts": [
+          {
+            "rgb": [
+              173,
+              175,
+              165
+            ],
+            "pixels": 18151
+          },
+          {
+            "rgb": [
+              211,
+              218,
+              204
+            ],
+            "pixels": 2616
+          },
+          {
+            "rgb": [
+              232,
+              236,
+              223
+            ],
+            "pixels": 95514
+          }
+        ],
+        "cellDecodedSha256": "ec4f2cc942dc6b21d92a84fa63cd5dabb104662c6262c4f8ebad6cb38dabdcc0"
+      },
+      "designClearances": {
+        "aboveCabinet": 0.19999933242797852,
+        "aboveLowerBand": 0.03000020980834961,
+        "belowUpperBand": 0.029999971389770508
+      },
+      "observedFramePalette": "olive",
+      "currentMotif": "gray_shapes procedural placeholder"
+    },
+    {
+      "id": "Frame_19",
+      "sceneRendererPath": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_19/Geometry",
+      "previewFBX": "Frame_19_FUR06.fbx",
+      "nativeReference": {
+        "assetPath": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/8ce6c3729595bce4491be2743ba85ec6_-4297947802453371454.asset",
+        "sha256": "409389db99a7c3f9b438ea8f9130adfa7e0efc03c9629dbb7499867572d8cf79",
+        "notIncluded": true
+      },
+      "wrapperLocalPosition": {
+        "x": -5.150000095367432,
+        "y": 3.200000047683716,
+        "z": 2.0999999046325684
+      },
+      "wrapperLocalRotation": {
+        "x": 0.0,
+        "y": -0.7071068286895752,
+        "z": 0.0,
+        "w": 0.7071068286895752
+      },
+      "wrapperLocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "geometryLocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "geometryLocalRotation": {
+        "x": 0.7071068286895752,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.7071067094802856
+      },
+      "geometryLocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "worldPosition": {
+        "x": -4.030137538909912,
+        "y": 2.5041630268096924,
+        "z": 1.6433569192886353
+      },
+      "designBounds": [
+        {
+          "x": -5.150000095367432,
+          "y": 3.200000047683716,
+          "z": 1.8749998807907104
+        },
+        {
+          "x": -5.1140007972717285,
+          "y": 3.5299997329711914,
+          "z": 2.325000047683716
+        }
+      ],
+      "sourceDimensions": {
+        "width": 0.45,
+        "height": 0.33,
+        "depth": 0.036
+      },
+      "rawFBXBounds": [
+        [
+          -0.22499999403953552,
+          -0.035999998450279236,
+          0.0
+        ],
+        [
+          0.22499999403953552,
+          0.0,
+          0.33000001311302185
+        ]
+      ],
+      "fbxAxesAndUnits": {
+        "UpAxis": [
+          1
+        ],
+        "UpAxisSign": [
+          1
+        ],
+        "FrontAxis": [
+          2
+        ],
+        "FrontAxisSign": [
+          1
+        ],
+        "CoordAxis": [
+          0
+        ],
+        "CoordAxisSign": [
+          1
+        ],
+        "OriginalUpAxis": [
+          -1
+        ],
+        "OriginalUpAxisSign": [
+          1
+        ],
+        "UnitScaleFactor": [
+          100.0
+        ],
+        "OriginalUnitScaleFactor": [
+          100.0
+        ],
+        "AmbientColor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "DefaultCamera": [
+          "Producer Perspective"
+        ],
+        "TimeMode": [
+          11
+        ],
+        "TimeSpanStart": [
+          0
+        ],
+        "TimeSpanStop": [
+          46186158000
+        ],
+        "CustomFrameRate": [
+          24.0
+        ]
+      },
+      "fbxModelTransform": {
+        "Lcl Rotation": [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        "DefaultAttributeIndex": [
+          0
+        ],
+        "InheritType": [
+          1
+        ]
+      },
+      "slotUVs": [
+        {
+          "slot": 0,
+          "indexCount": 7296,
+          "uvMin": [
+            0.006308334413915873,
+            0.5062500238418579
+          ],
+          "uvMax": [
+            0.9936954975128174,
+            0.993679404258728
+          ],
+          "nativeFbxUVSetExact": true,
+          "uniqueUVCount": 1327,
+          "finishAtlasCells": [
+            {
+              "column": 0,
+              "row": 1,
+              "tile": 4,
+              "uvMin": [
+                0.006308334413915873,
+                0.5063334703445435
+              ],
+              "uvMax": [
+                0.24369166791439056,
+                0.7436582446098328
+              ]
+            },
+            {
+              "column": 1,
+              "row": 0,
+              "tile": 1,
+              "uvMin": [
+                0.2563208341598511,
+                0.7563467621803284
+              ],
+              "uvMax": [
+                0.4936791658401489,
+                0.9933874607086182
+              ]
+            },
+            {
+              "column": 1,
+              "row": 1,
+              "tile": 5,
+              "uvMin": [
+                0.2562499940395355,
+                0.5062500238418579
+              ],
+              "uvMax": [
+                0.4937500059604645,
+                0.7437499761581421
+              ]
+            },
+            {
+              "column": 3,
+              "row": 0,
+              "tile": 3,
+              "uvMin": [
+                0.7563045024871826,
+                0.756320595741272
+              ],
+              "uvMax": [
+                0.9936954975128174,
+                0.993679404258728
+              ]
+            }
+          ]
+        },
+        {
+          "slot": 1,
+          "indexCount": 36,
+          "uvMin": [
+            0.004166666883975267,
+            0.3375000059604645
+          ],
+          "uvMax": [
+            0.16249999403953552,
+            0.4958333373069763
+          ],
+          "nativeFbxUVSetExact": true,
+          "uniqueUVCount": 4,
+          "finishAtlasCells": null
+        }
+      ],
+      "paintCell": {
+        "tile": 18,
+        "column": 0,
+        "row": 3,
+        "drawingCellPixelsXYXYExclusive": [
+          0,
+          1023,
+          341,
+          1364
+        ],
+        "sampledPixelBoundsTopLeft": [
+          8.533333778381348,
+          1032.5333251953125,
+          332.79998779296875,
+          1356.7999877929688
+        ],
+        "marginsInsideDrawingCellLeftTopRightBottom": [
+          8.533333778381348,
+          9.5333251953125,
+          8.20001220703125,
+          7.20001220703125
+        ],
+        "exactColorsAndCounts": [
+          {
+            "rgb": [
+              173,
+              175,
+              165
+            ],
+            "pixels": 18154
+          },
+          {
+            "rgb": [
+              211,
+              218,
+              204
+            ],
+            "pixels": 2616
+          },
+          {
+            "rgb": [
+              232,
+              236,
+              223
+            ],
+            "pixels": 95511
+          }
+        ],
+        "cellDecodedSha256": "cc86c1e9b05d42b318830052aea349511688b6b2deabb0846965c51d833f6d61"
+      },
+      "designClearances": {
+        "aboveCabinet": 0.19999933242797852,
+        "aboveLowerBand": 0.03000020980834961,
+        "belowUpperBand": 0.020000219345092773
+      },
+      "observedFramePalette": "pink",
+      "currentMotif": "gray_shapes procedural placeholder"
+    }
+  ],
+  "materials": [
+    {
+      "slot": 0,
+      "name": "FinishAtlas_FUR06",
+      "mainTexture": "FinishAtlas_FUR06.png",
+      "mainTextureSize": [
+        1024,
+        1024
+      ],
+      "sourceShader": "Unity built-in Standard",
+      "mainTextureScale": [
+        1,
+        1
+      ],
+      "mainTextureOffset": [
+        0,
+        0
+      ],
+      "scalarProperties": {
+        "_Glossiness": 0.52,
+        "_Metallic": 0.0,
+        "_Mode": 0.0,
+        "_ZWrite": 1.0
+      },
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "otherTextureMaps": "none",
+      "previewOnly": true
+    },
+    {
+      "slot": 1,
+      "name": "PaintingAtlas_FUR06",
+      "mainTexture": "PaintingAtlas_FUR06.png",
+      "mainTextureSize": [
+        2048,
+        2048
+      ],
+      "sourceShader": "Unity built-in Standard",
+      "mainTextureScale": [
+        1,
+        1
+      ],
+      "mainTextureOffset": [
+        0,
+        0
+      ],
+      "scalarProperties": {
+        "_Glossiness": 0.52,
+        "_Metallic": 0.0,
+        "_Mode": 0.0,
+        "_ZWrite": 1.0
+      },
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "otherTextureMaps": "none",
+      "previewOnly": true
+    }
+  ],
+  "allowedOutput": {
+    "file": "PaintingAtlas_FUR06_ART05_candidate.png",
+    "size": [
+      2048,
+      2048
+    ],
+    "colorMode": "RGB",
+    "cells": [
+      16,
+      17,
+      18
+    ],
+    "cellCoordinates": "zero based, top-left PNG origin; XYXY maximum excluded",
+    "outsideCells": "all RGB pixels exactly equal to supplied PaintingAtlas_FUR06.png",
+    "visibleScope": "Only evidenced neutral gray/gray-brown foreground shape groupings; no invented subject, face, fruit, letters or hidden content. Background color/texture and the blank margins inside each frame remain fixed.",
+    "shapeChangeMask": {
+      "required": true,
+      "file": "PaintingAtlas_FUR06_ART05_shape_change_mask.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "binary 0/255",
+      "zero": "All output RGB pixels must equal the input exactly, including pixels inside the three allowed cells.",
+      "permitted255": "Only old/new foreground shape footprints and immediately necessary transition pixels inside the three allowed cells. Present the mask for review; whole-cell/unrelated margin masks are not permitted.",
+      "backgroundRule": "Contour edits may replace old foreground with the unchanged background color or occupy necessary new foreground pixels. This does not permit changing background color/texture, drawing borders or frame/mat blank margins."
+    },
+    "maskOutsideAllowedCells": "must be zero"
+  },
+  "locked": [
+    "all other atlas pixels",
+    "all pixels outside the declared shape-change mask including within allowed cells",
+    "background color and texture",
+    "drawing borders and frame/mat blank margins",
+    "FinishAtlas",
+    "mesh",
+    "UV0",
+    "native UV2",
+    "pivot",
+    "units",
+    "pose",
+    "frame dimensions",
+    "material settings",
+    "lighting",
+    "GI"
+  ],
+  "referenceLimits": "The visible wide composition supports three rectangles and olive/olive/red-purple rims with pale mats. Small oblique source does not establish exact subjects or contours. IMG3591 upper group is cropped/occluded. Source images are not included or republished. Detailed fidelity remains HOLD.",
+  "dependencyResolution": "FBX bytes retain legacy absolute image paths unchanged. Both referenced atlas basenames are provided in the same directory as each FBX. Resolve existing image nodes by these exact basenames if legacy paths are unavailable; verify SHA, do not edit or rewrite the input FBX.",
+  "uvLimits": "Preview FBX UV0 sets match the corresponding native Unity material slots. The Unity-generated native UV2 mesh is not included. Candidate is PNG only and must not replace either UV channel. Drawing uses 341px cells; UV fractions use 2048/6. Preserve this mapping and border/background padding.",
+  "requestedEvidence": "Candidate PNG plus mandatory bounded binary shape-change mask, changed-pixel count per allowed cell, proof of zero changes outside that mask including within cells, source/output SHA and decoded RGB hash, and short observed-versus-unresolved notes. Keep background style/color/texture and frame blank margins unchanged. No fabricated visual approval.",
+  "notIncluded": [
+    "original reference photos",
+    "screenshots",
+    "whole blend",
+    "Unity assets/project",
+    "prior work history"
+  ],
+  "noBake": true,
+  "noPlay": true,
+  "noBuild": true,
+  "noUpload": true
+}
