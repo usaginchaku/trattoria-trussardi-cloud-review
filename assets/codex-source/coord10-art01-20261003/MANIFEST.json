@@ -1,0 +1,45 @@
+{
+  "status": "READY_FOR_DIRECTOR_SCOPE_REVIEW_NOT_PUBLISHED",
+  "files": [
+    {
+      "path": "FinishAtlas_FUR06.png",
+      "bytes": 144835,
+      "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715"
+    },
+    {
+      "path": "Frame_22_FUR06.fbx",
+      "bytes": 98956,
+      "sha256": "d6a4496e035d92e9cd3c719da38ba1e6571abf616f864ab5942c66a5cf5c831c"
+    },
+    {
+      "path": "Frame_23_FUR06.fbx",
+      "bytes": 99436,
+      "sha256": "88ea27c1ade93658c821cbb423e4b8fcac16623f302f8cf57b169c39dabd8bef"
+    },
+    {
+      "path": "Frame_24_FUR06.fbx",
+      "bytes": 98588,
+      "sha256": "89fd1efc23a9c06f37fd19c843164bd3247840569c8d1110d36f319fa646137b"
+    },
+    {
+      "path": "Frame_25_FUR06.fbx",
+      "bytes": 98332,
+      "sha256": "0727fda74d71fd2699cc5611e7c8e65498a2b8feaea55899f37435a72eaa85e1"
+    },
+    {
+      "path": "frame_scope.json",
+      "bytes": 12951,
+      "sha256": "034f200799db26c22c31ab6f5b1d4a18e6926c0e0cb772472cb764ced5fd16a7"
+    },
+    {
+      "path": "PaintingAtlas_FUR06.png",
+      "bytes": 54900,
+      "sha256": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b"
+    },
+    {
+      "path": "README_JA.txt",
+      "bytes": 1985,
+      "sha256": "6173d66047ef9a54e7c2e08b0f154a547ccf0263459ae67472f85b80ef36b2aa"
+    }
+  ]
+}

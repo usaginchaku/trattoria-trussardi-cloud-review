@@ -1,0 +1,380 @@
+{
+  "status": "INPUT_SCOPE_READY_NOT_DISPATCHED",
+  "owner": "Root input verification; director dispatch; Claude new candidate files only",
+  "sceneSha256": "3ef9d001abc5105bce1097f685aade070b49e1ff2e9ad315adac472ff2a51646",
+  "frames": [
+    {
+      "sourceSpec": {
+        "name": "Frame_22",
+        "width": 0.35,
+        "height": 0.52,
+        "color": "olive",
+        "motif": "orange_stems",
+        "tile": 21
+      },
+      "unity": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_22/Geometry",
+        "prefab": "Assets/Trattoria/Furniture/FUR06/Prefabs/Frame_22_FUR06.prefab",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 2.0033302307128906,
+          "z": 3.705378770828247
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 2.559999704360962,
+          "z": 4.586249828338623
+        },
+        "boundsMax": {
+          "x": -4.3694000244140625,
+          "y": 3.001999855041504,
+          "z": 4.8837504386901855
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/95c900ed5b761cf4595d6d7b0c61d26f_-206271526018680358.asset",
+        "materials": [
+          "Assets/Trattoria/Furniture/FUR06/Materials/FinishAtlas_FUR06.mat",
+          "Assets/Trattoria/Furniture/FUR06/Materials/PaintingAtlas_FUR06.mat"
+        ]
+      },
+      "paintingUvMin": [
+        0.5041666626930237,
+        0.3375000059604645
+      ],
+      "paintingUvMax": [
+        0.6625000238418579,
+        0.4958333373069763
+      ],
+      "paintingAtlasTile": 21,
+      "editablePixelRectExclusive": [
+        1023,
+        1023,
+        1364,
+        1364
+      ],
+      "activeMeshUsers": [
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY02_GapFrame_22/Geometry",
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_22/Geometry"
+      ],
+      "sourceMeshSha256": "216358e11169c7e06649fc2af31ea69950d1cd5619040217e3ac03f45ff09af4",
+      "scoping": "Apply candidate materials/mesh only to this Left_Frame instance. RI08 GapFrame clones must retain old source material/mesh unless separately selected."
+    },
+    {
+      "sourceSpec": {
+        "name": "Frame_23",
+        "width": 0.4,
+        "height": 0.48,
+        "color": "matteblue",
+        "motif": "blue_shapes",
+        "tile": 22
+      },
+      "unity": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_23/Geometry",
+        "prefab": "Assets/Trattoria/Furniture/FUR06/Prefabs/Frame_23_FUR06.prefab",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 1.8155181407928467,
+          "z": 3.998835325241089
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 2.319999933242798,
+          "z": 4.940000057220459
+        },
+        "boundsMax": {
+          "x": -4.3694000244140625,
+          "y": 2.7280001640319824,
+          "z": 5.279999732971191
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/d29212e7b014127459d07cea8082746d_3937464567798289679.asset",
+        "materials": [
+          "Assets/Trattoria/Furniture/FUR06/Materials/FinishAtlas_FUR06.mat",
+          "Assets/Trattoria/Furniture/FUR06/Materials/PaintingAtlas_FUR06.mat"
+        ]
+      },
+      "paintingUvMin": [
+        0.6708333492279053,
+        0.3375000059604645
+      ],
+      "paintingUvMax": [
+        0.8291666507720947,
+        0.4958333373069763
+      ],
+      "paintingAtlasTile": 22,
+      "editablePixelRectExclusive": [
+        1364,
+        1023,
+        1705,
+        1364
+      ],
+      "activeMeshUsers": [
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_23/Geometry"
+      ],
+      "sourceMeshSha256": "b6c414175d6e28a3457685079822004ae9b52c338711b82d23c5bea33e4b2729",
+      "scoping": "Apply candidate materials/mesh only to this Left_Frame instance. RI08 GapFrame clones must retain old source material/mesh unless separately selected."
+    },
+    {
+      "sourceSpec": {
+        "name": "Frame_24",
+        "width": 0.33,
+        "height": 0.45,
+        "color": "pink",
+        "motif": "blue_stems",
+        "tile": 23
+      },
+      "unity": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_24/Geometry",
+        "prefab": "Assets/Trattoria/Furniture/FUR06/Prefabs/Frame_24_FUR06.prefab",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 1.4790211915969849,
+          "z": 3.705378770828247
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 1.8899998664855957,
+          "z": 4.594749927520752
+        },
+        "boundsMax": {
+          "x": -4.3694000244140625,
+          "y": 2.2724997997283936,
+          "z": 4.875250339508057
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/3a51b9169244a4a4eb3f5ecbbce5a60d_-6338732956016939815.asset",
+        "materials": [
+          "Assets/Trattoria/Furniture/FUR06/Materials/FinishAtlas_FUR06.mat",
+          "Assets/Trattoria/Furniture/FUR06/Materials/PaintingAtlas_FUR06.mat"
+        ]
+      },
+      "paintingUvMin": [
+        0.8374999761581421,
+        0.3375000059604645
+      ],
+      "paintingUvMax": [
+        0.9958333373069763,
+        0.4958333373069763
+      ],
+      "paintingAtlasTile": 23,
+      "editablePixelRectExclusive": [
+        1705,
+        1023,
+        2046,
+        1364
+      ],
+      "activeMeshUsers": [
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY02_GapFrame_24/Geometry",
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_24/Geometry"
+      ],
+      "sourceMeshSha256": "d553387b30ed9b310e160970154cfd87b85fffbcd0ecc372eb640ef890e09c9b",
+      "scoping": "Apply candidate materials/mesh only to this Left_Frame instance. RI08 GapFrame clones must retain old source material/mesh unless separately selected."
+    },
+    {
+      "sourceSpec": {
+        "name": "Frame_25",
+        "width": 0.34,
+        "height": 0.43,
+        "color": "olive",
+        "motif": "violet_stems",
+        "tile": 24
+      },
+      "unity": {
+        "path": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_25/Geometry",
+        "prefab": "Assets/Trattoria/Furniture/FUR06/Prefabs/Frame_25_FUR06.prefab",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "worldPosition": {
+          "x": -3.4432241916656494,
+          "y": 1.3068599700927734,
+          "z": 3.998835325241089
+        },
+        "boundsMin": {
+          "x": -4.40000057220459,
+          "y": 1.6699998378753662,
+          "z": 4.9654998779296875
+        },
+        "boundsMax": {
+          "x": -4.3694000244140625,
+          "y": 2.0355000495910645,
+          "z": 5.254500389099121
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071067094802856
+        },
+        "active": true,
+        "rendererEnabled": true,
+        "mesh": "Assets/Trattoria/Lighting/LGT01/MeshesUV2/2aa4c80ad9c20b24db47271f77ae2d11_47613984336651726.asset",
+        "materials": [
+          "Assets/Trattoria/Furniture/FUR06/Materials/FinishAtlas_FUR06.mat",
+          "Assets/Trattoria/Furniture/FUR06/Materials/PaintingAtlas_FUR06.mat"
+        ]
+      },
+      "paintingUvMin": [
+        0.004166666883975267,
+        0.17083333432674408
+      ],
+      "paintingUvMax": [
+        0.16249999403953552,
+        0.3291666805744171
+      ],
+      "paintingAtlasTile": 24,
+      "editablePixelRectExclusive": [
+        0,
+        1364,
+        341,
+        1705
+      ],
+      "activeMeshUsers": [
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY02_GapFrame_25/Geometry",
+        "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/Left_Frame_25/Geometry"
+      ],
+      "sourceMeshSha256": "b61db3551ec714c50ef29fd4518464949dbbe21e2ac1ba4ec450565554466711",
+      "scoping": "Apply candidate materials/mesh only to this Left_Frame instance. RI08 GapFrame clones must retain old source material/mesh unless separately selected."
+    }
+  ],
+  "palette": {
+    "wood": "#79533D",
+    "wooddark": "#4A3124",
+    "olive": "#62683E",
+    "pink": "#985660",
+    "mattecream": "#E8E3D0",
+    "matteblue": "#BAC7D2",
+    "bottleteal": "#345B69",
+    "bottlemint": "#BACCB3",
+    "bottlegreen": "#648E40",
+    "bottlepurple": "#48334E",
+    "gold": "#C0A354",
+    "terracotta": "#B26C49",
+    "platepink": "#CB9CA8",
+    "platewhite": "#E4E8DF",
+    "plategreen": "#679B8A",
+    "glassblue": "#4F7079"
+  },
+  "paintingAtlas": {
+    "size": [
+      2048,
+      2048
+    ],
+    "grid": [
+      6,
+      6
+    ],
+    "painterCellPixels": 341,
+    "uvPaddingFraction": 0.025,
+    "uvUsedFraction": 0.95,
+    "warning": "Painter uses341pixel cells while UV uses exact sixths of2048. Preserve actual UVs and full atlas layout; do not repack or reindex."
+  },
+  "proposedOutput": "Claude/Candidates/REVIEW01/ART01 (new, uncreated by root; director may map to an isolated cloud candidate path)",
+  "sourceInputs": [
+    {
+      "source": "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR06\\Frame_22_FUR06.fbx",
+      "file": "Frame_22_FUR06.fbx",
+      "sha256": "d6a4496e035d92e9cd3c719da38ba1e6571abf616f864ab5942c66a5cf5c831c"
+    },
+    {
+      "source": "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR06\\Frame_23_FUR06.fbx",
+      "file": "Frame_23_FUR06.fbx",
+      "sha256": "88ea27c1ade93658c821cbb423e4b8fcac16623f302f8cf57b169c39dabd8bef"
+    },
+    {
+      "source": "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR06\\Frame_24_FUR06.fbx",
+      "file": "Frame_24_FUR06.fbx",
+      "sha256": "89fd1efc23a9c06f37fd19c843164bd3247840569c8d1110d36f319fa646137b"
+    },
+    {
+      "source": "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR06\\Frame_25_FUR06.fbx",
+      "file": "Frame_25_FUR06.fbx",
+      "sha256": "0727fda74d71fd2699cc5611e7c8e65498a2b8feaea55899f37435a72eaa85e1"
+    },
+    {
+      "source": "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\UnityProject\\Assets\\Trattoria\\Furniture\\FUR06\\PaintingAtlas_FUR06.png",
+      "file": "PaintingAtlas_FUR06.png",
+      "sha256": "e5cc3096470081e63273b663144fc0d470dcc20c12830bd1e031b645f9c63f5b"
+    },
+    {
+      "source": "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\UnityProject\\Assets\\Trattoria\\Furniture\\FUR06\\FinishAtlas_FUR06.png",
+      "file": "FinishAtlas_FUR06.png",
+      "sha256": "ff49ac35494a3f92011d5f2bc01137e18c270c39c6f3af4f3d49809ff6c0a715"
+    }
+  ],
+  "sourceReferenceNames": [
+    "IMG_3669.JPG",
+    "IMG_3638.JPG",
+    "user_layout_reference_1.jpg"
+  ],
+  "referencePolicy": "Reference photos NOT included. Director provides privately to Claude if not already visible; no public reference pixels.",
+  "variants": [
+    "A1 texture-only4painting tiles; rest of2048atlas identical",
+    "A2 optional4frame inner-rim/mat proportions with outer size/depth/origin/axes preserved; separate fromA1 and building layout"
+  ],
+  "restrictions": [
+    "No global shared atlas replacement",
+    "No gap-frame or rear-frame instance edits",
+    "No source generator execution",
+    "No building/window/band/door/light/shader changes",
+    "No bake/AO/Play/Build/SDK/upload"
+  ]
+}
