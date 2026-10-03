@@ -1,0 +1,4 @@
+# A3 front-ortho diff vs base (key light): pixels with |dL|>12
+A3c changed px 102406 bbox x 251-649 y 193-707
+A3s changed px 144105 bbox x 251-649 y 193-707
+(original painting board projects to x 251-649, y 193-707 at 1452 px/m; no change outside it)

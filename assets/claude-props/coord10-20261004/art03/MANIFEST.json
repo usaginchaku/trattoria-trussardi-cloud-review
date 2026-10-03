@@ -1,0 +1,376 @@
+{
+ "work": "COORD10-ART03 / NIGHT01 (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord10-art01-input-20261003@2adac80eb5036e698322f61fa48499cbf9681a17",
+  "art01": "claude/coord09-model-review-20261003@5994d367ed239cb6409717b7cd31a861e1242a82"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "A3/A3c/build_A3c.json",
+   "bytes": 488,
+   "role": "verification record",
+   "sha256": "0142e652962832569c0e553df0239eeada02b4475a5db9831fa634dcefbaa3aa"
+  },
+  {
+   "path": "A3/A3c/fbx/Frame_23_FUR06_A3c.fbx",
+   "bytes": 115660,
+   "role": "A3 Frame_23 wider-mat shape candidate",
+   "sha256": "091ba97f5b5dfbf915537a11d33365fa0260c91c94c8dae4a4dbf7a2cd790c53"
+  },
+  {
+   "path": "A3/A3c/models/Frame_23_FUR06_A3c.blend",
+   "bytes": 156397,
+   "role": "A3 Frame_23 wider-mat shape candidate",
+   "sha256": "906c28dc7606df560c3bbf6bffd3d587deb8054650687d26d6fbcaa5b9c412b0"
+  },
+  {
+   "path": "A3/A3s/build_A3s.json",
+   "bytes": 490,
+   "role": "verification record",
+   "sha256": "419a468cafe10787a3f7e5b11802659e15e9415c7bb8a6f5b766b59d57c22096"
+  },
+  {
+   "path": "A3/A3s/fbx/Frame_23_FUR06_A3s.fbx",
+   "bytes": 115660,
+   "role": "A3 Frame_23 wider-mat shape candidate",
+   "sha256": "9d73d29938e5bb67dbcb83fb6129456be3145e563fabae04eafed4063c4b66dd"
+  },
+  {
+   "path": "A3/A3s/models/Frame_23_FUR06_A3s.blend",
+   "bytes": 156373,
+   "role": "A3 Frame_23 wider-mat shape candidate",
+   "sha256": "cb85927a4f8451affdd072b96bb8250fec62cda3e88d46f371059d739d4165f6"
+  },
+  {
+   "path": "A3/README_A3_JA.txt",
+   "bytes": 2473,
+   "role": "document",
+   "sha256": "0403d97812184b131e4d7e477aa2245e427d5154a02f84aa09b24948a84f73de"
+  },
+  {
+   "path": "A3/previews/F23_A3c_key_front.png",
+   "bytes": 634287,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "422b82d3291ce63240377cdac92c421fdce95bc0df5ce09907ec14557859c1f0"
+  },
+  {
+   "path": "A3/previews/F23_A3c_key_oblique.png",
+   "bytes": 405670,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "d33d7462a5ae8b7f96367caf3fff0b3a7bfacf2f0c2a9f06a12c7036e5a32200"
+  },
+  {
+   "path": "A3/previews/F23_A3s_key_front.png",
+   "bytes": 648503,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "09742c481d2ff4dcb8671659971c89c2e6a1417e2336003a199d2e1a15f53cd4"
+  },
+  {
+   "path": "A3/previews/F23_A3s_key_oblique.png",
+   "bytes": 409249,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "cbbed93915d102d2367d58c52152c44af35054b45dcbf883e70b45509c246a31"
+  },
+  {
+   "path": "A3/previews/F23_base_A3c_A3s_same_camera.png",
+   "bytes": 327552,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1350,
+   "png_height": 944,
+   "rgba_sha256": "0cd88c299a6afc7b78aa6e249537e72fe09a00d819371c1118f49b535f345834"
+  },
+  {
+   "path": "A3/previews/F23_base_key_front.png",
+   "bytes": 609220,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "388ed415fe9b7b4d1cd4b311411b64e16d38e6181ff37b9f949841d3ccb6c48e"
+  },
+  {
+   "path": "A3/previews/F23_base_key_oblique.png",
+   "bytes": 397155,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "800ac59e3d3d42c979f92178cd21487ea10969ae34e07a189774ab846570eeae"
+  },
+  {
+   "path": "A3/qa/a3_ratios.json",
+   "bytes": 3676,
+   "role": "verification record",
+   "sha256": "a81b3c976a6cb4cc1ea100a17fa88fb8f280bb444b4874b5d83ff445671f273d"
+  },
+  {
+   "path": "A3/qa/a3_ratios.py",
+   "bytes": 3964,
+   "role": "verification record",
+   "sha256": "e646d72dc72c83ce1e774855d95fc2a668da02ae5c50efdc523c2b0b438a6152"
+  },
+  {
+   "path": "A3/qa/diff_A3.txt",
+   "bytes": 251,
+   "role": "verification record",
+   "sha256": "1015bb8a967dedaa53db056cc5f2a219d6f4dbeae70a877d5e7feb7b671d6af9"
+  },
+  {
+   "path": "A3/qa/verify_A3.json",
+   "bytes": 7278,
+   "role": "verification record",
+   "sha256": "5dfcf24f939f05b014c64f8bd6bb5ab0a1c7e1776a920ee7b7e73332f96bd86d"
+  },
+  {
+   "path": "A4/A4/build_A4.json",
+   "bytes": 547,
+   "role": "verification record",
+   "sha256": "ae7ad0370ded764409f7708beabdc3b10b6a3419fd45723330b47b63bd299abe"
+  },
+  {
+   "path": "A4/A4/fbx/Frame_22_FUR06_A4.fbx",
+   "bytes": 296252,
+   "role": "A4 Frame_22 frame-groove shape candidate",
+   "sha256": "1566a63f338c895ef57d9ef153836f8d73993a3c0716e84e30f9eadc54b76f88"
+  },
+  {
+   "path": "A4/A4/models/Frame_22_FUR06_A4.blend",
+   "bytes": 303929,
+   "role": "A4 Frame_22 frame-groove shape candidate",
+   "sha256": "900c32e9ca3ace805c390ce41e33bc31592faed26157153d66d56294a6bdda77"
+  },
+  {
+   "path": "A4/README_A4_JA.txt",
+   "bytes": 4387,
+   "role": "document",
+   "sha256": "60e5535eb0a3e6e410df7456c3e6c966a415a94132a7fd51bb8d6e599ea0b9b0"
+  },
+  {
+   "path": "A4/previews/F22_A4_graze_front.png",
+   "bytes": 823456,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "8378929ae9040f7c0a544624adeff898e021975d8eb29d6a471828813ada2744"
+  },
+  {
+   "path": "A4/previews/F22_A4_graze_oblique.png",
+   "bytes": 835389,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "f4fb019354defeaacbda1debf740b06a6a5e79af61f59551b70780e8c8ccb06a"
+  },
+  {
+   "path": "A4/previews/F22_A4_key_front.png",
+   "bytes": 718780,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "b8be8afcd51ed5739ee718b758294074b048a01f1ce9550a53cfbc87ffd9c418"
+  },
+  {
+   "path": "A4/previews/F22_A4_key_oblique.png",
+   "bytes": 416599,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "0165ecd66f3f0c539e6169ac6f637c67b989795a952a10d3944fcb4af5d1fcbb"
+  },
+  {
+   "path": "A4/previews/F22_base_A4_same_camera.png",
+   "bytes": 624838,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 1888,
+   "rgba_sha256": "a7a32103acf495ccfca24cba27cdca1afa534230c0f6d8848332e2d3cf0bb3ea"
+  },
+  {
+   "path": "A4/previews/F22_base_graze_front.png",
+   "bytes": 809462,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "2b39cc08e79b1bdd8fe13e753e896930e1e8faf4d01ed29752b76008b90e3ddd"
+  },
+  {
+   "path": "A4/previews/F22_base_graze_oblique.png",
+   "bytes": 822608,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "373f2e8365e57bacb962330c525c1ba108b7d6be005ed24c748a2484d5763eb9"
+  },
+  {
+   "path": "A4/previews/F22_base_key_front.png",
+   "bytes": 708052,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "d9f4ed995e3d974c3711fd9d04705e685a4342388bf4241f9e87b37a2089bcd4"
+  },
+  {
+   "path": "A4/previews/F22_base_key_oblique.png",
+   "bytes": 406719,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 900,
+   "png_height": 900,
+   "rgba_sha256": "597681aee902eba951c12ca5bc17b895eb53d532b69f9242a116eb0be3dacd23"
+  },
+  {
+   "path": "A4/qa/check_A4.json",
+   "bytes": 607,
+   "role": "verification record",
+   "sha256": "dc50e1fc9c34679600764be0c043cc015758b91c9e309a8fa4099cd4fce2c7f8"
+  },
+  {
+   "path": "A4/qa/diff_A4.txt",
+   "bytes": 102,
+   "role": "verification record",
+   "sha256": "b3f48014f795bd642c301af7eae23b3ff8d87d57e24f5b79a29495b6a1b853a6"
+  },
+  {
+   "path": "A4/qa/pen_A4.txt",
+   "bytes": 149,
+   "role": "verification record",
+   "sha256": "32438481d39c606b1bcf65c284412f0102b900c915a8e8127e2373a8f73db6ab"
+  },
+  {
+   "path": "A4/qa/verify_A4.json",
+   "bytes": 2551,
+   "role": "verification record",
+   "sha256": "d1882a826933e5bd198b0389a4061b6b4c878764fa98e100c77319d72ca1691c"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 3363,
+   "role": "document",
+   "sha256": "5e5fc312452a4a10edf0159b7cbfe58b747a5d4bb25acbb6e74a85d4b0fd2f2a"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 2155,
+   "role": "document",
+   "sha256": "9af032fe0f1ca78f05ddf0793817f55a4dc58188759e84ee3ebc426e676f4f41"
+  },
+  {
+   "path": "external_image_dependencies.json",
+   "bytes": 1978,
+   "role": "document",
+   "sha256": "e0179d5bafe5decf7d26b9f150ac19cb22fe794ee358f96041bb408df8e499d4"
+  },
+  {
+   "path": "ledger_fix/fix_ledger.py",
+   "bytes": 4729,
+   "role": "ART01 reference ledger correction (IDs/observations only)",
+   "sha256": "63d20652ddbb1382d0de818fbc81c39fca2f6de0b0a91c2e29e71aea2dd296ef"
+  },
+  {
+   "path": "ledger_fix/ledger_correction_record.json",
+   "bytes": 883,
+   "role": "ART01 reference ledger correction (IDs/observations only)",
+   "sha256": "4168b14c826eb40c837efd2548150489d078f2d34eb54f8d0f38def927c2ff89"
+  },
+  {
+   "path": "ledger_fix/reference_ledger_ART01_fixed.csv",
+   "bytes": 2566,
+   "role": "ART01 reference ledger correction (IDs/observations only)",
+   "sha256": "10fedd286bd2bbad457a14c27cd529188bc7a7cd59a8b8530e18c118b4974621"
+  },
+  {
+   "path": "ledger_fix/reference_ledger_ART01_fixed.json",
+   "bytes": 4267,
+   "role": "ART01 reference ledger correction (IDs/observations only)",
+   "sha256": "1a24b78a1b0f1cee7e289787e2fb4a9e48e88ec3a5db898971412f170bb7fba1"
+  },
+  {
+   "path": "textures/FinishAtlas_FUR06_A2_F22.png",
+   "bytes": 141842,
+   "role": "texture used by blend (byte copy of ART01 A1/A2 @5994d36)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "0bac2eca2adb4bc6e4123a1add313be96e61267b7d0c3cd2cedc7e5f09001579"
+  },
+  {
+   "path": "textures/FinishAtlas_FUR06_A2_F23.png",
+   "bytes": 141851,
+   "role": "texture used by blend (byte copy of ART01 A1/A2 @5994d36)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "a03be10a93ae8760cf5be2d3b85bd82543f1512611b3134493f936cc9b094c04"
+  },
+  {
+   "path": "textures/PaintingAtlas_FUR06_A1.png",
+   "bytes": 120310,
+   "role": "texture used by blend (byte copy of ART01 A1/A2 @5994d36)",
+   "png_width": 2048,
+   "png_height": 2048,
+   "rgba_sha256": "c603a2749d3c37045bdb31d60d6a17dd79e0a6a26fdc42b6e4d2f3effbfbdcbd"
+  },
+  {
+   "path": "tools/build_a3.py",
+   "bytes": 3251,
+   "role": "verification record",
+   "sha256": "bc0f15b40ae0c8ba346489f72563f94923383e537f121fa2e1d3d4c797a88bda"
+  },
+  {
+   "path": "tools/build_a4.py",
+   "bytes": 6426,
+   "role": "verification record",
+   "sha256": "a2f312a79b7390f1013cfc32461473f2a1ac575582c09548b854c334f3b4588e"
+  },
+  {
+   "path": "tools/check_a4.py",
+   "bytes": 1806,
+   "role": "self-written code",
+   "sha256": "25c16b12e9f9b78838b3c047b931f6324a2292ab6d7f6fb548b16b68875312e2"
+  },
+  {
+   "path": "tools/fbx_strip_paths.py",
+   "bytes": 1585,
+   "role": "self-written code",
+   "sha256": "a53ff3acbf960d1b0c405d7b94806d54514aa4ee1524e9689e0742d38ef55610"
+  },
+  {
+   "path": "tools/mkmanifest_art03.py",
+   "bytes": 2115,
+   "role": "self-written code",
+   "sha256": "a9bf3625493632596dd8bf9fd6873258a6f33a20d7fea6df52e24910dbe6fee9"
+  },
+  {
+   "path": "tools/pen.py",
+   "bytes": 1103,
+   "role": "self-written code",
+   "sha256": "70467db01b2da9cb296d1d01c20f0faa2168f68205853e199499e562859689bd"
+  },
+  {
+   "path": "tools/render_one.py",
+   "bytes": 2508,
+   "role": "self-written code",
+   "sha256": "81b1c8021c5d5ec1049095361498f0f1258971074c32bbc58d7ce8880ad36d56"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_art03.py",
+   "bytes": 4870,
+   "role": "self-written code",
+   "sha256": "bccd27d2f18de89bc575a4ce5d46364754489d7f83bf78b794ecf7893088765e"
+  }
+ ]
+}
