@@ -1,0 +1,152 @@
+{
+ "Frame_22": {
+  "texture": "FinishAtlas_FUR06_A2_F22.png",
+  "cells": {
+   "blue": {
+    "from_mean": [
+     186.0,
+     199.0,
+     210.0
+    ],
+    "to": [
+     226,
+     221,
+     198
+    ],
+    "rect": [
+     256,
+     256,
+     512,
+     512
+    ]
+   },
+   "olive": {
+    "from_mean": [
+     98.0,
+     104.0,
+     62.0
+    ],
+    "to": [
+     84,
+     88,
+     60
+    ],
+    "rect": [
+     512,
+     0,
+     768,
+     256
+    ]
+   }
+  },
+  "pixels_changed_outside_cells": 0
+ },
+ "Frame_23": {
+  "texture": "FinishAtlas_FUR06_A2_F23.png",
+  "cells": {
+   "blue": {
+    "from_mean": [
+     186.0,
+     199.0,
+     210.0
+    ],
+    "to": [
+     66,
+     70,
+     54
+    ],
+    "rect": [
+     256,
+     256,
+     512,
+     512
+    ]
+   },
+   "cream": {
+    "from_mean": [
+     232.0,
+     227.0,
+     208.0
+    ],
+    "to": [
+     200,
+     214,
+     214
+    ],
+    "rect": [
+     0,
+     256,
+     256,
+     512
+    ]
+   }
+  },
+  "pixels_changed_outside_cells": 0
+ },
+ "Frame_24": {
+  "texture": "FinishAtlas_FUR06_A2_F24.png",
+  "cells": {
+   "pink": {
+    "from_mean": [
+     152.0,
+     86.0,
+     96.0
+    ],
+    "to": [
+     112,
+     58,
+     62
+    ],
+    "rect": [
+     768,
+     0,
+     1024,
+     256
+    ]
+   }
+  },
+  "pixels_changed_outside_cells": 0
+ },
+ "Frame_25": {
+  "texture": "FinishAtlas_FUR06_A2_F25.png",
+  "cells": {
+   "blue": {
+    "from_mean": [
+     186.0,
+     199.0,
+     210.0
+    ],
+    "to": [
+     228,
+     228,
+     240
+    ],
+    "rect": [
+     256,
+     256,
+     512,
+     512
+    ]
+   },
+   "olive": {
+    "from_mean": [
+     98.0,
+     104.0,
+     62.0
+    ],
+    "to": [
+     84,
+     88,
+     60
+    ],
+    "rect": [
+     512,
+     0,
+     768,
+     256
+    ]
+   }
+  },
+  "pixels_changed_outside_cells": 0
+ }
+}

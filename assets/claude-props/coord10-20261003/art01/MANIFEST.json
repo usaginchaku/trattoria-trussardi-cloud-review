@@ -1,0 +1,157 @@
+{
+ "work": "COORD10-ART01 (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-03",
+ "base": "codex/coord10-art01-input-20261003@2adac80eb5036e698322f61fa48499cbf9681a17",
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "A1/PaintingAtlas_FUR06_A1.png",
+   "bytes": 120310,
+   "role": "A1 candidate texture (tiles 21-24 only) for Left_Frame_22..25 Painting slot",
+   "png_width": 2048,
+   "png_height": 2048,
+   "rgba_sha256": "c603a2749d3c37045bdb31d60d6a17dd79e0a6a26fdc42b6e4d2f3effbfbdcbd"
+  },
+  {
+   "path": "A2/FinishAtlas_FUR06_A2_F22.png",
+   "bytes": 141842,
+   "role": "A2 optional per-frame Finish atlas copy (one frame only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "0bac2eca2adb4bc6e4123a1add313be96e61267b7d0c3cd2cedc7e5f09001579"
+  },
+  {
+   "path": "A2/FinishAtlas_FUR06_A2_F23.png",
+   "bytes": 141851,
+   "role": "A2 optional per-frame Finish atlas copy (one frame only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "a03be10a93ae8760cf5be2d3b85bd82543f1512611b3134493f936cc9b094c04"
+  },
+  {
+   "path": "A2/FinishAtlas_FUR06_A2_F24.png",
+   "bytes": 141841,
+   "role": "A2 optional per-frame Finish atlas copy (one frame only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "fdcdf13af10a0a09878d354dcdbfa2e4c9ce82bebd6a0c6bf6cd87d4f52cd0fb"
+  },
+  {
+   "path": "A2/FinishAtlas_FUR06_A2_F25.png",
+   "bytes": 141843,
+   "role": "A2 optional per-frame Finish atlas copy (one frame only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "6500abaf0770797e75b4b99db565b6e2498687e759a2a8971b265e85e7fa734b"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 4465,
+   "role": "document",
+   "sha256": "95c1a993565767556a7cb04455a901b3d3c35367d71e9bf047c0110cc3e769f8"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 917,
+   "role": "document",
+   "sha256": "0e4f432e0a8b8bc51a6514ead575ffc9a54e08822ac3edc8ed068140f74048b9"
+  },
+  {
+   "path": "external_image_dependencies.json",
+   "bytes": 2248,
+   "role": "document",
+   "sha256": "31b2024b8540a7a36a180b71b38c859175ca44edd590bade4f9c58951275e063"
+  },
+  {
+   "path": "previews/atlas_tiles_21_24_before_after.png",
+   "bytes": 76533,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1400,
+   "png_height": 700,
+   "rgba_sha256": "ddc01c0b6ddce951665c8ba8f52d820f1a89d9572b4d8a44f58eab3f8ecbe92f"
+  },
+  {
+   "path": "previews/baseline_A1_A2_same_camera.png",
+   "bytes": 3167555,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 3600,
+   "png_height": 2400,
+   "rgba_sha256": "0f7c390870305aede973f7f6f94a262f646287bd62185de524978def9bb55ffb"
+  },
+  {
+   "path": "qa/art_A1_check.json",
+   "bytes": 1434,
+   "role": "verification record or build script",
+   "sha256": "f304994b6fdf440b0e4fbfb092e975dbfc47fe370492f2a855237d138bfb48e1"
+  },
+  {
+   "path": "qa/art_A2_check.json",
+   "bytes": 1758,
+   "role": "verification record or build script",
+   "sha256": "5074540dee11eaf6228e6621bbb4d53ad24c233b21a34fb6126d90036b471b00"
+  },
+  {
+   "path": "qa/art_a1.py",
+   "bytes": 6545,
+   "role": "verification record or build script",
+   "sha256": "ffa27a899d4bc5a18bd264af722e693b463b1e0d10c62a79976dccc30abee0e7"
+  },
+  {
+   "path": "qa/art_a2.py",
+   "bytes": 1964,
+   "role": "verification record or build script",
+   "sha256": "903c87ad8a5070dd08b12912ebb355dd95c49a6557cbdca75f2f3c0e5eec5378"
+  },
+  {
+   "path": "qa/art_an.py",
+   "bytes": 1356,
+   "role": "verification record or build script",
+   "sha256": "cc9346a29c51586759429df4881c57d39696d19b38e564c329a041f753886924"
+  },
+  {
+   "path": "qa/art_fin.py",
+   "bytes": 1201,
+   "role": "verification record or build script",
+   "sha256": "7dca629904fa519de4f1a53e91cd176ffb3f5986c54bcfb65aceb4dcba41474b"
+  },
+  {
+   "path": "qa/art_finish_regions.json",
+   "bytes": 18702,
+   "role": "verification record or build script",
+   "sha256": "d21ee12ff3cd20f1506844cad2a252160875d693174592556a91f946f6479fe6"
+  },
+  {
+   "path": "qa/art_frames.json",
+   "bytes": 2764,
+   "role": "verification record or build script",
+   "sha256": "679d87ea39b5b7501e35d616a9b6ce19625bc028aa5de699b65ac82a2b87f774"
+  },
+  {
+   "path": "qa/art_render.py",
+   "bytes": 3145,
+   "role": "verification record or build script",
+   "sha256": "ba88869c43ff5d1d0b552de9f5cf9796c19dea7f3b047d03cfa1b85b7b22c852"
+  },
+  {
+   "path": "qa/verification_ART01.json",
+   "bytes": 1937,
+   "role": "verification record or build script",
+   "sha256": "2756b09e26d5aba463f9edd47ada6692cda93afb7e0d6551c1c8f6edf1d6e084"
+  },
+  {
+   "path": "reference_ledger_ART01.csv",
+   "bytes": 2412,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "63dfc543a3cbd61b21d78c58f0cea10ad935adb44fba273c7b2371dfa4b3c8df"
+  },
+  {
+   "path": "reference_ledger_ART01.json",
+   "bytes": 4302,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "cb561642c866c81076c546df213d1faa5891a690de539ec744bf0e0addb52271"
+  }
+ ]
+}

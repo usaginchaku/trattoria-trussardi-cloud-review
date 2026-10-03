@@ -1,0 +1,218 @@
+{
+ "22": {
+  "objects": [
+   "Frame_22"
+  ],
+  "verts": 1208,
+  "tris": 2444,
+  "dims": [
+   0.35,
+   0.036,
+   0.52
+  ],
+  "min": [
+   -0.175,
+   -0.036,
+   0.0
+  ],
+  "mats": [
+   "FinishAtlas_FUR06",
+   "PaintingAtlas_FUR06"
+  ],
+  "uv_layers": [
+   "FurnitureUV"
+  ],
+  "painting_faces": 12,
+  "painting_extent": [
+   0.2395,
+   0.001,
+   0.4095
+  ],
+  "painting_min": [
+   -0.1198,
+   -0.0255,
+   0.0552
+  ],
+  "painting_uv_min": [
+   0.50417,
+   0.3375
+  ],
+  "painting_uv_max": [
+   0.6625,
+   0.49583
+  ],
+  "custom": true,
+  "images": [
+   [
+    "FinishAtlas_FUR06.png",
+    "FinishAtlas_FUR06.png"
+   ],
+   [
+    "PaintingAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ]
+  ]
+ },
+ "23": {
+  "objects": [
+   "Frame_23"
+  ],
+  "verts": 1208,
+  "tris": 2444,
+  "dims": [
+   0.4,
+   0.036,
+   0.48
+  ],
+  "min": [
+   -0.2,
+   -0.036,
+   0.0
+  ],
+  "mats": [
+   "FinishAtlas_FUR06",
+   "PaintingAtlas_FUR06"
+  ],
+  "uv_layers": [
+   "FurnitureUV"
+  ],
+  "painting_faces": 12,
+  "painting_extent": [
+   0.2737,
+   0.001,
+   0.3537
+  ],
+  "painting_min": [
+   -0.1369,
+   -0.0255,
+   0.0631
+  ],
+  "painting_uv_min": [
+   0.67083,
+   0.3375
+  ],
+  "painting_uv_max": [
+   0.82917,
+   0.49583
+  ],
+  "custom": true,
+  "images": [
+   [
+    "FinishAtlas_FUR06.png",
+    "FinishAtlas_FUR06.png"
+   ],
+   [
+    "PaintingAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ]
+  ]
+ },
+ "24": {
+  "objects": [
+   "Frame_24"
+  ],
+  "verts": 1208,
+  "tris": 2444,
+  "dims": [
+   0.33,
+   0.036,
+   0.45
+  ],
+  "min": [
+   -0.165,
+   -0.036,
+   0.0
+  ],
+  "mats": [
+   "FinishAtlas_FUR06",
+   "PaintingAtlas_FUR06"
+  ],
+  "uv_layers": [
+   "FurnitureUV"
+  ],
+  "painting_faces": 12,
+  "painting_extent": [
+   0.2258,
+   0.001,
+   0.3458
+  ],
+  "painting_min": [
+   -0.1129,
+   -0.0255,
+   0.0521
+  ],
+  "painting_uv_min": [
+   0.8375,
+   0.3375
+  ],
+  "painting_uv_max": [
+   0.99583,
+   0.49583
+  ],
+  "custom": true,
+  "images": [
+   [
+    "FinishAtlas_FUR06.png",
+    "FinishAtlas_FUR06.png"
+   ],
+   [
+    "PaintingAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ]
+  ]
+ },
+ "25": {
+  "objects": [
+   "Frame_25"
+  ],
+  "verts": 1208,
+  "tris": 2444,
+  "dims": [
+   0.34,
+   0.036,
+   0.43
+  ],
+  "min": [
+   -0.17,
+   -0.036,
+   0.0
+  ],
+  "mats": [
+   "FinishAtlas_FUR06",
+   "PaintingAtlas_FUR06"
+  ],
+  "uv_layers": [
+   "FurnitureUV"
+  ],
+  "painting_faces": 12,
+  "painting_extent": [
+   0.2327,
+   0.001,
+   0.3227
+  ],
+  "painting_min": [
+   -0.1163,
+   -0.0255,
+   0.0537
+  ],
+  "painting_uv_min": [
+   0.00417,
+   0.17083
+  ],
+  "painting_uv_max": [
+   0.1625,
+   0.32917
+  ],
+  "custom": true,
+  "images": [
+   [
+    "FinishAtlas_FUR06.png",
+    "FinishAtlas_FUR06.png"
+   ],
+   [
+    "PaintingAtlas_FUR06.png",
+    "PaintingAtlas_FUR06.png"
+   ]
+  ]
+ }
+}

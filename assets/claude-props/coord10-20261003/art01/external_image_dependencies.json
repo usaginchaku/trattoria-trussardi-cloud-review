@@ -1,0 +1,71 @@
+{
+ "scope": "Left_Frame_22/23/24/25 の renderer のみ",
+ "fbx_unchanged": "候補はFBX/blendを出力しない。入力FBX(Frame_22..25_FUR06.fbx @2adac80)をそのまま使う",
+ "original_textures_referenced_by_fbx": [
+  "FinishAtlas_FUR06.png",
+  "PaintingAtlas_FUR06.png"
+ ],
+ "rules": [
+  "共有マテリアル FinishAtlas_FUR06 / PaintingAtlas_FUR06 とその元PNGは変更・上書きしない",
+  "LAY02_GapFrame_22/24/25 は同一meshを共有するため元マテリアルのまま。同名置換・atlas一括更新禁止",
+  "候補は新規マテリアルを作り、対象4 rendererのmaterial slotだけ差し替える(UV/mesh変更なし)"
+ ],
+ "A1": {
+  "texture": "A1/PaintingAtlas_FUR06_A1.png",
+  "new_material": "PaintingAtlas_FUR06_A1",
+  "slot": "PaintingAtlas_FUR06 slot",
+  "assign_to": [
+   "Left_Frame_22",
+   "Left_Frame_23",
+   "Left_Frame_24",
+   "Left_Frame_25"
+  ],
+  "material_settings": "元PaintingAtlas_FUR06マテリアルの設定を複製しテクスチャのみ差替"
+ },
+ "A2": {
+  "requires": "A2単体またはA1+A2どちらでも可(独立)",
+  "per_frame": [
+   {
+    "frame": "Left_Frame_22",
+    "texture": "A2/FinishAtlas_FUR06_A2_F22.png",
+    "new_material": "FinishAtlas_FUR06_A2_F22",
+    "slot": "FinishAtlas_FUR06 slot",
+    "assign_to": [
+     "Left_Frame_22"
+    ]
+   },
+   {
+    "frame": "Left_Frame_23",
+    "texture": "A2/FinishAtlas_FUR06_A2_F23.png",
+    "new_material": "FinishAtlas_FUR06_A2_F23",
+    "slot": "FinishAtlas_FUR06 slot",
+    "assign_to": [
+     "Left_Frame_23"
+    ]
+   },
+   {
+    "frame": "Left_Frame_24",
+    "texture": "A2/FinishAtlas_FUR06_A2_F24.png",
+    "new_material": "FinishAtlas_FUR06_A2_F24",
+    "slot": "FinishAtlas_FUR06 slot",
+    "assign_to": [
+     "Left_Frame_24"
+    ]
+   },
+   {
+    "frame": "Left_Frame_25",
+    "texture": "A2/FinishAtlas_FUR06_A2_F25.png",
+    "new_material": "FinishAtlas_FUR06_A2_F25",
+    "slot": "FinishAtlas_FUR06 slot",
+    "assign_to": [
+     "Left_Frame_25"
+    ]
+   }
+  ],
+  "reason_per_frame": "Finish atlasの色セルは複数額・GapFrameで共有されるため、額ごとにコピーを分けた"
+ },
+ "not_used": [
+  "参考画像(外部依存にしない)",
+  "user_layout_reference_1.jpg(未提供)"
+ ]
+}

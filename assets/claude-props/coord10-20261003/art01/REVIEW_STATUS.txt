@@ -1,0 +1,11 @@
+COORD10-ART01 REVIEW_STATUS (2026-10-03, Claude cloud)
+入力: codex/coord10-art01-input-20261003 @ 2adac80 受領・SHA検証済(7 binary一致、txt/jsonはCRLF差のみ)
+参考実閲覧: IMG_3669(主)、IMG_3638(補助・人物遮蔽あり)。IMG_3659-3661不使用。user_layout_reference_1.jpg 未提供。
+
+A1 PaintingAtlas tile21-24       : 納品 / 採用推奨 / rect外変更0画素
+A2 Finish per-frame F22-F25      : 納品 / 任意(指示役判断) / 対象セル外変更0画素
+A3 マット幅・額幅(形状)          : 未着手(範囲外。指示があれば別候補)
+F22 彫り溝                        : 未対応
+Unity/lilToon/VR確認              : 未実施 → 元Codex
+Blender 5.2.2 確認                : 未実施 → 元Codex (クラウドは bpy 4.3.0 のみ)
+保留操作: Root が A1 マテリアルを Left_Frame_22..25 のみに割当て表示確認。GapFrame は触らない。

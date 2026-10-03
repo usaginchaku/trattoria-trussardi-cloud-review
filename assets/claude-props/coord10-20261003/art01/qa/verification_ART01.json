@@ -1,0 +1,16 @@
+{
+ "input": {"branch": "codex/coord10-art01-input-20261003", "commit": "2adac80eb5036e698322f61fa48499cbf9681a17", "dir": "assets/codex-source/coord10-art01-20261003/", "files": 9,
+  "sha_check": "7 binaries match input MANIFEST sha256; frame_scope.json / README_JA.txt match after CRLF->LF normalisation (git checkout line-ending difference only)",
+  "source_branch_pushed": false, "input_files_overwritten": false},
+ "A1_PaintingAtlas": {"size": [2048, 2048], "pixels_changed_outside_editable_rects": 0, "pixels_changed_inside_rects": 465124,
+  "rgba_sha256_outside_rects_source_and_A1": "43515b3ce5d79c2626860692aa99271afdbe104632f7603752d76344cf5aeb9a",
+  "uv_boxes_inside_rects": true, "repack_or_reindex": false,
+  "method": "絵を実面アスペクトで描き、各UV box(1/6格子+padding 0.025)へbilinear再標本化。box外〜rect端は端画素の延長で埋めた(mip滲み対策)",
+  "recheck": "独立スクリプトで再計算し outside=0 を再確認"},
+ "A2_FinishAtlas_per_frame": {"pixels_changed_outside_target_cells": {"F22": 0, "F23": 0, "F24": 0, "F25": 0},
+  "changed_cells": {"F22": ["blue mat->cream", "olive frame->darker olive"], "F23": ["blue frame->dark green", "cream rim->blue-grey"], "F24": ["pink frame->maroon"], "F25": ["blue mat->pale lavender-white", "olive frame->darker olive"]},
+  "method": "セル内の明度ムラを保持して平均色だけ移動 (new = old - cell_mean + target)", "shared_original_modified": false},
+ "geometry": {"fbx_or_blend_output": false, "mesh_uv_normals_changed": false, "outer_size_depth_origin_axes_mount_face_changed": false,
+  "note": "テクスチャのみの候補。形状ファイルを出さないため外寸/UV/法線は入力FBXのまま(qa/art_frames.json に入力値を記録)"},
+ "render": {"tool": "pip bpy 4.3.0, Cycles CPU", "same_camera_light_world_for": ["baseline", "A1", "A2(A1+A2)"], "blender_5_2_2": "not run", "unity": "not run"}
+}
