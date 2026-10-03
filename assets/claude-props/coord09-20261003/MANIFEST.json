@@ -13,7 +13,8 @@
   "wall_cabinet": "e2e48d9",
   "candle_review": "8fd12b3",
   "final_manifest": "dfa4eed",
-  "menu_foot_MENU02": "this commit (see git log)"
+  "menu_foot_MENU02": "280865b",
+  "kitchen_review_K1": "this commit (see git log)"
  },
  "status": {
   "delivered_candidates": [
@@ -725,6 +726,30 @@
    "role": "candidate: furniture shape on Codex source 6b8c26f",
    "base": "codex/coord09-source-20261003@6b8c26fc21203e068352437e0d16ed5751282b50",
    "sha256": "975a387d8e602075d1e5177217273a51705828f980e11f8f2dad6f4ca09dd9df"
+  },
+  {
+   "path": "kitchen_review/K1/K1_spec.json",
+   "bytes": 2733,
+   "role": "KITCHEN01 review/spec (no model change, no reference images)",
+   "sha256": "9ec46b3ee0e12c82344b84a0b68575fc58318297407f63d476433e1cc61e5ad7"
+  },
+  {
+   "path": "kitchen_review/K1/README_KITCHEN01_K1_JA.txt",
+   "bytes": 5363,
+   "role": "KITCHEN01 review/spec (no model change, no reference images)",
+   "sha256": "c8af9ea97a31e98566dde7c02db989e46fc570f369df8b2fd4dd49a5fe2375a3"
+  },
+  {
+   "path": "kitchen_review/K1/photo_ledger_K1.csv",
+   "bytes": 3272,
+   "role": "KITCHEN01 review/spec (no model change, no reference images)",
+   "sha256": "66deef6ef55885fd2a4fcf90d55b27b1b8d52745a626eebb8dd83ce6c3f1fd74"
+  },
+  {
+   "path": "kitchen_review/K1/photo_ledger_K1.json",
+   "bytes": 4591,
+   "role": "KITCHEN01 review/spec (no model change, no reference images)",
+   "sha256": "ad67fa374acdb03bb39c4bf7b4ea3323c15cddd4a599a916dcf455701afc472c"
   },
   {
    "path": "menu_foot/M1/fbx/MenuStand_EX01.fbx",

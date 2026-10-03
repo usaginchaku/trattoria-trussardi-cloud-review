@@ -1,0 +1,66 @@
+{
+ "id": "KITCHEN01/K1",
+ "status": "SPEC_ONLY (no model / Unity edit)",
+ "observed_order_top_to_bottom": [
+  "green plane (ceiling or upper wall: unresolved)",
+  "wood band upper",
+  "white band",
+  "wood band lower",
+  "white square tiles with grey grout",
+  "wood skirting"
+ ],
+ "relative_sizes_tile_rows": {
+  "white_band": 3.9,
+  "each_wood_band": 0.7,
+  "tile_zone": 13,
+  "basis": "IMG_3758 back wall, same plane; medium confidence"
+ },
+ "colour_relations": {
+  "green": "olive green, darker and more saturated than the white band, lighter than the wood bands (screen-photo colour cast; use relation, not absolute RGB)",
+  "wood_band": "same olive-brown wood as the existing band",
+  "white_band": "off-white plaster, same family as dining-room white walls",
+  "tiles": "unchanged"
+ },
+ "green_surface_interpretation": {
+  "A_ceiling": "IMG_3836/3828 fluorescent fixtures on it; IMG_3758 trapezoid convergence",
+  "B_upper_wall": "IMG_3802 flat rectangle at eye level above upper band",
+  "decision": "unresolved -> Codex reports which RI03 surface lies above the existing band; K1 colour applies to that surface only"
+ },
+ "K1_steps": [
+  {
+   "step": 1,
+   "factor": "colour only",
+   "change": "surface above upper band -> olive green; band between bands -> off-white",
+   "geometry": "none"
+  },
+  {
+   "step": 2,
+   "factor": "band shape only",
+   "change": "add second wood band (same profile/material as existing) at the boundary white band/tiles; thickness ~0.7 tile rows; white band ~3.9 tile rows between bands; bands interrupted by openings (arch) exactly as existing band",
+   "geometry": "band strips only"
+  }
+ ],
+ "keep": [
+  "all openings, tiles, fixtures, shelves, hood, stove, sink, furniture positions",
+  "existing band (becomes upper or lower depending on its current height)"
+ ],
+ "cameras": [
+  "K-CAM1 dining arch looking at sink wall (like IMG_3758)",
+  "K-CAM2 eye level toward back opening/cabinets (like IMG_3802)",
+  "K-CAM3 low angle at stove counter looking up (like IMG_3836)"
+ ],
+ "done_when": [
+  "each camera shows current vs step1 vs step2 side by side, same exposure",
+  "order green/band/white/band/tile readable in K-CAM1 and K-CAM3",
+  "white band height within 3.5-4.3 tile rows, bands 0.5-0.9 rows (K-CAM1)",
+  "no change to openings/fixtures/furniture (diff list empty)",
+  "user/director visual approval; numeric pass is not adoption"
+ ],
+ "inputs_needed_from_codex": [
+  "RI03 kitchen wall/ceiling object+material names",
+  "heights of existing wood band, tile top, ceiling, opening heads (design m)",
+  "whether the surface above the existing band is ceiling or wall",
+  "current screenshots from K-CAM1..3",
+  "AnimeDU_TrussardiKitchen observations (not available in cloud)"
+ ]
+}
