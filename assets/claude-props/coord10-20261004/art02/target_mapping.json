@@ -1,0 +1,63 @@
+{
+ "geometry_changed": false,
+ "note": "テクスチャだけの候補なので、新しい FBX/blend は出力していない。形状・スケール・配置・法線・UV0/UV2・材質slot順は入力のまま",
+ "frames": [
+  {
+   "renderer": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_1/Geometry",
+   "mesh_fbx": "codex/coord10-art02-input-20261004@8a61591e9f94c253d69fabe16d1d54b99f75c936:assets/codex-source/coord10-art02-input-20261004/LAY03_UpperFrame_1.fbx",
+   "mesh_fbx_sha256": "3bb66a4f38d53707166d5b9c528fd59067637cf251aabbc9df93ef75ca788cb0",
+   "slot0_Finish": {
+    "original_material": "LAY03_UpperFrame_1_Finish",
+    "candidate_A2": "A2/FinishAtlas_FUR06_ART02_A2_U1.png",
+    "candidate_material_name": "LAY03_UpperFrame_1_Finish_ART02_A2"
+   },
+   "slot1_Painting": {
+    "original_material": "LAY03_UpperFrame_1_Painting",
+    "candidate_A1": "A1/PaintingAtlas_FUR06_ART02_A1.png",
+    "candidate_material_name": "LAY03_UpperFrame_1_Painting_ART02_A1",
+    "tile": 3,
+    "tile_content": "新しい自作モチーフ"
+   },
+   "reference_mapping": "IMG_3638 左奥の青赤風景(オリーブ額)",
+   "mapping_confidence": "medium"
+  },
+  {
+   "renderer": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_2/Geometry",
+   "mesh_fbx": "codex/coord10-art02-input-20261004@8a61591e9f94c253d69fabe16d1d54b99f75c936:assets/codex-source/coord10-art02-input-20261004/LAY03_UpperFrame_2.fbx",
+   "mesh_fbx_sha256": "141fe9c0801b36d1f21ec9a5dca871aca426c9bb3375b6dbbdf1a5d173e5604d",
+   "slot0_Finish": {
+    "original_material": "LAY03_UpperFrame_2_Finish",
+    "candidate_A2": "A2/FinishAtlas_FUR06_ART02_A2_U2.png",
+    "candidate_material_name": "LAY03_UpperFrame_2_Finish_ART02_A2"
+   },
+   "slot1_Painting": {
+    "original_material": "LAY03_UpperFrame_2_Painting",
+    "candidate_A1": "A1/PaintingAtlas_FUR06_ART02_A1.png",
+    "candidate_material_name": "LAY03_UpperFrame_2_Painting_ART02_A1",
+    "tile": 18,
+    "tile_content": "入力と同一(仮絵のまま)"
+   },
+   "reference_mapping": "IMG_3638 中央のマルーン額(頭で遮蔽)",
+   "mapping_confidence": "medium"
+  },
+  {
+   "renderer": "WorldContent_EkuScale/Detailed_WallFixtures_FUR06/LAY03_UpperFrame_3/Geometry",
+   "mesh_fbx": "codex/coord10-art02-input-20261004@8a61591e9f94c253d69fabe16d1d54b99f75c936:assets/codex-source/coord10-art02-input-20261004/LAY03_UpperFrame_3.fbx",
+   "mesh_fbx_sha256": "e03f572dca205f325554ecf684c52120a36422b466ad70d40e9615650180d20d",
+   "slot0_Finish": {
+    "original_material": "LAY03_UpperFrame_3_Finish",
+    "candidate_A2": null,
+    "candidate_material_name": null
+   },
+   "slot1_Painting": {
+    "original_material": "LAY03_UpperFrame_3_Painting",
+    "candidate_A1": "A1/PaintingAtlas_FUR06_ART02_A1.png",
+    "candidate_material_name": "LAY03_UpperFrame_3_Painting_ART02_A1",
+    "tile": 11,
+    "tile_content": "入力と同一(仮絵のまま)"
+   },
+   "reference_mapping": "IMG_3638 右上の紫の塊(上端切れ)",
+   "mapping_confidence": "medium"
+  }
+ ]
+}

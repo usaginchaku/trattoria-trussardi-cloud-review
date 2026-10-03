@@ -1,0 +1,25 @@
+COORD10-ART02 REVIEW_STATUS (2026-10-04 JST, Claude cloud)
+ツール: pip bpy 4.3.0 (Cycles CPU)。Blender 5.2.2 / Unity は未検証 → 元Codex。
+
+項目                                   状態
+入力受領・SHA/PNG 検証                  済(バイナリ6一致、テキスト2はCRLF差のみ)
+A1 Frame1 絵柄(tile3)                  納品・推奨
+A1 Frame2 / Frame3 絵柄                 変更なし(資料不足: 遮蔽 / 上端切れ)→ 仮絵のまま
+A2 U1 Frame1 マット 青→クリーム          納品・任意(指示役判断)
+A2 U2 Frame2 額 ピンク→マルーン          納品・任意(指示役判断)
+A2 Frame3                               作らない(差は露出の範囲。ラベンダー縁はセル共有で分離不可)
+形状                                    変更なし(FBX/blend 出力なし)。target_mapping.json に入力との対応
+
+検証(qa/)
+ verify_pixels.py(生成とは別の独立検証):
+   A1 は rect 外の変化 0 画素、Frame2/3 のタイルは入力と同一。
+   A2 U1/U2 は対象セル外の変化 0 画素。
+ A1_check.json / A2_check.json: 生成時の同じ検査。upper_frames.json: 3額のメッシュ、UV0/UV2、slot、絵面サイズ(読取のみ)。
+
+残件 → 次担当
+ - Unity で新材質を3 renderer の該当 slot だけに割り当て、lilToon/VR での見え方とミップ/圧縮のにじみを確認 → 元Codex
+ - Blender 5.2.2 での確認 → 元Codex
+ - A1/A2 の採否 → 指示役
+ - Frame2 / Frame3 の絵柄 → 遮られていない資料があれば次工程。今は仮絵のまま
+ - Frame3 のラベンダー内側縁 → UV/形状の変更が必要(今回の範囲外)
+ - 上段の対応(右上の額の設計Z)→ 配置は範囲外。必要なら元Codexが確認

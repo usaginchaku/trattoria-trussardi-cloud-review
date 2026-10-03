@@ -1,0 +1,249 @@
+{
+ "work": "COORD10-ART02 upper three frames (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord10-art02-input-20261004@8a61591e9f94c253d69fabe16d1d54b99f75c936"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 not run. Unity not touched.",
+ "png_rule": "PNG entries record width, height and sha256 of decoded RGBA bytes; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, private settings or credentials",
+ "files": [
+  {
+   "path": "A1/PaintingAtlas_FUR06_ART02_A1.png",
+   "bytes": 65120,
+   "role": "A1 painting atlas candidate (tile 3 only)",
+   "png_width": 2048,
+   "png_height": 2048,
+   "rgba_sha256": "88c992f993fac9994619ac2aed0e6f96ade4b7acb34b9259c86380cbfd67a81f"
+  },
+  {
+   "path": "A2/FinishAtlas_FUR06_ART02_A2_U1.png",
+   "bytes": 141843,
+   "role": "A2 per-frame finish atlas candidate (one cell only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "43362de97199b857d8a7f465e1513173d24404d24325791f0aee1601da8c2105"
+  },
+  {
+   "path": "A2/FinishAtlas_FUR06_ART02_A2_U2.png",
+   "bytes": 141848,
+   "role": "A2 per-frame finish atlas candidate (one cell only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "rgba_sha256": "41d443376b2b0dbbe3f831ad28ab4f7fc13e700493a6312be32034e9bc5b2b07"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 4003,
+   "role": "document",
+   "sha256": "3dfa106856ff849e7654b32c2da974b973457f1b4b0f77b7a34e82db65cc0944"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1782,
+   "role": "document",
+   "sha256": "52b1e6f67e316cf0210a033375fdc24c53de41a9be0799a433d704461558032b"
+  },
+  {
+   "path": "external_image_dependencies.json",
+   "bytes": 1125,
+   "role": "document",
+   "sha256": "e7f9cedc36ae0142fe5601cf5822f6f72e6bc3c1900313f36448a7fe814bd5ec"
+  },
+  {
+   "path": "previews/tile3_before_after.png",
+   "bytes": 10601,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 692,
+   "png_height": 341,
+   "rgba_sha256": "16b8d92030a6f530255e54330a3d5d8d71403166ae4b590d9d0a52f319ebf0f6"
+  },
+  {
+   "path": "previews/upper_A1A2_far.png",
+   "bytes": 17358,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 190,
+   "png_height": 76,
+   "rgba_sha256": "898f3f9531fe8c9ab164cc35b8c04023cd2b20da17bc8e002ef26dd795a3e26e"
+  },
+  {
+   "path": "previews/upper_A1A2_front.png",
+   "bytes": 693500,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1500,
+   "png_height": 600,
+   "rgba_sha256": "ef0e9585cc8e80c53fe1fb5a684dc79dad12c0f4f949eff81ca7ecfa6de8d5ed"
+  },
+  {
+   "path": "previews/upper_A1A2_oblique.png",
+   "bytes": 730006,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1500,
+   "png_height": 800,
+   "rgba_sha256": "136ffb2fc913f66fcf2fb44e257ccbe471e8793447a5a2c89fdf78d4bd08b5d5"
+  },
+  {
+   "path": "previews/upper_A1_far.png",
+   "bytes": 17381,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 190,
+   "png_height": 76,
+   "rgba_sha256": "7e1686a61152fabb00ed06e85f30e601fc2a89891f6a5284a47695607825b1a1"
+  },
+  {
+   "path": "previews/upper_A1_front.png",
+   "bytes": 695698,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1500,
+   "png_height": 600,
+   "rgba_sha256": "63fac31a7c4293af0d4d14a9560bcfb1c48f7d0bfa5bf73dec7a241db6d69b22"
+  },
+  {
+   "path": "previews/upper_A1_oblique.png",
+   "bytes": 733164,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1500,
+   "png_height": 800,
+   "rgba_sha256": "e72dab159056519c56314ae1f07a5c353b2dfda0ae586b94ebc93f8ff8f494e1"
+  },
+  {
+   "path": "previews/upper_base_A1_A1A2_far_proxy_x4nearest.png",
+   "bytes": 57927,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 760,
+   "png_height": 912,
+   "rgba_sha256": "ca85ca43046440e019960a56557fb504436d01a50147c8a7f43b5ed266d3765a"
+  },
+  {
+   "path": "previews/upper_base_A1_A1A2_front.png",
+   "bytes": 331284,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 750,
+   "png_height": 966,
+   "rgba_sha256": "cb6040f95e9e0855bf773e9265a8ec2fcb51ad145b3d2d5647cfafc26605285e"
+  },
+  {
+   "path": "previews/upper_base_A1_A1A2_oblique.png",
+   "bytes": 390184,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 750,
+   "png_height": 1266,
+   "rgba_sha256": "b27c3cf383781f1415e651730fd09fabce5e60a52f6c1b34a66f28f0c617a87e"
+  },
+  {
+   "path": "previews/upper_base_far.png",
+   "bytes": 16959,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 190,
+   "png_height": 76,
+   "rgba_sha256": "5a867212ffd58b57d38354cba10e21d07c8f2b2f46da3093895aad6ae9e39d8f"
+  },
+  {
+   "path": "previews/upper_base_front.png",
+   "bytes": 693453,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1500,
+   "png_height": 600,
+   "rgba_sha256": "7b3c00e9017c39bbb7dcd184c75eac884167eac9cd26bd22264e5cb7d1270a0c"
+  },
+  {
+   "path": "previews/upper_base_oblique.png",
+   "bytes": 731694,
+   "role": "same-camera comparison render (self-made only)",
+   "png_width": 1500,
+   "png_height": 800,
+   "rgba_sha256": "95e21463df51bf8e66e5ac0808e6ebdeca64f3b903c9b09b228be3078d580c93"
+  },
+  {
+   "path": "qa/A1_check.json",
+   "bytes": 737,
+   "role": "verification record",
+   "sha256": "70ac880e7a6cbc64edef0dca36d14ccf4e51643ccb76f396fd776f8d5d99f900"
+  },
+  {
+   "path": "qa/A2_check.json",
+   "bytes": 1706,
+   "role": "verification record",
+   "sha256": "18f315b0c463276f4ec4139c30f3354122ec9ba6b358ae59da30aea103a0e5bb"
+  },
+  {
+   "path": "qa/upper_frames.json",
+   "bytes": 3192,
+   "role": "verification record",
+   "sha256": "346cabd7360c532600b75fa34aaed97b7f5885f9d012da78568c65e0b0950969"
+  },
+  {
+   "path": "qa/verify_pixels.json",
+   "bytes": 1209,
+   "role": "verification record",
+   "sha256": "e916ad16c364d818d74e8681ea86b2d1a357e30fac8877ef3c5f3766077d24bf"
+  },
+  {
+   "path": "reference_ledger_ART02.csv",
+   "bytes": 3296,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "002cbb222a91c15dd90967385c92a08dde24d8a00deb486353a4d279c3b0527c"
+  },
+  {
+   "path": "reference_ledger_ART02.json",
+   "bytes": 4910,
+   "role": "reference ledger (image IDs and observations only, no images)",
+   "sha256": "52d2f100dbc70162fb42abda8d38a1c13549aeccfb4e387546bbba1c8599abd2"
+  },
+  {
+   "path": "target_mapping.json",
+   "bytes": 3048,
+   "role": "document",
+   "sha256": "82d0ceaa76b78c839875f38bcbd37d403b4c52c841c92137deb3a7d722f0ac33"
+  },
+  {
+   "path": "tools/an_upper.py",
+   "bytes": 1834,
+   "role": "self-written code",
+   "sha256": "fcab19ccc9b5f8d8c1eb3a953cbd97cf54f028367fb77329e7bd381f6cb6a7ef"
+  },
+  {
+   "path": "tools/art02_a1.py",
+   "bytes": 4087,
+   "role": "self-written code",
+   "sha256": "c20b5d5c7f6ff5867865277ca007564fbd7d4bdca4f2c0ac4942bcfdbd8a7ed3"
+  },
+  {
+   "path": "tools/art02_a2.py",
+   "bytes": 2320,
+   "role": "self-written code",
+   "sha256": "f77e4e3717793a06d0071b81235257d2c84b1f83f349df95a1b59f7c9dc02e3b"
+  },
+  {
+   "path": "tools/mkmanifest_art02.py",
+   "bytes": 1837,
+   "role": "self-written code",
+   "sha256": "21214d9ba47d5e5bd3a21fe61cd5381ba53e4c52f1278fbeb26fdbf2b7668dca"
+  },
+  {
+   "path": "tools/render_upper.py",
+   "bytes": 2975,
+   "role": "self-written code",
+   "sha256": "340ec274d27e2e83fb9bb1f5cd4e1c3303582a90ceaa65f0098bc799992a7423"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_pixels.py",
+   "bytes": 1895,
+   "role": "self-written code",
+   "sha256": "3bc1901ee2446b6437efe0f406de2619796f99687c8e9568699eb608f151f827"
+  },
+  {
+   "path": "tools/write_ledger.py",
+   "bytes": 4232,
+   "role": "self-written code",
+   "sha256": "ebaf76b655e4b55f4dd0ec77d4e6b2e9f8f74604f9a57b6586198a24c8bf68d9"
+  }
+ ]
+}

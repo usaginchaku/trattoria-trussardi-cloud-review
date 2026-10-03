@@ -1,0 +1,18 @@
+{
+ "scope": "LAY03_UpperFrame_1/2/3 の renderer のみ。Left_Frame22-25 / LAY02_GapFrame / 既存・共有 atlas と材質は対象外",
+ "rules": [
+  "元の FinishAtlas_FUR06.png / PaintingAtlas_FUR06.png と元の材質には書き込まない",
+  "新規材質名で、対象 renderer の該当 slot だけに割り当てる",
+  "A1 atlas は 3 額で共有してよい(Frame2/3 のタイルは入力と同一)。A1 だけを採用する場合も、3 額の Painting slot を新材質に差し替える(Frame2/3 は見た目不変)",
+  "A2 は額ごとの専用 atlas: U1 は Frame1 の Finish slot だけ、U2 は Frame2 の Finish slot だけ。Frame3 は元材質のまま"
+ ],
+ "textures": {
+  "A1/PaintingAtlas_FUR06_ART02_A1.png": "2048x2048 RGB、tile3 だけ変更",
+  "A2/FinishAtlas_FUR06_ART02_A2_U1.png": "1024x1024 RGB、セル(1,1)だけ変更",
+  "A2/FinishAtlas_FUR06_ART02_A2_U2.png": "1024x1024 RGB、セル(3,0)だけ変更"
+ },
+ "no_fbx_or_blend": "形状を出力していないため、相対パス解決が必要なファイルはない",
+ "not_used": [
+  "参考画像(repoに含めない)"
+ ]
+}

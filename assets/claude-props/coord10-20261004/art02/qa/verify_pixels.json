@@ -1,0 +1,52 @@
+{
+ "A1": {
+  "size": [
+   2048,
+   2048
+  ],
+  "allowed_rect_UpperFrame_1": [
+   1023,
+   0,
+   1364,
+   341
+  ],
+  "changed_outside_allowed": 0,
+  "changed_inside": 116281,
+  "outside_rgba_sha256_input": "7c1e2ace9965db74a0e92b2a277e41d8284078c5dd64fb40555ada92bd11d302",
+  "outside_rgba_sha256_candidate": "7c1e2ace9965db74a0e92b2a277e41d8284078c5dd64fb40555ada92bd11d302",
+  "LAY03_UpperFrame_2_tile_identical": true,
+  "LAY03_UpperFrame_3_tile_identical": true
+ },
+ "A2_U1": {
+  "size": [
+   1024,
+   1024
+  ],
+  "allowed_cell_xywh": [
+   256,
+   256,
+   256,
+   256
+  ],
+  "changed_outside_allowed": 0,
+  "changed_inside": 65536,
+  "outside_rgba_sha256_input": "cdf6215dcb29cd2754dc855226a4e28095b79fb40d9019db7767e5480d1e5314",
+  "outside_rgba_sha256_candidate": "cdf6215dcb29cd2754dc855226a4e28095b79fb40d9019db7767e5480d1e5314"
+ },
+ "A2_U2": {
+  "size": [
+   1024,
+   1024
+  ],
+  "allowed_cell_xywh": [
+   768,
+   0,
+   256,
+   256
+  ],
+  "changed_outside_allowed": 0,
+  "changed_inside": 65536,
+  "outside_rgba_sha256_input": "20d149d33613df1e09ab8be60007d2ce7fef907448bfec67e3458febfc9d0eec",
+  "outside_rgba_sha256_candidate": "20d149d33613df1e09ab8be60007d2ce7fef907448bfec67e3458febfc9d0eec"
+ }
+}

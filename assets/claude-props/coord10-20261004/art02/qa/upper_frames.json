@@ -1,0 +1,278 @@
+{
+ "1": {
+  "object": "LAY03_UpperFrame_1",
+  "n_objects": 1,
+  "uv_layers": [
+   "UV0",
+   "UV2"
+  ],
+  "mats": [
+   "LAY03_UpperFrame_1_Finish",
+   "LAY03_UpperFrame_1_Painting"
+  ],
+  "verts": 5506,
+  "tris": 2444,
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot": [
+   -1.6292068494294654e-07,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "bbox": [
+   [
+    -0.26,
+    -0.036,
+    -0.0
+   ],
+   [
+    0.26,
+    0.0,
+    0.39
+   ]
+  ],
+  "painting_extent": [
+   0.3969,
+   0.001,
+   0.2669
+  ],
+  "painting_min": [
+   -0.1984,
+   -0.0255,
+   0.0616
+  ],
+  "painting_front_uv": [
+   [
+    0.50417,
+    0.8375
+   ],
+   [
+    0.6625,
+    0.99583
+   ]
+  ],
+  "finish_cells": {
+   "(1, 0)": 188,
+   "(2, 0)": 1488,
+   "(0, 1)": 744,
+   "(1, 1)": 12
+  },
+  "cell_centre_colors": {
+   "(1, 0)": [
+    74,
+    49,
+    36
+   ],
+   "(2, 0)": [
+    98,
+    104,
+    62
+   ],
+   "(0, 1)": [
+    232,
+    227,
+    208
+   ],
+   "(1, 1)": [
+    186,
+    199,
+    210
+   ]
+  },
+  "custom_normals": true,
+  "images": [
+   "FinishAtlas_FUR06.png",
+   "PaintingAtlas_FUR06.png"
+  ]
+ },
+ "2": {
+  "object": "LAY03_UpperFrame_2",
+  "n_objects": 1,
+  "uv_layers": [
+   "UV0",
+   "UV2"
+  ],
+  "mats": [
+   "LAY03_UpperFrame_2_Finish",
+   "LAY03_UpperFrame_2_Painting"
+  ],
+  "verts": 5594,
+  "tris": 2444,
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot": [
+   -1.6292068494294654e-07,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "bbox": [
+   [
+    -0.225,
+    -0.036,
+    -0.0
+   ],
+   [
+    0.225,
+    0.0,
+    0.33
+   ]
+  ],
+  "painting_extent": [
+   0.3458,
+   0.001,
+   0.2258
+  ],
+  "painting_min": [
+   -0.1729,
+   -0.0255,
+   0.0521
+  ],
+  "painting_front_uv": [
+   [
+    0.00417,
+    0.3375
+   ],
+   [
+    0.1625,
+    0.49583
+   ]
+  ],
+  "finish_cells": {
+   "(1, 0)": 188,
+   "(3, 0)": 1488,
+   "(0, 1)": 744,
+   "(1, 1)": 12
+  },
+  "cell_centre_colors": {
+   "(1, 0)": [
+    74,
+    49,
+    36
+   ],
+   "(3, 0)": [
+    152,
+    86,
+    96
+   ],
+   "(0, 1)": [
+    232,
+    227,
+    208
+   ],
+   "(1, 1)": [
+    186,
+    199,
+    210
+   ]
+  },
+  "custom_normals": true,
+  "images": [
+   "FinishAtlas_FUR06.png",
+   "PaintingAtlas_FUR06.png"
+  ]
+ },
+ "3": {
+  "object": "LAY03_UpperFrame_3",
+  "n_objects": 1,
+  "uv_layers": [
+   "UV0",
+   "UV2"
+  ],
+  "mats": [
+   "LAY03_UpperFrame_3_Finish",
+   "LAY03_UpperFrame_3_Painting"
+  ],
+  "verts": 5612,
+  "tris": 2444,
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot": [
+   -1.6292068494294654e-07,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "bbox": [
+   [
+    -0.26,
+    -0.036,
+    -0.0
+   ],
+   [
+    0.26,
+    0.0,
+    0.4
+   ]
+  ],
+  "painting_extent": [
+   0.3937,
+   0.001,
+   0.2737
+  ],
+  "painting_min": [
+   -0.1969,
+   -0.0255,
+   0.0631
+  ],
+  "painting_front_uv": [
+   [
+    0.8375,
+    0.67083
+   ],
+   [
+    0.99583,
+    0.82917
+   ]
+  ],
+  "finish_cells": {
+   "(1, 0)": 188,
+   "(2, 0)": 1488,
+   "(0, 1)": 756
+  },
+  "cell_centre_colors": {
+   "(1, 0)": [
+    74,
+    49,
+    36
+   ],
+   "(2, 0)": [
+    98,
+    104,
+    62
+   ],
+   "(0, 1)": [
+    232,
+    227,
+    208
+   ]
+  },
+  "custom_normals": true,
+  "images": [
+   "FinishAtlas_FUR06.png",
+   "PaintingAtlas_FUR06.png"
+  ]
+ }
+}

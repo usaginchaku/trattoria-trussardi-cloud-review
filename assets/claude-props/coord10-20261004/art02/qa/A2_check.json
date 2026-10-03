@@ -1,0 +1,93 @@
+{
+ "white_balance_factor": [
+  0.8966,
+  0.9516,
+  0.9087
+ ],
+ "model_cream_mean": [
+  232.0,
+  227.0,
+  208.0
+ ],
+ "observed": {
+  "U1_mat": [
+   211,
+   210,
+   185
+  ],
+  "U2_frame": [
+   110,
+   81,
+   76
+  ]
+ },
+ "corrected_targets": {
+  "U1_mat": [
+   235,
+   221,
+   204
+  ],
+  "U2_frame": [
+   123,
+   85,
+   84
+  ]
+ },
+ "frames": {
+  "LAY03_UpperFrame_1": {
+   "texture": "FinishAtlas_FUR06_ART02_A2_U1.png",
+   "cells": {
+    "blue_mat_cell(1,1)": {
+     "from_mean": [
+      186.0,
+      199.0,
+      210.0
+     ],
+     "to": [
+      235,
+      221,
+      204
+     ],
+     "rect_xywh": [
+      256,
+      256,
+      256,
+      256
+     ]
+    }
+   },
+   "pixels_changed_outside_cells": 0,
+   "pixels_changed_inside": 65536,
+   "rgba_sha256_outside_source": "cdf6215dcb29cd2754dc855226a4e28095b79fb40d9019db7767e5480d1e5314",
+   "rgba_sha256_outside_candidate": "cdf6215dcb29cd2754dc855226a4e28095b79fb40d9019db7767e5480d1e5314"
+  },
+  "LAY03_UpperFrame_2": {
+   "texture": "FinishAtlas_FUR06_ART02_A2_U2.png",
+   "cells": {
+    "pink_frame_cell(3,0)": {
+     "from_mean": [
+      152.0,
+      86.0,
+      96.0
+     ],
+     "to": [
+      123,
+      85,
+      84
+     ],
+     "rect_xywh": [
+      768,
+      0,
+      256,
+      256
+     ]
+    }
+   },
+   "pixels_changed_outside_cells": 0,
+   "pixels_changed_inside": 65536,
+   "rgba_sha256_outside_source": "20d149d33613df1e09ab8be60007d2ce7fef907448bfec67e3458febfc9d0eec",
+   "rgba_sha256_outside_candidate": "20d149d33613df1e09ab8be60007d2ce7fef907448bfec67e3458febfc9d0eec"
+  },
+  "LAY03_UpperFrame_3": "no A2: frame olive and mat cream match within exposure; lavender inner border cannot be separated (shares the cream cell with the mat)"
+ }
+}

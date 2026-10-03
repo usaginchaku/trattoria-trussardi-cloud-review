@@ -1,0 +1,37 @@
+{
+ "size": [
+  2048,
+  2048
+ ],
+ "mode": "RGB",
+ "edited_frames": [
+  "LAY03_UpperFrame_1"
+ ],
+ "unchanged_frames": [
+  "LAY03_UpperFrame_2",
+  "LAY03_UpperFrame_3"
+ ],
+ "pixels_changed_outside_edited_rects": 0,
+ "pixels_changed_inside": 116281,
+ "rgba_sha256_outside_source": "7c1e2ace9965db74a0e92b2a277e41d8284078c5dd64fb40555ada92bd11d302",
+ "rgba_sha256_outside_candidate": "7c1e2ace9965db74a0e92b2a277e41d8284078c5dd64fb40555ada92bd11d302",
+ "tiles": [
+  {
+   "frame": "LAY03_UpperFrame_1",
+   "tile": 3,
+   "rect": [
+    1023,
+    0,
+    1364,
+    341
+   ],
+   "uv0_box_px": [
+    1032.5333251953125,
+    8.5333251953125,
+    1356.800048828125,
+    332.800048828125
+   ],
+   "painting_aspect_w_over_h": 1.4870738104158858
+  }
+ ]
+}
