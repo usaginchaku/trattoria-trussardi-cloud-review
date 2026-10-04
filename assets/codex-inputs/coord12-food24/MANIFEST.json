@@ -1,0 +1,53 @@
+{
+  "status": "READY_FOR_DIRECTOR_INPUT_REVIEW_NOT_PUBLISHED",
+  "files": [
+    {
+      "path": "pink_plate_native.json",
+      "bytes": 843889,
+      "sha256": "1ed8a9b9842fadb5703575f2bdae6cbf62f0c26f9591c889785cee6c9793dfe1"
+    },
+    {
+      "path": "PinkPlate_FOOD23.blend",
+      "bytes": 346865,
+      "sha256": "73a447908f1c144fdf6e2aaffaf578c7615dd9a96baf02cccfcb47df8b092901"
+    },
+    {
+      "path": "PinkPlate_FOOD23.fbx",
+      "bytes": 88300,
+      "sha256": "2eabbe83092dfc5a4f60efc2fed715707bdffdd315fec73e1bddd383556702b9"
+    },
+    {
+      "path": "PREPARED_MANIFEST.json",
+      "bytes": 1014,
+      "sha256": "992bd2ae7d3141187c96c1e340c42aa6bbe54174194cfc88470b4e958e69afdd"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1334,
+      "sha256": "8e8f1d6f0cf133c4f07267901d98b3237cee794a31610c5508b92268426ae9c1"
+    },
+    {
+      "path": "textures/MatCap_Ceramic_MAT01.png",
+      "bytes": 10265,
+      "sha256": "a006d85d9f0b6a1c1f0c218a277eef4a0d37947f6731d80cddee9b2e65630f6c"
+    },
+    {
+      "path": "textures/Normal_CeramicMicro_MAT01.png",
+      "bytes": 161641,
+      "sha256": "578ce3516b9d9c9d9bdcb01a9c2f5a481aa5ae6c2291eeef31eae5b0636a5c3d"
+    }
+  ],
+  "meshObjects": 1,
+  "meshes": 1,
+  "materials": 1,
+  "sourceSubmesh": 1,
+  "referencePixelsIncluded": false,
+  "wholeWorldIncluded": false,
+  "exporterSha256": "abc7fe886bc3d51ffaa311f3b8deb9e1cdbacf532c317d9ad7588e3c023df063",
+  "plannedExporterSha256": "148d1d7626e06c9acd557ec00fadc5c133d74e49c9a9ff199ac985c76c47318e",
+  "executedExporterSha256": "abc7fe886bc3d51ffaa311f3b8deb9e1cdbacf532c317d9ad7588e3c023df063",
+  "exporterRevision": 2,
+  "patchReason": "Revision2: isolate SHA-pinned pure guard_main via AST; do not import the PIL-dependent preparation module. Preserve prepared input and original exporter provenance.",
+  "validationReceiptSha256": "977a8495c2d71b4cc65c8732bd869cb375b098dcb60fd4265ed68e9f68d8132b",
+  "lilToonParity": false
+}

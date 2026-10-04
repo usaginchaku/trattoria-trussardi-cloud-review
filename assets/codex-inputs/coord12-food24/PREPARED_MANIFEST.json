@@ -1,0 +1,31 @@
+{
+  "status": "PREPARED_SUBSET_BLENDER_NOT_RUN",
+  "files": [
+    {
+      "path": "pink_plate_native.json",
+      "bytes": 843889,
+      "sha256": "1ed8a9b9842fadb5703575f2bdae6cbf62f0c26f9591c889785cee6c9793dfe1"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1334,
+      "sha256": "8e8f1d6f0cf133c4f07267901d98b3237cee794a31610c5508b92268426ae9c1"
+    },
+    {
+      "path": "textures/MatCap_Ceramic_MAT01.png",
+      "bytes": 10265,
+      "sha256": "a006d85d9f0b6a1c1f0c218a277eef4a0d37947f6731d80cddee9b2e65630f6c"
+    },
+    {
+      "path": "textures/Normal_CeramicMicro_MAT01.png",
+      "bytes": 161641,
+      "sha256": "578ce3516b9d9c9d9bdcb01a9c2f5a481aa5ae6c2291eeef31eae5b0636a5c3d"
+    }
+  ],
+  "meshObjectsPlanned": 1,
+  "materialCountPlanned": 1,
+  "referencePixelsIncluded": false,
+  "wholeWorldIncluded": false,
+  "preparerSha256": "e4db1bcf00760e4d38a2d0b1757faeb165e3c6ff33bf729857a5a06fd816c7fb",
+  "exporterSha256": "148d1d7626e06c9acd557ec00fadc5c133d74e49c9a9ff199ac985c76c47318e"
+}
