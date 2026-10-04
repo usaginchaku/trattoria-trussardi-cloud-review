@@ -1,0 +1,74 @@
+{
+ "cup_outer_width_px_used": {
+  "IMG_3594_left": 62,
+  "IMG_3594_right": 64,
+  "IMG_3675": 63,
+  "source": "LAMP15 qa/plate_reference_measurement.json (outline-inclusive); the cup estimate inside vertical_profile.json is not used (threshold caught the wall)"
+ },
+ "per_lamp": {
+  "IMG_3594_left": {
+   "collar_top_row": 368,
+   "taper_rows": "368-379 width 18-20 -> 9 (monotonic)",
+   "min_width_px": 9,
+   "rows_within_1px_of_min": [
+    378,
+    380
+   ],
+   "plate_top_row": 381,
+   "plate_width_px": "15-16",
+   "axis_shift_px": "collar centre 747.5 -> plate centre 744"
+  },
+  "IMG_3594_right": {
+   "collar_top_row": 371,
+   "taper_rows": "371-382 width 22 -> 10 (monotonic)",
+   "min_width_px": 10,
+   "rows_within_1px_of_min": [
+    382,
+    384
+   ],
+   "plate_top_row": 385,
+   "plate_width_px": "15-16 (rod merges below 389)",
+   "axis_shift_px": "collar centre ~1314 -> plate centre ~1302"
+  },
+  "IMG_3675": {
+   "collar_top_row": 422,
+   "taper_rows": "422-432 width 24 -> 13 (monotonic)",
+   "min_width_px": 13,
+   "rows_within_1px_of_min": [
+    432,
+    434
+   ],
+   "plate_top_row": 435,
+   "plate_width_px": 17,
+   "axis_shift_px": "collar centre 412 -> plate centre 415"
+  }
+ },
+ "narrow_section_height": {
+  "rows": "about 3 rows in each lamp",
+  "as_Ws": "0.047-0.048 (3 rows / 62-64 px)",
+  "uncertainty": "+-1 row at each end (blur, drawn outline) -> 1-5 rows = 0.016-0.08 Ws"
+ },
+ "attribution": "the dark silhouette narrows monotonically from the collar top to the minimum and the plate starts right after; there is no run of constant rod width, so the 1-3 minimum rows may be the tip of a tapering collar, a short visible rod section, or both. Not separable at this resolution.",
+ "model_PLATE_C1": {
+  "collar_z": [
+   0.145,
+   0.19
+  ],
+  "collar_bottom_visible_width_Ws": 0.32,
+  "plate_z": [
+   0.0225,
+   0.1575
+  ],
+  "overlap_plate_top_over_collar_bottom_m": 0.0125,
+  "overlap_Ws": 0.056,
+  "front_view": "collar bottom (0.32 Ws) sits directly on the plate (0.28 Ws); no narrow section"
+ },
+ "photo_factors": {
+  "moire": "colour bands in IMG_3594 do not change the dark-run rows by more than ~1 row",
+  "outline": "drawn outlines ~1-2 px merge collar/rod/plate edges",
+  "occlusion": "3594 right: rod overlaps the plate below row 389",
+  "view": "roughly frontal, slightly from below the lamp height; vertical distances near the lamp are compressed only slightly (not quantified)"
+ },
+ "judgement": "A plate-only Z shift would need a reference gap that is (a) clearly above the +-2 row error and (b) attributable to the plate top being below the collar. The measured narrow section is ~3 rows (0.016-0.08 Ws with error) and cannot be separated from a tapering collar tip. The visible difference to the model also contains the collar bottom shape (model 0.32 Ws flat bottom vs reference taper to 0.15-0.21 Ws), a separate collar factor. -> 0 models, no new comparison images.",
+ "not_used": "LAMP15 neck_rows were rod/neck width readings and are not used as a vertical gap."
+}

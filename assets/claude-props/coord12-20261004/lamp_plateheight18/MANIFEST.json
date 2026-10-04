@@ -1,0 +1,45 @@
+{
+ "work": "COORD12-LAMP18 collar-bottom vs plate-top vertical relation check: 0 models (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "png_generated": false,
+ "reference_pixels_included": false,
+ "runtime": "pip bpy 4.3.0 python (PIL/numpy); Blender 5.2.2 / Unity not run",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 3769,
+   "sha256": "d6dc085b961613c83c2e2c83751b144b9e9fe461d6b28c3cb80022fcfb4e9c52"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 785,
+   "sha256": "06231b35a6794dac2e42e5de9e215415e3861466b082dc5d4948c511511a8e93"
+  },
+  {
+   "path": "qa/input_sha_at_delivery.txt",
+   "bytes": 298,
+   "sha256": "9de630066b934faa9045e9eb5e79dd2b6decae51dae469d668399fbcbf38bc63"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 298,
+   "sha256": "9de630066b934faa9045e9eb5e79dd2b6decae51dae469d668399fbcbf38bc63"
+  },
+  {
+   "path": "qa/plateheight_judgement.json",
+   "bytes": 3014,
+   "sha256": "2c1ef4751f7c840eda9264421fd7ccbbf41d730c9ecdab06e6e7a8b025a11d5b"
+  },
+  {
+   "path": "qa/vertical_profile.json",
+   "bytes": 21419,
+   "sha256": "51b2d37c4bbf8ce0c536f4596568b27f87ef435ecc2a4dd31ca8b442c75cbec2"
+  },
+  {
+   "path": "tools/vertical_profile.py",
+   "bytes": 2499,
+   "sha256": "d2e29c3184aa7d712ef453b76c92306b25822b179caa40878e994cdaf1ced235"
+  }
+ ]
+}
