@@ -1,0 +1,16 @@
+{
+ "delta_deg": 3.0,
+ "r_core": 0.003,
+ "old_slope_deg": 19.937,
+ "new_slope_deg": 22.937,
+ "core_flat_top_y_from": 0.1242,
+ "core_flat_top_len_m": 0.0488,
+ "flat_top_fraction_of_depth": 0.141,
+ "seated_shells_moved": 17,
+ "seated_far_edge_on_slope_m": 0.3196,
+ "slope_tangent_len_m": 0.3214,
+ "kept_faces": 5072,
+ "new_housing_faces": 300,
+ "total_faces": 5372,
+ "removed_housing_faces": 188
+}

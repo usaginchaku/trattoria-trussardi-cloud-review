@@ -1,0 +1,103 @@
+{
+ "source": "codex/coord11-register-input-20261004@35e983d4d5bcb676e87256353a1f0c94bc00dce8 (git fetch, 8 paths via git archive)",
+ "files": [
+  {
+   "path": "Register_FUR05.fbx",
+   "manifest_bytes": 163516,
+   "manifest_sha256": "5a430c207b5f552083399c1123fae854d54394c2bb90c62a37cddff97b953c76",
+   "git_bytes": 163516,
+   "git_sha256": "5a430c207b5f552083399c1123fae854d54394c2bb90c62a37cddff97b953c76",
+   "result": "byte-identical"
+  },
+  {
+   "path": "register_FUR05.png",
+   "manifest_bytes": 36485,
+   "manifest_sha256": "5ccf95657461f800033e891fda2847956124894922de18279ba4954964493f50",
+   "git_bytes": 36485,
+   "git_sha256": "5ccf95657461f800033e891fda2847956124894922de18279ba4954964493f50",
+   "result": "byte-identical",
+   "png_size": [
+    512,
+    512
+   ],
+   "png_mode": "RGB",
+   "decoded_rgba_sha256": "f00d89ea9ae3860e4661c5bd9117ed5ca1ebb62d94670831b68250721f727ac9",
+   "decoded_rgba_matches_manifest": true
+  },
+  {
+   "path": "register_shadow_FUR05.png",
+   "manifest_bytes": 36473,
+   "manifest_sha256": "f75a2488bc82f3528038e1ce62e65f9377a8b834c00a1937f1aab24fc7efc9dd",
+   "git_bytes": 36473,
+   "git_sha256": "f75a2488bc82f3528038e1ce62e65f9377a8b834c00a1937f1aab24fc7efc9dd",
+   "result": "byte-identical",
+   "png_size": [
+    512,
+    512
+   ],
+   "png_mode": "RGB",
+   "decoded_rgba_sha256": "be3fcb596ffa71323301d8aef1f6dca612382b46a48acffbbe99c9b887206170",
+   "decoded_rgba_matches_manifest": true
+  },
+  {
+   "path": "panel_FUR05.png",
+   "manifest_bytes": 36384,
+   "manifest_sha256": "dc093fdbb75cf58a01f8d59d42f997507c48e10d89b9481fa1329c95fe84fcf7",
+   "git_bytes": 36384,
+   "git_sha256": "dc093fdbb75cf58a01f8d59d42f997507c48e10d89b9481fa1329c95fe84fcf7",
+   "result": "byte-identical",
+   "png_size": [
+    512,
+    512
+   ],
+   "png_mode": "RGB",
+   "decoded_rgba_sha256": "8227f597ed9f28a3db28ac841992020204f3c82a8ce14c43eff1880548b9d38f",
+   "decoded_rgba_matches_manifest": true
+  },
+  {
+   "path": "keys_FUR05.png",
+   "manifest_bytes": 34506,
+   "manifest_sha256": "b5e53bd8625c4e2a9f21e9931cf2b09f87946ac106d216dd7e09a99da438c95a",
+   "git_bytes": 34506,
+   "git_sha256": "b5e53bd8625c4e2a9f21e9931cf2b09f87946ac106d216dd7e09a99da438c95a",
+   "result": "byte-identical",
+   "png_size": [
+    512,
+    512
+   ],
+   "png_mode": "RGB",
+   "decoded_rgba_sha256": "ff118202d1a70cab829132b185738379ab91494f1669f783b8383e60a7ad119e",
+   "decoded_rgba_matches_manifest": true
+  },
+  {
+   "path": "INPUT_SCOPE.json",
+   "manifest_bytes": 1805,
+   "manifest_sha256": "759c5cb4ceb8bff47e02c91a94ee2c3b983b62a978b78d573179b0d9364e2da8",
+   "git_bytes": 1742,
+   "git_sha256": "afae6eef20bbc9464d0706ea8b02b381e5487d88d0eb253738958c982e69de81",
+   "crlf_restored_bytes": 1805,
+   "crlf_restored_sha256": "759c5cb4ceb8bff47e02c91a94ee2c3b983b62a978b78d573179b0d9364e2da8",
+   "result": "re-encoding only (git CRLF->LF); CRLF-restored bytes match manifest SHA"
+  },
+  {
+   "path": "README_JA.txt",
+   "manifest_bytes": 422,
+   "manifest_sha256": "2265a4abe8c5763f7093390b4d392bc0c03371e5226202ca4e4a3d371d0e4fb2",
+   "git_bytes": 421,
+   "git_sha256": "4b875cda7aa418c89ec919d2e50195e70b82b584edcc21c787292f2acaaec31c",
+   "crlf_restored_bytes": 422,
+   "crlf_restored_sha256": "2265a4abe8c5763f7093390b4d392bc0c03371e5226202ca4e4a3d371d0e4fb2",
+   "result": "re-encoding only (git CRLF->LF); CRLF-restored bytes match manifest SHA"
+  },
+  {
+   "path": "MANIFEST.json",
+   "git_bytes": 2241,
+   "git_sha256": "af7aa3aeac79dc1b3d3741189c7469abe6f46319e8f258a156a5f60c31c83356",
+   "crlf_restored_bytes": 2311,
+   "crlf_restored_sha256": "557ca65bf344f8aa127afcbe910cf8cc516cb6bd0d940f5315c76eacd2f86b40",
+   "result": "self-excluded from input manifest (manifestSelfExcluded=true); no SHA to compare"
+  }
+ ],
+ "total_git_bytes_8_files": 311768,
+ "note_stated_total": "brief states 8 files / 282038 bytes; git bytes total = 311768, CRLF-restored total = 311902; the 282038 figure does not equal either and is recorded as unexplained (per-file SHA checks above all pass)"
+}

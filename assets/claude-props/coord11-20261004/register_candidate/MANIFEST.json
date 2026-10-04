@@ -1,0 +1,130 @@
+{
+ "work": "COORD11-REG01 register shape candidate R1 (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "input": "codex/coord11-register-input-20261004@35e983d4d5bcb676e87256353a1f0c94bc00dce8",
+  "Register_FUR05.fbx_sha256": "5a430c207b5f552083399c1123fae854d54394c2bb90c62a37cddff97b953c76",
+  "textures_used_unchanged": {
+   "register_FUR05.png": "f00d89ea9ae3860e4661c5bd9117ed5ca1ebb62d94670831b68250721f727ac9",
+   "register_shadow_FUR05.png": "be3fcb596ffa71323301d8aef1f6dca612382b46a48acffbbe99c9b887206170",
+   "panel_FUR05.png": "8227f597ed9f28a3db28ac841992020204f3c82a8ce14c43eff1880548b9d38f",
+   "keys_FUR05.png": "ff118202d1a70cab829132b185738379ab91494f1669f783b8383e60a7ad119e"
+  },
+  "texture_hash_kind": "decoded RGBA sha256 (512x512 RGB)",
+  "reference": "DU_ep10-4.png sha256 b9a1c3ac... (private, viewed only, not stored)"
+ },
+ "scale_note": "common scale 0.7825509309768677 kept outside the model (not baked); old contract worldScale 0.7825509458780289 not used",
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 / Unity not run.",
+ "reencoding_vs_content": "input text files differ from the input MANIFEST only by git CRLF->LF; see qa/input_receipt_check.json. Output PNG previews are new renders, not re-encodes.",
+ "png_rule": "PNG entries record width, height, mode, sha256 of decoded RGBA bytes and file sha256; other files record sha256 of file bytes",
+ "excluded": "no reference images, crops, screenshots, input textures, private settings or credentials",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 8011,
+   "role": "document",
+   "sha256": "00deeebc5e21fe8064b5dfe3d9c4870885f294a589a2e116076b2740db4c4e24"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1404,
+   "role": "document",
+   "sha256": "81534206edae5c0fcb336b49f73670f8e877a260a006782822636328ada7c2bb"
+  },
+  {
+   "path": "Register_FUR05_REG01_R1_candidate.blend",
+   "bytes": 1028568,
+   "role": "R1 candidate blend (bpy 4.3.0; images //basename, not packed)",
+   "sha256": "d3251a0e19d2d1ffec04e048984548f0b1e8c76cb74c7bfaf2855b00df81b7f2"
+  },
+  {
+   "path": "Register_FUR05_REG01_R1_candidate.fbx",
+   "bytes": 201164,
+   "role": "R1 candidate FBX (shape only; textures by basename, not embedded)",
+   "sha256": "8cea9f474eec05b4fec1c87ba756aa7121c88ff95b328f78f5e45e0477251797"
+  },
+  {
+   "path": "previews/register_input_vs_R1_side_oblique_table.png",
+   "bytes": 688080,
+   "role": "input vs R1 render, same camera/light/material/render (side / oblique / table distance)",
+   "sha256": "9a74e35a7102604560455f2b314759a3bce79f2fc656fe0105823d5e605d65a2",
+   "png_width": 960,
+   "png_height": 1218,
+   "png_mode": "RGB",
+   "rgba_sha256": "44f003b0e4049e927a345b47d3b6c6bb324f34fed7022ca231f39c0063133325"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 394,
+   "role": "verification record",
+   "sha256": "693c59e466cb8ede1fd5dd5d029c16b1b5ca11e5095e10293685a408b5d6ac3f"
+  },
+  {
+   "path": "qa/fbx_header_check.json",
+   "bytes": 2903,
+   "role": "verification record",
+   "sha256": "83f7e809bdae1d2457563ddfeb6ad5a68476f5d50928b878c15bb11d96416e89"
+  },
+  {
+   "path": "qa/housing_normals_check.json",
+   "bytes": 172,
+   "role": "verification record",
+   "sha256": "6827b1cb58666c4022c7a3d9d6b49a69492b48248cfe589d5058e48e16b1754d"
+  },
+  {
+   "path": "qa/input_receipt_check.json",
+   "bytes": 4010,
+   "role": "verification record",
+   "sha256": "ab374ee302928ddcd0df947d0a7ef4392c0fbcae0fc0ea208dbc10bde18878b2"
+  },
+  {
+   "path": "qa/verify_register_r1.json",
+   "bytes": 8629,
+   "role": "verification record",
+   "sha256": "ed003b9ee0ccd5762a63083f1a9c450f761cbaa579b0477d89cde6bd4c3aaeb6"
+  },
+  {
+   "path": "tools/build_register_r1.py",
+   "bytes": 9654,
+   "role": "self-written code",
+   "sha256": "59f687c5541ffc3185022859eaba74e1153de993231465f65a5de3a8eb4ade3b"
+  },
+  {
+   "path": "tools/fbx_header_check.py",
+   "bytes": 1795,
+   "role": "self-written code",
+   "sha256": "34d8388f3201b7c09796cb4999db6170112de55da6edff7a54669f4c972dc053"
+  },
+  {
+   "path": "tools/housing_normals_check.py",
+   "bytes": 1109,
+   "role": "self-written code",
+   "sha256": "07e79f72366f2af673d785f6033155eb28c1a1f9d3136d1fc35772065d368997"
+  },
+  {
+   "path": "tools/mkmanifest_register_r1.py",
+   "bytes": 2809,
+   "role": "self-written code",
+   "sha256": "3e6e40bd5182c872b9f987f173f73ca953ab63d18c1c25cfa9968d33074f4b9c"
+  },
+  {
+   "path": "tools/render_register_r1.py",
+   "bytes": 2519,
+   "role": "self-written code",
+   "sha256": "73e329f258d99394ade54c4dccef8f4465ee64df2bd5f1466058dd9af73bfb7e"
+  },
+  {
+   "path": "tools/sheet.py",
+   "bytes": 723,
+   "role": "self-written code",
+   "sha256": "ea38f59c07f6eabc193270d07a879cede641473151a94e12561fbaeb4301e5c0"
+  },
+  {
+   "path": "tools/verify_register_r1.py",
+   "bytes": 7330,
+   "role": "self-written code",
+   "sha256": "8f96812cfc12010f207d62f46d1c192b40cd5d070456d3f1427120e05d05615f"
+  }
+ ]
+}

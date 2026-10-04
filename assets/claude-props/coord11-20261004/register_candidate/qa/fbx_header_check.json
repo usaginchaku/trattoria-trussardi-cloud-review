@@ -1,0 +1,190 @@
+{
+ "Register_FUR05.fbx": {
+  "fbx_version": 7400,
+  "B_typed_props": 0,
+  "B_where": [],
+  "props": {
+   "Properties70:UpAxis": [
+    [
+     1
+    ]
+   ],
+   "Properties70:UpAxisSign": [
+    [
+     1
+    ]
+   ],
+   "Properties70:FrontAxis": [
+    [
+     2
+    ]
+   ],
+   "Properties70:FrontAxisSign": [
+    [
+     1
+    ]
+   ],
+   "Properties70:CoordAxis": [
+    [
+     0
+    ]
+   ],
+   "Properties70:CoordAxisSign": [
+    [
+     1
+    ]
+   ],
+   "Properties70:UnitScaleFactor": [
+    [
+     100.0
+    ]
+   ],
+   "Properties70:OriginalUnitScaleFactor": [
+    [
+     100.0
+    ]
+   ],
+   "Properties70:PreRotation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Properties70:Lcl Translation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Properties70:Lcl Rotation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -90.00000933466734,
+     0.0,
+     0.0
+    ]
+   ],
+   "Properties70:Lcl Scaling": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "contains_/tmp": 0,
+  "contains_scratchpad": 0,
+  "contains_/home": 0,
+  "contains_C:": 0,
+  "texture_strings": [
+   "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR05\\keys_FUR05.png",
+   "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR05\\panel_FUR05.png",
+   "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR05\\register_FUR05.png",
+   "D:\\MadeByMySelf\\3d-model\\TrattoriaTrussardi\\Assets\\Furniture\\FUR05\\register_shadow_FUR05.png",
+   "keys_FUR05.png",
+   "panel_FUR05.png",
+   "register_FUR05.png",
+   "register_shadow_FUR05.png"
+  ]
+ },
+ "Register_FUR05_REG01_R1_candidate.fbx": {
+  "fbx_version": 7400,
+  "B_typed_props": 0,
+  "B_where": [],
+  "props": {
+   "Properties70:UpAxis": [
+    [
+     1
+    ]
+   ],
+   "Properties70:UpAxisSign": [
+    [
+     1
+    ]
+   ],
+   "Properties70:FrontAxis": [
+    [
+     2
+    ]
+   ],
+   "Properties70:FrontAxisSign": [
+    [
+     1
+    ]
+   ],
+   "Properties70:CoordAxis": [
+    [
+     0
+    ]
+   ],
+   "Properties70:CoordAxisSign": [
+    [
+     1
+    ]
+   ],
+   "Properties70:UnitScaleFactor": [
+    [
+     100.0
+    ]
+   ],
+   "Properties70:OriginalUnitScaleFactor": [
+    [
+     100.0
+    ]
+   ],
+   "Properties70:PreRotation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Properties70:Lcl Translation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Properties70:Lcl Rotation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -90.00000250447816,
+     0.0,
+     0.0
+    ]
+   ],
+   "Properties70:Lcl Scaling": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "contains_/tmp": 0,
+  "contains_scratchpad": 0,
+  "contains_/home": 0,
+  "contains_C:": 0,
+  "texture_strings": [
+   "/keys_FUR05.png",
+   "/panel_FUR05.png",
+   "/register_FUR05.png",
+   "/register_shadow_FUR05.png",
+   "keys_FUR05.png",
+   "panel_FUR05.png",
+   "register_FUR05.png",
+   "register_shadow_FUR05.png"
+  ]
+ }
+}

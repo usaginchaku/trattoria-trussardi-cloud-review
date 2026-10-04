@@ -1,0 +1,12 @@
+{
+ "input": {
+  "large_faces": 16,
+  "max_dev_deg": 0.0,
+  "mean_dev_deg": 0.0
+ },
+ "candidate": {
+  "large_faces": 20,
+  "max_dev_deg": 0.633,
+  "mean_dev_deg": 0.178
+ }
+}
