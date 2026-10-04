@@ -1,0 +1,54 @@
+{
+ "N": 2048,
+ "bigCharts": [
+  {
+   "tris": [
+    4313,
+    4403
+   ],
+   "uvArea": 0.014275436153675297,
+   "bboxUv": [
+    0.21243654564023018,
+    0.06776943802833557
+   ]
+  },
+  {
+   "tris": [
+    4317,
+    4407
+   ],
+   "uvArea": 0.014272697122697298,
+   "bboxUv": [
+    0.21456995233893394,
+    0.06793919205665588
+   ]
+  }
+ ],
+ "addedUvAreaTotal": 0.03705774106400522,
+ "probe": [
+  {
+   "marginUv": 0.01171875,
+   "maxScaleBothBigCharts": 0.5,
+   "densityRatioAtThatScale": 0.5,
+   "texelAreaRatio": 0.25,
+   "restChartsPlacedAtScale1": 105,
+   "restChartsTotal": 105
+  },
+  {
+   "marginUv": 0.0078125,
+   "maxScaleBothBigCharts": 0.6,
+   "densityRatioAtThatScale": 0.6,
+   "texelAreaRatio": 0.36,
+   "restChartsPlacedAtScale1": 105,
+   "restChartsTotal": 105
+  },
+  {
+   "marginUv": 0.00390625,
+   "maxScaleBothBigCharts": 0.7,
+   "densityRatioAtThatScale": 0.7,
+   "texelAreaRatio": 0.48999999999999994,
+   "restChartsPlacedAtScale1": 105,
+   "restChartsTotal": 105
+  }
+ ]
+}

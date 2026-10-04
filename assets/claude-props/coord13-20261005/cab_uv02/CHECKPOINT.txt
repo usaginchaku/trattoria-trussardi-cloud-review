@@ -1,0 +1,7 @@
+CABUV02 CHECKPOINT (Cloud, 2026-10-05 08:22 JST) — 完了（HOLD）
+完了: 入力監査、baseline厳密QA、等倍配置ladder、縮小probe(余白0/0.0039/0.0078/0.0117)、HOLD_REPORT/REVIEW/STATUS/MANIFEST、previews 2枚。
+途中処理: なし。残件: なし（Cloud側）。candidate_uv2_patch.json は収容不足のため作成せず。
+input exact: commit dfaeef26756cf64856c8357436a9bf743fed6c2d / native_mesh.json 4d14cc08921e7336eba2d62c61001d65177b4e6704cd13b53ab72dadac918b05 / sourceSha256 61209d3eaf109bd835ebb104e21e9da704005dd887cf28513918e14ef598d46e（開始時=納品時一致）
+候補exact sha: なし（HOLD）。
+次の1作業: Root判断待ち（HOLD受領、または別briefでC4単体UV2全面repack）。Cloudは再生成しない。
+未承認: Bake/GI/本体採用/Main採用は主張しない。Local 5.2.2/Unity検証は元Codex担当。

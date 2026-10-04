@@ -1,0 +1,139 @@
+{
+ "schema": "CABUV02_HOLD_REPORT_V1",
+ "sourceSha256": "61209d3eaf109bd835ebb104e21e9da704005dd887cf28513918e14ef598d46e",
+ "decision": "HOLD",
+ "candidatePatchDelivered": false,
+ "reason": "The two largest added charts (2 triangles each; added tris [4313,4403] dup of fixed [1378,1379] and [4317,4407] dup of [1386,1387]; UV bbox ~0.212x0.068 and 0.215x0.068; world ~0.214m x 0.681m planar panels; together 77% of added UV area) do not fit into free space of the fixed UV2 at baseline density, even with 90-degree rotations and zero padding. Fitting them requires uniform shrink to <=0.79 (zero padding, edge contact only) and 0.70/0.60/0.50 at 0.0039/0.0078/0.0117 normalized margin, i.e. density below fixed P25 (0.2532) and texel area 62%..25% of baseline. Treated as extreme density reduction -> not a candidate.",
+ "acceptanceThresholdUsedByCloud": "candidate only if all 107 charts fit with margin >0 at scale >=0.80 (density >= fixed P25 ~0.253, texel area >=64%); this threshold is Cloud proposal, not an approved target",
+ "baseline": {
+  "addedUvAreaSum": 0.03705774106400522,
+  "fixedUvAreaSum": 0.26015374591325774,
+  "addedVsFixedPositiveOverlapAreaSum": 0.03705774106400522,
+  "addedTrianglesWithPositiveOverlapVsFixed": 188,
+  "addedVsAddedPositiveOverlapAreaSum": 0.0,
+  "addedMinDistToUnitSquareEdge": 0.03125,
+  "fixedZeroUvAreaTriangles": 72
+ },
+ "density": {
+  "definition": "sqrt(|UV area|/world area), world via native localToWorld (UV units per world metre)",
+  "addedMinMedianMax": [
+   0.3048546726695745,
+   0.3151692840700535,
+   0.44845234107990795
+  ],
+  "addedAreaWeighted": 0.3277838741021155,
+  "fixedNondegenerateCount": 4148,
+  "fixedPercentiles": {
+   "0": 0.13979923474565067,
+   "1": 0.15366505007230344,
+   "5": 0.18316879129388797,
+   "10": 0.22697697934878,
+   "25": 0.2532046488686067,
+   "50": 0.3060361012430548,
+   "75": 0.3142769404679228,
+   "90": 0.32346606349764984,
+   "95": 0.33743243203392104,
+   "99": 0.36609441739732984,
+   "100": 3.314423789735019
+  },
+  "fixedAreaWeighted": 0.2752380759853624
+ },
+ "scale1Ladder": [
+  {
+   "targetMarginUv": 0.03125,
+   "placedCharts": 3,
+   "unplacedCharts": 104,
+   "unplacedTriangles": 182,
+   "unplacedUvAreaSum": 0.03612840125628397
+  },
+  {
+   "targetMarginUv": 0.0234375,
+   "placedCharts": 34,
+   "unplacedCharts": 73,
+   "unplacedTriangles": 125,
+   "unplacedUvAreaSum": 0.03509645869009348
+  },
+  {
+   "targetMarginUv": 0.015625,
+   "placedCharts": 101,
+   "unplacedCharts": 6,
+   "unplacedTriangles": 11,
+   "unplacedUvAreaSum": 0.028737433619068636
+  },
+  {
+   "targetMarginUv": 0.01171875,
+   "placedCharts": 105,
+   "unplacedCharts": 2,
+   "unplacedTriangles": 4,
+   "unplacedUvAreaSum": 0.028548133276372595
+  },
+  {
+   "targetMarginUv": 0.0078125,
+   "placedCharts": 105,
+   "unplacedCharts": 2,
+   "unplacedTriangles": 4,
+   "unplacedUvAreaSum": 0.028548133276372595
+  },
+  {
+   "targetMarginUv": 0.005859375,
+   "placedCharts": 105,
+   "unplacedCharts": 2,
+   "unplacedTriangles": 4,
+   "unplacedUvAreaSum": 0.028548133276372595
+  },
+  {
+   "targetMarginUv": 0.00390625,
+   "placedCharts": 105,
+   "unplacedCharts": 2,
+   "unplacedTriangles": 4,
+   "unplacedUvAreaSum": 0.028548133276372595
+  }
+ ],
+ "shrinkTradeoff": [
+  {
+   "marginUv": 0.0,
+   "maxUniformScaleOfTwoLargestCharts": 0.79,
+   "texelAreaRatio": 0.6241,
+   "resultingDensityApprox": 0.249,
+   "fixedPercentileComparison": "below fixed P25 0.2532",
+   "other105ChartsAtScale1": "105/105"
+  },
+  {
+   "marginUv": 0.01171875,
+   "maxUniformScaleOfTwoLargestCharts": 0.5,
+   "texelAreaRatio": 0.25,
+   "resultingDensityApprox": 0.1576,
+   "fixedPercentileComparison": "below fixed P25 0.2532",
+   "other105ChartsAtScale1": "105/105"
+  },
+  {
+   "marginUv": 0.0078125,
+   "maxUniformScaleOfTwoLargestCharts": 0.6,
+   "texelAreaRatio": 0.36,
+   "resultingDensityApprox": 0.1891,
+   "fixedPercentileComparison": "below fixed P25 0.2532",
+   "other105ChartsAtScale1": "105/105"
+  },
+  {
+   "marginUv": 0.00390625,
+   "maxUniformScaleOfTwoLargestCharts": 0.7,
+   "texelAreaRatio": 0.49,
+   "resultingDensityApprox": 0.2206,
+   "fixedPercentileComparison": "below fixed P25 0.2532",
+   "other105ChartsAtScale1": "105/105"
+  }
+ ],
+ "methods": [
+  "independent channel-hash and duplicate audit (qa/input_audit.json)",
+  "exact Sutherland-Hodgman clipping for overlap (tools/uvgeom.py, qa_baseline.py); edge contact = 0 area and 0 padding",
+  "placement search: conservative raster N=2048 (+1px dilation of fixed and chart, +1.5px EDT slack), FFT correlation fit test, rotations 0/90/180/270, no mirroring, no scaling (pack_uv2.py)",
+  "shrink probe: uniform scale about chart centroid for the 2 largest charts placed first, step 0.025 (0.01 at margin 0), then remaining 105 at scale 1 (scale_probe.py)"
+ ],
+ "limitations": [
+  "raster search is conservative: the true maximum scale may be higher by about 2px/2048 relative to chart height 0.068 (~+0.03 scale); does not change the HOLD at any positive margin under the stated threshold",
+  "arbitrary-angle rotation not tried (free gaps are thin horizontal/vertical bands ~0.03-0.04 UV; a 0.215 x 0.068 chart cannot fit diagonally either - not formally proven)",
+  "no fixed-fixed global overlap/padding audit; bake resolution, pixel padding and density target remain unapproved",
+  "Cloud bpy-free numpy/scipy analysis only; no local Blender 5.2.2 / Unity verification; no bake/GI claims"
+ ],
+ "futureProposal": "Separate brief: single-furniture C4 UV2 repack of all 4408 triangles (fixed+added islands together; combined UV area 0.297 at current density in a unit square whose fixed layout uses 26%), with Root first fixing target lightmap resolution / pixel padding / density target and deciding the 72 zero-area fixed triangles; requires new GI bake and local Unity verification. Not done here (outside scope: fixed UV2 locked)."
+}

@@ -1,0 +1,34 @@
+{
+ "method": "Sutherland-Hodgman convex clipping in float64 of Float32 UV2; spatial hash candidates; edge contact counts as 0 area (and as 0 padding)",
+ "addedUvAreaSum": 0.03705774106400522,
+ "fixedUvAreaSum": 0.26015374591325774,
+ "addedVsFixedPositiveOverlapAreaSum": 0.03705774106400522,
+ "addedTrianglesWithPositiveOverlapVsFixed": 188,
+ "addedVsAddedPositiveOverlapAreaSum": 0.0,
+ "addedMinDistToUnitSquareEdge": 0.03125,
+ "density": {
+  "definition": "sqrt(|UV area|/world area), world via native localToWorld (UV units per world metre)",
+  "addedMinMedianMax": [
+   0.3048546726695745,
+   0.3151692840700535,
+   0.44845234107990795
+  ],
+  "addedAreaWeighted": 0.3277838741021155,
+  "fixedNondegenerateCount": 4148,
+  "fixedPercentiles": {
+   "0": 0.13979923474565067,
+   "1": 0.15366505007230344,
+   "5": 0.18316879129388797,
+   "10": 0.22697697934878,
+   "25": 0.2532046488686067,
+   "50": 0.3060361012430548,
+   "75": 0.3142769404679228,
+   "90": 0.32346606349764984,
+   "95": 0.33743243203392104,
+   "99": 0.36609441739732984,
+   "100": 3.314423789735019
+  },
+  "fixedAreaWeighted": 0.2752380759853624
+ },
+ "fixedZeroUvAreaTriangles": 72
+}

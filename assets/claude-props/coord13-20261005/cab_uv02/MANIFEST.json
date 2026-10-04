@@ -1,0 +1,90 @@
+{
+ "schema": "CABUV02_CLOUD_MANIFEST_V1",
+ "decision": "HOLD",
+ "files": {
+  "CHECKPOINT.txt": {
+   "sha256": "53d648f756a18f8c142797ba94bfacae93abd7e78520d42d64fa214111483c79",
+   "bytes": 876
+  },
+  "REVIEW_JA.txt": {
+   "sha256": "add7e1b3a24e97a8e504b8e4828272734df83d9472df67aefd3ba2051af8c382",
+   "bytes": 3418
+  },
+  "REVIEW_STATUS.txt": {
+   "sha256": "4e2fc4c57a73e61dfae21ee0d8ff014c10837024ac1f20ba0acd4e1dae4906bf",
+   "bytes": 833
+  },
+  "previews/uv2_before_added.png": {
+   "sha256": "87ea4e6f3f53756b3218fae9c9e3357bc6a762c1c53ad92c0ea29bafa5c2f3eb",
+   "bytes": 10599,
+   "width": 1056,
+   "height": 1056,
+   "mode": "RGB",
+   "rgba_sha256": "b77330627c74d9d820b12904a089cc2d90734261b329266a3347253fecd2598d"
+  },
+  "previews/uv2_free_vs_bigchart.png": {
+   "sha256": "70b048f9089f43a4c8a9ae44e43fbc3c75b0011dff61bfbbbd1091888f54844e",
+   "bytes": 14579,
+   "width": 1056,
+   "height": 1196,
+   "mode": "RGB",
+   "rgba_sha256": "a3ac6eaa9de51015971018a16cc436fe769197f0e36eb7ac189a602398d4c248"
+  },
+  "qa/HOLD_REPORT.json": {
+   "sha256": "b4d11b8f57e9f03dfb0d5694c02658f833a47b686c84b14ea15509d8e4688656",
+   "bytes": 5848
+  },
+  "qa/baseline_qa.json": {
+   "sha256": "a87508a498798e54c7c8907b9d63fdf2f8cef067fb03819c867c32648db8ddb3",
+   "bytes": 1150
+  },
+  "qa/input_audit.json": {
+   "sha256": "c08c73d7918e984bf9c5d8088323262100478a5088bc3a9f50ceda2115c6e669",
+   "bytes": 1086
+  },
+  "qa/input_sha_at_delivery.txt": {
+   "sha256": "4df759a59b83a8fe01794c7026cc4585aba37489ead01ff935c4ce97278b41da",
+   "bytes": 338
+  },
+  "qa/input_sha_at_start.txt": {
+   "sha256": "4df759a59b83a8fe01794c7026cc4585aba37489ead01ff935c4ce97278b41da",
+   "bytes": 338
+  },
+  "qa/pack_ladder_scale1.json": {
+   "sha256": "cd63c81497941f1d91410ce6105989364fb46b7b945514cebbb579d93999badb",
+   "bytes": 9310
+  },
+  "qa/scale_probe_margin0.json": {
+   "sha256": "1436c6e257ed22da13e57c26619bced65b774928c53c15067d79f3ecaaa5d056",
+   "bytes": 594
+  },
+  "qa/scale_probe_margins.json": {
+   "sha256": "d25a6377d62de9bba5689bcc6d6ccd48e06966b0069c59ef7631b24906e23e6f",
+   "bytes": 985
+  },
+  "tools/audit_input.py": {
+   "sha256": "14c1667aff6032be44d08fedaf51b87e77b79dc88cf9ec56398611fd60901b32",
+   "bytes": 2043
+  },
+  "tools/make_previews.py": {
+   "sha256": "d4693eb7ef4dfa9c9674da0657f3e509951b55620f1b0c8bc7811f83689089bc",
+   "bytes": 1931
+  },
+  "tools/pack_uv2.py": {
+   "sha256": "3cd60282bccc38c510f46511f66eb081e1b66b485ca8ba19fcd80184a3e2bb79",
+   "bytes": 4201
+  },
+  "tools/qa_baseline.py": {
+   "sha256": "ad8ce576ca7e2bbbe1fe6f18b174f38f1f77154b31c7eaf50ac7d4c350b99bd0",
+   "bytes": 2480
+  },
+  "tools/scale_probe.py": {
+   "sha256": "9c22367194f3591e5d4e634fc6cbb6e35861b874831ce439ef938f32bf41bd1f",
+   "bytes": 3764
+  },
+  "tools/uvgeom.py": {
+   "sha256": "61bb85780754955ddd2aa176745650b0cccd33fbd80d82256c1c85a2fa8e9714",
+   "bytes": 3017
+  }
+ }
+}

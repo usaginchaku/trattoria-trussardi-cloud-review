@@ -1,0 +1,9 @@
+COORD13-CABUV02 STATUS: HOLD
+candidate_uv2_patch.json: 未作成（収容不足）
+input: dfaeef26756cf64856c8357436a9bf743fed6c2d / sourceSha256 61209d3eaf109bd835ebb104e21e9da704005dd887cf28513918e14ef598d46e（開始時=納品時SHA一致）
+baseline: 追加188面すべて既存と完全重複（正面積重複0.0370577=追加全量）
+scale1: 105/107チャート収容可（余白≤0.0117）、最大2チャート（追加UV面積77%）不収容
+shrink必要: 余白0で≤0.79、余白0.0039/0.0078/0.0117で0.70/0.60/0.50 → 極端縮小のため不採用
+未変更: 既存UV2 0..9038、72面積0面、P/N/T/UV0/index/材/TRS
+未承認・未主張: Bake/GI改善/Main採用/Local 5.2.2・Unity検証
+次: Root判断（HOLD受領 or 別briefでC4単体UV2全面repack）。Cloudは再生成せず次の限定指示待ち。
