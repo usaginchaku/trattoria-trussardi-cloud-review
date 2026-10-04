@@ -4,6 +4,7 @@
  "png_generated": false,
  "reference_pixels_included": false,
  "new_models": 0,
+ "correction": "REVIEW_STATUS category counts corrected to match remaining_model_work.json (first commit 3e123d3a said 6/8; actual 5/9)",
  "files": [
   {
    "path": "REVIEW_JA.txt",
@@ -12,8 +13,8 @@
   },
   {
    "path": "REVIEW_STATUS.txt",
-   "bytes": 689,
-   "sha256": "f3f81076e35242c960919dac10db74dd0d8055adc0e7c01119e7e0b4a539269d"
+   "bytes": 704,
+   "sha256": "498ffda4145f5fa85c361dc75204afe7be2a551c961e43a642c877088de3e8e9"
   },
   {
    "path": "remaining_model_work.json",
