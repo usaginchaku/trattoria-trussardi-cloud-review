@@ -1,0 +1,271 @@
+{
+ "work": "COORD12-LAMP19 J-arm end-cap UV0 local repair (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "outputs": {
+  "A_UVFIX": [
+   "A_UVFIX/models/StraightLamp_ARCH01_ARM_C1r2_UVFIX.blend",
+   "A_UVFIX/fbx/StraightLamp_ARCH01_ARM_C1r2_UVFIX.fbx",
+   "A_UVFIX/fbx/Shade_ARCH01.png"
+  ],
+  "B_UVFIX": [
+   "B_UVFIX/models/StraightLamp_ARCH01_PLATE_C1_UVFIX.blend",
+   "B_UVFIX/fbx/StraightLamp_ARCH01_PLATE_C1_UVFIX.fbx",
+   "B_UVFIX/fbx/Shade_ARCH01.png"
+  ]
+ },
+ "inputs_read_only": "see qa/input_sha_at_start.txt and qa/input_sha_at_delivery.txt (identical)",
+ "runtime": "pip bpy 4.3.0. Blender 5.2.2 / native UV2 / Unity not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "reference_pixels_included": false,
+ "files": [
+  {
+   "path": "A_UVFIX/fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "A_UVFIX output (input A = lamp_support11/revision02 ARM_C1r2; UV0 end caps only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "A_UVFIX/fbx/StraightLamp_ARCH01_ARM_C1r2_UVFIX.fbx",
+   "bytes": 99276,
+   "sha256": "8a2624b015e423de330adecb56adeef4ea6b347fd3c88faa9da1f291a04fd006",
+   "role": "A_UVFIX output (input A = lamp_support11/revision02 ARM_C1r2; UV0 end caps only)"
+  },
+  {
+   "path": "A_UVFIX/models/StraightLamp_ARCH01_ARM_C1r2_UVFIX.blend",
+   "bytes": 160435,
+   "sha256": "70e7d132de42d4a9b2136e46c94fb7e5d0c79998b452fdbe26aaa9d2916690ef",
+   "role": "A_UVFIX output (input A = lamp_support11/revision02 ARM_C1r2; UV0 end caps only)"
+  },
+  {
+   "path": "A_UVFIX/qa/changed_corners.json",
+   "bytes": 18877,
+   "sha256": "c8b3dac844505737e3914b2c7e226baced416339100bc79b5c3a2c5b8d19d98c",
+   "role": "A_UVFIX output (input A = lamp_support11/revision02 ARM_C1r2; UV0 end caps only)"
+  },
+  {
+   "path": "B_UVFIX/fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "B_UVFIX output (input B = lamp_plate15 PLATE_C1; UV0 end caps only)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "B_UVFIX/fbx/StraightLamp_ARCH01_PLATE_C1_UVFIX.fbx",
+   "bytes": 99244,
+   "sha256": "e4ec1f6c6836dd7740495b4d43665a33d8b3ed3f7b2f934893d9a226baed1a71",
+   "role": "B_UVFIX output (input B = lamp_plate15 PLATE_C1; UV0 end caps only)"
+  },
+  {
+   "path": "B_UVFIX/models/StraightLamp_ARCH01_PLATE_C1_UVFIX.blend",
+   "bytes": 160421,
+   "sha256": "42b0a0dd51516170c67f54afb2fc2133b7cebe67a21fdf0b969a2cf2e133f063",
+   "role": "B_UVFIX output (input B = lamp_plate15 PLATE_C1; UV0 end caps only)"
+  },
+  {
+   "path": "B_UVFIX/qa/changed_corners.json",
+   "bytes": 18877,
+   "sha256": "73e3b86cd59a2569dfd3265714b9f4f68e144c16b0da7d2e0fe2fb62a0e240d5",
+   "role": "B_UVFIX output (input B = lamp_plate15 PLATE_C1; UV0 end caps only)"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 5126,
+   "sha256": "8bebc47a22380d61d7e02d228fd8b558d83bb692f2220f331cfc9f2b0557943f",
+   "role": "document"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1089,
+   "sha256": "a6a8c6c432ea607a1e6c20be85300ffa4e0f02964e66de3b960f65cab9bcab10",
+   "role": "document"
+  },
+  {
+   "path": "previews/arm_caps_checker_A_UVFIX.png",
+   "bytes": 324004,
+   "sha256": "e5c5a28f7b20bf784ac31266b1222935ff7e4876fd67d621a57d047139893b5b",
+   "role": "self-made diagnostic image (model only)",
+   "png_width": 600,
+   "png_height": 600,
+   "png_mode": "RGBA",
+   "rgba_sha256": "fd885edb6eb53763c6ce14bbc119ce5449025d479f5b369425b8e71649ee56ff"
+  },
+  {
+   "path": "previews/arm_caps_checker_A_input.png",
+   "bytes": 322951,
+   "sha256": "5b7d3041f56da33f692c565aac6da43d685c6c1339d15f48206450b362ee070f",
+   "role": "self-made diagnostic image (model only)",
+   "png_width": 600,
+   "png_height": 600,
+   "png_mode": "RGBA",
+   "rgba_sha256": "4a50162606175ae17ed864bf4c76e751611bbe6c16a2e8e7bac5d8150f57a538"
+  },
+  {
+   "path": "previews/uv_caps_input_vs_uvfix.png",
+   "bytes": 9339,
+   "sha256": "cd7d876dd022f6a8a007121bdf82a0ba46b6d0a8a6037ea821196cd82a34a0a8",
+   "role": "self-made diagnostic image (model only)",
+   "png_width": 900,
+   "png_height": 470,
+   "png_mode": "RGB",
+   "rgba_sha256": "1b34ce260441e968ddd5e25e54a5a6377321fbaaf15d11481de79a0423b71aac"
+  },
+  {
+   "path": "qa/diagnose_input_A_blend.json",
+   "bytes": 2816,
+   "sha256": "c57a231971cbbd12497e5284f185ec1916149078015b82efc4712bd9d9b42c39",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/diagnose_input_A_fbx.json",
+   "bytes": 2381,
+   "sha256": "385c1ebdad3b0b76540048fe7648e9ce38426828f8442719840e839299b14450",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/diagnose_input_B_blend.json",
+   "bytes": 2816,
+   "sha256": "7510dc07e56bdb99468c3fe135a23b86c12f2ed3e313eb86518483266d6fcda5",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/diagnose_input_B_fbx.json",
+   "bytes": 2381,
+   "sha256": "ba7324d63d48dd4c3929c66065824a6164fed06fd4f0c160e42c014756194b90",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/input_sha_at_delivery.txt",
+   "bytes": 834,
+   "sha256": "d347f8defbb6ae0bab6421a5b81c8f882b266f28854ecd6849214a60ed5ae68b",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 834,
+   "sha256": "d347f8defbb6ae0bab6421a5b81c8f882b266f28854ecd6849214a60ed5ae68b",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 668,
+   "sha256": "0e9339a5691541081b7fdd3f0b91de78f8262020bfe006ac9af2808a55f7502b",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/raw_fbx_A.json",
+   "bytes": 2108,
+   "sha256": "38deac26583b4ce8091cf4f745ff6dcf7791f4128311ef8e9bdc11027c308a2c",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/raw_fbx_B.json",
+   "bytes": 2108,
+   "sha256": "d133e9bf5e2782b37788973dc82bb873b42ea8fd73f74d5b2cb52800287681ad",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/raw_fbx_uv_corners_A.json",
+   "bytes": 1328,
+   "sha256": "ebe1440305c0ae39a812240592ac39f385ea65209ff55e1fd399b97e56acd32a",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/raw_fbx_uv_corners_B.json",
+   "bytes": 1328,
+   "sha256": "ebe1440305c0ae39a812240592ac39f385ea65209ff55e1fd399b97e56acd32a",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/reload_elsewhere_A_UVFIX.json",
+   "bytes": 405,
+   "sha256": "f593ba5f7851dd5ab67bc16ff3d528261e507b4971656acbf2703d175ce21d70",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/reload_elsewhere_B_UVFIX.json",
+   "bytes": 405,
+   "sha256": "41a82aae728e025f9103f222a0c83637cf14ef75894da8ff8777b94116f7475a",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/verify_A_blend.json",
+   "bytes": 6390,
+   "sha256": "30ff03b0d1c66dd56f7bcef11183fd80a9f0395160b00caf3b018d03d4391507",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/verify_A_fbx.json",
+   "bytes": 6584,
+   "sha256": "ac2ce4c2156989e0016fd4e8ab8c28f2f732057b636ccd0f5f8a4e2808173824",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/verify_B_blend.json",
+   "bytes": 6390,
+   "sha256": "30ff03b0d1c66dd56f7bcef11183fd80a9f0395160b00caf3b018d03d4391507",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "qa/verify_B_fbx.json",
+   "bytes": 6571,
+   "sha256": "0f9371a2d721a1ca856e69959d8343f8f4805213592015858fcaa703345c71b5",
+   "role": "diagnosis / verification record"
+  },
+  {
+   "path": "tools/diagnose_uv0.py",
+   "bytes": 2428,
+   "sha256": "b4f2e8982243507b36287b2468e2aa508f3b2f1b7e226ec878c80ba1b2c92706",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/fbx_raw_arrays.py",
+   "bytes": 2180,
+   "sha256": "4f39ec4795fd04ee7f0054e4ee5cd9e17811ba46b707d095879356889b16ae03",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/fix_cap_uv0.py",
+   "bytes": 2655,
+   "sha256": "5760b56397a60483e170847f243406db0aa24a420e31ea9ed3394f30f3feb504",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/mkmanifest_lamp19.py",
+   "bytes": 1803,
+   "sha256": "b075ced7c64c94d2ddcd66b85ac20bfb7b22be80bdc1a2e9dcc2ccd9c08cd366",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/raw_fbx_uv_corners.py",
+   "bytes": 2077,
+   "sha256": "3420e1dc7c2291a1af96349ad9e5f30802b9cb0a203f4cdf090ffd9abc34a34c",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/uv_cap_diagnostic.py",
+   "bytes": 3828,
+   "sha256": "0def90d285ca89aa6765ea145751e316acf60826dd48c6a61680249f9f36090c",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/verify_uvfix.py",
+   "bytes": 4409,
+   "sha256": "1388db453509baf0883f46dbe6c1b899b5908337f0113ec969e0bd784eb15555",
+   "role": "self-written code"
+  }
+ ]
+}

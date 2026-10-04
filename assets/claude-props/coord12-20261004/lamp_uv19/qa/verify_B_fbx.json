@@ -1,0 +1,336 @@
+{
+ "mode": "fbx",
+ "bit_equal": {
+  "co": true,
+  "lv": true,
+  "ls": true,
+  "lt": true,
+  "mi": true,
+  "ed": true,
+  "sm": true,
+  "ln": true
+ },
+ "object_equal": true,
+ "materials_equal": true,
+ "uv_layers": [
+  [
+   "ArchitectureUV"
+  ],
+  [
+   "ArchitectureUV"
+  ]
+ ],
+ "custom_normals": [
+  true,
+  true
+ ],
+ "units": [
+  [
+   "METRIC",
+   1.0
+  ],
+  [
+   "METRIC",
+   1.0
+  ]
+ ],
+ "cap_faces": [
+  2444,
+  2445,
+  2766,
+  2767,
+  2768,
+  2769,
+  2770,
+  2771,
+  2772,
+  2773,
+  2774,
+  2775,
+  2776,
+  2777,
+  2778,
+  2779,
+  2780,
+  2781,
+  2782,
+  2783,
+  2784,
+  2785,
+  2786,
+  2787,
+  2788,
+  2789,
+  2790,
+  2791
+ ],
+ "cap_corners": 84,
+ "uv_unchanged_outside_caps_bit": true,
+ "arm_side_uv_bit": true,
+ "non_arm_uv_bit": true,
+ "all_U_bit_equal": true,
+ "changed_corner_count": 84,
+ "changed_corners_subset_of_caps": true,
+ "quality": [
+  {
+   "nonmanifold": 0,
+   "boundary": 0
+  },
+  {
+   "nonmanifold": 0,
+   "boundary": 0
+  }
+ ],
+ "images": [
+  [
+   [
+    "Shade_ARCH01.png",
+    "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_plate15/fbx/Shade_ARCH01.png",
+    true
+   ]
+  ],
+  [
+   [
+    "Shade_ARCH01.png",
+    "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_uv19/B_UVFIX/fbx/Shade_ARCH01.png",
+    true
+   ]
+  ]
+ ],
+ "caps": {
+  "uv_area_zero_before": 28,
+  "uv_area_zero_after": 0,
+  "all_finite": true,
+  "uv_area_sum_after": 0.0018900000469557199,
+  "area3d_sum": 0.0018900000469557199,
+  "max_rel_area_diff": 0.0,
+  "max_V_vs_projection_abs": 0.0,
+  "projection": "top cap V = vertex y, wall cap V = vertex z, U unchanged (= vertex x)",
+  "faces": [
+   {
+    "face": 2444,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 6.200000643730164e-05,
+    "area3d": 6.200000643730164e-05,
+    "finite": true
+   },
+   {
+    "face": 2445,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 6.199994822964072e-05,
+    "area3d": 6.199994822964072e-05,
+    "finite": true
+   },
+   {
+    "face": 2766,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.928213916675304e-06,
+    "area3d": 2.928213916675304e-06,
+    "finite": true
+   },
+   {
+    "face": 2767,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 0.0003565000370144844,
+    "area3d": 0.0003565000370144844,
+    "finite": true
+   },
+   {
+    "face": 2768,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.0717931218096055e-06,
+    "area3d": 1.0717931218096055e-06,
+    "finite": true
+   },
+   {
+    "face": 2769,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.9282055038493127e-06,
+    "area3d": 2.9282055038493127e-06,
+    "finite": true
+   },
+   {
+    "face": 2770,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 4.6000008296687156e-05,
+    "area3d": 4.6000008296687156e-05,
+    "finite": true
+   },
+   {
+    "face": 2771,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.07180187569611e-06,
+    "area3d": 1.07180187569611e-06,
+    "finite": true
+   },
+   {
+    "face": 2772,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.928196863649646e-06,
+    "area3d": 2.928196863649646e-06,
+    "finite": true
+   },
+   {
+    "face": 2773,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 0.0003565000370144844,
+    "area3d": 0.0003565000370144844,
+    "finite": true
+   },
+   {
+    "face": 2774,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.0718006251408951e-06,
+    "area3d": 1.0718006251408951e-06,
+    "finite": true
+   },
+   {
+    "face": 2775,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.928212779806927e-06,
+    "area3d": 2.928212779806927e-06,
+    "finite": true
+   },
+   {
+    "face": 2776,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 4.5999920985195786e-05,
+    "area3d": 4.5999920985195786e-05,
+    "finite": true
+   },
+   {
+    "face": 2777,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.0717999430198688e-06,
+    "area3d": 1.0717999430198688e-06,
+    "finite": true
+   },
+   {
+    "face": 2778,
+    "cap": "top",
+    "uv_area_before": 0.0,
+    "uv_area_after": 6.199989729793742e-05,
+    "area3d": 6.199989729793742e-05,
+    "finite": true
+   },
+   {
+    "face": 2779,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.928196863649646e-06,
+    "area3d": 2.928196863649646e-06,
+    "finite": true
+   },
+   {
+    "face": 2780,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 0.0003565000952221453,
+    "area3d": 0.0003565000952221453,
+    "finite": true
+   },
+   {
+    "face": 2781,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.0717981240304653e-06,
+    "area3d": 1.0717981240304653e-06,
+    "finite": true
+   },
+   {
+    "face": 2782,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.9282018658705056e-06,
+    "area3d": 2.9282018658705056e-06,
+    "finite": true
+   },
+   {
+    "face": 2783,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 4.599996464094147e-05,
+    "area3d": 4.599996464094147e-05,
+    "finite": true
+   },
+   {
+    "face": 2784,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.0717945997384959e-06,
+    "area3d": 1.0717945997384959e-06,
+    "finite": true
+   },
+   {
+    "face": 2785,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.9282052764756372e-06,
+    "area3d": 2.9282052764756372e-06,
+    "finite": true
+   },
+   {
+    "face": 2786,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 0.0003565000952221453,
+    "area3d": 0.0003565000952221453,
+    "finite": true
+   },
+   {
+    "face": 2787,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.0717931218096055e-06,
+    "area3d": 1.0717931218096055e-06,
+    "finite": true
+   },
+   {
+    "face": 2788,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 2.9282055038493127e-06,
+    "area3d": 2.9282055038493127e-06,
+    "finite": true
+   },
+   {
+    "face": 2789,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 4.6000008296687156e-05,
+    "area3d": 4.6000008296687156e-05,
+    "finite": true
+   },
+   {
+    "face": 2790,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 1.07180187569611e-06,
+    "area3d": 1.07180187569611e-06,
+    "finite": true
+   },
+   {
+    "face": 2791,
+    "cap": "wall",
+    "uv_area_before": 0.0,
+    "uv_area_after": 6.200000643730164e-05,
+    "area3d": 6.200000643730164e-05,
+    "finite": true
+   }
+  ]
+ }
+}
