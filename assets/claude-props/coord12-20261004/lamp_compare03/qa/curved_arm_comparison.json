@@ -1,0 +1,105 @@
+{
+ "note": "ref values are apparent screen ratios read by eye from the private DU_ep10-4 arch-jamb lamps (no pixels stored); reading uncertainty about +-0.05 Hs; oblique view from below, so horizontal ratios are low confidence; model values from qa/curved_L1_model_metrics.json (exact)",
+ "decision": "C1 = 0 models",
+ "rows": [
+  {
+   "metric": "shade_WH",
+   "model_L1": 1.05,
+   "ref_apparent_mean": 0.895,
+   "ref_L": 0.9,
+   "ref_R": 0.89,
+   "diff_model_minus_ref": 0.155,
+   "interpretation": "cup proportion (L1 decision; out of scope, not changed)"
+  },
+  {
+   "metric": "plate_h/Hs",
+   "model_L1": 0.851,
+   "ref_apparent_mean": 0.87,
+   "ref_L": 0.88,
+   "ref_R": 0.86,
+   "diff_model_minus_ref": -0.019,
+   "interpretation": "match"
+  },
+  {
+   "metric": "arm_thickness/Ws",
+   "model_L1": 0.108,
+   "ref_apparent_mean": 0.1,
+   "ref_L": 0.1,
+   "ref_R": 0.1,
+   "diff_model_minus_ref": 0.008,
+   "interpretation": "match"
+  },
+  {
+   "metric": "collar_w/Ws",
+   "model_L1": 0.477,
+   "ref_apparent_mean": 0.35,
+   "ref_L": 0.34,
+   "ref_R": 0.36,
+   "diff_model_minus_ref": 0.127,
+   "interpretation": "collar factor (out of scope)"
+  },
+  {
+   "metric": "plate_top_rel_collar_bottom/Hs",
+   "model_L1": -0.047,
+   "ref_apparent_mean": 0.255,
+   "ref_L": 0.25,
+   "ref_R": 0.26,
+   "diff_model_minus_ref": -0.302,
+   "interpretation": "plate-vs-cup vertical relation (primary factor, ~0.29 Hs)"
+  },
+  {
+   "metric": "plate_bottom_rel_collar_bottom/Hs",
+   "model_L1": -0.899,
+   "ref_apparent_mean": -0.615,
+   "ref_L": -0.63,
+   "ref_R": -0.6,
+   "diff_model_minus_ref": -0.284,
+   "interpretation": "plate-vs-cup vertical relation (primary factor)"
+  },
+  {
+   "metric": "arm_exit_rel_collar_bottom/Hs",
+   "model_L1": -0.355,
+   "ref_apparent_mean": 0.04,
+   "ref_L": 0.04,
+   "ref_R": 0.04,
+   "diff_model_minus_ref": -0.395,
+   "interpretation": "mostly plate-vs-cup relation; arm-only remainder ~0.1 Hs"
+  },
+  {
+   "metric": "arm_exit_from_plate_top/plate_h",
+   "model_L1": 0.361,
+   "ref_apparent_mean": 0.25,
+   "ref_L": 0.23,
+   "ref_R": 0.27,
+   "diff_model_minus_ref": 0.111,
+   "interpretation": "arm-only, ~0.1 plate_h (~1.8 cm), near reading uncertainty"
+  },
+  {
+   "metric": "arm_bottom_outer_rel_collar_bottom/Hs",
+   "model_L1": -0.685,
+   "ref_apparent_mean": -0.515,
+   "ref_L": -0.54,
+   "ref_R": -0.49,
+   "diff_model_minus_ref": -0.17,
+   "interpretation": "mixed: plate-vs-cup relation + arm depth"
+  },
+  {
+   "metric": "arm_bottom_position_along_reach",
+   "model_L1": 0.375,
+   "ref_apparent_mean": 0.46,
+   "ref_L": 0.45,
+   "ref_R": 0.47,
+   "diff_model_minus_ref": -0.085,
+   "interpretation": "near match (oblique projection, low confidence)"
+  },
+  {
+   "metric": "drop_exit_to_bottom/Hs",
+   "model_L1": 0.273,
+   "ref_apparent_mean": 0.56,
+   "ref_L": 0.59,
+   "ref_R": 0.53,
+   "diff_model_minus_ref": -0.287,
+   "interpretation": "mixed (exit height + depth)"
+  }
+ ]
+}

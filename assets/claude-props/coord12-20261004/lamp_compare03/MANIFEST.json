@@ -1,0 +1,122 @@
+{
+ "work": "COORD12-LAMP03 current L1 lamp vs reference comparison (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "decision": "C1 = 0 models (main difference is plate+arm vs cup vertical relation, multi-factor; arm-only remainder near reading uncertainty)",
+ "inputs_read_only": {
+  "fbx/CurvedLamp_ARCH01.fbx": "12dc1ad187b8930a22f0b48606bc7264c7e718e38fa41e5e4fb8f52c5c1b324a",
+  "fbx/StraightLamp_ARCH01.fbx": "60dfa6988538976a2206abce6dd8d865d7d174c5ddc7f535b9513a4338cdb2df",
+  "fbx/Shade_ARCH01.png": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+  "models/CurvedLamp_ARCH01.blend": "e7119e11beb4adf6df7ba7d7881a593d5dab3d48edb7e79091f8af0f47f2ad01",
+  "models/StraightLamp_ARCH01.blend": "6ed3f6d38009fed805155955e259051c7540f0a066e73e298d460abe73c289e8",
+  "base_dir": "assets/claude-props/coord09-20261003/furniture/lamp_shade/L1/"
+ },
+ "reference": "DU_ep10-4.png sha256 b9a1c3ac... (private, viewed only, not stored); IMG3594 / IMG3675 not received, not viewed",
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 / Unity not run.",
+ "png_rule": "PNG = width, height, mode, sha256 of decoded RGBA; others = sha256 of bytes",
+ "excluded": "no reference pixels, crops or side-by-side images with the reference",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 6690,
+   "role": "document",
+   "sha256": "bf63449da298ea1960bd94c8c5e058d79e1a5f3b51b31c24f17c3493ccd65923"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1240,
+   "role": "document",
+   "sha256": "8b619d2364e575da06b10d00060d6594796e7b8458871d909adc764d502d4808"
+  },
+  {
+   "path": "previews/lamp_curvedL1_eye_oblique.png",
+   "bytes": 352040,
+   "role": "self-made model render (no reference pixels); conditions in qa/render_conditions.json",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "d4b1bb3f7b1d671908f3b2d5194ade6139c9cd9134401bfc6e4eb621bbd5ba38"
+  },
+  {
+   "path": "previews/lamp_curvedL1_front.png",
+   "bytes": 475272,
+   "role": "self-made model render (no reference pixels); conditions in qa/render_conditions.json",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "699f4a85d575917b823a01df31fc54436badb6ca29130b60d3aa89010b03d1df"
+  },
+  {
+   "path": "previews/lamp_curvedL1_side.png",
+   "bytes": 462385,
+   "role": "self-made model render (no reference pixels); conditions in qa/render_conditions.json",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "04b0a10c78b34a7e4f87b034707f30d12723f92aefc840bc5ad9564abfa828d8"
+  },
+  {
+   "path": "previews/lamp_straightL1_eye_oblique.png",
+   "bytes": 323835,
+   "role": "self-made model render (no reference pixels); conditions in qa/render_conditions.json",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "38e4c915a3de17221096fbd27ddafa38574a2551eb2e6951b4b06b1051b2c57a"
+  },
+  {
+   "path": "previews/lamp_straightL1_front.png",
+   "bytes": 468378,
+   "role": "self-made model render (no reference pixels); conditions in qa/render_conditions.json",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "89ce9edcff8c693a9f1291f04e51ed51bbce42e8b8c81f17042a6d7d03f64fb5"
+  },
+  {
+   "path": "previews/lamp_straightL1_side.png",
+   "bytes": 452488,
+   "role": "self-made model render (no reference pixels); conditions in qa/render_conditions.json",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "895742d02848b13d51302c09477e7a87cce4a66a2c3b193e9c1f221cd3a633ee"
+  },
+  {
+   "path": "qa/curved_L1_model_metrics.json",
+   "bytes": 1124,
+   "role": "measurement / comparison record",
+   "sha256": "a9d866484b275237211b8aa1bc1330b3509b595eb06710392d89dd799dfe46b9"
+  },
+  {
+   "path": "qa/curved_arm_comparison.json",
+   "bytes": 2921,
+   "role": "measurement / comparison record",
+   "sha256": "802398d0f2962507601f6cd925bbab2d8e0ee7a8c9d02d013c781359aa2331f1"
+  },
+  {
+   "path": "qa/render_conditions.json",
+   "bytes": 1414,
+   "role": "measurement / comparison record",
+   "sha256": "17fe59f5a7413de50c59d50107f18feb928e42047ab180cf639f4fca27b950e9"
+  },
+  {
+   "path": "tools/measure_curved.py",
+   "bytes": 1845,
+   "role": "self-written code",
+   "sha256": "1d41633a36786241a620fd53cd494189f0cab6e940d889e3e60b5f5ab0612c15"
+  },
+  {
+   "path": "tools/mkmanifest_lamp03.py",
+   "bytes": 2234,
+   "role": "self-written code",
+   "sha256": "8bbabe0951a56497f3147c2472771a2ca75171af5c53390a1c072656784418f6"
+  },
+  {
+   "path": "tools/render_lamp.py",
+   "bytes": 2866,
+   "role": "self-written code",
+   "sha256": "879e073defbe25a37178f3d58ef8f5fe3a67b6c1e7fbac9429da7b059cae2d94"
+  }
+ ]
+}
