@@ -1,0 +1,35 @@
+{
+ "blend": "Register_FUR05_REG01_R1_candidate.blend",
+ "blend_dir_is_scratch_copy": true,
+ "images": [
+  {
+   "name": "keys_FUR05.png",
+   "filepath": "/keys_FUR05.png",
+   "relative": false,
+   "abspath_is_in_blend_dir": false,
+   "exists": false
+  },
+  {
+   "name": "panel_FUR05.png",
+   "filepath": "/panel_FUR05.png",
+   "relative": false,
+   "abspath_is_in_blend_dir": false,
+   "exists": false
+  },
+  {
+   "name": "register_FUR05.png",
+   "filepath": "/register_FUR05.png",
+   "relative": false,
+   "abspath_is_in_blend_dir": false,
+   "exists": false
+  },
+  {
+   "name": "register_shadow_FUR05.png",
+   "filepath": "/register_shadow_FUR05.png",
+   "relative": false,
+   "abspath_is_in_blend_dir": false,
+   "exists": false
+  }
+ ],
+ "all_resolved": false
+}

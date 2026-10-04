@@ -1,0 +1,111 @@
+{
+ "work": "COORD11-REG03 register R1 blend image paths + document correction (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "base": {
+  "r1": "21c109ca3ac8a7a13fac6c79f5a207a51e316659:assets/claude-props/coord11-20261004/register_candidate/Register_FUR05_REG01_R1_candidate.blend",
+  "r1_blend_sha256": "d3251a0e19d2d1ffec04e048984548f0b1e8c76cb74c7bfaf2855b00df81b7f2",
+  "input_pngs": "35e983d4d5bcb676e87256353a1f0c94bc00dce8:assets/codex-source/coord11-register-input-20261004/ (used from scratch for verification only, not copied here)",
+  "input_png_sha256": {
+   "keys_FUR05.png": "b5e53bd8625c4e2a9f21e9931cf2b09f87946ac106d216dd7e09a99da438c95a",
+   "panel_FUR05.png": "dc093fdbb75cf58a01f8d59d42f997507c48e10d89b9481fa1329c95fe84fcf7",
+   "register_FUR05.png": "5ccf95657461f800033e891fda2847956124894922de18279ba4954964493f50",
+   "register_shadow_FUR05.png": "f75a2488bc82f3528038e1ce62e65f9377a8b834c00a1937f1aab24fc7efc9dd"
+  }
+ },
+ "tooling": "pip bpy 4.3.0. Blender 5.2.2 / Unity not run.",
+ "png_rule": "no PNG generated in this delivery",
+ "excluded": "no reference images, input PNG copies, Unity data, history or credentials",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 5330,
+   "sha256": "8656b025a3f91ec0039fdb40a627a311d60340ea6c67d71f774a93821de8be5c",
+   "role": "document"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1024,
+   "sha256": "6c222cd255aa04676dfa434b18aa6562fb8343c9e865ae798e45be300c6c221d",
+   "role": "document"
+  },
+  {
+   "path": "Register_FUR05_REG03_R1_paths_fixed.blend",
+   "bytes": 1028568,
+   "sha256": "54001f6f9c2f3d5a939980dba55b35e704345bc32e717c742c65285fa5002d81",
+   "role": "R1 blend with the 4 image filepaths fixed to //basename (all other channels identical)"
+  },
+  {
+   "path": "qa/channels_after_paths_fixed_blend.json",
+   "bytes": 14294,
+   "sha256": "56082c693103090e431cb8c76736c7184926ffa0af48c94afde893a86beea06f",
+   "role": "verification record"
+  },
+  {
+   "path": "qa/channels_before_R1_blend.json",
+   "bytes": 14294,
+   "sha256": "56082c693103090e431cb8c76736c7184926ffa0af48c94afde893a86beea06f",
+   "role": "verification record"
+  },
+  {
+   "path": "qa/fix_log.json",
+   "bytes": 691,
+   "sha256": "59c73cb7cad3eeed874be32692cc2e2229e8729100b9244f2d19f962a3d970c1",
+   "role": "verification record"
+  },
+  {
+   "path": "qa/housing_top_measure.json",
+   "bytes": 839,
+   "sha256": "4c614982b2b9cca8c6878a245fafb3453458f69e5d69003b82bb077ad896ddab",
+   "role": "verification record"
+  },
+  {
+   "path": "qa/probe_resave_relative_remap.json",
+   "bytes": 386,
+   "sha256": "3a55e4ae8aa062539b9d51e889f7d921d88333f82ea83fe9f4476af3d06f6369",
+   "role": "verification record"
+  },
+  {
+   "path": "qa/refs_after_reload_elsewhere.json",
+   "bytes": 1468,
+   "sha256": "b8a5157595a7c45f7ca5e0dd731a80cb23843bd9c09bae023e227b2f58b7c6b5",
+   "role": "verification record"
+  },
+  {
+   "path": "qa/refs_before_reload_elsewhere.json",
+   "bytes": 763,
+   "sha256": "24c6fda89670135e4c80196512a41ff1267be50230c4cca9a22b3278c27902d9",
+   "role": "verification record"
+  },
+  {
+   "path": "tools/fix_image_paths.py",
+   "bytes": 1283,
+   "sha256": "eb1c5c083592a2f15683a38361a39a44e0f1d1dc46bddbba2388a838ef8e4d0e",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/housing_top_measure.py",
+   "bytes": 1637,
+   "sha256": "c01efecd60835d78d2f58c3bda00ed7aabd63489e199517802c9abee7290737e",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/mkmanifest_paths02.py",
+   "bytes": 1976,
+   "sha256": "d8ef5f02e280ebd736509ff25f943787e39dae2a2a53634a3148fb470fa81e18",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/probe_resave.py",
+   "bytes": 894,
+   "sha256": "0ce4c2b3ee91f09d7ea4105d510214a7db8d51c062fc66025628076a3002a0d4",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/verify_paths_and_channels.py",
+   "bytes": 4855,
+   "sha256": "3d52df22633f67f4d4831bd670a79ad6d134e271fc89bf5fa09e4ea68f857a9f",
+   "role": "self-written code"
+  }
+ ]
+}

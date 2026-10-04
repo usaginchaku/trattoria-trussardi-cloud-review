@@ -1,0 +1,63 @@
+{
+ "blend": "Register_FUR05_REG03_R1_paths_fixed.blend",
+ "blend_dir_is_scratch_copy": true,
+ "images": [
+  {
+   "name": "keys_FUR05.png",
+   "filepath": "//keys_FUR05.png",
+   "relative": true,
+   "abspath_is_in_blend_dir": true,
+   "exists": true,
+   "png_sha256": "b5e53bd8625c4e2a9f21e9931cf2b09f87946ac106d216dd7e09a99da438c95a",
+   "loaded_size": [
+    512,
+    512
+   ],
+   "has_data": true,
+   "pixels_loaded": 1048576
+  },
+  {
+   "name": "panel_FUR05.png",
+   "filepath": "//panel_FUR05.png",
+   "relative": true,
+   "abspath_is_in_blend_dir": true,
+   "exists": true,
+   "png_sha256": "dc093fdbb75cf58a01f8d59d42f997507c48e10d89b9481fa1329c95fe84fcf7",
+   "loaded_size": [
+    512,
+    512
+   ],
+   "has_data": true,
+   "pixels_loaded": 1048576
+  },
+  {
+   "name": "register_FUR05.png",
+   "filepath": "//register_FUR05.png",
+   "relative": true,
+   "abspath_is_in_blend_dir": true,
+   "exists": true,
+   "png_sha256": "5ccf95657461f800033e891fda2847956124894922de18279ba4954964493f50",
+   "loaded_size": [
+    512,
+    512
+   ],
+   "has_data": true,
+   "pixels_loaded": 1048576
+  },
+  {
+   "name": "register_shadow_FUR05.png",
+   "filepath": "//register_shadow_FUR05.png",
+   "relative": true,
+   "abspath_is_in_blend_dir": true,
+   "exists": true,
+   "png_sha256": "f75a2488bc82f3528038e1ce62e65f9377a8b834c00a1937f1aab24fc7efc9dd",
+   "loaded_size": [
+    512,
+    512
+   ],
+   "has_data": true,
+   "pixels_loaded": 1048576
+  }
+ ],
+ "all_resolved": true
+}

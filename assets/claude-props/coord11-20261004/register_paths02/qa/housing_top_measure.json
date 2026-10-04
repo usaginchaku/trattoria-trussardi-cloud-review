@@ -1,0 +1,32 @@
+{
+ "input_FBX": {
+  "housing_z_max_m": 0.2454225867986679,
+  "housing_bbox_min": [
+   -0.14499999582767487,
+   -0.17499999701976776,
+   0.06800000369548798
+  ],
+  "housing_bbox_max": [
+   0.14499999582767487,
+   0.17499999701976776,
+   0.2454225867986679
+  ],
+  "overall_z_max_m": 0.25
+ },
+ "R1_blend": {
+  "housing_z_max_m": 0.2451000064611435,
+  "housing_bbox_min": [
+   -0.14499999582767487,
+   -0.17499999701976776,
+   0.06800000369548798
+  ],
+  "housing_bbox_max": [
+   0.14499999582767487,
+   0.17499999701976776,
+   0.2451000064611435
+  ],
+  "overall_z_max_m": 0.25
+ },
+ "housing_top_delta_mm": -0.3226,
+ "note": "R1 build used core top 0.2431 + bevel offset 0.002 = 0.2451 (bevel offsets inward along the face normals); the original rounded box reaches 0.2454. Overall bbox top 0.25 comes from the unchanged top cap and is kept."
+}

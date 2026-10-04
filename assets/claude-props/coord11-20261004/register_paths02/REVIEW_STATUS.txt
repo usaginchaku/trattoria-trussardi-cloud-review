@@ -1,0 +1,9 @@
+COORD11-REG03 REVIEW_STATUS (2026-10-04 JST, Claude cloud)
+- 修正: R1 blend の 4 つの image.filepath を '/名前.png' から '//名前.png' に直した。それ以外は fingerprint で完全に一致。FBX は修正していない。
+- 検証: 別のフォルダにコピーし、元の 4 PNG を置いて、新しいプロセスで開き直した。
+  - 修正後: exists=True で画素も読めた。PNG の SHA は入力と一致。
+  - 修正前: 同じ条件で exists=False(再現)。
+- 文書の訂正: 筐体の上端は元 0.2454226 m、R1 0.2451000 m で、0.3226 mm 低い。全体の上端 0.25 は保持。geometry は修正していない。
+- 注意: 別のフォルダへ relative_remap=True で保存し直すと '//../..' に書き換わる(bpy 4.3.0 で確認)。
+- 未実施: Blender 5.2.2 と Unity での再検証。採否は決まっていない。RI16 は保持。
+- 次の担当: 指示役と元Codex(ローカル 5.2.2 で、相対参照と各チャンネルの保持を再検証する)。

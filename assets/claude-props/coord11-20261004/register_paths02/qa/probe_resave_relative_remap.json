@@ -1,0 +1,7 @@
+{
+ "note": "saved from a blend in directory A into directory B (one level deeper); bpy 4.3.0",
+ "result": {
+  "relative_remap=True": "['//../../keys_FUR05.png', '//../../panel_FUR05.png', '//../../register_FUR05.png', '//../../register_shadow_FUR05.png']",
+  "relative_remap=False": "['//keys_FUR05.png', '//panel_FUR05.png', '//register_FUR05.png', '//register_shadow_FUR05.png']"
+ }
+}

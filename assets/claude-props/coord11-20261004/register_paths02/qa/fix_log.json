@@ -1,0 +1,43 @@
+{
+ "before": [
+  [
+   "keys_FUR05.png",
+   "/keys_FUR05.png",
+   "/keys_FUR05.png"
+  ],
+  [
+   "panel_FUR05.png",
+   "/panel_FUR05.png",
+   "/panel_FUR05.png"
+  ],
+  [
+   "register_FUR05.png",
+   "/register_FUR05.png",
+   "/register_FUR05.png"
+  ],
+  [
+   "register_shadow_FUR05.png",
+   "/register_shadow_FUR05.png",
+   "/register_shadow_FUR05.png"
+  ]
+ ],
+ "after_in_session": [
+  [
+   "keys_FUR05.png",
+   "//keys_FUR05.png"
+  ],
+  [
+   "panel_FUR05.png",
+   "//panel_FUR05.png"
+  ],
+  [
+   "register_FUR05.png",
+   "//register_FUR05.png"
+  ],
+  [
+   "register_shadow_FUR05.png",
+   "//register_shadow_FUR05.png"
+  ]
+ ],
+ "save": "save_as_mainfile(relative_remap=False, compress=False)"
+}
