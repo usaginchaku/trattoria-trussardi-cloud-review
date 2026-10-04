@@ -1,0 +1,206 @@
+{
+ "work": "COORD12-LAMP15 Short lamp mounting-plate front size candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "candidate": [
+  "models/StraightLamp_ARCH01_PLATE_C1.blend",
+  "fbx/StraightLamp_ARCH01_PLATE_C1.fbx",
+  "fbx/Shade_ARCH01.png"
+ ],
+ "inputs_read_only": "assets/claude-props/coord12-20261004/lamp_support11/revision02/ (blend a5e6bc89..., fbx d785213f..., png ea737420...), checked at start and delivery",
+ "reference": "private attachments IMG_3594 / IMG_3675 (provenance: LAMP13 revision02), read in scratch only; no pixels stored",
+ "runtime": "pip bpy 4.3.0. Blender 5.2.2 / native UV2 / Unity not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 5203,
+   "sha256": "f6a702290157ed0ffb38614f71b6dde020783f62a4b19c8938795b031b2ee378",
+   "role": "document"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1051,
+   "sha256": "2081dc0fc5273f3194b7ca1cba06e37feac840c6792b408ad6a65948766a17fe",
+   "role": "document"
+  },
+  {
+   "path": "fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "CANDIDATE PLATE_C1 FBX / required image (byte copy of input)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "fbx/StraightLamp_ARCH01_PLATE_C1.fbx",
+   "bytes": 99132,
+   "sha256": "13b61a3c2331ac3a436278ca4771aa3245603ceb0f7d4dfaede4d51de3b6ce48",
+   "role": "CANDIDATE PLATE_C1 FBX / required image (byte copy of input)"
+  },
+  {
+   "path": "models/StraightLamp_ARCH01_PLATE_C1.blend",
+   "bytes": 160286,
+   "sha256": "e1e7292938ce52951f1e57fabe5a804b06ee5e14774450bfa9019d5e08f89990",
+   "role": "CANDIDATE PLATE_C1 blend"
+  },
+  {
+   "path": "previews/straight_PLATE_C1_eye_oblique.png",
+   "bytes": 346329,
+   "sha256": "88bb5d74b70eba23501e685f30201b01d562bcf5a5b229e1ecac2375363e4b14",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "a082959c78c14058746e795aecee0a58bd789402ca4371c0b596c63f8c9714af"
+  },
+  {
+   "path": "previews/straight_PLATE_C1_front.png",
+   "bytes": 472993,
+   "sha256": "c433774fd0406917f462dccb961dc5b4a922856cb0563ab817cee914f8160c6d",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "898026a19bbab6b3c2b68fdf13be0d87fba24b1e8950d224e214a661429246d3"
+  },
+  {
+   "path": "previews/straight_PLATE_C1_side.png",
+   "bytes": 461170,
+   "sha256": "1df35c3565b0dffe0f9ef9c4a78b4e705804b4139d2ff2534afb4f9dc074537c",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "04bcb42d5267f01581a3f766ab6f7726722ee8ee74fe091a3facdc57dac5c2a6"
+  },
+  {
+   "path": "previews/straight_baselineLAMP11r2_eye_oblique.png",
+   "bytes": 347561,
+   "sha256": "017831c809851d90434165e69b562753218075e64a28280cd9c0f22f0f22bec9",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "b249c088aaf6e32cfcf674b92ca32b7c9fd49a9b3a2413d7a052805097df33ea"
+  },
+  {
+   "path": "previews/straight_baselineLAMP11r2_front.png",
+   "bytes": 472455,
+   "sha256": "17ec1bad6209a0b30e4e8aaf72169b8c1d6566c1df67aa9bf470fd67e26d1f6c",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "6c8af1d1108091130cab42732c976ce56c187238b71c467096fa0c694fe9cffb"
+  },
+  {
+   "path": "previews/straight_baselineLAMP11r2_side.png",
+   "bytes": 461618,
+   "sha256": "e3db8a223956255ae8b3bfc102c296533125ba0912cf29bd10352f829efe901c",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "b030ad0ee46cf56e3a48910e340cd700dfe278cd7bf4954d407e5326c2a86184"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 419,
+   "sha256": "aefe205054000505e1185403b163ac7cc23e2f1d4b8afdf9e35eb58a93c8a342",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/fbx_header_and_arrays.json",
+   "bytes": 2128,
+   "sha256": "5163108480e5d8a209d308c016ae37020f0fd230441f2d02bf21bc68c587c34d",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/input_sha_at_delivery.txt",
+   "bytes": 298,
+   "sha256": "3d28298adbcbb9fcfc5e1c75f7c403905ffabc0bb7896279afe6771f23adde05",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 298,
+   "sha256": "3d28298adbcbb9fcfc5e1c75f7c403905ffabc0bb7896279afe6771f23adde05",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 298,
+   "sha256": "c8af7e74b6322367cbb38f874ce9308ea7a7ed3f5ed2d8fa13a94aa21bfb1c3d",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/plate_reference_measurement.json",
+   "bytes": 2684,
+   "sha256": "59689f3929defcf9bdc35b98ad34ae13a960cf10dbcbb63f030b8ca067789d36",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/reload_elsewhere_check.json",
+   "bytes": 405,
+   "sha256": "70e72189faec955db2b2cc62056b58c330f7bef1f037ffcc6b2285cec50f9119",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/render_conditions.json",
+   "bytes": 1451,
+   "sha256": "aedb08bbecc19428f50a3ffb7706cdc4ef1bc94422e3da2109902622dcd37baa",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/verify_blend.json",
+   "bytes": 3139,
+   "sha256": "48783f4591126cdbd16ff21d01f4809a52a639164df0bdfcc25a53c8b8e07558",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "qa/verify_fbx_reimport.json",
+   "bytes": 3326,
+   "sha256": "ec4d9bed171d1985d5ad0f80ae4948c7435fb251fcdfe4fab22486fa0ea627a3",
+   "role": "measurement / verification record"
+  },
+  {
+   "path": "tools/build_plate_c1.py",
+   "bytes": 2926,
+   "sha256": "667d936c9e5f9f57ea16a6fe7179b63bc992ad5a932814122f79da6dc7e9ac0e",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/fbx_header_and_arrays.py",
+   "bytes": 2180,
+   "sha256": "4f39ec4795fd04ee7f0054e4ee5cd9e17811ba46b707d095879356889b16ae03",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/mkmanifest_lamp15.py",
+   "bytes": 1698,
+   "sha256": "e8934bb368c5f97653059c203b113e2addec76536c5e6d52785b90e4e80e72ad",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/render_lamp_wall.py",
+   "bytes": 3175,
+   "sha256": "abb8255a38e4cd177bd71c230ec775e478e823da0cfc5a9921875c8479024ac8",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/verify_plate_c1.py",
+   "bytes": 4780,
+   "sha256": "020dba98b67fb4f4d4cc3cfe59edd13898a637b3a4fbc13bbbae7cac4ff28f67",
+   "role": "self-written code"
+  }
+ ]
+}

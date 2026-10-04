@@ -1,0 +1,86 @@
+{
+ "method": "dark-run rows (mean RGB < 95) for plate, outline-inclusive cup width (mean RGB < 150); private attachments read in scratch only, numbers only",
+ "errors": {
+  "edge": "+-1 px per edge -> W +-2 px (~+-0.032 Ws), H +-2 px (~+-0.032 Ws), cup +-1 px",
+  "moire": "colour moire in IMG_3594 affects hue, the dark plate edges stay readable",
+  "projection": "wall seen roughly frontal (<~3 % foreshortening estimated); cup width is a diameter (view independent)",
+  "occlusion": "3594 right: rod overlaps the plate below row 389; plate tops are below the collar (visible neck) in all three"
+ },
+ "reference": {
+  "IMG_3594_left": {
+   "cup_px": 62,
+   "plate_w_px": 16,
+   "plate_rows": [
+    381,
+    417
+   ],
+   "neck_rows": [
+    376,
+    380
+   ],
+   "neck_min_px": 9,
+   "plate_h_px": 37,
+   "W/Ws": 0.258,
+   "H/Ws": 0.597,
+   "H/W": 2.31
+  },
+  "IMG_3594_right": {
+   "cup_px": 64,
+   "plate_w_px": 15.5,
+   "plate_rows": [
+    385,
+    421
+   ],
+   "neck_rows": [
+    379,
+    384
+   ],
+   "neck_min_px": 10,
+   "note": "rod merges with the plate silhouette below row 389; width read at rows 386-388",
+   "plate_h_px": 37,
+   "W/Ws": 0.242,
+   "H/Ws": 0.578,
+   "H/W": 2.39
+  },
+  "IMG_3675": {
+   "cup_px": 63,
+   "plate_w_px": 17,
+   "plate_rows": [
+    435,
+    475
+   ],
+   "neck_rows": [
+    430,
+    434
+   ],
+   "neck_min_px": 13,
+   "plate_h_px": 41,
+   "W/Ws": 0.27,
+   "H/Ws": 0.651,
+   "H/W": 2.41
+  }
+ },
+ "model_LAMP11r2": {
+  "plate_W_m": 0.083,
+  "plate_H_m": 0.18,
+  "Ws_m": 0.222,
+  "W/Ws": 0.374,
+  "H/Ws": 0.811,
+  "H/W": 2.17,
+  "same_projection_note": "front ortho union silhouette of the metal parts: plate 0.374 Ws wide from z 0 up to the collar, collar bottom (r 0.036, 0.32 Ws) overlaps the plate top (z 0.145-0.18), so the model shows no neck; the reference shows a neck (0.15-0.21 Ws) above the plate top"
+ },
+ "factor_from_width": [
+  0.69,
+  0.647,
+  0.722
+ ],
+ "factor_from_height": [
+  0.736,
+  0.713,
+  0.803
+ ],
+ "chosen_uniform_factor": 0.75,
+ "why": "width-based factors 0.65-0.72 (+-0.09 from +-2 px), height-based 0.71-0.80 (+-0.04); aspect H/W reference 2.31-2.41 vs model 2.17 (difference within the aspect error ~+-0.4), so one uniform XZ factor is consistent; 0.75 is inside the height band and within the width uncertainty. Absolute plate size is not asserted.",
+ "difference_vs_noise": "width 0.374 vs 0.24-0.27 Ws = 6.6-8.4 px at cup 62-64 px (error +-2 px); height 0.81 vs 0.58-0.65 Ws = 10-15 px (error +-2 px) -> beyond noise in all three lamps",
+ "not_changed_residual": "reference neck between collar and plate top (plate top below the collar) - this is the plate vertical position / collar bottom, a separate factor"
+}
