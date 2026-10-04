@@ -1,0 +1,233 @@
+{
+ "mode": "fbx",
+ "counts": {
+  "verts": [
+   1166,
+   1406
+  ],
+  "faces": [
+   2312,
+   2792
+  ],
+  "kept_faces": [
+   2124,
+   2124
+  ]
+ },
+ "non_arm_face_vertex_order_identical": true,
+ "parts": {
+  "plate": {
+   "verts": 96,
+   "max_pos_diff": 0.0,
+   "max_uv_diff": 0.0,
+   "max_normal_diff": 0.0,
+   "material_index_same": true
+  },
+  "collar": {
+   "verts": 122,
+   "max_pos_diff": 0.0,
+   "max_uv_diff": 0.0,
+   "max_normal_diff": 0.0,
+   "material_index_same": true
+  },
+  "shade": {
+   "verts": 706,
+   "max_pos_diff": 0.0,
+   "max_uv_diff": 0.0,
+   "max_normal_diff": 0.0,
+   "material_index_same": true
+  },
+  "diffuser": {
+   "verts": 146,
+   "max_pos_diff": 0.0,
+   "max_uv_diff": 0.0,
+   "max_normal_diff": 0.0,
+   "material_index_same": true
+  }
+ },
+ "arm": {
+  "verts": 336,
+  "faces": 668,
+  "material_slots": [
+   0
+  ],
+  "bbox": [
+   [
+    -0.01549999974668026,
+    -0.13250002264976501,
+    0.03949999064207077
+   ],
+   [
+    0.01549999974668026,
+    -0.015000006183981895,
+    0.16499999165534973
+   ]
+  ],
+  "loop_normal_vs_face_normal_min_dot": 0.9600816329537971,
+  "loop_normals_angle_to_face_max_deg": 16.24349198054684,
+  "uv_range": [
+   [
+    -0.029999999329447746,
+    -0.03200000151991844
+   ],
+   [
+    0.1669081151485443,
+    0.16500000655651093
+   ]
+  ]
+ },
+ "connection": {
+  "arm_top_z": 0.16499999165534973,
+  "collar_z_range": [
+   0.14499999582767487,
+   0.1899999976158142
+  ],
+  "arm_top_verts_inside_collar": 16,
+  "arm_top_verts": 16,
+  "arm_end_y": -0.015000006183981895,
+  "plate_front_y": -0.02800000086426735,
+  "arm_end_embed_m": 0.012999994680285454,
+  "arm_end_verts_inside_plate": 16,
+  "arm_end_verts": 16,
+  "arm_z_min": 0.03949999064207077,
+  "plate_z_range": [
+   0.0,
+   0.18000000715255737
+  ],
+  "arm_min_distance_to_shade_m": 0.015000015497207642,
+  "arm_verts_y_gt_0": 0,
+  "non_plate_max_y": -0.006000000983476639
+ },
+ "other": {
+  "object": [
+   [
+    "StraightLamp",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -2.821299744937278e-07,
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   [
+    "StraightLamp",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -2.821299744937278e-07,
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  ],
+  "materials": [
+   [
+    "Metal_ARCH01",
+    "Shade_ARCH01"
+   ],
+   [
+    "Metal_ARCH01",
+    "Shade_ARCH01"
+   ]
+  ],
+  "uv_layers": [
+   [
+    "ArchitectureUV"
+   ],
+   [
+    "ArchitectureUV"
+   ]
+  ],
+  "custom": [
+   true,
+   true
+  ],
+  "units": [
+   [
+    "METRIC",
+    1.0
+   ],
+   [
+    "METRIC",
+    1.0
+   ]
+  ],
+  "quality": [
+   {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "zero_len_normals": 0,
+    "tris": 2312,
+    "verts": 1166
+   },
+   {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "zero_len_normals": 0,
+    "tris": 2792,
+    "verts": 1406
+   }
+  ],
+  "images": [
+   [
+    [
+     "Shade_ARCH01.png",
+     "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_standoff05/revision02/fbx/Shade_ARCH01.png",
+     true
+    ]
+   ],
+   [
+    [
+     "Shade_ARCH01.png",
+     "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_support11/revision02/fbx/Shade_ARCH01.png",
+     true
+    ]
+   ]
+  ],
+  "bbox": [
+   [
+    [
+     -0.11100000143051147,
+     -0.2280000001192093,
+     0.0
+    ],
+    [
+     0.11100000143051147,
+     0.0,
+     0.3914285898208618
+    ]
+   ],
+   [
+    [
+     -0.11100000143051147,
+     -0.2280000001192093,
+     0.0
+    ],
+    [
+     0.11100000143051147,
+     0.0,
+     0.3914285898208618
+    ]
+   ]
+  ]
+ }
+}

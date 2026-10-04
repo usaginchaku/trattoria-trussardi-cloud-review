@@ -1,0 +1,34 @@
+{
+ "sources": {
+  "IMG_3594.JPG": "kitchen doorway, left and right short-arm lamps (private attachment, sha256 69b6e161..., viewed in scratch only)",
+  "IMG_3675.JPG": "fireplace-side bottle shelf, left short-arm lamp (private attachment, sha256 e18d8623..., viewed in scratch only)"
+ },
+ "photo_factors": "both are phone photos of a monitor: strong colour moire (3594), slight blur, mild perspective; lamps seen roughly frontal (3594 right lamp slightly from its left side); widths read on 5x crops, ~+-1 source px (~0.016 Ws)",
+ "apparent_ratios_to_cup_outer_width_Ws (approx, numbers only)": {
+  "3594_left": {
+   "cup_px": 61,
+   "plate_w": 0.27,
+   "plate_h": 0.62,
+   "arm": "vertical rod drawn on the plate face with a curved line at its lower end"
+  },
+  "3594_right": {
+   "cup_px": 64,
+   "plate_w": 0.25,
+   "plate_h": 0.58,
+   "arm": "rod from the collar down along the right edge of the plate, outer silhouette beside the plate, curving back into the plate near its bottom (J); rod width ~0.08-0.11 Ws"
+  },
+  "3675_left": {
+   "cup_px": 62,
+   "plate_w": 0.29,
+   "plate_h": 0.67,
+   "arm": "stem from the collar straight into the plate top; side shape not visible (frontal)"
+  }
+ },
+ "model_LAMP05r2_C1": {
+  "plate_w/Ws": 0.374,
+  "plate_h/Ws": 0.81,
+  "arm_front_width/Ws": 0.14,
+  "arm_side_outline": "rounded slab 0.100 (Y) x 0.170 (Z) m - reads as a thick rectangular plate in side / near views"
+ },
+ "judgement": "3594 right lamp shows the support as a bent rod (J) beside the plate, not a filled rectangle: side-outline difference supported (medium confidence, single clear view). Plate width difference (0.37 vs 0.25-0.29) is the plate, kept fixed, not counted as arm width. Rod thickness (0.14 vs ~0.08-0.11 Ws) is a separate factor, not changed in this candidate."
+}

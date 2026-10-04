@@ -1,0 +1,299 @@
+{
+ "work": "COORD12-LAMP11 Straight support arm side outline candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "final_candidate": [
+  "revision02/models/StraightLamp_ARCH01_ARM_C1r2.blend",
+  "revision02/fbx/StraightLamp_ARCH01_ARM_C1r2.fbx",
+  "revision02/fbx/Shade_ARCH01.png"
+ ],
+ "inputs_read_only": {
+  "base_dir": "assets/claude-props/coord12-20261004/lamp_standoff05/revision02/",
+  "models/StraightLamp_ARCH01_C1.blend": "36ee6c3556a435ca58a338707082471cb3621916cac875069d69b4df3f4cf950",
+  "fbx/StraightLamp_ARCH01_C1.fbx": "9c4904bdcd8c661d014068308f7bb8cf29494d02c2fc60c0d828c341dfd752d1",
+  "fbx/Shade_ARCH01.png": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+  "checked": "at start and at delivery"
+ },
+ "reference": "IMG_3594.JPG / IMG_3675.JPG private attachments, viewed in scratch only; no photo, crop or pixel stored",
+ "runtime": "pip bpy 4.3.0. Blender 5.2.2 / native UV2 / Unity not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "files": [
+  {
+   "path": "fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "first build ARM_C1 (lamp body custom normals cleared by shade_smooth_by_angle on the selected body) - rejected, kept with creation SHA",
+   "status": "rejected-kept",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "fbx/StraightLamp_ARCH01_ARM_C1.fbx",
+   "bytes": 103596,
+   "sha256": "e6681446a025acb7e77d2ebba4e2d1a7717754e9da89f6ef1ee952657a6ea02a",
+   "role": "first build ARM_C1 (lamp body custom normals cleared by shade_smooth_by_angle on the selected body) - rejected, kept with creation SHA",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "models/StraightLamp_ARCH01_ARM_C1.blend",
+   "bytes": 160747,
+   "sha256": "da45f9d3f5b1f298bdea2c7906efea0d4181f3c513c107c4165387a888f40267",
+   "role": "first build ARM_C1 (lamp body custom normals cleared by shade_smooth_by_angle on the selected body) - rejected, kept with creation SHA",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 1025,
+   "sha256": "454ecab84d319117dd7f5fad9a177a4e65484690f3c0f085eb85d7d51fe7cd21",
+   "role": "first build record (incl. input SHA at start, failing verify)",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 286,
+   "sha256": "666d6fd16ed01b6a856e7d0b2924248c50763ae64055976b1e534904b34f0950",
+   "role": "first build record (incl. input SHA at start, failing verify)",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 294,
+   "sha256": "f8a54dc74be23c4975bbf54e4f4d5c10286d40b5054c0f168f20262f9a335121",
+   "role": "first build record (incl. input SHA at start, failing verify)",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "qa/verify_blend.json",
+   "bytes": 3463,
+   "sha256": "dc6bae2d357741236ef65085f3ca103cca1f4afa2589c960416aecc7c0705545",
+   "role": "first build record (incl. input SHA at start, failing verify)",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "revision02/README_JA.txt",
+   "bytes": 6001,
+   "sha256": "3d500382bbf09687ed0761cfd8be57f8b25d43b534ea955b9a2d5cb25e9b84eb",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/REVIEW_STATUS.txt",
+   "bytes": 1020,
+   "sha256": "6d20b83c9c8b922b617b1d2102ebd2df29f4e4ef79f8cc26be3626aebbeff378",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "required image, byte copy of input",
+   "status": "final",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "revision02/fbx/StraightLamp_ARCH01_ARM_C1r2.fbx",
+   "bytes": 99164,
+   "sha256": "d785213ff288f71108166ee71ac9e684e072fafcca619a66069e659f119aaf7e",
+   "role": "FINAL CANDIDATE ARM_C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/models/StraightLamp_ARCH01_ARM_C1r2.blend",
+   "bytes": 160449,
+   "sha256": "a5e6bc893bcd3fdda49d97d228713c029369f8911f67d8d95e98a06596744799",
+   "role": "FINAL CANDIDATE ARM_C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/previews/straight_ARM_C1r2_eye_oblique.png",
+   "bytes": 347561,
+   "sha256": "6bb2226765b8f4031b77949d9996460c86fc7118200b00dd06909d782227e0ca",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "b249c088aaf6e32cfcf674b92ca32b7c9fd49a9b3a2413d7a052805097df33ea"
+  },
+  {
+   "path": "revision02/previews/straight_ARM_C1r2_front.png",
+   "bytes": 472455,
+   "sha256": "311d9e9467b30fe3bd7ad024c4aeccc0f884834b136a306308b3cab82d5ff9d7",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "6c8af1d1108091130cab42732c976ce56c187238b71c467096fa0c694fe9cffb"
+  },
+  {
+   "path": "revision02/previews/straight_ARM_C1r2_side.png",
+   "bytes": 461618,
+   "sha256": "2c7d7c677f87826830766b1547367546bd266d3f5b8452f859609774eff3fc94",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "b030ad0ee46cf56e3a48910e340cd700dfe278cd7bf4954d407e5326c2a86184"
+  },
+  {
+   "path": "revision02/previews/straight_baselineLAMP05r2_eye_oblique.png",
+   "bytes": 346866,
+   "sha256": "b72e6a79d22c884337b2fd83dd78ffdd039a7bc2bd5896c4e212e0d0071d4be0",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "69e83781e087cc5dbf53f5a42ccf7451a864a60776d9ab6236e9bb1ba5894cef"
+  },
+  {
+   "path": "revision02/previews/straight_baselineLAMP05r2_front.png",
+   "bytes": 474582,
+   "sha256": "8e8cfd02497ed7567b2a58a5b28edb326c552b77c53a5e84ed08bc96112ccddf",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "1b9a603745f65fc2e2d735f36c45f742f4b7e057dc6f47a9903204f2c0ee1020"
+  },
+  {
+   "path": "revision02/previews/straight_baselineLAMP05r2_side.png",
+   "bytes": 460309,
+   "sha256": "168153b72c1264aa1c0359fc02c09404e9189e1db6a323afd5cf39730aa7b0cb",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "759fed3e4a046f8bb3f30835099053cc7f45d09cfbddddd3d60b463f11ef0091"
+  },
+  {
+   "path": "revision02/qa/build_log.json",
+   "bytes": 1025,
+   "sha256": "454ecab84d319117dd7f5fad9a177a4e65484690f3c0f085eb85d7d51fe7cd21",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/fbx_header_and_arrays.json",
+   "bytes": 2105,
+   "sha256": "15b1648a9df3f67967c718172ade0175cb91d702fcc0d8d3f9d023bd671e2907",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/input_sha_at_delivery.txt",
+   "bytes": 286,
+   "sha256": "666d6fd16ed01b6a856e7d0b2924248c50763ae64055976b1e534904b34f0950",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/output_sha_at_creation.txt",
+   "bytes": 298,
+   "sha256": "37f3d745ae85f2e732355f0586be4af39972acd5a6fb3772b160dbeee901aa30",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/reference_comparison.json",
+   "bytes": 1791,
+   "sha256": "2ed2314fa7f4ef6991675d6fe75d4b6c6742fe1a572a2348ef4d329bc584d342",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/reload_elsewhere_check.json",
+   "bytes": 405,
+   "sha256": "5644c4ce3314149262c15cddc29aafaba54632ba1c26644d2b916958c32cdb35",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/render_conditions.json",
+   "bytes": 1451,
+   "sha256": "aedb08bbecc19428f50a3ffb7706cdc4ef1bc94422e3da2109902622dcd37baa",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_blend.json",
+   "bytes": 3418,
+   "sha256": "fc8a98f61ecc90904881d8ebba191b1ceff0b51cf0999afe25d344fdafd491da",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_fbx_reimport.json",
+   "bytes": 3619,
+   "sha256": "9ea69eac89c891c1c60cc18043574a0c853043a045d4ae94c1ea36260829509e",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/mkmanifest_lamp11.py",
+   "bytes": 2776,
+   "sha256": "3869b8145e0cfdf90e5e12f1250fc79af9eaa4f31c0eb57e1acd99c14b6adb04",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_build_support_c1.py",
+   "bytes": 6501,
+   "sha256": "cbe25c9da05253e5ce8878b38bdfb4ab8815cafe84e50626e86c80d2e4fadbb3",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_fbx_header.py",
+   "bytes": 2180,
+   "sha256": "4f39ec4795fd04ee7f0054e4ee5cd9e17811ba46b707d095879356889b16ae03",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_render_lamp_wall.py",
+   "bytes": 3175,
+   "sha256": "abb8255a38e4cd177bd71c230ec775e478e823da0cfc5a9921875c8479024ac8",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_verify_support_c1.py",
+   "bytes": 6049,
+   "sha256": "0d8662905a4937970e682cb917466f2d85a679fa734f269b6a8b00beba6c5492",
+   "role": "revision02 record/code/document",
+   "status": "final"
+  },
+  {
+   "path": "tools/build_support_c1.py",
+   "bytes": 6190,
+   "sha256": "0c2c03543e008d0ad0b9646ef401132ba8d07514e2352ab7a9787aa0d5b5942a",
+   "role": "first build code",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "tools/verify_support_c1.py",
+   "bytes": 6049,
+   "sha256": "0d8662905a4937970e682cb917466f2d85a679fa734f269b6a8b00beba6c5492",
+   "role": "first build code",
+   "status": "rejected-kept"
+  }
+ ]
+}
