@@ -1,0 +1,24 @@
+{
+ "work": "COORD13-C01 completion audit (Claude cloud)",
+ "created": "2026-10-05 JST",
+ "png_generated": false,
+ "reference_pixels_included": false,
+ "new_models": 0,
+ "files": [
+  {
+   "path": "REVIEW_JA.txt",
+   "bytes": 3499,
+   "sha256": "2710422ea610f2d75fab8290217741ef31c2ddacac39ceee0ed3a01547414e11"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 689,
+   "sha256": "f3f81076e35242c960919dac10db74dd0d8055adc0e7c01119e7e0b4a539269d"
+  },
+  {
+   "path": "remaining_model_work.json",
+   "bytes": 10208,
+   "sha256": "f327baf2bd5d7cef7f559ba380d6f31706815a2cc9be058e59be154280e6e406"
+  }
+ ]
+}

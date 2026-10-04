@@ -1,0 +1,313 @@
+{
+ "work": "COORD13-C01 completion audit (no new models)",
+ "created": "2026-10-05 JST",
+ "categories": [
+  "完成済み",
+  "実証済み形状差",
+  "入力不足",
+  "Unity材質/配置担当"
+ ],
+ "hours_columns": [
+  "low",
+  "standard",
+  "high"
+ ],
+ "claude_modeling_hours_total": {
+  "low": 14.5,
+  "standard": 31.5,
+  "high": 53.0,
+  "plan_reference_hours": 26
+ },
+ "notes": [
+  "Cloud can view: Reference/Food x4, AnimeDU_TrattoriaFrontExt/Sign, DU_ep10-3/4 (private, scratch only) and the two private attachments (IMG_3594/3675).",
+  "Unity state is not visible from Cloud: Root inventory is authoritative; items marked Cloud未確認 where applicable.",
+  "Hours are Claude modeling time per item after inputs arrive; Root integration and human judgement are excluded."
+ ],
+ "items": [
+  {
+   "id": "LAMP-curved-F1",
+   "target": "湾曲灯具 板とカップの上下関係",
+   "category": "実証済み形状差",
+   "evidence": "DU_ep10-4 左右隅柱灯具(Cloudで実表示)",
+   "existing": "coord12/lamp_curved07/revision02 F1C1r2 (a61a7a95)",
+   "needed_input": "Root局所検証結果のみ",
+   "hours": [
+    0,
+    0.5,
+    1
+   ],
+   "done_when": "Root 5.2.2/UV2/Unity同条件比較で受領、指示役選択",
+   "next": "Root"
+  },
+  {
+   "id": "LAMP-curved-F2",
+   "target": "湾曲灯具 腕出口/U深さ",
+   "category": "入力不足",
+   "evidence": "DU_ep10-4: F1後の残差 約0.1Hs(読取誤差に近い)",
+   "existing": "なし(F2は未着手)",
+   "needed_input": "側面寄りの参考、またはF1採用後のUnity同角度画像",
+   "hours": [
+    0,
+    2,
+    4
+   ],
+   "done_when": "残差が誤差以上と実証された場合のみ1候補",
+   "next": "指示役(判断)→Claude"
+  },
+  {
+   "id": "LAMP-straight-standoff",
+   "target": "短腕灯具 壁食い込み解消",
+   "category": "実証済み形状差",
+   "evidence": "Rootローカル実測(0.044m侵入)",
+   "existing": "coord12/lamp_standoff05/revision02 C1 (b3ea51ba)",
+   "needed_input": "なし",
+   "hours": [
+    0,
+    0,
+    0.5
+   ],
+   "done_when": "LAMP06でRoot検証済み、本体採用判断待ち",
+   "next": "Root/指示役"
+  },
+  {
+   "id": "LAMP-straight-arm-J",
+   "target": "短腕灯具 支持腕の側面輪郭(J)",
+   "category": "実証済み形状差",
+   "evidence": "IMG_3594右灯具(由来はLAMP13 r2でhash整合)",
+   "existing": "coord12/lamp_support11/revision02 ARM_C1r2 + lamp_uv19/A_UVFIX(端面UV0修復)",
+   "needed_input": "Root LAMP12の結果",
+   "hours": [
+    0,
+    0.5,
+    1
+   ],
+   "done_when": "A_UVFIXでRoot UV2/Unity受領",
+   "next": "Root"
+  },
+  {
+   "id": "LAMP-straight-plate-075",
+   "target": "短腕灯具 取付板正面寸法",
+   "category": "実証済み形状差",
+   "evidence": "IMG_3594左右/3675 板W/H(誤差±2pxを超える差)",
+   "existing": "coord12/lamp_plate15 PLATE_C1 + lamp_uv19/B_UVFIX + lamp_collartip20 COLLARTIP_C1",
+   "needed_input": "Root LAMP16の結果、原点z0.0225の配置判断",
+   "hours": [
+    0,
+    0.5,
+    1
+   ],
+   "done_when": "Root同条件比較・配置高さ確認後に選択",
+   "next": "Root"
+  },
+  {
+   "id": "LAMP-straight-plate-height",
+   "target": "短腕灯具 カラー下端と板上端の縦関係",
+   "category": "入力不足",
+   "evidence": "3灯とも先細り→板。縦隙間0.016-0.08Ws(誤差込み)でカラー先端と区別不能",
+   "existing": "lamp_plateheight18 (0モデル)",
+   "needed_input": "横から見た資料",
+   "hours": [
+    0,
+    1.5,
+    3
+   ],
+   "done_when": "側面資料で隙間の原因が分かれた場合のみ1候補",
+   "next": "指示役(資料)"
+  },
+  {
+   "id": "LAMP-closed-items",
+   "target": "湾曲カラー幅(LAMP10)/短腕棒太さ(LAMP13)",
+   "category": "完成済み",
+   "evidence": "LAMP10 可視幅0.35-0.37Wsで資料内 / LAMP13 差はノイズ内",
+   "existing": "lamp_collar10, lamp_rod13 (0モデル)",
+   "needed_input": "なし",
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "done_when": "修正しない判断で確定(再試行しない)",
+   "next": "-"
+  },
+  {
+   "id": "LAMP-J-L22-reuse",
+   "target": "J/L22の再利用可能性",
+   "category": "Unity材質/配置担当",
+   "evidence": "Cloudに\"L22\"の記録・ファイルなし(Rootの名称)",
+   "existing": "Cloud未確認",
+   "needed_input": "Rootの棚卸し(L22の実体とSHA)",
+   "hours": [
+    0,
+    0.5,
+    1
+   ],
+   "done_when": "Rootが再利用対象を特定し、必要ならClaudeへ限定brief",
+   "next": "Root"
+  },
+  {
+   "id": "LAMP-right-cup-wall",
+   "target": "右cupの壁貫通",
+   "category": "Unity材質/配置担当",
+   "evidence": "指示役/Root報告(ローカル配置)",
+   "existing": "-",
+   "needed_input": "-",
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "done_when": "Rootのローカル配置で解消",
+   "next": "Root"
+  },
+  {
+   "id": "FOOD-pink-plate",
+   "target": "桃色皿 上面リム(FOOD24)",
+   "category": "実証済み形状差",
+   "evidence": "Root/指示役の観察(Pudding_Anime)。Cloudでも Pudding_Anime を実表示: 内側の段と広いリムを確認",
+   "existing": "coord12/food_rim24/revision02 C1r2 (02d51b65)、ローカル5.2.2/native受領済み",
+   "needed_input": "なし(形状方向は保持)",
+   "hours": [
+    0,
+    0,
+    0.5
+   ],
+   "done_when": "材質側(白帯)の解決後に指示役が選択",
+   "next": "Root/指示役"
+  },
+  {
+   "id": "FOOD-plate-material",
+   "target": "皿の白帯/平坦化(FOOD27/29)",
+   "category": "Unity材質/配置担当",
+   "evidence": "FOOD27 Normal/MatCap OFFは不採用、FOOD29 反射OFFは平坦化で未採用",
+   "existing": "-",
+   "needed_input": "lilToon材質の調整(Root)",
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "done_when": "材質側で解決。形状の作り直しで補わない",
+   "next": "Root"
+  },
+  {
+   "id": "FOOD-noodle-leaf-UV",
+   "target": "スパゲッティ上の葉(パセリ)UV",
+   "category": "入力不足",
+   "evidence": "Spaghetti_alla_Puttanesca(実表示): 細かい緑の葉片が麺の上に散る",
+   "existing": "Cloudにモデルなし",
+   "needed_input": "麺/葉のmesh(FBX/blend)、現行UV0/UV2、Root側の不具合の画像か数値",
+   "hours": [
+    1.5,
+    3,
+    5
+   ],
+   "done_when": "葉のUV重なりや伸びを局所修復し、非葉部はビット一致",
+   "next": "Root(入力)→Claude"
+  },
+  {
+   "id": "FOOD-top-bread",
+   "target": "上パン(カプレーゼの焼いたパン)",
+   "category": "入力不足",
+   "evidence": "Tomato_and_Mozzarella_Anime(実表示): 2枚の焼いたパンが手前に重なる、断面は角の立った直方体寄り",
+   "existing": "Cloudにモデルなし",
+   "needed_input": "パンmesh、現状とUnity画像、変更許可範囲",
+   "hours": [
+    2,
+    4,
+    6
+   ],
+   "done_when": "形状差を実証した1要因のみ候補化",
+   "next": "Root(入力)→Claude"
+  },
+  {
+   "id": "FOOD-white-plates",
+   "target": "白皿(二重リム)",
+   "category": "入力不足",
+   "evidence": "Spaghetti/Caprese(実表示): 外の大皿+内皿の二重。Lamb: 縁の広い皿",
+   "existing": "Cloudにモデルなし",
+   "needed_input": "白皿mesh、native profile、編集許可範囲(FOOD24と同形式)",
+   "hours": [
+    2,
+    3,
+    5
+   ],
+   "done_when": "断面差を実証した場合のみ限定修正",
+   "next": "Root(入力)→Claude"
+  },
+  {
+   "id": "ART-frame-placeholders",
+   "target": "額の仮柄",
+   "category": "入力不足",
+   "evidence": "DU_ep10-4(実表示): 多数の額に風景・抽象の柄。ART05で3額の柄候補済み、ART06マット色は保留",
+   "existing": "coord10/art05 (柄候補), art06 (tile5色候補・保留)",
+   "needed_input": "残りの額のアトラス/対応表、ART06採否",
+   "hours": [
+    2,
+    4,
+    6
+   ],
+   "done_when": "自作の仮柄で額ごとの色調・構図の差を解消(原画の複製はしない)",
+   "next": "指示役(採否)→Claude"
+  },
+  {
+   "id": "SIGN-font",
+   "target": "看板の字体(TRATTORIA/トラサルディー)",
+   "category": "入力不足",
+   "evidence": "AnimeDU_TrattoriaSign(実表示): 円弧状の欧文と太いカタカナ、濃い赤、黄地",
+   "existing": "Cloudにモデル/テクスチャなし(private Diagnosticsに看板の比較画像あり、未使用)",
+   "needed_input": "看板のmesh/テクスチャと使用フォントのライセンス情報",
+   "hours": [
+    2,
+    3,
+    5
+   ],
+   "done_when": "字形の差を実証した部分だけ、自作の字形で候補化",
+   "next": "Root(入力)/指示役(フォント方針)"
+  },
+  {
+   "id": "SHELF-crown-bottles",
+   "target": "棚の冠木/瓶の間隔",
+   "category": "入力不足",
+   "evidence": "IMG_3594右(壁の凹み棚: 上段5本ほぼ等間隔、下段に菓子)/IMG_3675(壁の瓶ラック: 前面の横桟、6本以上が密)。モアレあり、人物遮蔽なし",
+   "existing": "Cloudにモデルなし(coord09 cabinet_refは戸棚)",
+   "needed_input": "瓶棚/ラックmesh、瓶の配置データ",
+   "hours": [
+    3,
+    5,
+    8
+   ],
+   "done_when": "冠木の形・瓶ピッチのうち実証された1要因を候補化",
+   "next": "Root(入力)→Claude"
+  },
+  {
+   "id": "PLANT-and-backdrop",
+   "target": "植栽・遠景",
+   "category": "入力不足",
+   "evidence": "DU_ep10-4(実表示): 青い丸い植木+ピンク鉢、扉の外は黄色の空。外観画像に扉脇の植栽",
+   "existing": "Cloudにモデルなし",
+   "needed_input": "植栽mesh、遠景の実装方法(Root)",
+   "hours": [
+    2,
+    4,
+    6
+   ],
+   "done_when": "植栽は形状差1要因、遠景はRootの材質/配置で対応",
+   "next": "Root(遠景)/Claude(植栽, 入力後)"
+  },
+  {
+   "id": "DONE-adopted",
+   "target": "C3m_DarkWood戸棚、CUT02カトラリー、REG04レジ、椅子配置、既受領灯具",
+   "category": "完成済み",
+   "evidence": "指示役の指定(採用済み)",
+   "existing": "Unity現物はRootの棚卸しが正本(Cloudでは未確認)",
+   "needed_input": "なし",
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "done_when": "再生成しない",
+   "next": "-"
+  }
+ ]
+}

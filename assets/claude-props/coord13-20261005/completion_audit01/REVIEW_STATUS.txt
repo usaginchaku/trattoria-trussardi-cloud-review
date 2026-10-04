@@ -1,0 +1,6 @@
+COORD13-C01 REVIEW_STATUS (2026-10-05 JST, Claude cloud)
+- 状態: 棚卸しを完了。新しいモデル、材質、画像は 0 件。この出力は 4 ファイル(REVIEW_JA、REVIEW_STATUS、remaining_model_work.json、MANIFEST)。
+- 区分ごとの件数(remaining_model_work.json): 完成済み 2、実証済みの形状差 6、入力不足 8、Unity 担当 3。
+- Claude の造形時間: 低 14.5 h、標準 31.5 h、高 53 h(計画は 26 h)。
+- 未確認: Unity の現物の状態(Root が正本)、J/L22 の実体。
+- 再開の条件: Root からの限定入力(料理、棚、植栽、看板)と、指示役の採否の判断。無期限には待たず、ここで区切る。
