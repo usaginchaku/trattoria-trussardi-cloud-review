@@ -1,0 +1,41 @@
+{
+ "cup_outer_width_px": {
+  "IMG_3594_left": 61,
+  "IMG_3594_right": 64,
+  "IMG_3675": 62,
+  "note": "from LAMP11 5x crop reading (+-1-2 px); model scaled to 62 px"
+ },
+ "readings": {
+  "neck_between_collar_and_plate_min_px": {
+   "IMG_3594_left": 10,
+   "IMG_3594_right": 10,
+   "IMG_3675": 13,
+   "as_Ws_raw": [
+    0.16,
+    0.16,
+    0.21
+   ],
+   "as_Ws_outline_corrected(-3px)": [
+    0.11,
+    0.11,
+    0.16
+   ],
+   "caveat": "the narrowest dark section under the collar may be the collar stem, the rod, or both; with drawn outlines and blur its edges are +-1 px each"
+  },
+  "plate_width_px": {
+   "IMG_3594_left": "15-16 (0.25 Ws)",
+   "IMG_3594_right": "15-16 (0.25 Ws)",
+   "IMG_3675": "17 (0.27 Ws)",
+   "note": "plate, not the rod"
+  },
+  "rod_beside_plate_px": {
+   "IMG_3594_right_rows_386_388": "5 px (0.08 Ws) separated from the plate by a 2 px light gap; part of the rod can be hidden behind the plate edge, so this is a lower bound"
+  }
+ },
+ "photo_factors": "monitor photos: colour moire strong in IMG_3594 (bands of ~4-8 px), mild blur (~1-2 px edges), JPEG downscale by 0.496; roughly frontal view so the rod overlaps the plate",
+ "model": {
+  "rod_front_width": "0.031 m = 0.14 Ws = 8.7 px at cup 62 px",
+  "front_preview_rows": "model shows a 19-22 px dark block (collar 0.37 Ws visible + plate 0.37 Ws) without a separate neck, so the rod cannot be isolated in the model front either"
+ },
+ "judgement": "The rod is not isolable in the frontal photos: the only rod-only reading is a 5 px lower bound (0.08 Ws) beside the plate, and the neck readings (0.11-0.21 Ws after/before outline correction) bracket the model value 0.14 Ws. The 0.14 vs ~0.08-0.11 difference quoted in LAMP11 was a visual estimate and is not confirmed beyond measurement noise (1 px = 0.016 Ws; 0.14-0.10 = 2.5 px). -> 0 models. Note: the visible neck/plate differences point at collar-bottom and plate width (separate, fixed factors), not at the rod thickness."
+}

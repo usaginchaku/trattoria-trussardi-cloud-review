@@ -1,0 +1,87 @@
+{
+ "work": "COORD12-LAMP13 revision02: provenance hash comparison + rod width judgement (0 models) (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "png_generated": false,
+ "reference_pixels_included": false,
+ "files": [
+  {
+   "path": "MANIFEST.json",
+   "bytes": 965,
+   "sha256": "567d55d6f7e9ec447be16735470951d349ce0cd91a63d79b78522932b366aa25",
+   "status": "first audit (unchanged, creation SHA)"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 4264,
+   "sha256": "d99cf7884bccbf354e35483e9fcce5608fe198229d2a33d71bac006003adf511",
+   "status": "first audit (unchanged, creation SHA)"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 824,
+   "sha256": "c866d888bc4d8fa3dc35cfbdc0f955c6d9e92e826339c190d8cba264e0eaec18",
+   "status": "first audit (unchanged, creation SHA)"
+  },
+  {
+   "path": "qa/model_input_sha_read_only.txt",
+   "bytes": 298,
+   "sha256": "3d28298adbcbb9fcfc5e1c75f7c403905ffabc0bb7896279afe6771f23adde05",
+   "status": "first audit (unchanged, creation SHA)"
+  },
+  {
+   "path": "qa/provenance_audit.json",
+   "bytes": 1142,
+   "sha256": "cf36570af32fe3d8e98c8cd3e72f1e2a6cfe521409b5c12fee3b1c1935058fe7",
+   "status": "first audit (unchanged, creation SHA)"
+  },
+  {
+   "path": "revision02/README_JA.txt",
+   "bytes": 3768,
+   "sha256": "0711a5ec273a7dc41f0ffb1540e75b499e12534eef799cd0bf43fdecd838dbee",
+   "status": "revision02"
+  },
+  {
+   "path": "revision02/REVIEW_STATUS.txt",
+   "bytes": 777,
+   "sha256": "dd70829e06b1fbdd15ea16aaf503a7cc9e7daf5b8c18165824ae661a2d83ad3f",
+   "status": "revision02"
+  },
+  {
+   "path": "revision02/qa/first_audit_sha_at_revision02_start.txt",
+   "bytes": 526,
+   "sha256": "c6c40682f857db2fbca91ffcf4a3d5ebb7494976cc3f772eed9703a831953a38",
+   "status": "revision02"
+  },
+  {
+   "path": "revision02/qa/provenance_hash_comparison.json",
+   "bytes": 2632,
+   "sha256": "0dce86ef9f025ae321978a44d1a713cdcc177f5ad584a628819d8a0e6a7511e5",
+   "status": "revision02"
+  },
+  {
+   "path": "revision02/qa/rod_width_judgement.json",
+   "bytes": 1963,
+   "sha256": "81e742358ef3ebfe54792236e735f7e9ef9bb9e5b4b25b2d6825a4b3a3c1f979",
+   "status": "revision02"
+  },
+  {
+   "path": "revision02/qa/rod_width_rows.json",
+   "bytes": 8953,
+   "sha256": "3290175899fb30b1406a2b41fc46680142cf8076f3a407e44bbbfa88fde14185",
+   "status": "revision02"
+  },
+  {
+   "path": "revision02/tools/rod_width_rows.py",
+   "bytes": 1577,
+   "sha256": "716e64654bb058df009d7428d55aac8c00097e3d8f014c9a97074ce32b4add07",
+   "status": "revision02"
+  },
+  {
+   "path": "tools/provenance_audit.py",
+   "bytes": 1770,
+   "sha256": "14c7e6b24f63886285ac03b328762230beba72799a8db9859ed2965fb0a51a62",
+   "status": "first audit (unchanged, creation SHA)"
+  }
+ ]
+}

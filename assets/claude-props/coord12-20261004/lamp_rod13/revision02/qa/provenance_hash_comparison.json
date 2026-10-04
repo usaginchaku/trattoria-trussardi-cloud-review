@@ -1,0 +1,77 @@
+{
+ "method_check": {
+  "cloud_tool": "lamp_rod13/tools/provenance_audit.py (unchanged): ImageOps.exif_transpose -> convert L -> resize LANCZOS; aHash 8x8 bit=1 if v>mean; dHash 9x8 bit=1 if left>right; row-major, MSB first (hex of the bit string)",
+  "director_local": "PIL RGB->L, LANCZOS resize 8x8 aHash (>mean), 9x8 dHash left>right, row-major / MSB first (as reported); originals have EXIF Orientation 1, so exif_transpose is a no-op",
+  "same_method": true,
+  "note": "director first tried right>left dHash (61/64 bits different) - recorded as a direction convention difference, then aligned to left>right"
+ },
+ "pairs": [
+  {
+   "original": "IMG_3594.JPG",
+   "original_reported": {
+    "sha256": "a4ebf7b33771b9f862ba88e7b28d9497a52f40aea07d530ca6ae80d4f0da0c95",
+    "bytes": 2064136,
+    "size": [
+     4032,
+     2268
+    ],
+    "mode": "RGB",
+    "exif_orientation": 1,
+    "ahash64": "7c24242c6e6e7c3c",
+    "dhash64": "1716323737332b0f"
+   },
+   "cloud_attachment": {
+    "label": "attachment_1_shown_as_IMG_3594",
+    "sha256": "69b6e161dacee199a0a1570bb634f0aaaa59c5771ee0ede0a27aa373ffe48700",
+    "bytes": 344007,
+    "size": [
+     2000,
+     1125
+    ],
+    "exif_orientation": null,
+    "ahash64": "7c24242c6e6e7c3c",
+    "dhash64": "1716323735332b0f"
+   },
+   "aspect_original": 1.7778,
+   "aspect_cloud": 1.7778,
+   "scale_factor": 0.496,
+   "ahash_hamming": 0,
+   "dhash_hamming": 1,
+   "byte_identical": false
+  },
+  {
+   "original": "IMG_3675.JPG",
+   "original_reported": {
+    "sha256": "22c5b0b6d23f2ba13030adce9099a455372ad8d193b816f806789f00b422a2a6",
+    "bytes": 2705337,
+    "size": [
+     4032,
+     2268
+    ],
+    "mode": "RGB",
+    "exif_orientation": 1,
+    "ahash64": "007c687d7d7cfcbc",
+    "dhash64": "a61626263627ab9b"
+   },
+   "cloud_attachment": {
+    "label": "attachment_2_shown_as_IMG_3675",
+    "sha256": "e18d86232248111408e6cef99b6744217f8058f080b043c31737868b10c245f5",
+    "bytes": 394748,
+    "size": [
+     2000,
+     1125
+    ],
+    "exif_orientation": null,
+    "ahash64": "007c6c7d7d7cfcbc",
+    "dhash64": "a61626263627ab9b"
+   },
+   "aspect_original": 1.7778,
+   "aspect_cloud": 1.7778,
+   "scale_factor": 0.496,
+   "ahash_hamming": 1,
+   "dhash_hamming": 0,
+   "byte_identical": false
+  }
+ ],
+ "conclusion": "Same method; Hamming distances aHash 0/1, dHash 1/0; same 16:9 aspect and orientation; attachments are 0.496x downscales re-encoded as JPEG. Together with the director's UI/content correspondence this is strong supporting evidence that each attachment is a downscaled re-encode of the named original. NOT proven: byte identity or exact decoded-pixel identity."
+}
