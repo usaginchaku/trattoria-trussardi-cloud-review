@@ -1,0 +1,40 @@
+{
+ "work": "COORD12-LAMP01 wall lamp reference review + next modeling spec (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "references_viewed": {
+  "DU_ep10-4.png": "sha256 b9a1c3aca00965d0a360c89da9ac20027c0471940cb1baee33d093d8930544bb (private, viewed only, not stored)",
+  "DU_ep10-3.png": "viewed, no lamps visible, not used"
+ },
+ "not_received": "IMG3594 and other Drive IMG files; not assumed",
+ "png_generated": false,
+ "public_copy_of_reference": false,
+ "read_only_records": "assets/claude-props/coord09-20261003/furniture (COORD09 lamp L0/L1 text records)",
+ "tooling": "image viewing only; no model built; Blender 5.2.2 / Unity not run",
+ "files": [
+  {
+   "path": "EVIDENCE_AND_INPUTS_JA.txt",
+   "bytes": 1526,
+   "sha256": "b9c39c58c776fe7d940c14111194422de0c79dc56c70feed1f5b15d2917f54fd",
+   "role": "document (text only)"
+  },
+  {
+   "path": "MODELING_SPEC_NEXT_JA.txt",
+   "bytes": 4457,
+   "sha256": "bd42310cc58a64f10ab70196e2828938047da1dc704c38639726b8d49434e271",
+   "role": "document (text only)"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 5752,
+   "sha256": "f212315abd9418b89a53d6507ca7bc05b31c41eb4b699c1d5ccdfab9a0bbf21e",
+   "role": "document (text only)"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1253,
+   "sha256": "38087190191c7af8dea5e8279eee8f0f01aefac23eed632a681d926606fcf668",
+   "role": "document (text only)"
+  }
+ ]
+}
