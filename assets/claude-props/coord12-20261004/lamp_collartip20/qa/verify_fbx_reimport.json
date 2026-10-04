@@ -1,0 +1,131 @@
+{
+ "mode": "fbx",
+ "topology_bit": {
+  "lv": true,
+  "ls": true,
+  "lt": true,
+  "mi": true,
+  "ed": true,
+  "sm": true
+ },
+ "object_equal": true,
+ "materials_equal": true,
+ "uv0_all_bit_equal": true,
+ "non_collar_positions_bit": true,
+ "non_collar_normals_bit": true,
+ "moved_vertices": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136
+ ],
+ "moved_count": 40,
+ "moved_all_in_collar_bottom_ring": true,
+ "moved_z_unchanged": true,
+ "custom": [
+  true,
+  true
+ ],
+ "units": [
+  [
+   "METRIC",
+   1.0
+  ],
+  [
+   "METRIC",
+   1.0
+  ]
+ ],
+ "uv_layers": [
+  [
+   "ArchitectureUV"
+  ],
+  [
+   "ArchitectureUV"
+  ]
+ ],
+ "quality": [
+  {
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  },
+  {
+   "nonmanifold": 0,
+   "boundary": 0,
+   "zero_area": 0
+  }
+ ],
+ "images": [
+  [
+   [
+    "Shade_ARCH01.png",
+    "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_uv19/B_UVFIX/fbx/Shade_ARCH01.png",
+    true
+   ]
+  ],
+  [
+   [
+    "Shade_ARCH01.png",
+    "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_collartip20/fbx/Shade_ARCH01.png",
+    true
+   ]
+  ]
+ ],
+ "collar_normals": {
+  "loops": 720,
+  "min_dot_loop_vs_face": 0.3262695372104645,
+  "max_angle_after_deg": 70.95749273484844,
+  "max_angle_before_deg": 70.95749273484844,
+  "collar_normal_max_abs_change": 0.13082441687583923
+ },
+ "connection": {
+  "arm_top_verts_inside_collar": 16,
+  "arm_top_verts": 16,
+  "collar_bottom_radius": 0.02350001037120819,
+  "arm_max_radius_above_z0.140": 0.020153790712356567,
+  "margin_m": 0.0033462196588516235,
+  "collar_z": [
+   0.14499999582767487,
+   0.1899999976158142
+  ],
+  "max_y_non_plate": -0.006000000983476639,
+  "verts_y_gt_0": 0
+ }
+}

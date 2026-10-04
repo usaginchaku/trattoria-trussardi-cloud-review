@@ -1,0 +1,218 @@
+{
+ "work": "COORD12-LAMP20 Short lamp lower collar taper candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "candidate": [
+  "models/StraightLamp_ARCH01_COLLARTIP_C1.blend",
+  "fbx/StraightLamp_ARCH01_COLLARTIP_C1.fbx",
+  "fbx/Shade_ARCH01.png"
+ ],
+ "input": {
+  "commit": "0753acfbb7d628e8c6f8647f094a9f828d097933",
+  "dir": "assets/claude-props/coord12-20261004/lamp_uv19/B_UVFIX/",
+  "blend": "42b0a0dd51516170c67f54afb2fc2133b7cebe67a21fdf0b969a2cf2e133f063",
+  "fbx": "e4ec1f6c6836dd7740495b4d43665a33d8b3ed3f7b2f934893d9a226baed1a71",
+  "png": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7"
+ },
+ "reference": "LAMP18 numeric row profiles of private IMG_3594 / IMG_3675 (no pixels stored)",
+ "runtime": "pip bpy 4.3.0. Blender 5.2.2 / native UV2 / Unity not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 5971,
+   "sha256": "30efb3f82ee8859da0b54cc1ac1f391db6608ec7ceec62a94b8be7f5e83cd247",
+   "role": "document"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1167,
+   "sha256": "13dc7cbb5336b3b470ebe4eb8b1f9c17906269ee096f38a8b77cf20b08ae8127",
+   "role": "document"
+  },
+  {
+   "path": "fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "CANDIDATE COLLARTIP_C1 FBX / required image (byte copy of input)",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "fbx/StraightLamp_ARCH01_COLLARTIP_C1.fbx",
+   "bytes": 99276,
+   "sha256": "0da4fb749130d791c38d01549d6c4c0be3dc1e252b406100e090136edfd55913",
+   "role": "CANDIDATE COLLARTIP_C1 FBX / required image (byte copy of input)"
+  },
+  {
+   "path": "models/StraightLamp_ARCH01_COLLARTIP_C1.blend",
+   "bytes": 160431,
+   "sha256": "d052b7fb5071f227b9c4cfb5481756a5f87c85bbfdda095042ea6d0e8bd25d37",
+   "role": "CANDIDATE COLLARTIP_C1 blend"
+  },
+  {
+   "path": "previews/straight_COLLARTIP_C1_eye_oblique.png",
+   "bytes": 345971,
+   "sha256": "6e49d123e8d406b5dd0c84be3255d45690b425490bab6d9ed0f1fbad96ec21d8",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "9294aac0bc0d0c3feb29b931a2597a3189987a852f8b893125b6adc1f0279b6e"
+  },
+  {
+   "path": "previews/straight_COLLARTIP_C1_front.png",
+   "bytes": 473594,
+   "sha256": "31e25838cef01be663b31613023183ba6f8f3ed49c5bcc5629da827b278245ee",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "f3b09c76ffe712209bc8fc04a5a00a4bab7cb27e9c032c423b6d32e7b214dd86"
+  },
+  {
+   "path": "previews/straight_COLLARTIP_C1_side.png",
+   "bytes": 461641,
+   "sha256": "44d4f5443f3c17ab59b1124c0b1691ca40740998d7f82afbb5cee7b8ab71bbd1",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "63478b52ec647302ef91912bab86a3cd185700a5bec1792563ae63bf747a742b"
+  },
+  {
+   "path": "previews/straight_baselineB_UVFIX_eye_oblique.png",
+   "bytes": 346340,
+   "sha256": "33b1e8a539642dfdb835c25393b9a6d8be08368720a7b22da96e027fd6874687",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "a082959c78c14058746e795aecee0a58bd789402ca4371c0b596c63f8c9714af"
+  },
+  {
+   "path": "previews/straight_baselineB_UVFIX_front.png",
+   "bytes": 473004,
+   "sha256": "226a57e06ace261eab377f913acf96f61e080d942dbe86a7c6cde9110a104d68",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "898026a19bbab6b3c2b68fdf13be0d87fba24b1e8950d224e214a661429246d3"
+  },
+  {
+   "path": "previews/straight_baselineB_UVFIX_side.png",
+   "bytes": 461181,
+   "sha256": "bd1eade6dafc35b3fcebd3aa6477c08c1f72c2d8e54e15f79c6fb31f5d4cb76d",
+   "role": "model-only render, same camera/light/render, Y=0 wall slab",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "04bcb42d5267f01581a3f766ab6f7726722ee8ee74fe091a3facdc57dac5c2a6"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 500,
+   "sha256": "1cb1b359c8e498c98869600e9d4141f94fa0aec9a8659a1ebf15684bb900bffe",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/collar_taper_compare.json",
+   "bytes": 5679,
+   "sha256": "4db18f9936b5a881af07557fe0b15ab907af9ba445ff82a68b9706e35b89f62f",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/fbx_raw_arrays_and_header.json",
+   "bytes": 2130,
+   "sha256": "f5e98a21966df91c6efbe7efe61b84d56edea8f32fd77d72cb16b6cd014c3cf2",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/input_selection.txt",
+   "bytes": 1063,
+   "sha256": "7dc5ea60f9d565559d17143550d8aaac4bb308f6b6dfe9beb190679a5dc2988c",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/input_sha_at_delivery.txt",
+   "bytes": 334,
+   "sha256": "a82b1053894be81c587f76e17f6681a8e179ae5c9a0d180f270f84f6524e1910",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 306,
+   "sha256": "40c4147dbf43bbfc86761ee4578d68ea6f8bab7b03648864c53c4e091d89bd82",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/reload_elsewhere_check.json",
+   "bytes": 405,
+   "sha256": "9362bc4dee326071c515a12a498eeb5503eb86fbc69b668b06ecc86b7053ce3f",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/render_conditions.json",
+   "bytes": 1451,
+   "sha256": "aedb08bbecc19428f50a3ffb7706cdc4ef1bc94422e3da2109902622dcd37baa",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/verify_blend.json",
+   "bytes": 1760,
+   "sha256": "42d6550a31639b4a27d60ea4585e86730d3d5f5b74d7fe1941d3187e483efa22",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "qa/verify_fbx_reimport.json",
+   "bytes": 1945,
+   "sha256": "4205016c66fbabbf3d9269deb61558d6e28c4e773ae98d10291f51c0dc77b061",
+   "role": "selection / measurement / verification record"
+  },
+  {
+   "path": "tools/build_collartip_c1.py",
+   "bytes": 3059,
+   "sha256": "6aaa5160262c806cc4150cf8c852d0aaab1285aa2441ddb9520dda254a4439ee",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/collar_taper_compare.py",
+   "bytes": 2726,
+   "sha256": "1faf92e0d85e51d9254ce2cef73a0ff39e365d2f3946835e9cccc69140f5d1d4",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/fbx_raw_arrays.py",
+   "bytes": 2180,
+   "sha256": "4f39ec4795fd04ee7f0054e4ee5cd9e17811ba46b707d095879356889b16ae03",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/mkmanifest_lamp20.py",
+   "bytes": 1866,
+   "sha256": "0492bff401c0b8637c0c0aafe30f2f366028fa1a2dfce04ed12387314ae63db2",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/render_lamp_wall.py",
+   "bytes": 3175,
+   "sha256": "abb8255a38e4cd177bd71c230ec775e478e823da0cfc5a9921875c8479024ac8",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/verify_collartip_c1.py",
+   "bytes": 4748,
+   "sha256": "40baae7d810e5869048494f8ecaa1cc92ed959f1d878cad55e6edd8a4314bbfe",
+   "role": "self-written code"
+  }
+ ]
+}
