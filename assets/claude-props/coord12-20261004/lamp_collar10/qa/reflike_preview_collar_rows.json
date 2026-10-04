@@ -1,0 +1,172 @@
+{
+ "preview": "curved_F1C1r2_ref_like_jamb.png",
+ "cup_max_width_px": 196,
+ "cup_bottom_row": 376,
+ "rows": [
+  {
+   "row": 373,
+   "dark_run_px": 60,
+   "ratio": 0.306
+  },
+  {
+   "row": 374,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 375,
+   "dark_run_px": 69,
+   "ratio": 0.352
+  },
+  {
+   "row": 376,
+   "dark_run_px": 71,
+   "ratio": 0.362
+  },
+  {
+   "row": 377,
+   "dark_run_px": 70,
+   "ratio": 0.357
+  },
+  {
+   "row": 378,
+   "dark_run_px": 69,
+   "ratio": 0.352
+  },
+  {
+   "row": 379,
+   "dark_run_px": 69,
+   "ratio": 0.352
+  },
+  {
+   "row": 380,
+   "dark_run_px": 69,
+   "ratio": 0.352
+  },
+  {
+   "row": 381,
+   "dark_run_px": 69,
+   "ratio": 0.352
+  },
+  {
+   "row": 382,
+   "dark_run_px": 69,
+   "ratio": 0.352
+  },
+  {
+   "row": 383,
+   "dark_run_px": 68,
+   "ratio": 0.347
+  },
+  {
+   "row": 384,
+   "dark_run_px": 68,
+   "ratio": 0.347
+  },
+  {
+   "row": 385,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 386,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 387,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 388,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 389,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 390,
+   "dark_run_px": 67,
+   "ratio": 0.342
+  },
+  {
+   "row": 391,
+   "dark_run_px": 66,
+   "ratio": 0.337
+  },
+  {
+   "row": 392,
+   "dark_run_px": 66,
+   "ratio": 0.337
+  },
+  {
+   "row": 393,
+   "dark_run_px": 65,
+   "ratio": 0.332
+  },
+  {
+   "row": 394,
+   "dark_run_px": 65,
+   "ratio": 0.332
+  },
+  {
+   "row": 395,
+   "dark_run_px": 65,
+   "ratio": 0.332
+  },
+  {
+   "row": 396,
+   "dark_run_px": 65,
+   "ratio": 0.332
+  },
+  {
+   "row": 397,
+   "dark_run_px": 64,
+   "ratio": 0.327
+  },
+  {
+   "row": 398,
+   "dark_run_px": 64,
+   "ratio": 0.327
+  },
+  {
+   "row": 399,
+   "dark_run_px": 64,
+   "ratio": 0.327
+  },
+  {
+   "row": 400,
+   "dark_run_px": 63,
+   "ratio": 0.321
+  },
+  {
+   "row": 401,
+   "dark_run_px": 63,
+   "ratio": 0.321
+  },
+  {
+   "row": 402,
+   "dark_run_px": 63,
+   "ratio": 0.321
+  },
+  {
+   "row": 403,
+   "dark_run_px": 63,
+   "ratio": 0.321
+  },
+  {
+   "row": 404,
+   "dark_run_px": 63,
+   "ratio": 0.321
+  },
+  {
+   "row": 405,
+   "dark_run_px": 62,
+   "ratio": 0.316
+  }
+ ]
+}

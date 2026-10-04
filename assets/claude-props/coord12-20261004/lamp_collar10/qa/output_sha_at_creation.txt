@@ -1,0 +1,2 @@
+dbfb578721241053344078bb1446b962be814401707d04423d5733c45b934659  previews/diag_front_as_is.png
+f68bd9aaabcd209cabf84875579d956ed34a049e15a8b13aee7f4ad6234d7420  previews/diag_front_shade_hidden.png

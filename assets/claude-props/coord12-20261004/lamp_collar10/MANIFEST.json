@@ -1,0 +1,92 @@
+{
+ "work": "COORD12-LAMP10 Curved collar width (F3) check (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "decision": "0 models: visible collar width already ~0.35-0.37 Ws, within the reference apparent range; LAMP03 0.477 was the hidden top diameter",
+ "inputs_read_only": "a61a7a959d8c5636ac38a742b15995ffefe990a5:assets/claude-props/coord12-20261004/lamp_curved07/revision02/ (blend 04e3ed97..., fbx 8779f6e4..., png ea737420...)",
+ "reference": "DU_ep10-4.png (private, viewed in scratch only; pixel values read, no pixels stored)",
+ "runtime": "pip bpy 4.3.0 / numpy / PIL. Blender 5.2.2 / Unity / native UV2 not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 4510,
+   "sha256": "c680e4dc6a762164c966caf0d66ab67e954f2dde217fcf496a0c234de24d69de",
+   "role": "document"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 834,
+   "sha256": "9c2aab13049d066e291be23bed5fe9e2a557f985b57b43685bdf32d7bc83b91d",
+   "role": "document"
+  },
+  {
+   "path": "previews/diag_front_as_is.png",
+   "bytes": 453449,
+   "sha256": "dbfb578721241053344078bb1446b962be814401707d04423d5733c45b934659",
+   "role": "model-only diagnostic render (input blend, unchanged; shade faces removed in memory only for the second)",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "cd0cf1c5c18f2abfc645e099cf26119f63f483ac09391a8eb8f235e1fdf80e67"
+  },
+  {
+   "path": "previews/diag_front_shade_hidden.png",
+   "bytes": 446221,
+   "sha256": "f68bd9aaabcd209cabf84875579d956ed34a049e15a8b13aee7f4ad6234d7420",
+   "role": "model-only diagnostic render (input blend, unchanged; shade faces removed in memory only for the second)",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "73553e363c38e962925f9f7f2de004a03f32ea42db235279309b153d6226577a"
+  },
+  {
+   "path": "qa/collar_visible_width.json",
+   "bytes": 4148,
+   "sha256": "c78aa7fed6a0823a114eadd5ad054ec7ac147a96db5bab3d7aa92aa8adcc226a",
+   "role": "measurement / SHA record"
+  },
+  {
+   "path": "qa/input_sha_at_delivery.txt",
+   "bytes": 699,
+   "sha256": "9eba754dc3edbbbccc952b0cdf91771acef9ad87176c7c41332f9b73aa66ecfd",
+   "role": "measurement / SHA record"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 699,
+   "sha256": "9eba754dc3edbbbccc952b0cdf91771acef9ad87176c7c41332f9b73aa66ecfd",
+   "role": "measurement / SHA record"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 199,
+   "sha256": "a16e9ae1679d89cf39918884ba2ebe7b9940e67d1d6b974285e13cf9baf98131",
+   "role": "measurement / SHA record"
+  },
+  {
+   "path": "qa/reflike_preview_collar_rows.json",
+   "bytes": 2225,
+   "sha256": "db5237916a4c7dc10f71bafa4d3184dad5a5fa988e200dbc7dca422a130bd432",
+   "role": "measurement / SHA record"
+  },
+  {
+   "path": "tools/collar_visible_width.py",
+   "bytes": 4649,
+   "sha256": "c16ef71091d9c995ba7580a148f0cb6a17e9d3cf5982792e7f4d3a24229b20b9",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/measure_reflike_preview.py",
+   "bytes": 1088,
+   "sha256": "f732a028782f9e9bc9f899fc88e06d5697155ea8d2bd5771d93fd447b0974dc3",
+   "role": "self-written code"
+  },
+  {
+   "path": "tools/mkmanifest_lamp10.py",
+   "bytes": 1773,
+   "sha256": "5a40cc95c3b78dca2f582688f3f24252daadea2bbd54d893bdab5b00390ba49a",
+   "role": "self-written code"
+  }
+ ]
+}

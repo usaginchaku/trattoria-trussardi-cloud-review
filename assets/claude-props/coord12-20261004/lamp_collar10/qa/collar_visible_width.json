@@ -1,0 +1,265 @@
+{
+ "geometry": {
+  "Ws_m": 0.2220000266151003,
+  "collar_rings_z_r": [
+   [
+    0.12869,
+    0.03600001335144043
+   ],
+   [
+    0.16369,
+    0.04100001098014236
+   ],
+   [
+    0.17369,
+    0.05300000996036502
+   ]
+  ],
+  "collar_top_diameter_m": 0.10600001992073003,
+  "collar_top_diameter/Ws": 0.47747750996674876,
+  "shade_bottom_z": 0.16368570923805237,
+  "shade_bottom_disk_radius_m": 0.04200001011304202,
+  "collar_radius_at_shade_bottom_m": 0.040999398014440545,
+  "visible_collar_max_diameter/Ws": 0.3693639017938009,
+  "note": "the collar flares to r 0.053 only above the shade bottom (z > shade_bottom_z), i.e. inside the shade bowl; that part is hidden"
+ },
+ "renders": {
+  "front_as_is": {
+   "Ws_px": 250,
+   "rows": [
+    [
+     0.1637,
+     91,
+     0.364
+    ],
+    [
+     0.161,
+     92,
+     0.368
+    ],
+    [
+     0.1584,
+     92,
+     0.368
+    ],
+    [
+     0.1557,
+     90,
+     0.36
+    ],
+    [
+     0.1531,
+     90,
+     0.36
+    ],
+    [
+     0.1504,
+     92,
+     0.368
+    ],
+    [
+     0.1477,
+     92,
+     0.368
+    ],
+    [
+     0.1451,
+     92,
+     0.368
+    ],
+    [
+     0.1424,
+     92,
+     0.368
+    ],
+    [
+     0.1398,
+     92,
+     0.368
+    ],
+    [
+     0.1371,
+     92,
+     0.368
+    ],
+    [
+     0.1345,
+     92,
+     0.368
+    ],
+    [
+     0.1318,
+     92,
+     0.368
+    ],
+    [
+     0.1291,
+     92,
+     0.368
+    ],
+    [
+     0.1265,
+     92,
+     0.368
+    ]
+   ],
+   "max_ratio": 0.368,
+   "caveat": "front view: the mounting plate (0.083 m wide) is directly behind the collar, so this dark run is not collar-only"
+  },
+  "front_shade_hidden": {
+   "Ws_px": 251,
+   "rows": [
+    [
+     0.1796,
+     4,
+     0.016
+    ],
+    [
+     0.177,
+     90,
+     0.359
+    ],
+    [
+     0.1743,
+     52,
+     0.207
+    ],
+    [
+     0.1717,
+     59,
+     0.235
+    ],
+    [
+     0.169,
+     102,
+     0.406
+    ],
+    [
+     0.1663,
+     96,
+     0.382
+    ],
+    [
+     0.1637,
+     92,
+     0.367
+    ],
+    [
+     0.161,
+     92,
+     0.367
+    ],
+    [
+     0.1584,
+     92,
+     0.367
+    ],
+    [
+     0.1557,
+     90,
+     0.359
+    ],
+    [
+     0.1531,
+     90,
+     0.359
+    ],
+    [
+     0.1504,
+     92,
+     0.367
+    ],
+    [
+     0.1477,
+     89,
+     0.355
+    ],
+    [
+     0.1451,
+     92,
+     0.367
+    ],
+    [
+     0.1424,
+     92,
+     0.367
+    ],
+    [
+     0.1398,
+     92,
+     0.367
+    ],
+    [
+     0.1371,
+     92,
+     0.367
+    ],
+    [
+     0.1345,
+     92,
+     0.367
+    ],
+    [
+     0.1318,
+     92,
+     0.367
+    ],
+    [
+     0.1291,
+     92,
+     0.367
+    ],
+    [
+     0.1265,
+     92,
+     0.367
+    ]
+   ],
+   "max_ratio": 0.414
+  }
+ },
+ "reference_apparent": {
+  "source": "DU_ep10-4 (private, viewed only; pixels not stored). Per-row pixel runs read in scratch: cream (cup body) and olive (dark metal).",
+  "R_lamp": {
+   "cup_max_cream_run_px": 58,
+   "cup_outer_width_px_incl_outlines_est": 62,
+   "junction_row_y222_includes_cup_outline": true,
+   "collar_rows_y220_229_olive_run_px": [
+    23,
+    25,
+    29,
+    27,
+    25,
+    22,
+    21,
+    20,
+    19,
+    18
+   ]
+  },
+  "L_lamp": {
+   "cup_max_cream_run_px": 59,
+   "cup_outer_width_px_incl_outlines_est": 63,
+   "collar_rows_y220_229_olive_run_px": [
+    24,
+    25,
+    29,
+    27,
+    25,
+    23,
+    21,
+    20,
+    19,
+    18
+   ]
+  },
+  "ratio_collar_body_rows/cup_outer": "0.30-0.40 (body rows 0.30-0.37; widest junction row 0.46-0.47 contains the cup bottom outline)",
+  "uncertainty": "1 px ~ 0.016 Ws; drawn outlines 1-2 px on each side; small cel image upscaled from broadcast; no visible moire on the lamp; colour cast does not change widths",
+  "model_visible_collar": {
+   "geometry_visible_max_diameter/Ws": 0.369,
+   "ref_like_preview_rows": "0.32-0.36 (qa/reflike_preview_collar_rows.json)",
+   "hidden_flange": "collar top diameter 0.106 m = 0.477 Ws lies above the shade bottom (inside the bowl), not visible"
+  },
+  "conclusion": "visible collar width of F1C1r2 (~0.35-0.37 Ws) already lies in the reference range (~0.33-0.37 Ws); the LAMP03 value 0.477 compared the hidden geometric top diameter with a visible width. No F3 width change is supported -> 0 models."
+ }
+}
