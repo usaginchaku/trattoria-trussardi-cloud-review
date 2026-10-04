@@ -1,0 +1,1 @@
+Normal_CeramicMicro_MAT01.png //textures/Normal_CeramicMicro_MAT01.png exists True inside_copy True size [512, 512] sha 578ce3516b9d9c9d

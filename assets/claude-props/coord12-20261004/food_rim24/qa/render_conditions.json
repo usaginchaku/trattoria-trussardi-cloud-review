@@ -1,0 +1,71 @@
+{
+ "engine": "Cycles CPU 48spp denoise (pip bpy 4.3.0)",
+ "material": "FBX-imported preview BSDF + input normal map; NOT lilToon, no MatCap emulation",
+ "light": "sun 2.5 rot(50,0,30) + world 0.7",
+ "table": "plane z 0.012",
+ "views": {
+  "low_front": {
+   "dir": [
+    0,
+    -1,
+    0.18
+   ],
+   "ortho": false,
+   "ortho_scale": 0,
+   "dist": 0.75,
+   "lens": 85,
+   "target": [
+    0,
+    0,
+    0.022
+   ],
+   "res": [
+    900,
+    500
+   ],
+   "section": null
+  },
+  "side_section": {
+   "dir": [
+    0,
+    -1,
+    0.0
+   ],
+   "ortho": true,
+   "ortho_scale": 0.2,
+   "dist": 1.0,
+   "lens": 50,
+   "target": [
+    0,
+    0,
+    0.022
+   ],
+   "res": [
+    900,
+    500
+   ],
+   "section": "faces with all verts y>1e-4 removed in memory"
+  },
+  "oblique": {
+   "dir": [
+    0.6,
+    -0.8,
+    0.6
+   ],
+   "ortho": false,
+   "ortho_scale": 0,
+   "dist": 0.6,
+   "lens": 60,
+   "target": [
+    0,
+    0,
+    0.022
+   ],
+   "res": [
+    900,
+    500
+   ],
+   "section": null
+  }
+ }
+}

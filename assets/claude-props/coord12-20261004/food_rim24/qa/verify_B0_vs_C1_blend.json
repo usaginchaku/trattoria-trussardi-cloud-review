@@ -1,0 +1,188 @@
+{
+ "mode": "blend",
+ "topology": {
+  "tri_equal": true,
+  "loops_equal": true,
+  "mat_equal": true
+ },
+ "moved_vertices": 194,
+ "moved_subset_of_editable": true,
+ "held_positions_bit_equal": true,
+ "bands_bit_equal": {
+  "contact_r<=0.0513_up": true,
+  "underside_nativeNz>0": true,
+  "outer_lip_r>=0.08505": true,
+  "counts": [
+   193,
+   969,
+   485
+  ],
+  "overlap_with_editable": 0
+ },
+ "uv0_bit_equal": true,
+ "bounds": [
+  [
+   [
+    -0.09000000357627869,
+    -0.09000000357627869,
+    0.012000000104308128
+   ],
+   [
+    0.09000000357627869,
+    0.09000000357627869,
+    0.03099999949336052
+   ]
+  ],
+  [
+   [
+    -0.09000000357627869,
+    -0.09000000357627869,
+    0.012000000104308128
+   ],
+   [
+    0.09000000357627869,
+    0.09000000357627869,
+    0.03099999949336052
+   ]
+  ]
+ ],
+ "normals": {
+  "unedited_loops_max_deg_vs_A": 0.01978234015405178,
+  "unedited_loops_changed_count(>1e-6deg)": 5,
+  "adjacent_fixed_ring_loops": 1056,
+  "adjacent_loops_max_deg_vs_A": 0.01978234015405178,
+  "edited_loops": 1152,
+  "edited_loops_max_deg_vs_A": 17.541793823242188,
+  "edited_loop_vs_own_face_max_deg": 41.83985746716575
+ },
+ "quality": {
+  "A": {
+   "nonmanifold_raw": 412,
+   "boundary_raw": 412,
+   "welded_diag": {
+    "verts": 1442,
+    "nonmanifold": 0,
+    "boundary": 0
+   },
+   "area0": 0
+  },
+  "B": {
+   "nonmanifold_raw": 412,
+   "boundary_raw": 412,
+   "welded_diag": {
+    "verts": 1442,
+    "nonmanifold": 0,
+    "boundary": 0
+   },
+   "area0": 0
+  }
+ },
+ "object": [
+  [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    -1.6292068494294654e-07,
+    0.0,
+    0.0
+   ],
+   [
+    1.0,
+    1.0,
+    1.0
+   ]
+  ],
+  [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    -1.6292068494294654e-07,
+    0.0,
+    0.0
+   ],
+   [
+    1.0,
+    1.0,
+    1.0
+   ]
+  ]
+ ],
+ "materials": [
+  [
+   "PinkPlate_Preview_NOT_LILTOON"
+  ],
+  [
+   "PinkPlate_Preview_NOT_LILTOON"
+  ]
+ ],
+ "uv_layers": [
+  [
+   "UV0"
+  ],
+  [
+   "UV0"
+  ]
+ ],
+ "custom": [
+  true,
+  true
+ ],
+ "units": [
+  [
+   "METRIC",
+   1.0
+  ],
+  [
+   "METRIC",
+   1.0
+  ]
+ ],
+ "attrs": [
+  [
+   "UV0",
+   "material_index",
+   "nativeTangentW",
+   "nativeTangentXYZ",
+   "position",
+   "sharp_edge",
+   "sharp_face",
+   "sourceNativeVertexId"
+  ],
+  [
+   "UV0",
+   "material_index",
+   "nativeTangentW",
+   "nativeTangentXYZ",
+   "position",
+   "sharp_edge",
+   "sharp_face",
+   "sourceNativeVertexId"
+  ]
+ ],
+ "sourceNativeVertexId_ok": [
+  true,
+  true
+ ],
+ "images": [
+  [
+   [
+    "Normal_CeramicMicro_MAT01.png",
+    "//textures/Normal_CeramicMicro_MAT01.png",
+    true
+   ]
+  ],
+  [
+   [
+    "Normal_CeramicMicro_MAT01.png",
+    "//textures/Normal_CeramicMicro_MAT01.png",
+    true
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,459 @@
+{
+ "work": "COORD12-FOOD24 pink plate upper rim candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-05 JST",
+ "final_candidate": [
+  "revision02/C1r2/PinkPlate_FOOD24_C1r2.blend",
+  "revision02/C1r2/PinkPlate_FOOD24_C1r2.fbx",
+  "revision02/C1r2/textures/MatCap_Ceramic_MAT01.png",
+  "revision02/C1r2/textures/Normal_CeramicMicro_MAT01.png"
+ ],
+ "input": {
+  "repo": "usaginchaku/trattoria-trussardi-cloud-review",
+  "branch": "codex/coord12-food24-input-20261005",
+  "commit": "069eb4de14c09263adbe59799576f66e96eefb80",
+  "path": "assets/codex-inputs/coord12-food24/",
+  "sha": "qa/input_sha_at_start.txt == qa/input_sha_at_delivery.txt"
+ },
+ "runtime": "pip bpy 4.3.0 (cannot open the 5.2.2 input .blend; rebuilt from native JSON + FBX). Blender 5.2.2 / native / lilToon / Unity / Bake not run.",
+ "reference_pixels_included": false,
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "files": [
+  {
+   "path": "B0/PinkPlate_FOOD24_B0_rebuilt.blend",
+   "bytes": 169543,
+   "sha256": "7a5e025d95f24a8272ecb208e958b007555665e86131241127610739bf88d2ce",
+   "role": "rebuilt baseline B0 (same pipeline; equals input FBX on re-import)",
+   "status": "baseline"
+  },
+  {
+   "path": "B0/PinkPlate_FOOD24_B0_rebuilt.fbx",
+   "bytes": 88380,
+   "sha256": "bc439979cc67f7c8a3a219325382b4d827a7062de7b5904b0640789026fe9d1b",
+   "role": "rebuilt baseline B0 (same pipeline; equals input FBX on re-import)",
+   "status": "baseline"
+  },
+  {
+   "path": "B0/build_log_B0.json",
+   "bytes": 19088,
+   "sha256": "467ad8a5d56b306137f5a98dca6bc8f09c898606f83ef7a5705b18f4580bc6bd",
+   "role": "rebuilt baseline B0 (same pipeline; equals input FBX on re-import)",
+   "status": "baseline"
+  },
+  {
+   "path": "B0/textures/MatCap_Ceramic_MAT01.png",
+   "bytes": 10265,
+   "sha256": "a006d85d9f0b6a1c1f0c218a277eef4a0d37947f6731d80cddee9b2e65630f6c",
+   "role": "rebuilt baseline B0 (same pipeline; equals input FBX on re-import)",
+   "status": "baseline",
+   "png_width": 512,
+   "png_height": 512,
+   "png_mode": "RGB",
+   "rgba_sha256": "140ae4a1f52250ff8ec4da7d7c3e9592ab39510259ce9e111e06a906aa1bd4b4"
+  },
+  {
+   "path": "B0/textures/Normal_CeramicMicro_MAT01.png",
+   "bytes": 161641,
+   "sha256": "578ce3516b9d9c9d9bdcb01a9c2f5a481aa5ae6c2291eeef31eae5b0636a5c3d",
+   "role": "rebuilt baseline B0 (same pipeline; equals input FBX on re-import)",
+   "status": "baseline",
+   "png_width": 512,
+   "png_height": 512,
+   "png_mode": "RGB",
+   "rgba_sha256": "f0bd0dc1a0460232517fc938721e312314b4486ae1094af118bdad757efe1600"
+  },
+  {
+   "path": "C1/PinkPlate_FOOD24_C1.blend",
+   "bytes": 174009,
+   "sha256": "920f5f6a59aa97a6ab2543a76688e5920cc527a690c1d35efe552a48969d2b9e",
+   "role": "first candidate C1 (radial streaks from triangle-fan-dependent normals) - rejected, kept",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "C1/PinkPlate_FOOD24_C1.fbx",
+   "bytes": 88956,
+   "sha256": "9c539fce78ac22dd75456d5c610ba0b1563ba93620038bb7a38bdf1e15a80b9f",
+   "role": "first candidate C1 (radial streaks from triangle-fan-dependent normals) - rejected, kept",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "C1/build_log_C1.json",
+   "bytes": 16423,
+   "sha256": "91cab89ddd97c75022d72eb91ef488d4d36e54994d406c96d3649f1ea491e898",
+   "role": "first candidate C1 (radial streaks from triangle-fan-dependent normals) - rejected, kept",
+   "status": "rejected-kept"
+  },
+  {
+   "path": "C1/textures/MatCap_Ceramic_MAT01.png",
+   "bytes": 10265,
+   "sha256": "a006d85d9f0b6a1c1f0c218a277eef4a0d37947f6731d80cddee9b2e65630f6c",
+   "role": "first candidate C1 (radial streaks from triangle-fan-dependent normals) - rejected, kept",
+   "status": "rejected-kept",
+   "png_width": 512,
+   "png_height": 512,
+   "png_mode": "RGB",
+   "rgba_sha256": "140ae4a1f52250ff8ec4da7d7c3e9592ab39510259ce9e111e06a906aa1bd4b4"
+  },
+  {
+   "path": "C1/textures/Normal_CeramicMicro_MAT01.png",
+   "bytes": 161641,
+   "sha256": "578ce3516b9d9c9d9bdcb01a9c2f5a481aa5ae6c2291eeef31eae5b0636a5c3d",
+   "role": "first candidate C1 (radial streaks from triangle-fan-dependent normals) - rejected, kept",
+   "status": "rejected-kept",
+   "png_width": 512,
+   "png_height": 512,
+   "png_mode": "RGB",
+   "rgba_sha256": "f0bd0dc1a0460232517fc938721e312314b4486ae1094af118bdad757efe1600"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 6764,
+   "sha256": "2827d87339401a05314f7f1b6dd5f56d91186a1c094c731a1774f5e4f85f19e0",
+   "role": "document",
+   "status": "final"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1210,
+   "sha256": "8cdaaca33ff27bc040deeaf6a8f9942a090f9a236ff875674313c0f76ee2a026",
+   "role": "document",
+   "status": "final"
+  },
+  {
+   "path": "previews/plate_B0_low_front.png",
+   "bytes": 443076,
+   "sha256": "d95a5363981c9866a4372e0c5fafd3054bd2a3f3192b109a6c45a643fe57eac3",
+   "role": "first previews (side_section kept the near half: no cut visible) - superseded, kept",
+   "status": "superseded-kept",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "a5ab5cab1b7b7b9265fd6c81933854c28a3159fcbe10a0555961944ee527f04c"
+  },
+  {
+   "path": "previews/plate_B0_oblique.png",
+   "bytes": 445495,
+   "sha256": "30ada5459f3af333fce3f14136808572a1fec7d4134803e9e94d11df06ad1d6b",
+   "role": "first previews (side_section kept the near half: no cut visible) - superseded, kept",
+   "status": "superseded-kept",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "355e7f92cb71ba65aacaac64dfa53560fc97913f378ca72b90687aaf662b93a8"
+  },
+  {
+   "path": "previews/plate_B0_side_section.png",
+   "bytes": 441953,
+   "sha256": "b1ae40dfc9f7ae8a13aa6dc27f69254ee7da576fe45c4c54627751e650ced937",
+   "role": "first previews (side_section kept the near half: no cut visible) - superseded, kept",
+   "status": "superseded-kept",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "d89bd408dbd72fc15e6804886f60ff730f3741de8d1db0c38e5f5dea7caaf32f"
+  },
+  {
+   "path": "previews/plate_C1_low_front.png",
+   "bytes": 447070,
+   "sha256": "2e5ed6177193b2fa5e4e935d27bd6dc35033c73599c9ff1d3c83035b81e22d9d",
+   "role": "first previews (side_section kept the near half: no cut visible) - superseded, kept",
+   "status": "superseded-kept",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "ebc0acefaf9a59b0c4315a4396ec3da8d87caf33bc539ee16b4ad80e6e637582"
+  },
+  {
+   "path": "previews/plate_C1_oblique.png",
+   "bytes": 453068,
+   "sha256": "d3a741fc7f165c93185f47ac18949fa912523310330c8f9ea1fdb57a227a80de",
+   "role": "first previews (side_section kept the near half: no cut visible) - superseded, kept",
+   "status": "superseded-kept",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "0ebff295482eba866218d1d3612fd354650358cf8b732709340607f87b71bf60"
+  },
+  {
+   "path": "previews/plate_C1_side_section.png",
+   "bytes": 441680,
+   "sha256": "25a481374601e208820c2103f4dfe3691469ab8d2e9e7feb632574bed0f7e163",
+   "role": "first previews (side_section kept the near half: no cut visible) - superseded, kept",
+   "status": "superseded-kept",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "7f322d035982b65f70cb68cb766c84cddac24040f20c9645bb1a4a3c406c721d"
+  },
+  {
+   "path": "qa/first_previews_sha_at_creation.txt",
+   "bytes": 590,
+   "sha256": "3482524f57fea70f0674378b349db45192214929ceebdccd2dda7e4eadc0dcb6",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/input_sha_at_delivery.txt",
+   "bytes": 716,
+   "sha256": "5e3eea9abea369c61875463a7b8f31efd3ef037b7c706f61b1ac2f38e6388977",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 716,
+   "sha256": "5e3eea9abea369c61875463a7b8f31efd3ef037b7c706f61b1ac2f38e6388977",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 814,
+   "sha256": "ccdd2397ed31b6da2079a24d6fd640b1d98f558cba919f530e407e27cc06961d",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/render_conditions.json",
+   "bytes": 990,
+   "sha256": "c17a691799cd7a35498817922425ed48473a4c0e1fad89adca6a5eacf77cf69a",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/upper_profile_B0_C1.json",
+   "bytes": 2199,
+   "sha256": "9f839171d1fc25cb5bb8c210feab8f0634d8180c1f34944c21b5f6da56a18108",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/verify_B0_vs_C1_blend.json",
+   "bytes": 2662,
+   "sha256": "7304c9bc7b6cea126ebaf354cf082d8ff227b53564dadd6595dbc754ecc6da3e",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/verify_B0_vs_C1_fbx_reimport.json",
+   "bytes": 2703,
+   "sha256": "148912827cb1df444397876ecbbd8ce7bacf314a2c8464d47ba6d0b7db8a97a8",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "qa/verify_inputFBX_vs_B0_fbx.json",
+   "bytes": 2710,
+   "sha256": "ffd1f0dc3c558a238131fc40d9a9b5bf6f56564245114bf59467d808960037ed",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "revision02/C1r2/PinkPlate_FOOD24_C1r2.blend",
+   "bytes": 173170,
+   "sha256": "d685316c77bdb2e039b66481fbe28280d1db4ed559b6bc79d36bbef9b955123b",
+   "role": "FINAL CANDIDATE C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/C1r2/PinkPlate_FOOD24_C1r2.fbx",
+   "bytes": 88860,
+   "sha256": "61518cf9da5f0164cddb64afa5c402edd99bd341214038d993a1bfd92d6cc427",
+   "role": "FINAL CANDIDATE C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/C1r2/build_log_C1.json",
+   "bytes": 16423,
+   "sha256": "91cab89ddd97c75022d72eb91ef488d4d36e54994d406c96d3649f1ea491e898",
+   "role": "FINAL CANDIDATE C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/C1r2/textures/MatCap_Ceramic_MAT01.png",
+   "bytes": 10265,
+   "sha256": "a006d85d9f0b6a1c1f0c218a277eef4a0d37947f6731d80cddee9b2e65630f6c",
+   "role": "FINAL CANDIDATE C1r2",
+   "status": "final",
+   "png_width": 512,
+   "png_height": 512,
+   "png_mode": "RGB",
+   "rgba_sha256": "140ae4a1f52250ff8ec4da7d7c3e9592ab39510259ce9e111e06a906aa1bd4b4"
+  },
+  {
+   "path": "revision02/C1r2/textures/Normal_CeramicMicro_MAT01.png",
+   "bytes": 161641,
+   "sha256": "578ce3516b9d9c9d9bdcb01a9c2f5a481aa5ae6c2291eeef31eae5b0636a5c3d",
+   "role": "FINAL CANDIDATE C1r2",
+   "status": "final",
+   "png_width": 512,
+   "png_height": 512,
+   "png_mode": "RGB",
+   "rgba_sha256": "f0bd0dc1a0460232517fc938721e312314b4486ae1094af118bdad757efe1600"
+  },
+  {
+   "path": "revision02/previews/plate_B0_low_front.png",
+   "bytes": 443076,
+   "sha256": "cbefdad17bd536b6c127b1d35a2a9950cd0383d4a771d055ac17702565b2cdaa",
+   "role": "revision02 record / code / preview",
+   "status": "final",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "a5ab5cab1b7b7b9265fd6c81933854c28a3159fcbe10a0555961944ee527f04c"
+  },
+  {
+   "path": "revision02/previews/plate_B0_oblique.png",
+   "bytes": 445495,
+   "sha256": "46f6c18cc0a5c188f5ee37f610eda22f05e8c4b4e831a09eaae01cc3268a329c",
+   "role": "revision02 record / code / preview",
+   "status": "final",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "355e7f92cb71ba65aacaac64dfa53560fc97913f378ca72b90687aaf662b93a8"
+  },
+  {
+   "path": "revision02/previews/plate_B0_side_section.png",
+   "bytes": 451374,
+   "sha256": "0d7d6d5db1225dcc3cb4dcca8f8ed3c0aaea0fd1b06352a14b6dc70986146b1b",
+   "role": "revision02 record / code / preview",
+   "status": "final",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "61b79581cd46c8c61ccfd1f786ea9fb15fdebd9c9c995210e1209d6c718cf0c0"
+  },
+  {
+   "path": "revision02/previews/plate_C1r2_low_front.png",
+   "bytes": 446040,
+   "sha256": "22506a55b58b7f9280e46b3f1d0e66783fc611bb8b33b82fef64c701cd2397c8",
+   "role": "revision02 record / code / preview",
+   "status": "final",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "ad9cb4da4b9973cab56854d5997863690c4a5f0380d44a5db00d1522dbbeb658"
+  },
+  {
+   "path": "revision02/previews/plate_C1r2_oblique.png",
+   "bytes": 452333,
+   "sha256": "11d4d613fb105d79516eb1f6649094d5904a7eb3ec6b459de0f03b14f67dbeaa",
+   "role": "revision02 record / code / preview",
+   "status": "final",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "6e79afaa10125ed43cc546eab9c63c91f4f3216d2e3e36c2f273d6ec7ce6e41e"
+  },
+  {
+   "path": "revision02/previews/plate_C1r2_side_section.png",
+   "bytes": 451700,
+   "sha256": "d718b336798a8af78e1e6f924316c02db2ddc51548249aa6665bef876130c3da",
+   "role": "revision02 record / code / preview",
+   "status": "final",
+   "png_width": 900,
+   "png_height": 500,
+   "png_mode": "RGBA",
+   "rgba_sha256": "b380348f58e91ce90c9a7e68667f626f5abed9bc502ba94542cb3132242a5b97"
+  },
+  {
+   "path": "revision02/qa/C1r2_native_position_patch.json",
+   "bytes": 15284,
+   "sha256": "74bb4621b55da78848efa955abdd02b25f61667ea5656ac67ebb6c9973ec4e00",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/output_sha_at_creation.txt",
+   "bytes": 411,
+   "sha256": "839d4f5e78901d0fdb4ab04aea62bd20ae96d0ceb8e254358cdc1da0c7aa79df",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/reload_elsewhere_check.txt",
+   "bytes": 137,
+   "sha256": "16876bc1c1a6a448ba17ccf9779c4b31e7951a0a23e8c9345c5412bd652bf18b",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/render_conditions.json",
+   "bytes": 1025,
+   "sha256": "d9b62353d6466e12178ccbb5d860cf9b41f765a6388a506c7d37c37259b33e46",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_B0_vs_C1r2_blend.json",
+   "bytes": 2663,
+   "sha256": "6594c9a5e453e38b27b92af0c144301d0e46578f497b093e61783daba989e805",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_B0_vs_C1r2_fbx_reimport.json",
+   "bytes": 2717,
+   "sha256": "5fef0b75ddb41a79137c7b552af72c4793a37257199ffe29e0cd0f36a78084b5",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_build_food24.py",
+   "bytes": 5244,
+   "sha256": "ac25816f785673348100c2040e6f8acaeb08b9159bba5c56b783f8945660e612",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_render_food24.py",
+   "bytes": 3086,
+   "sha256": "1452163ea80044ac60b5ccf9a5e52fc5ed13d5af3619ad94748efc3f4ebf8f73",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "revision02 record / code / preview",
+   "status": "final"
+  },
+  {
+   "path": "tools/build_food24.py",
+   "bytes": 4922,
+   "sha256": "767e87b04f784d576695fc5c8045ddf877ec9e9932aca83bcffc2aba915a20e9",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "tools/mkmanifest_food24.py",
+   "bytes": 2321,
+   "sha256": "99fdb5e048e651e22b60f52761b318be077b11e8975c961b06212dba8672c1ca",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "tools/profile_food24.py",
+   "bytes": 1191,
+   "sha256": "80198b8ea1718228a67ea1acbe2c8650a1c06b8f48f30018f4bc6dc5bf920095",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "tools/render_food24.py",
+   "bytes": 2917,
+   "sha256": "98738490525fb4f50236db9024f605ef4621d9f33091d9d85b77f0e0c293c304",
+   "role": "first-build record / code",
+   "status": "kept"
+  },
+  {
+   "path": "tools/verify_food24.py",
+   "bytes": 5207,
+   "sha256": "ecbc0e1153b96dab073194361177e1fb9067fc61d011f4aa0afd42def88b363a",
+   "role": "first-build record / code",
+   "status": "kept"
+  }
+ ]
+}
