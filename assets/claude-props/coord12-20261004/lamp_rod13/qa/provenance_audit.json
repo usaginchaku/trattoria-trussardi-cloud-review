@@ -1,0 +1,68 @@
+[
+ {
+  "label": "attachment_1_shown_as_IMG_3594",
+  "sha256": "69b6e161dacee199a0a1570bb634f0aaaa59c5771ee0ede0a27aa373ffe48700",
+  "bytes": 344007,
+  "format": "JPEG",
+  "size": [
+   2000,
+   1125
+  ],
+  "mode": "RGB",
+  "aspect": 1.7778,
+  "exif_tag_count": 0,
+  "exif_orientation": null,
+  "jfif": 257,
+  "icc_copyright_text": "Google Inc. 2016",
+  "app_markers": [
+   "APP0",
+   "APP2"
+  ],
+  "quant_table0_first8": [
+   3,
+   2,
+   2,
+   3,
+   5,
+   8,
+   10,
+   12
+  ],
+  "chroma_subsampling": 2,
+  "ahash64": "7c24242c6e6e7c3c",
+  "dhash64": "1716323735332b0f"
+ },
+ {
+  "label": "attachment_2_shown_as_IMG_3675",
+  "sha256": "e18d86232248111408e6cef99b6744217f8058f080b043c31737868b10c245f5",
+  "bytes": 394748,
+  "format": "JPEG",
+  "size": [
+   2000,
+   1125
+  ],
+  "mode": "RGB",
+  "aspect": 1.7778,
+  "exif_tag_count": 0,
+  "exif_orientation": null,
+  "jfif": 257,
+  "icc_copyright_text": "Google Inc. 2016",
+  "app_markers": [
+   "APP0",
+   "APP2"
+  ],
+  "quant_table0_first8": [
+   3,
+   2,
+   2,
+   3,
+   5,
+   8,
+   10,
+   12
+  ],
+  "chroma_subsampling": 2,
+  "ahash64": "007c6c7d7d7cfcbc",
+  "dhash64": "a61626263627ab9b"
+ }
+]

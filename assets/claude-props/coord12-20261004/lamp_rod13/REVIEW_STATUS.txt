@@ -1,0 +1,8 @@
+COORD12-LAMP13 REVIEW_STATUS (2026-10-04 JST, Claude cloud)
+- 状態: HOLD。造形 0 件。
+- 由来: Cloud にある添付 2 枚は、指示役の元 IMG_3594 / IMG_3675 と SHA も bytes も異なる。
+  - Cloud 側: 69b6e161… 344007 B、e18d8623… 394748 B。2000×1125。EXIF なし。Google の sRGB ICC。
+  - 再符号化と矛盾しない特徴はあるが、同じ写真から作られたことは実証していない。
+- 必要なもの: 元ファイルの寸法、Orientation、aHash / dHash(tools/provenance_audit.py)。数値だけでよい。
+- LAMP11 の参照の根拠: 由来が確定するまで HOLD。旧フォルダは変更していない。
+- 次: 指示役がローカルで数値を照合する。一致すれば、Claude が腕の太さの比較を再開する。この納品で区切る。

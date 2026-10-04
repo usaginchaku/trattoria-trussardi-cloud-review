@@ -1,0 +1,34 @@
+{
+ "work": "COORD12-LAMP13 reference provenance audit (HOLD, 0 models) (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "png_generated": false,
+ "reference_pixels_included": false,
+ "files": [
+  {
+   "path": "README_JA.txt",
+   "bytes": 4264,
+   "sha256": "d99cf7884bccbf354e35483e9fcce5608fe198229d2a33d71bac006003adf511"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 824,
+   "sha256": "c866d888bc4d8fa3dc35cfbdc0f955c6d9e92e826339c190d8cba264e0eaec18"
+  },
+  {
+   "path": "qa/model_input_sha_read_only.txt",
+   "bytes": 298,
+   "sha256": "3d28298adbcbb9fcfc5e1c75f7c403905ffabc0bb7896279afe6771f23adde05"
+  },
+  {
+   "path": "qa/provenance_audit.json",
+   "bytes": 1142,
+   "sha256": "cf36570af32fe3d8e98c8cd3e72f1e2a6cfe521409b5c12fee3b1c1935058fe7"
+  },
+  {
+   "path": "tools/provenance_audit.py",
+   "bytes": 1770,
+   "sha256": "14c7e6b24f63886285ac03b328762230beba72799a8db9859ed2965fb0a51a62"
+  }
+ ]
+}
