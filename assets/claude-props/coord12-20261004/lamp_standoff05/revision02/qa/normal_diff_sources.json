@@ -1,0 +1,34 @@
+{
+ "note": "loop-normal max |component diff| by source; \"unchanged\" rows isolate differences that appear without any geometry change",
+ "blend_reload_only_baseline_vs_baseline": 0.0,
+ "blend_baseline_vs_revision02_per_part": {
+  "plate": 0.0,
+  "arm": 1.150369644165039e-05,
+  "collar": 1.9073486328125e-06,
+  "shade": 5.62518835067749e-06,
+  "diffuser": 2.384185791015625e-06
+ },
+ "raw_fbx_input_vs_reexport_of_unchanged_baseline (scratch)": 0.0,
+ "raw_fbx_input_vs_revision02": 1.150369644165039e-05,
+ "fbx_reimport_input_vs_reexport_of_unchanged_baseline (scratch)": 0.0,
+ "fbx_reimport_input_vs_revision02_per_part": {
+  "plate": 0.0,
+  "arm": 1.150369644165039e-05,
+  "collar": 1.9073486328125e-06,
+  "shade": 0.0005871877074241638,
+  "diffuser": 2.384185791015625e-06
+ },
+ "first_build_blend1_vs_baseline_per_part (evidence of the normal re-set problem)": {
+  "plate": 0.0,
+  "arm": 1.150369644165039e-05,
+  "collar": 1.9073486328125e-06,
+  "shade": 0.0004890710115432739,
+  "diffuser": 2.384185791015625e-06
+ },
+ "interpretation": {
+  "plate (unchanged part)": "0 in blend, raw FBX and re-import: identical",
+  "collar/shade/diffuser (translated only)": "blend 1.9e-6..5.6e-6 and raw FBX same order: small real differences from re-decoding stored custom normals at translated positions; NOT called identical",
+  "shade re-import 5.87e-4": "appears only after Blender FBX import of the moved geometry (importer re-sets custom normals); raw file values differ by <=1.15e-5; unchanged re-export shows 0 both raw and re-imported",
+  "arm (changed region)": "max 1.15e-5 (6 loops > 1e-5)"
+ }
+}

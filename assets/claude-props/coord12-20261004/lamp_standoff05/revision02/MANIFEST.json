@@ -1,0 +1,354 @@
+{
+ "work": "COORD12-LAMP05 Straight L1 wall-penetration fix candidate C1 (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "lost_files_not_listed": [
+  "first-build fbx/StraightLamp_ARCH01_C1.fbx",
+  "first-build models/StraightLamp_ARCH01_C1.blend (a .blend1 backup exists, identity unproven)",
+  "first-build qa/build_log.json, qa/verify_blend.json, qa/verify_fbx.json",
+  "first-build tools/build_standoff_c1.py"
+ ],
+ "git_scope": "56eaa0f..f0b8778: only additions (37) under coord12-20261004/lamp_standoff05/; 0 changes elsewhere",
+ "final_candidate": [
+  "revision02/models/StraightLamp_ARCH01_C1.blend",
+  "revision02/fbx/StraightLamp_ARCH01_C1.fbx",
+  "revision02/fbx/Shade_ARCH01.png"
+ ],
+ "inputs_read_only": {
+  "base_dir": "assets/claude-props/coord09-20261003/furniture/lamp_shade/L1/",
+  "models/StraightLamp_ARCH01.blend": "6ed3f6d38009fed805155955e259051c7540f0a066e73e298d460abe73c289e8",
+  "fbx/StraightLamp_ARCH01.fbx": "60dfa6988538976a2206abce6dd8d865d7d174c5ddc7f535b9513a4338cdb2df",
+  "fbx/Shade_ARCH01.png": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7"
+ },
+ "tooling": "pip bpy 4.3.0 (Cycles CPU). Blender 5.2.2 / Unity / native UV2 not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256 and file sha256; others = file sha256",
+ "excluded": "no reference pixels, Unity data, history or credentials",
+ "files": [
+  {
+   "path": "MANIFEST.json",
+   "bytes": 12135,
+   "sha256": "9b2c7ec8da281dc2abb42d29d1f9c4ae542c6bc305714d9f2179455e98a11b94",
+   "role": "top-level document from commit f0b8778, superseded by revision02/ documents; kept unchanged",
+   "status": "superseded-doc"
+  },
+  {
+   "path": "README_JA.txt",
+   "bytes": 7840,
+   "sha256": "669b630446b2c3b62c19bc37cf7ea711d607f0ad49812601e3a8a5a06860f04e",
+   "role": "top-level document from commit f0b8778, superseded by revision02/ documents; kept unchanged",
+   "status": "superseded-doc"
+  },
+  {
+   "path": "REVIEW_STATUS.txt",
+   "bytes": 1396,
+   "sha256": "e7645190b061b296a719a78ff7376d4142ad035ed5578e5cdf0eb2d51b21c5cc",
+   "role": "top-level document from commit f0b8778, superseded by revision02/ documents; kept unchanged",
+   "status": "superseded-doc"
+  },
+  {
+   "path": "fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "fbx/StraightLamp_ARCH01_C1.fbx",
+   "bytes": 87756,
+   "sha256": "59aaf7db50c8f5d7a26d9487146704997aeba6293899d321f0bddad95f015539",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "models/StraightLamp_ARCH01_C1.blend",
+   "bytes": 149429,
+   "sha256": "548bb3550f2fddfa52e00dcff42fe5ddcf29f460eba3b6d18ff7031b7905cbc5",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "models/StraightLamp_ARCH01_C1.blend1",
+   "bytes": 149643,
+   "sha256": "71e86f0dbaefe997531ae5958adbfdb642c6bd74942557f0279b9285d907ccad",
+   "role": "Blender auto backup made when the second build saved over models/; presumed to be the first-build blend by Blender save behaviour, but byte identity with the first output is NOT provable (no hash was recorded). Used read-only to measure the normal re-set problem.",
+   "status": "existing-backup-unverified"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 169,
+   "sha256": "9ac0a5f1ba70aaad2acce3a384f26a718e705ad8329b8e9e47685115e7ad16a7",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "qa/fbx_raw_arrays_and_header.json",
+   "bytes": 1792,
+   "sha256": "2a96768c15c02d040773de7be6b04bcac7b8286e476855168001c4b912c4cab6",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "qa/verify_blend.json",
+   "bytes": 4921,
+   "sha256": "0a146a75510565ac515332dfef56ec39f7b9e5351c46cc565e78fb4645f53f22",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "qa/verify_fbx.json",
+   "bytes": 5110,
+   "sha256": "8e14b0e1475512b46226b1e1515c8203a92959f066481e452aa3332370f50ec0",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "revision02/README_JA.txt",
+   "bytes": 4756,
+   "sha256": "c5c29f681d89b172348a485a8b85e1ca2424a0955cc3805b2f2d6a1dc460f932",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/REVIEW_STATUS.txt",
+   "bytes": 1284,
+   "sha256": "a478cdfc112f100b669a98ee7e3856fb9dc448ac9a19f8ea2ea7b19eb5d4e0cb",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "required image, byte copy of input Shade_ARCH01.png (blend //../fbx/ target)",
+   "status": "final",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "revision02/fbx/StraightLamp_ARCH01_C1.fbx",
+   "bytes": 87788,
+   "sha256": "9c4904bdcd8c661d014068308f7bb8cf29494d02c2fc60c0d828c341dfd752d1",
+   "role": "FINAL CANDIDATE C1 (revision02)",
+   "status": "final"
+  },
+  {
+   "path": "revision02/models/StraightLamp_ARCH01_C1.blend",
+   "bytes": 149447,
+   "sha256": "36ee6c3556a435ca58a338707082471cb3621916cac875069d69b4df3f4cf950",
+   "role": "FINAL CANDIDATE C1 (revision02)",
+   "status": "final"
+  },
+  {
+   "path": "revision02/previews/straight_C1_eye_oblique.png",
+   "bytes": 346866,
+   "sha256": "c9cc74f3aa9d3850cb6a9b8eac5f5250f7f78d7acb714bf74a5a422f03692aba",
+   "role": "baseline L1 vs C1 model-only render, same conditions, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "69e83781e087cc5dbf53f5a42ccf7451a864a60776d9ab6236e9bb1ba5894cef"
+  },
+  {
+   "path": "revision02/previews/straight_C1_front.png",
+   "bytes": 474582,
+   "sha256": "863393c3a3d0f12f7eb5690e29864ff56563ee6940fed671bd47e545a0843273",
+   "role": "baseline L1 vs C1 model-only render, same conditions, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "1b9a603745f65fc2e2d735f36c45f742f4b7e057dc6f47a9903204f2c0ee1020"
+  },
+  {
+   "path": "revision02/previews/straight_C1_side.png",
+   "bytes": 460309,
+   "sha256": "c9547450ec8fc7cf8a89e971dc2ba846561a86010f1fca9aa6046ea84ce759f3",
+   "role": "baseline L1 vs C1 model-only render, same conditions, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "759fed3e4a046f8bb3f30835099053cc7f45d09cfbddddd3d60b463f11ef0091"
+  },
+  {
+   "path": "revision02/previews/straight_baselineL1_eye_oblique.png",
+   "bytes": 336347,
+   "sha256": "3e8de5d1f24a5953e177bca52757976be6f3a44281127968c3a9a2e27b8b6670",
+   "role": "baseline L1 vs C1 model-only render, same conditions, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "1f4fb222e4d46b7ca436e315779eb9aeda3a93621d08914f1e8b787159637cca"
+  },
+  {
+   "path": "revision02/previews/straight_baselineL1_front.png",
+   "bytes": 468018,
+   "sha256": "ff26256e77dbc95b6711c6015441697c448ae957f9edf2a0bf358b025acfc01c",
+   "role": "baseline L1 vs C1 model-only render, same conditions, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "27942f892e1e2eae106f2b757b6e8d191fa2117fbe9bf5353c8d2db51cee1d61"
+  },
+  {
+   "path": "revision02/previews/straight_baselineL1_side.png",
+   "bytes": 456595,
+   "sha256": "1811046a3ea16fc4344c370634a7f36da2f7916e6182946fef4dd848f0717aa3",
+   "role": "baseline L1 vs C1 model-only render, same conditions, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "01cf670d12927d29832f0baba9ef3b734aaad7f505556230868b6d077d20e5c5"
+  },
+  {
+   "path": "revision02/qa/build_log.json",
+   "bytes": 169,
+   "sha256": "9ac0a5f1ba70aaad2acce3a384f26a718e705ad8329b8e9e47685115e7ad16a7",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/fbx_raw_arrays_and_header.json",
+   "bytes": 2131,
+   "sha256": "e2cd366d3ad644146580b6c2d8c9d53054d98d8525eab5980814cb963dabbb44",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/input_sha_recheck.txt",
+   "bytes": 280,
+   "sha256": "f55047a5baea29bb2f856bd8e8182fb95c765f9c27c5ff45eab64ca9b4184a3a",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/normal_diff_sources.json",
+   "bytes": 1597,
+   "sha256": "2f26afd086c1682f8b25b565c5a19dbd974d9e8c207a3d86da44f852eb4ebd05",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/normal_uv_diff_detail.json",
+   "bytes": 3595,
+   "sha256": "856a353fae216eeefe9be4c86e295a576b5eb9531b753a7e029bd54115dc15af",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/reload_elsewhere_check.json",
+   "bytes": 405,
+   "sha256": "a1f3b058450502a91da3470b6de6df9a9c88f57c874a8f85ac4139367b9bccae",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/render_conditions.json",
+   "bytes": 1451,
+   "sha256": "aedb08bbecc19428f50a3ffb7706cdc4ef1bc94422e3da2109902622dcd37baa",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_blend.json",
+   "bytes": 4921,
+   "sha256": "0a146a75510565ac515332dfef56ec39f7b9e5351c46cc565e78fb4645f53f22",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_fbx_reimport.json",
+   "bytes": 5121,
+   "sha256": "6d3431b39830d57fc0b8092faefe7675ec963a2b9b57605e3f18745a2c99538a",
+   "role": "revision02 verification record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/build_standoff_c1_r2.py",
+   "bytes": 3395,
+   "sha256": "e2165eb578282b1bed9b26f5d65f045f03637c639e4401bdd63a00abb219c0a5",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/fbx_raw_arrays_r2.py",
+   "bytes": 2180,
+   "sha256": "4f39ec4795fd04ee7f0054e4ee5cd9e17811ba46b707d095879356889b16ae03",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/mkmanifest_lamp05.py",
+   "bytes": 2997,
+   "sha256": "bd78ecd306dc4e0f52ecf3d836631d9f5053ab0bedfbf52e432fc11d661429e3",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/mkmanifest_lamp05_r2.py",
+   "bytes": 3840,
+   "sha256": "1c33ccdbc2a62cd99f4f4a79c343647865807c8d4b6bea9b9debf48139192dc4",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/normal_diff_detail_r2.py",
+   "bytes": 2696,
+   "sha256": "42a733ea9e6574e3d327a65caefa59f4399daee6cfb9e694fc75107e44aa0b5d",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/reload_check_r2.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/render_lamp_wall_r2.py",
+   "bytes": 3175,
+   "sha256": "abb8255a38e4cd177bd71c230ec775e478e823da0cfc5a9921875c8479024ac8",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/verify_standoff_c1_r2.py",
+   "bytes": 6176,
+   "sha256": "df1ae5e43ac24d52462c0b486b2df240ad4dd8f37a456ca939d4109a39662ffd",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "tools/build_standoff_c1.py",
+   "bytes": 3281,
+   "sha256": "9b54cb3961312ce55bc09910cb508798b483b18431fe753c26805da3bc655f24",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "tools/fbx_raw_normals.py",
+   "bytes": 1819,
+   "sha256": "6e1b95a509227b6ea6fa7f486fac4f9f5c06e783fcedb0e55ce9dae80d54b323",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  },
+  {
+   "path": "tools/verify_standoff_c1.py",
+   "bytes": 6176,
+   "sha256": "df1ae5e43ac24d52462c0b486b2df240ad4dd8f37a456ca939d4109a39662ffd",
+   "role": "existing output of the SECOND in-place build (no normal re-set). The first-build FBX, blend, qa and build script were overwritten and are LOST (never committed). Not a candidate.",
+   "status": "superseded-existing"
+  }
+ ]
+}
