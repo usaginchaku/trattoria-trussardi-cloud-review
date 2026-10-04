@@ -1,0 +1,36 @@
+{
+ "blend_reload_and_unchanged_reexport": {
+  "raw_fbx_input_vs_unchanged_reexport": 0.0,
+  "reimport_input_vs_unchanged_reexport_per_part": {
+   "plate": 0.0,
+   "arm": 0.0,
+   "collar": 0.0,
+   "shade": 0.0,
+   "diffuser": 0.0
+  }
+ },
+ "blend_base_vs_r2_per_part": {
+  "plate": 0.0,
+  "arm": 0.3642849922180176,
+  "collar": 1.6093254089355469e-06,
+  "shade": 6.668269634246826e-06,
+  "diffuser": 4.4852495193481445e-06
+ },
+ "reimport_base_vs_r2_per_part": {
+  "plate": 0.0,
+  "arm": 0.3642849922180176,
+  "collar": 1.6093254089355469e-06,
+  "shade": 0.0005860850214958191,
+  "diffuser": 4.4852495193481445e-06
+ },
+ "raw_fbx_base_vs_r2_all": 0.3642849922180176,
+ "arm_per_ring": "revision02/qa/arm_normals_per_ring.json (moved rings 17-40 rotated with the ring: max angle vs rotated original 0.45 deg; ring 16 not moved but shares faces with ring 17: 0.026 abs / 0.25 deg vs rotated; rings 0-15 exactly 0)",
+ "interpretation": "plate 0 everywhere. collar/diffuser (translated) <=4.5e-6, shade 6.7e-6 in blend (real small differences, not exact). shade 5.86e-4 only after Blender FBX re-import (importer); unchanged re-export is 0 raw and re-imported. arm tail differences are the intended rotation of the moved rings plus <=0.45 deg.",
+ "blend_baseline_reopened_vs_itself_per_part": {
+  "plate": 0.0,
+  "arm": 0.0,
+  "collar": 0.0,
+  "shade": 0.0,
+  "diffuser": 0.0
+ }
+}

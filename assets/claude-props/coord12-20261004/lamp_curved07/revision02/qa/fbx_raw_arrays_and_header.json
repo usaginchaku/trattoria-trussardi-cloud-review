@@ -1,0 +1,162 @@
+{
+ "header_a": {
+  "version": 7400,
+  "B_typed_props": 0,
+  "props": {
+   "UpAxis": [
+    [
+     1
+    ]
+   ],
+   "FrontAxis": [
+    [
+     2
+    ]
+   ],
+   "UnitScaleFactor": [
+    [
+     100.0
+    ]
+   ],
+   "Lcl Translation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Lcl Rotation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -90.0000161648565,
+     -0.0,
+     0.0
+    ]
+   ],
+   "Lcl Scaling": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "header_b": {
+  "version": 7400,
+  "B_typed_props": 0,
+  "props": {
+   "UpAxis": [
+    [
+     1
+    ]
+   ],
+   "FrontAxis": [
+    [
+     2
+    ]
+   ],
+   "UnitScaleFactor": [
+    [
+     100.0
+    ]
+   ],
+   "Lcl Translation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "Lcl Rotation": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -90.0000161648565,
+     -0.0,
+     0.0
+    ]
+   ],
+   "Lcl Scaling": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "arrays": {
+  "//Objects/Geometry/Vertices": {
+   "len": [
+    4686,
+    4686
+   ],
+   "identical": false,
+   "max_abs_diff": 0.06142745912075043
+  },
+  "//Objects/Geometry/PolygonVertexIndex": {
+   "len": [
+    9312,
+    9312
+   ],
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "//Objects/Geometry/LayerElementNormal/Normals": {
+   "len": [
+    5265,
+    5262
+   ],
+   "identical": false,
+   "max_abs_diff": null
+  },
+  "//Objects/Geometry/LayerElementNormal/NormalsIndex": {
+   "len": [
+    9312,
+    9312
+   ],
+   "identical": false,
+   "max_abs_diff": 1624.0
+  },
+  "//Objects/Geometry/LayerElementUV/UV": {
+   "len": [
+    4610,
+    4610
+   ],
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "//Objects/Geometry/LayerElementUV/UVIndex": {
+   "len": [
+    9312,
+    9312
+   ],
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "//Objects/Geometry/LayerElementMaterial/Materials": {
+   "len": [
+    3104,
+    3104
+   ],
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "//Objects/Geometry/LayerElementNormal/Normals(expanded per polygon-vertex)": {
+   "len": [
+    27936,
+    27936
+   ],
+   "identical": false,
+   "max_abs_diff": 0.3642849922180176
+  }
+ }
+}

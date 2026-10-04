@@ -1,0 +1,18 @@
+{
+ "blend_sha256": "8563e06b831f07611742133a8af077d25efe811016b91364f038835d96530d40",
+ "images": [
+  {
+   "name": "Shade_ARCH01.png",
+   "filepath": "//../fbx/Shade_ARCH01.png",
+   "exists": true,
+   "size": [
+    1024,
+    1024
+   ],
+   "has_data": true,
+   "png_sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "resolved_inside_copy": true
+  }
+ ],
+ "all_resolved": true
+}

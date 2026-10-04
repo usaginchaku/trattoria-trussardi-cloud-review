@@ -1,0 +1,507 @@
+{
+ "work": "COORD12-LAMP07 Curved L1 F1 (plate vs cup height) candidate (Claude cloud)",
+ "branch": "claude/coord09-model-review-20261003",
+ "created": "2026-10-04 JST",
+ "final_candidate": [
+  "revision02/models/CurvedLamp_ARCH01_F1C1r2.blend",
+  "revision02/fbx/CurvedLamp_ARCH01_F1C1r2.fbx",
+  "revision02/fbx/Shade_ARCH01.png"
+ ],
+ "inputs_read_only": {
+  "base_dir": "assets/claude-props/coord09-20261003/furniture/lamp_shade/L1/",
+  "models/CurvedLamp_ARCH01.blend": "e7119e11beb4adf6df7ba7d7881a593d5dab3d48edb7e79091f8af0f47f2ad01",
+  "fbx/CurvedLamp_ARCH01.fbx": "12dc1ad187b8930a22f0b48606bc7264c7e718e38fa41e5e4fb8f52c5c1b324a",
+  "fbx/Shade_ARCH01.png": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+  "checked": "at start and at delivery"
+ },
+ "reference": "DU_ep10-4.png (private, viewed only, not stored)",
+ "tooling": "pip bpy 4.3.0. Blender 5.2.2 / native UV2 / Unity not run.",
+ "png_rule": "PNG = width, height, mode, decoded RGBA sha256, file sha256; others = file sha256",
+ "files": [
+  {
+   "path": "fbx/CurvedLamp_ARCH01_F1C1.fbx",
+   "bytes": 109900,
+   "sha256": "72499970a79fe837f37180ac4633fdf099c541f889eece0e7da55935e07d9fd6",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "models/CurvedLamp_ARCH01_F1C1.blend",
+   "bytes": 170513,
+   "sha256": "8563e06b831f07611742133a8af077d25efe811016b91364f038835d96530d40",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "previews/curved_F1C1_eye_oblique.png",
+   "bytes": 372687,
+   "sha256": "07f7ca36e5c2e5e20c5ebc333ea7b119bef7509338536ad5a0187e388177f197",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "0410f184ae15cdc11854c15ae68f6d9c9feb5181776f62df99789ccfc582dec8"
+  },
+  {
+   "path": "previews/curved_F1C1_front.png",
+   "bytes": 471533,
+   "sha256": "f8f38e800d6f5d7f1a39be9ad27b0359be6ecd70d7060314bd861f8ab7882702",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "417dd05c20c5275b4376d6db6bacdc3a5e0d69e7537bfa0d3089f0607e5d3f1f"
+  },
+  {
+   "path": "previews/curved_F1C1_ref_like_jamb.png",
+   "bytes": 473972,
+   "sha256": "66b9ffaa04a18cea5a0f7a5d660103d9bf6d3a4ddbaa0f44d17f4ef45eb3c8a7",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "a605696641bbde2614fe8c5b9d3a789e6fddf6c4f9a19f274e4fdecd4d2f9e53"
+  },
+  {
+   "path": "previews/curved_F1C1_side.png",
+   "bytes": 466200,
+   "sha256": "71499a9a43fbf821ea4b38b1d30042cb35596b22bc19659b5dfca3f0d36a9ee2",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "dbebf75da0861e4cfb219ae7ec006463b315e25df9738d36159b68e33fbff16e"
+  },
+  {
+   "path": "previews/curved_baselineL1_eye_oblique.png",
+   "bytes": 374498,
+   "sha256": "51b433789ed9df4f3434d3502afe5c0b7bdb5eb11f47ca572ce7844cd1ca27b6",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "bfe7369bec8e8d7247f4ab58bdc3d95b9f69617201522da9cca37d2b55523cb9"
+  },
+  {
+   "path": "previews/curved_baselineL1_front.png",
+   "bytes": 474072,
+   "sha256": "c97f2310bf00389970c63e28aff97c7d7a886af795ff21498656654693f2f71e",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "25edbff9e146654b5151097c39cfe1607905b24665d4f046fd9d3942df6e35b2"
+  },
+  {
+   "path": "previews/curved_baselineL1_ref_like_jamb.png",
+   "bytes": 474247,
+   "sha256": "65ed1ceb74abc369a99345a78b036bbf896a691e43e32cbda4eb45b810d02a22",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "e5d34a6df0da4c058f06d182697e74d1c810703dee18a85ade537fcf1a9b928a"
+  },
+  {
+   "path": "previews/curved_baselineL1_side.png",
+   "bytes": 468225,
+   "sha256": "e394acd66dc9aee72de59b25a379cb5010a33dbca1b84eb4bd74e172a644f54d",
+   "role": "first build C1 (S=26): S-shaped step on the rising arm branch -> not a candidate; kept with creation SHA",
+   "status": "superseded-kept",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "ba08eb903de0febad26bf0491b6f83154759f08fc87fe9e37210c2bab0d7373c"
+  },
+  {
+   "path": "qa/arm_normals_per_ring.json",
+   "bytes": 10254,
+   "sha256": "8cbee441b6b83151dbe89c931eac7c5cd1ca54caee71bdf055e967d20ca43e6a",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/arm_tail_plan.json",
+   "bytes": 3874,
+   "sha256": "e837adfd7b601c93179e38511dc0dfb8697f03118465c17d31f27e855d5fc2b3",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/build_log.json",
+   "bytes": 533,
+   "sha256": "5a786f84fd141d6d7808c4e6ee98855a4f7e2f465e01ae182939b932cfef2b63",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/fbx_raw_arrays_and_header.json",
+   "bytes": 2130,
+   "sha256": "0caa431eb5e2d884ec99cf89f7751a87690151f185014fb0a6bda46203300cd1",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/input_sha_at_start.txt",
+   "bytes": 300,
+   "sha256": "3d90d77fd1a30c1681195748567ba0e97c14ba9efcd7b4f00f93a0c76f350e4d",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/output_sha_at_creation.txt",
+   "bytes": 286,
+   "sha256": "d9d4b655aee91a2c28a46238ff3059702f2d0cefc3884720ad11254b95a14109",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/reload_elsewhere_check.json",
+   "bytes": 405,
+   "sha256": "14ce924d9f387423f03e474059795579142578322604b3665c1d68045763d387",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/render_conditions.json",
+   "bytes": 1847,
+   "sha256": "a71bb10a8b6fb74c3e91adfc8aef9345cdb4435d1fcc6825b02393a2600a4c40",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/verify_blend.json",
+   "bytes": 5405,
+   "sha256": "154f090646f1010fa24bae69f00cd18a63669a9a6b89e88b14dcfe6a5edc6ff9",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "qa/verify_fbx_reimport.json",
+   "bytes": 5591,
+   "sha256": "b54d85f5bd8b4435e227da69f08b8c793fc2bb9acc0df085621e6741a22ee28d",
+   "role": "first build C1 record (incl. input SHA at start)",
+   "status": "superseded-kept"
+  },
+  {
+   "path": "revision02/README_JA.txt",
+   "bytes": 6890,
+   "sha256": "b0fb324a7f945cf9d3cedaf55c874278f4b5a0b2aa206f32e6e41064dd34991a",
+   "role": "revision02 document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/REVIEW_STATUS.txt",
+   "bytes": 1062,
+   "sha256": "6028d59e3fa145ff56dcaaf95b62c496ab08643fdd9b9b5dc1902705778e23b6",
+   "role": "revision02 document",
+   "status": "final"
+  },
+  {
+   "path": "revision02/fbx/CurvedLamp_ARCH01_F1C1r2.fbx",
+   "bytes": 109964,
+   "sha256": "8779f6e47128422636cd599591f4dada267c117d49a6cf394c032dc3c8267f6f",
+   "role": "FINAL CANDIDATE F1C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/fbx/Shade_ARCH01.png",
+   "bytes": 6826,
+   "sha256": "ea737420dc224da85986e9f3c3222c75e6a7ed0f9a3dd0e4ec42327f99a0a8e7",
+   "role": "required image, byte copy of input",
+   "status": "final",
+   "png_width": 1024,
+   "png_height": 1024,
+   "png_mode": "RGB",
+   "rgba_sha256": "6dacb78ca7522260b0031ae8cdb8ceaf4949ff5f3fdf31df314399d7f376e8ff"
+  },
+  {
+   "path": "revision02/models/CurvedLamp_ARCH01_F1C1r2.blend",
+   "bytes": 170469,
+   "sha256": "04e3ed9780d887f7be68b9ae3802bd896f51139f8e209a99cf98c83e0287913b",
+   "role": "FINAL CANDIDATE F1C1r2",
+   "status": "final"
+  },
+  {
+   "path": "revision02/previews/curved_F1C1r2_eye_oblique.png",
+   "bytes": 373384,
+   "sha256": "cee638ce3df2dee5aeb6d61f9214a0ce3ea54402875f1b0f26da45ecdbb7bf07",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "8e2f08914f846f479cdf196eef4987db3693de21dfa3eecad8ff9e9044753489"
+  },
+  {
+   "path": "revision02/previews/curved_F1C1r2_front.png",
+   "bytes": 472211,
+   "sha256": "c27be998fc3d0d862aacb5a4969cd9ae85ff8eb143482ad985c0c39c73cc00a9",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "8130ee4d6933937dc4a79dd8ac5f90131ad9fc1961138c65609801b6a0beebc6"
+  },
+  {
+   "path": "revision02/previews/curved_F1C1r2_ref_like_jamb.png",
+   "bytes": 472994,
+   "sha256": "6f890dff63c2432c31243047132491250673495b0a325c4bdd1024091ecfc7eb",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "9b84b2a548331cdf2314289ccf158e5f3daeeb7e77f8bf6df9e51cb38094e715"
+  },
+  {
+   "path": "revision02/previews/curved_F1C1r2_side.png",
+   "bytes": 465349,
+   "sha256": "6a537a25e5e00ea2e4747d9e0bd02c2a1dac497884484a1aca50a9bc3bb4a1e7",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "d9ce1e53614cbbbd8d9e9292df7a5e22763b9285b99a496cf233b02b1ffa8797"
+  },
+  {
+   "path": "revision02/previews/curved_baselineL1_eye_oblique.png",
+   "bytes": 374498,
+   "sha256": "d78e60453eb791921a0ef7e0c6c51802dd76d40737c643fe2a6cf5e6d116556d",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "bfe7369bec8e8d7247f4ab58bdc3d95b9f69617201522da9cca37d2b55523cb9"
+  },
+  {
+   "path": "revision02/previews/curved_baselineL1_front.png",
+   "bytes": 474072,
+   "sha256": "bb83bf15128ebcc35f713540b2e1cbefff19e3e9cbf24beed2cf0be610824ce8",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "25edbff9e146654b5151097c39cfe1607905b24665d4f046fd9d3942df6e35b2"
+  },
+  {
+   "path": "revision02/previews/curved_baselineL1_ref_like_jamb.png",
+   "bytes": 474247,
+   "sha256": "c745a222124998a8d6ad39419eb070c40b51c3a5a4db349be1f361293e90ab62",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "e5d34a6df0da4c058f06d182697e74d1c810703dee18a85ade537fcf1a9b928a"
+  },
+  {
+   "path": "revision02/previews/curved_baselineL1_side.png",
+   "bytes": 468225,
+   "sha256": "a07e6e377e555793269fb3859140821a751319b8f09cc749f8d93e4651668e86",
+   "role": "model-only render, fixed camera/light/render, Y=0 wall slab",
+   "status": "final",
+   "png_width": 700,
+   "png_height": 700,
+   "png_mode": "RGBA",
+   "rgba_sha256": "ba08eb903de0febad26bf0491b6f83154759f08fc87fe9e37210c2bab0d7373c"
+  },
+  {
+   "path": "revision02/qa/arm_normals_per_ring.json",
+   "bytes": 10950,
+   "sha256": "420413794630038ef81eb5d69693ebd9268db419baacc16696f68026c6b1b35d",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/arm_tail_plan_r2.json",
+   "bytes": 6219,
+   "sha256": "8e2afd214149d0ed253c2541ad9946e76a6907f9309adae1aa45a4db649ada10",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/build_log.json",
+   "bytes": 533,
+   "sha256": "8768937517e818734db4df0c4d1e9b861b649d4f6af0ef48db8ef1efbd1c6384",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/fbx_raw_arrays_and_header.json",
+   "bytes": 2128,
+   "sha256": "08ee6eec3363fbae83bb98cc3a4486b8db72caf5169fd25c6f419867f95012b0",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/input_sha_at_delivery.txt",
+   "bytes": 276,
+   "sha256": "f9a7b7e24572e395eb0ff5f9faacf638eff779781682520854ff5907efb1bd6e",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/normal_diff_sources.json",
+   "bytes": 1371,
+   "sha256": "1320fc91c7acd50efc8505215a00318f410a36f20e0896b74986e974d598e194",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/output_sha_at_creation.txt",
+   "bytes": 290,
+   "sha256": "5c230f7e96d22f55a06eb9c9869ae48ef5b8947cec2440b8f08e8d6459099ef4",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/reload_elsewhere_check.json",
+   "bytes": 405,
+   "sha256": "c1f05d9d858ded04e948d0a2febe1e1bac67878c3f64d351a142cca6a09c149f",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/render_conditions.json",
+   "bytes": 1847,
+   "sha256": "a71bb10a8b6fb74c3e91adfc8aef9345cdb4435d1fcc6825b02393a2600a4c40",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_blend.json",
+   "bytes": 5633,
+   "sha256": "7299c01bf576f72f3c9f7dfeb89b431a5e271fb733bcf959892e6319ddf4444a",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/qa/verify_fbx_reimport.json",
+   "bytes": 5830,
+   "sha256": "2892026e3fa3dca98a4fad8fcda3a2d5cfe4af8883f65cbce7802dd85b6fc8bb",
+   "role": "revision02 record",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/arm_tail_plan_r2.py",
+   "bytes": 2264,
+   "sha256": "7a2fc873e9c423a244ebcdf71d751ce37804e4983975917501721fd7a66ae217",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/mkmanifest_lamp07.py",
+   "bytes": 2840,
+   "sha256": "b79f87eae46e34f9b755bcd5eb71a820f0f13a915e92ce92fa8a69716117ac5e",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_arm_normal_rings.py",
+   "bytes": 2259,
+   "sha256": "8b7bf9dc3d16b5313293de3ba422c5c6fe9defebaf4898c4f7b513304aaa5f8b",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_build_curved_f1_c1.py",
+   "bytes": 3932,
+   "sha256": "c3ef41ad1ccf35af799af9237349f0a5a319bf2ca7834fb30f2bddde988d3de3",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_fbx_raw_arrays.py",
+   "bytes": 2180,
+   "sha256": "4f39ec4795fd04ee7f0054e4ee5cd9e17811ba46b707d095879356889b16ae03",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_render_curved_fixed.py",
+   "bytes": 3634,
+   "sha256": "24d266c11c7a7759c7380fb33562e117b861bf213d3e2d3958d9edd0ec2ae098",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "revision02/tools/r2_verify_curved_f1_c1.py",
+   "bytes": 7025,
+   "sha256": "d4dabc2997ef9a0d92d03910e06fad61e13501f4c89cc58e68fa42bee4bfee79",
+   "role": "revision02 self-written code",
+   "status": "final"
+  },
+  {
+   "path": "tools/arm_normal_rings.py",
+   "bytes": 2259,
+   "sha256": "8b7bf9dc3d16b5313293de3ba422c5c6fe9defebaf4898c4f7b513304aaa5f8b",
+   "role": "self-written code used for C1 (and copied to revision02)",
+   "status": "kept"
+  },
+  {
+   "path": "tools/arm_tail_plan.py",
+   "bytes": 1922,
+   "sha256": "4de30c483989ea61c6ab32378d5125e5bdf2b479329da11c2a1d4ceffff51147",
+   "role": "self-written code used for C1 (and copied to revision02)",
+   "status": "kept"
+  },
+  {
+   "path": "tools/build_curved_f1_c1.py",
+   "bytes": 3932,
+   "sha256": "c3ef41ad1ccf35af799af9237349f0a5a319bf2ca7834fb30f2bddde988d3de3",
+   "role": "self-written code used for C1 (and copied to revision02)",
+   "status": "kept"
+  },
+  {
+   "path": "tools/reload_check.py",
+   "bytes": 868,
+   "sha256": "3379942d3d6436b0e61e4535f5244a15b8eee9da74b7c2ab0bf4caf825b22440",
+   "role": "self-written code used for C1 (and copied to revision02)",
+   "status": "kept"
+  },
+  {
+   "path": "tools/render_curved_fixed.py",
+   "bytes": 3634,
+   "sha256": "24d266c11c7a7759c7380fb33562e117b861bf213d3e2d3958d9edd0ec2ae098",
+   "role": "self-written code used for C1 (and copied to revision02)",
+   "status": "kept"
+  },
+  {
+   "path": "tools/verify_curved_f1_c1.py",
+   "bytes": 7025,
+   "sha256": "d4dabc2997ef9a0d92d03910e06fad61e13501f4c89cc58e68fa42bee4bfee79",
+   "role": "self-written code used for C1 (and copied to revision02)",
+   "status": "kept"
+  }
+ ]
+}

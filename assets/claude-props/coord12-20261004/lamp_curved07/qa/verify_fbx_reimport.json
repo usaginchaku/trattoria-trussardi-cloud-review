@@ -1,0 +1,362 @@
+{
+ "mode": "fbx",
+ "shell_ranges_match_parts": true,
+ "topology": {
+  "lv": true,
+  "ls": true,
+  "lt": true,
+  "mi": true,
+  "ed": true
+ },
+ "vertex_count": [
+  1562,
+  1562
+ ],
+ "tris": [
+  3104,
+  3104
+ ],
+ "parts": {
+  "plate": {
+   "verts": 96,
+   "delta_min": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "delta_max": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "y_changed_max": 0.0,
+   "uv_max_abs": 0.0,
+   "normal_max_abs": 0.0,
+   "material_slots": [
+    0
+   ]
+  },
+  "arm": {
+   "verts": 492,
+   "delta_min": [
+    0.0,
+    -0.0044125,
+    -0.0616517
+   ],
+   "delta_max": [
+    0.0,
+    0.0044125,
+    0.0002789
+   ],
+   "y_changed_max": 0.004412487149238586,
+   "uv_max_abs": 0.0,
+   "normal_max_abs": 0.36791786551475525,
+   "material_slots": [
+    0
+   ]
+  },
+  "collar": {
+   "verts": 122,
+   "delta_min": [
+    0.0,
+    0.0,
+    -0.0613143
+   ],
+   "delta_max": [
+    0.0,
+    0.0,
+    -0.0613143
+   ],
+   "y_changed_max": 0.0,
+   "uv_max_abs": 0.0,
+   "normal_max_abs": 1.6093254089355469e-06,
+   "material_slots": [
+    0
+   ]
+  },
+  "shade": {
+   "verts": 706,
+   "delta_min": [
+    0.0,
+    0.0,
+    -0.0613143
+   ],
+   "delta_max": [
+    0.0,
+    0.0,
+    -0.0613143
+   ],
+   "y_changed_max": 0.0,
+   "uv_max_abs": 0.0,
+   "normal_max_abs": 0.0005860850214958191,
+   "material_slots": [
+    1
+   ]
+  },
+  "diffuser": {
+   "verts": 146,
+   "delta_min": [
+    0.0,
+    0.0,
+    -0.0613143
+   ],
+   "delta_max": [
+    0.0,
+    0.0,
+    -0.0613143
+   ],
+   "y_changed_max": 0.0,
+   "uv_max_abs": 0.0,
+   "normal_max_abs": 4.4852495193481445e-06,
+   "material_slots": [
+    1
+   ]
+  }
+ },
+ "arm_rings_unchanged": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26
+ ],
+ "arm_rings_changed": [
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40
+ ],
+ "arm_ring_radius_after": [
+  0.012000006781590952,
+  0.01200000234313958,
+  0.012000003618109302,
+  0.012000001679004745,
+  0.0120000006148276,
+  0.012000010347556933,
+  0.012000004857331943,
+  0.01200000566555011,
+  0.012000003598956026,
+  0.012000004569146563,
+  0.012000006832809211,
+  0.0120000051586037,
+  0.012000023877456842,
+  0.012000019460715498
+ ],
+ "arm_normals_changed_rings_max_abs": 0.36791786551475525,
+ "arm_normals_kept_rings_max_abs": 0.025448381900787354,
+ "f1_before": {
+  "Hs": 0.21142858266830444,
+  "collar_bottom_z": 0.1899999976158142,
+  "plate_top_rel_collar_bottom/Hs": -0.047297249676715294,
+  "plate_bottom_rel_collar_bottom/Hs": -0.898648589599127,
+  "arm_exit_rel_collar_bottom/Hs": -0.3547296897284408,
+  "arm_bottom_outer_rel_collar_bottom/Hs": -0.6845738806211389,
+  "arm_end_center": [
+   0.0,
+   -0.26499998569488525,
+   0.23000000417232513
+  ],
+  "collar_center_y": -0.26499998569488525,
+  "arm_end_rel_collar": [
+   0.0,
+   0.040000006556510925
+  ],
+  "max_y_all": 0.0,
+  "max_y_non_plate": -0.01932125724852085,
+  "z_min": 0.0,
+  "bbox": [
+   [
+    -0.11100000143051147,
+    -0.37599998712539673,
+    0.0
+   ],
+   [
+    0.11100000143051147,
+    0.0,
+    0.43642857670783997
+   ]
+  ]
+ },
+ "f1_after": {
+  "Hs": 0.21142858266830444,
+  "collar_bottom_z": 0.12868571281433105,
+  "plate_top_rel_collar_bottom/Hs": 0.24270273058931552,
+  "plate_bottom_rel_collar_bottom/Hs": -0.6086486093330962,
+  "arm_exit_rel_collar_bottom/Hs": -0.06472970946241004,
+  "arm_bottom_outer_rel_collar_bottom/Hs": -0.3945739003551081,
+  "arm_end_center": [
+   0.0,
+   -0.26499998569488525,
+   0.16868571564555168
+  ],
+  "collar_center_y": -0.26499998569488525,
+  "arm_end_rel_collar": [
+   0.0,
+   0.04000000283122063
+  ],
+  "max_y_all": 0.0,
+  "max_y_non_plate": -0.01932125724852085,
+  "z_min": 0.0,
+  "bbox": [
+   [
+    -0.11100000143051147,
+    -0.37599998712539673,
+    0.0
+   ],
+   [
+    0.11100000143051147,
+    0.0,
+    0.3751142919063568
+   ]
+  ]
+ },
+ "clearance_before": {
+  "arm_rings_0_37_min_distance_to_shade_m": 0.024753138422966003,
+  "cup_group_min_distance_to_plate_m": 0.16919967532157898
+ },
+ "clearance_after": {
+  "arm_rings_0_37_min_distance_to_shade_m": 0.015313580632209778,
+  "cup_group_min_distance_to_plate_m": 0.14021746814250946
+ },
+ "other": {
+  "object": [
+   [
+    "CurvedLamp",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -2.821299744937278e-07,
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   [
+    "CurvedLamp",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -2.821299744937278e-07,
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  ],
+  "materials": [
+   [
+    "Metal_ARCH01",
+    "Shade_ARCH01"
+   ],
+   [
+    "Metal_ARCH01",
+    "Shade_ARCH01"
+   ]
+  ],
+  "uv_layers": [
+   [
+    "ArchitectureUV"
+   ],
+   [
+    "ArchitectureUV"
+   ]
+  ],
+  "custom_normals": [
+   true,
+   true
+  ],
+  "units": [
+   [
+    "METRIC",
+    1.0
+   ],
+   [
+    "METRIC",
+    1.0
+   ]
+  ],
+  "uv_all_max_abs": 0.0,
+  "uv_negative_count": [
+   9729,
+   9729
+  ],
+  "quality": [
+   {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "zero_len_normals": 0,
+    "tris": 3104
+   },
+   {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "zero_len_normals": 0,
+    "tris": 3104
+   }
+  ],
+  "images": [
+   [
+    [
+     "Shade_ARCH01.png",
+     "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord09-20261003/furniture/lamp_shade/L1/fbx/Shade_ARCH01.png",
+     true
+    ]
+   ],
+   [
+    [
+     "Shade_ARCH01.png",
+     "/home/user/trattoria-trussardi-cloud-review/assets/claude-props/coord12-20261004/lamp_curved07/fbx/Shade_ARCH01.png",
+     true
+    ]
+   ]
+  ]
+ }
+}
