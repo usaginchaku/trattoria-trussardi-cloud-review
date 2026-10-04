@@ -1,0 +1,189 @@
+{
+ "note": "absolute differences of corner (loop) normals and UV0 between saved blends; plate/arm/collar/shade/diffuser by vertex index range",
+ "reload_noise_baseline_vs_baseline": {
+  "plate": {
+   "loops": 564,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "arm": {
+   "loops": 564,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "collar": {
+   "loops": 720,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "shade": {
+   "loops": 4224,
+   "material_slot": [
+    1
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "diffuser": {
+   "loops": 864,
+   "material_slot": [
+    1
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  }
+ },
+ "baseline_vs_revision02": {
+  "plate": {
+   "loops": 564,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "arm": {
+   "loops": 564,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 1.150369644165039e-05,
+   "max_component": "x",
+   "loops_gt_1e-6": 168,
+   "loops_gt_1e-5": 6,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "collar": {
+   "loops": 720,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 1.9073486328125e-06,
+   "max_component": "x",
+   "loops_gt_1e-6": 57,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "shade": {
+   "loops": 4224,
+   "material_slot": [
+    1
+   ],
+   "normal_max_abs": 5.62518835067749e-06,
+   "max_component": "x",
+   "loops_gt_1e-6": 473,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "diffuser": {
+   "loops": 864,
+   "material_slot": [
+    1
+   ],
+   "normal_max_abs": 2.384185791015625e-06,
+   "max_component": "z",
+   "loops_gt_1e-6": 134,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  }
+ },
+ "baseline_vs_first_build_with_normal_reset(.blend1)": {
+  "plate": {
+   "loops": 564,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 0.0,
+   "max_component": "x",
+   "loops_gt_1e-6": 0,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "arm": {
+   "loops": 564,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 1.150369644165039e-05,
+   "max_component": "x",
+   "loops_gt_1e-6": 168,
+   "loops_gt_1e-5": 6,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "collar": {
+   "loops": 720,
+   "material_slot": [
+    0
+   ],
+   "normal_max_abs": 1.9073486328125e-06,
+   "max_component": "x",
+   "loops_gt_1e-6": 57,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  },
+  "shade": {
+   "loops": 4224,
+   "material_slot": [
+    1
+   ],
+   "normal_max_abs": 0.0004890710115432739,
+   "max_component": "z",
+   "loops_gt_1e-6": 950,
+   "loops_gt_1e-5": 490,
+   "loops_gt_1e-4": 152,
+   "uv_max_abs": 0.0
+  },
+  "diffuser": {
+   "loops": 864,
+   "material_slot": [
+    1
+   ],
+   "normal_max_abs": 2.384185791015625e-06,
+   "max_component": "z",
+   "loops_gt_1e-6": 134,
+   "loops_gt_1e-5": 0,
+   "loops_gt_1e-4": 0,
+   "uv_max_abs": 0.0
+  }
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "mode": "blend",
+ "topology": {
+  "lv_identical": true,
+  "ls_identical": true,
+  "lt_identical": true,
+  "mi_identical": true,
+  "ed_identical": true,
+  "vertex_count": [
+   1166,
+   1166
+  ],
+  "tris": [
+   2312,
+   2312
+  ]
+ },
+ "per_shell": {
+  "plate": {
+   "verts": 96,
+   "same_vertex_indices": true,
+   "delta_min": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "delta_max": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "y_max_before": 0.0,
+   "y_max_after": 0.0,
+   "y_min_before": -0.02800000086426735,
+   "y_min_after": -0.02800000086426735,
+   "verts_y_gt_0_before": 0,
+   "verts_y_gt_0_after": 0,
+   "uv_max_diff": 0.0,
+   "loop_normal_max_diff": 0.0
+  },
+  "arm": {
+   "verts": 96,
+   "same_vertex_indices": true,
+   "delta_min": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "delta_max": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "y_max_before": -0.014999999664723873,
+   "y_max_after": -0.014999999664723873,
+   "y_min_before": -0.06499999761581421,
+   "y_min_after": -0.11499999463558197,
+   "verts_y_gt_0_before": 0,
+   "verts_y_gt_0_after": 0,
+   "uv_max_diff": 0.0,
+   "loop_normal_max_diff": 1.150369644165039e-05
+  },
+  "collar": {
+   "verts": 122,
+   "same_vertex_indices": true,
+   "delta_min": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "delta_max": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "y_max_before": -0.014000002294778824,
+   "y_max_after": -0.06400000303983688,
+   "y_min_before": -0.12000000476837158,
+   "y_min_after": -0.17000000178813934,
+   "verts_y_gt_0_before": 0,
+   "verts_y_gt_0_after": 0,
+   "uv_max_diff": 0.0,
+   "loop_normal_max_diff": 1.9073486328125e-06
+  },
+  "shade": {
+   "verts": 706,
+   "same_vertex_indices": true,
+   "delta_min": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "delta_max": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "y_max_before": 0.04399999976158142,
+   "y_max_after": -0.006000000983476639,
+   "y_min_before": -0.17800000309944153,
+   "y_min_after": -0.2280000001192093,
+   "verts_y_gt_0_before": 151,
+   "verts_y_gt_0_after": 0,
+   "uv_max_diff": 0.0,
+   "loop_normal_max_diff": 5.62518835067749e-06
+  },
+  "diffuser": {
+   "verts": 146,
+   "same_vertex_indices": true,
+   "delta_min": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "delta_max": [
+    0.0,
+    -0.05000000074505806,
+    0.0
+   ],
+   "y_max_before": 0.010999999940395355,
+   "y_max_after": -0.039000000804662704,
+   "y_min_before": -0.14500001072883606,
+   "y_min_after": -0.19500000774860382,
+   "verts_y_gt_0_before": 23,
+   "verts_y_gt_0_after": 0,
+   "uv_max_diff": 0.0,
+   "loop_normal_max_diff": 2.384185791015625e-06
+  }
+ },
+ "checks": {
+  "plate_back_y_max": 0.0,
+  "non_plate_max_y_after": -0.006000000983476639,
+  "arm_plate_overlap_depth_m": 0.013000001199543476,
+  "arm_back_y": -0.014999999664723873,
+  "plate_front_y": -0.02800000086426735,
+  "arm_front_y": -0.11499999463558197,
+  "collar_y_range": [
+   -0.17000000178813934,
+   -0.06400000303983688
+  ],
+  "collar_center_y": -0.11699999868869781,
+  "arm_z_range": [
+   0.03500000014901161,
+   0.20499999821186066
+  ],
+  "collar_z_range": [
+   0.14499999582767487,
+   0.1899999976158142
+  ],
+  "shade_back_y": -0.006000000983476639,
+  "shade_min_z_where_y_gt_plate_front": 0.23800000548362732,
+  "plate_top_z": 0.18000000715255737,
+  "bbox_before": [
+   [
+    -0.11100000143051147,
+    -0.17800000309944153,
+    0.0
+   ],
+   [
+    0.11100000143051147,
+    0.04399999976158142,
+    0.3914285898208618
+   ]
+  ],
+  "bbox_after": [
+   [
+    -0.11100000143051147,
+    -0.2280000001192093,
+    0.0
+   ],
+   [
+    0.11100000143051147,
+    0.0,
+    0.3914285898208618
+   ]
+  ],
+  "ground_z_min": [
+   0.0,
+   0.0
+  ],
+  "object": {
+   "before": [
+    "StraightLamp",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -1.6292068494294654e-07,
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   "after": [
+    "StraightLamp",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -1.6292068494294654e-07,
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ]
+  },
+  "materials": [
+   [
+    "Metal_ARCH01",
+    "Shade_ARCH01"
+   ],
+   [
+    "Metal_ARCH01",
+    "Shade_ARCH01"
+   ]
+  ],
+  "uv_layers": [
+   [
+    "ArchitectureUV"
+   ],
+   [
+    "ArchitectureUV"
+   ]
+  ],
+  "custom_normals": [
+   true,
+   true
+  ],
+  "units": [
+   [
+    "METRIC",
+    1.0
+   ],
+   [
+    "METRIC",
+    1.0
+   ]
+  ],
+  "uv_all_loops_max_diff": 0.0,
+  "uv_negative_coords_count": [
+   6958,
+   6958
+  ],
+  "loop_normals_all_max_diff": 1.150369644165039e-05,
+  "mesh_quality": {
+   "nonmanifold_edges": [
+    0,
+    0
+   ],
+   "boundary_edges": [
+    0,
+    0
+   ],
+   "zero_area_faces": [
+    0,
+    0
+   ],
+   "zero_len_normals": [
+    0,
+    0
+   ]
+  },
+  "images": [
+   [
+    [
+     "Shade_ARCH01.png",
+     "//../fbx/Shade_ARCH01.png",
+     true
+    ]
+   ],
+   [
+    [
+     "Shade_ARCH01.png",
+     "//../fbx/Shade_ARCH01.png",
+     true
+    ]
+   ]
+  ]
+ }
+}

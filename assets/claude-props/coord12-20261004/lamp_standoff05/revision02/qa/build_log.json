@@ -1,0 +1,11 @@
+{
+ "DY_m": -0.05,
+ "moved_shells": [
+  "collar",
+  "shade",
+  "diffuser"
+ ],
+ "arm_front_vertices_moved": 48,
+ "arm_back_vertices_kept": 48,
+ "plate_vertices_kept": 96
+}
