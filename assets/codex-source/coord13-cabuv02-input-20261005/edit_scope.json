@@ -1,0 +1,5563 @@
+{
+  "schema": "CABUV02_UV2_ONLY_EDIT_SCOPE_V1",
+  "input": "native_mesh.json",
+  "sourceSha256": "61209d3eaf109bd835ebb104e21e9da704005dd887cf28513918e14ef598d46e",
+  "editableChannel": "uv2",
+  "editableVertexIds": [
+    9039,
+    9040,
+    9041,
+    9042,
+    9043,
+    9044,
+    9045,
+    9046,
+    9047,
+    9048,
+    9049,
+    9050,
+    9051,
+    9052,
+    9053,
+    9054,
+    9055,
+    9056,
+    9057,
+    9058,
+    9059,
+    9060,
+    9061,
+    9062,
+    9063,
+    9064,
+    9065,
+    9066,
+    9067,
+    9068,
+    9069,
+    9070,
+    9071,
+    9072,
+    9073,
+    9074,
+    9075,
+    9076,
+    9077,
+    9078,
+    9079,
+    9080,
+    9081,
+    9082,
+    9083,
+    9084,
+    9085,
+    9086,
+    9087,
+    9088,
+    9089,
+    9090,
+    9091,
+    9092,
+    9093,
+    9094,
+    9095,
+    9096,
+    9097,
+    9098,
+    9099,
+    9100,
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108,
+    9109,
+    9110,
+    9111,
+    9112,
+    9113,
+    9114,
+    9115,
+    9116,
+    9117,
+    9118,
+    9119,
+    9120,
+    9121,
+    9122,
+    9123,
+    9124,
+    9125,
+    9126,
+    9127,
+    9128,
+    9129,
+    9130,
+    9131,
+    9132,
+    9133,
+    9134,
+    9135,
+    9136,
+    9137,
+    9138,
+    9139,
+    9140,
+    9141,
+    9142,
+    9143,
+    9144,
+    9145,
+    9146,
+    9147,
+    9148,
+    9149,
+    9150,
+    9151,
+    9152,
+    9153,
+    9154,
+    9155,
+    9156,
+    9157,
+    9158,
+    9159,
+    9160,
+    9161,
+    9162,
+    9163,
+    9164,
+    9165,
+    9166,
+    9167,
+    9168,
+    9169,
+    9170,
+    9171,
+    9172,
+    9173,
+    9174,
+    9175,
+    9176,
+    9177,
+    9178,
+    9179,
+    9180,
+    9181,
+    9182,
+    9183,
+    9184,
+    9185,
+    9186,
+    9187,
+    9188,
+    9189,
+    9190,
+    9191,
+    9192,
+    9193,
+    9194,
+    9195,
+    9196,
+    9197,
+    9198,
+    9199,
+    9200,
+    9201,
+    9202,
+    9203,
+    9204,
+    9205,
+    9206,
+    9207,
+    9208,
+    9209,
+    9210,
+    9211,
+    9212,
+    9213,
+    9214,
+    9215,
+    9216,
+    9217,
+    9218,
+    9219,
+    9220,
+    9221,
+    9222,
+    9223,
+    9224,
+    9225,
+    9226,
+    9227,
+    9228,
+    9229,
+    9230,
+    9231,
+    9232,
+    9233,
+    9234,
+    9235,
+    9236,
+    9237,
+    9238,
+    9239,
+    9240,
+    9241,
+    9242,
+    9243,
+    9244,
+    9245,
+    9246,
+    9247,
+    9248,
+    9249,
+    9250,
+    9251,
+    9252,
+    9253,
+    9254,
+    9255,
+    9256,
+    9257,
+    9258,
+    9259,
+    9260,
+    9261,
+    9262,
+    9263,
+    9264,
+    9265,
+    9266,
+    9267,
+    9268,
+    9269,
+    9270,
+    9271,
+    9272,
+    9273,
+    9274,
+    9275,
+    9276,
+    9277,
+    9278,
+    9279,
+    9280,
+    9281,
+    9282,
+    9283,
+    9284,
+    9285,
+    9286,
+    9287,
+    9288,
+    9289,
+    9290,
+    9291,
+    9292,
+    9293,
+    9294,
+    9295,
+    9296,
+    9297,
+    9298,
+    9299,
+    9300,
+    9301,
+    9302,
+    9303,
+    9304,
+    9305,
+    9306,
+    9307,
+    9308,
+    9309,
+    9310,
+    9311,
+    9312,
+    9313,
+    9314,
+    9315,
+    9316,
+    9317,
+    9318,
+    9319,
+    9320,
+    9321,
+    9322,
+    9323,
+    9324,
+    9325,
+    9326,
+    9327,
+    9328,
+    9329,
+    9330,
+    9331,
+    9332,
+    9333,
+    9334,
+    9335,
+    9336,
+    9337,
+    9338,
+    9339,
+    9340,
+    9341,
+    9342,
+    9343,
+    9344,
+    9345,
+    9346,
+    9347,
+    9348,
+    9349,
+    9350,
+    9351,
+    9352,
+    9353,
+    9354,
+    9355,
+    9356,
+    9357,
+    9358,
+    9359,
+    9360,
+    9361,
+    9362,
+    9363,
+    9364,
+    9365,
+    9366,
+    9367,
+    9368,
+    9369,
+    9370,
+    9371,
+    9372,
+    9373,
+    9374,
+    9375,
+    9376,
+    9377,
+    9378,
+    9379,
+    9380,
+    9381,
+    9382,
+    9383,
+    9384,
+    9385,
+    9386,
+    9387,
+    9388,
+    9389,
+    9390,
+    9391,
+    9392,
+    9393,
+    9394,
+    9395,
+    9396,
+    9397,
+    9398,
+    9399,
+    9400,
+    9401,
+    9402,
+    9403,
+    9404,
+    9405,
+    9406,
+    9407,
+    9408,
+    9409,
+    9410,
+    9411,
+    9412,
+    9413,
+    9414,
+    9415,
+    9416,
+    9417,
+    9418,
+    9419,
+    9420,
+    9421,
+    9422,
+    9423,
+    9424,
+    9425,
+    9426,
+    9427,
+    9428,
+    9429,
+    9430,
+    9431,
+    9432,
+    9433,
+    9434,
+    9435,
+    9436,
+    9437,
+    9438,
+    9439,
+    9440
+  ],
+  "fixedVertexRangeUv2Inclusive": [
+    0,
+    9038
+  ],
+  "addedTriangleRangeInclusive": [
+    4220,
+    4407
+  ],
+  "existingTriangleRangeInclusive": [
+    0,
+    4219
+  ],
+  "editableVertexMapping": [
+    {
+      "vertexId": 9039,
+      "copiedUv2FromFixedNativeVertex": 3000
+    },
+    {
+      "vertexId": 9040,
+      "copiedUv2FromFixedNativeVertex": 3002
+    },
+    {
+      "vertexId": 9041,
+      "copiedUv2FromFixedNativeVertex": 3001
+    },
+    {
+      "vertexId": 9042,
+      "copiedUv2FromFixedNativeVertex": 3004
+    },
+    {
+      "vertexId": 9043,
+      "copiedUv2FromFixedNativeVertex": 3006
+    },
+    {
+      "vertexId": 9044,
+      "copiedUv2FromFixedNativeVertex": 3005
+    },
+    {
+      "vertexId": 9045,
+      "copiedUv2FromFixedNativeVertex": 3008
+    },
+    {
+      "vertexId": 9046,
+      "copiedUv2FromFixedNativeVertex": 3010
+    },
+    {
+      "vertexId": 9047,
+      "copiedUv2FromFixedNativeVertex": 3009
+    },
+    {
+      "vertexId": 9048,
+      "copiedUv2FromFixedNativeVertex": 3012
+    },
+    {
+      "vertexId": 9049,
+      "copiedUv2FromFixedNativeVertex": 3014
+    },
+    {
+      "vertexId": 9050,
+      "copiedUv2FromFixedNativeVertex": 3013
+    },
+    {
+      "vertexId": 9051,
+      "copiedUv2FromFixedNativeVertex": 3016
+    },
+    {
+      "vertexId": 9052,
+      "copiedUv2FromFixedNativeVertex": 3018
+    },
+    {
+      "vertexId": 9053,
+      "copiedUv2FromFixedNativeVertex": 3017
+    },
+    {
+      "vertexId": 9054,
+      "copiedUv2FromFixedNativeVertex": 3020
+    },
+    {
+      "vertexId": 9055,
+      "copiedUv2FromFixedNativeVertex": 3022
+    },
+    {
+      "vertexId": 9056,
+      "copiedUv2FromFixedNativeVertex": 3021
+    },
+    {
+      "vertexId": 9057,
+      "copiedUv2FromFixedNativeVertex": 96
+    },
+    {
+      "vertexId": 9058,
+      "copiedUv2FromFixedNativeVertex": 98
+    },
+    {
+      "vertexId": 9059,
+      "copiedUv2FromFixedNativeVertex": 97
+    },
+    {
+      "vertexId": 9060,
+      "copiedUv2FromFixedNativeVertex": 3026
+    },
+    {
+      "vertexId": 9061,
+      "copiedUv2FromFixedNativeVertex": 3028
+    },
+    {
+      "vertexId": 9062,
+      "copiedUv2FromFixedNativeVertex": 3027
+    },
+    {
+      "vertexId": 9063,
+      "copiedUv2FromFixedNativeVertex": 3030
+    },
+    {
+      "vertexId": 9064,
+      "copiedUv2FromFixedNativeVertex": 3032
+    },
+    {
+      "vertexId": 9065,
+      "copiedUv2FromFixedNativeVertex": 3031
+    },
+    {
+      "vertexId": 9066,
+      "copiedUv2FromFixedNativeVertex": 3036
+    },
+    {
+      "vertexId": 9067,
+      "copiedUv2FromFixedNativeVertex": 3038
+    },
+    {
+      "vertexId": 9068,
+      "copiedUv2FromFixedNativeVertex": 3037
+    },
+    {
+      "vertexId": 9069,
+      "copiedUv2FromFixedNativeVertex": 3040
+    },
+    {
+      "vertexId": 9070,
+      "copiedUv2FromFixedNativeVertex": 3042
+    },
+    {
+      "vertexId": 9071,
+      "copiedUv2FromFixedNativeVertex": 3041
+    },
+    {
+      "vertexId": 9072,
+      "copiedUv2FromFixedNativeVertex": 3044
+    },
+    {
+      "vertexId": 9073,
+      "copiedUv2FromFixedNativeVertex": 3046
+    },
+    {
+      "vertexId": 9074,
+      "copiedUv2FromFixedNativeVertex": 3045
+    },
+    {
+      "vertexId": 9075,
+      "copiedUv2FromFixedNativeVertex": 3048
+    },
+    {
+      "vertexId": 9076,
+      "copiedUv2FromFixedNativeVertex": 3050
+    },
+    {
+      "vertexId": 9077,
+      "copiedUv2FromFixedNativeVertex": 3049
+    },
+    {
+      "vertexId": 9078,
+      "copiedUv2FromFixedNativeVertex": 99
+    },
+    {
+      "vertexId": 9079,
+      "copiedUv2FromFixedNativeVertex": 101
+    },
+    {
+      "vertexId": 9080,
+      "copiedUv2FromFixedNativeVertex": 100
+    },
+    {
+      "vertexId": 9081,
+      "copiedUv2FromFixedNativeVertex": 3052
+    },
+    {
+      "vertexId": 9082,
+      "copiedUv2FromFixedNativeVertex": 3054
+    },
+    {
+      "vertexId": 9083,
+      "copiedUv2FromFixedNativeVertex": 3053
+    },
+    {
+      "vertexId": 9084,
+      "copiedUv2FromFixedNativeVertex": 3056
+    },
+    {
+      "vertexId": 9085,
+      "copiedUv2FromFixedNativeVertex": 3058
+    },
+    {
+      "vertexId": 9086,
+      "copiedUv2FromFixedNativeVertex": 3057
+    },
+    {
+      "vertexId": 9087,
+      "copiedUv2FromFixedNativeVertex": 3060
+    },
+    {
+      "vertexId": 9088,
+      "copiedUv2FromFixedNativeVertex": 3062
+    },
+    {
+      "vertexId": 9089,
+      "copiedUv2FromFixedNativeVertex": 3061
+    },
+    {
+      "vertexId": 9090,
+      "copiedUv2FromFixedNativeVertex": 3064
+    },
+    {
+      "vertexId": 9091,
+      "copiedUv2FromFixedNativeVertex": 3066
+    },
+    {
+      "vertexId": 9092,
+      "copiedUv2FromFixedNativeVertex": 3065
+    },
+    {
+      "vertexId": 9093,
+      "copiedUv2FromFixedNativeVertex": 3068
+    },
+    {
+      "vertexId": 9094,
+      "copiedUv2FromFixedNativeVertex": 3070
+    },
+    {
+      "vertexId": 9095,
+      "copiedUv2FromFixedNativeVertex": 3069
+    },
+    {
+      "vertexId": 9096,
+      "copiedUv2FromFixedNativeVertex": 3072
+    },
+    {
+      "vertexId": 9097,
+      "copiedUv2FromFixedNativeVertex": 3074
+    },
+    {
+      "vertexId": 9098,
+      "copiedUv2FromFixedNativeVertex": 3073
+    },
+    {
+      "vertexId": 9099,
+      "copiedUv2FromFixedNativeVertex": 102
+    },
+    {
+      "vertexId": 9100,
+      "copiedUv2FromFixedNativeVertex": 104
+    },
+    {
+      "vertexId": 9101,
+      "copiedUv2FromFixedNativeVertex": 103
+    },
+    {
+      "vertexId": 9102,
+      "copiedUv2FromFixedNativeVertex": 3076
+    },
+    {
+      "vertexId": 9103,
+      "copiedUv2FromFixedNativeVertex": 3078
+    },
+    {
+      "vertexId": 9104,
+      "copiedUv2FromFixedNativeVertex": 3077
+    },
+    {
+      "vertexId": 9105,
+      "copiedUv2FromFixedNativeVertex": 3080
+    },
+    {
+      "vertexId": 9106,
+      "copiedUv2FromFixedNativeVertex": 3082
+    },
+    {
+      "vertexId": 9107,
+      "copiedUv2FromFixedNativeVertex": 3081
+    },
+    {
+      "vertexId": 9108,
+      "copiedUv2FromFixedNativeVertex": 3084
+    },
+    {
+      "vertexId": 9109,
+      "copiedUv2FromFixedNativeVertex": 3086
+    },
+    {
+      "vertexId": 9110,
+      "copiedUv2FromFixedNativeVertex": 3085
+    },
+    {
+      "vertexId": 9111,
+      "copiedUv2FromFixedNativeVertex": 3088
+    },
+    {
+      "vertexId": 9112,
+      "copiedUv2FromFixedNativeVertex": 3090
+    },
+    {
+      "vertexId": 9113,
+      "copiedUv2FromFixedNativeVertex": 3089
+    },
+    {
+      "vertexId": 9114,
+      "copiedUv2FromFixedNativeVertex": 3094
+    },
+    {
+      "vertexId": 9115,
+      "copiedUv2FromFixedNativeVertex": 3096
+    },
+    {
+      "vertexId": 9116,
+      "copiedUv2FromFixedNativeVertex": 3095
+    },
+    {
+      "vertexId": 9117,
+      "copiedUv2FromFixedNativeVertex": 3098
+    },
+    {
+      "vertexId": 9118,
+      "copiedUv2FromFixedNativeVertex": 3100
+    },
+    {
+      "vertexId": 9119,
+      "copiedUv2FromFixedNativeVertex": 3099
+    },
+    {
+      "vertexId": 9120,
+      "copiedUv2FromFixedNativeVertex": 105
+    },
+    {
+      "vertexId": 9121,
+      "copiedUv2FromFixedNativeVertex": 107
+    },
+    {
+      "vertexId": 9122,
+      "copiedUv2FromFixedNativeVertex": 106
+    },
+    {
+      "vertexId": 9123,
+      "copiedUv2FromFixedNativeVertex": 3102
+    },
+    {
+      "vertexId": 9124,
+      "copiedUv2FromFixedNativeVertex": 3104
+    },
+    {
+      "vertexId": 9125,
+      "copiedUv2FromFixedNativeVertex": 3103
+    },
+    {
+      "vertexId": 9126,
+      "copiedUv2FromFixedNativeVertex": 3106
+    },
+    {
+      "vertexId": 9127,
+      "copiedUv2FromFixedNativeVertex": 3108
+    },
+    {
+      "vertexId": 9128,
+      "copiedUv2FromFixedNativeVertex": 3107
+    },
+    {
+      "vertexId": 9129,
+      "copiedUv2FromFixedNativeVertex": 3110
+    },
+    {
+      "vertexId": 9130,
+      "copiedUv2FromFixedNativeVertex": 3112
+    },
+    {
+      "vertexId": 9131,
+      "copiedUv2FromFixedNativeVertex": 3111
+    },
+    {
+      "vertexId": 9132,
+      "copiedUv2FromFixedNativeVertex": 3114
+    },
+    {
+      "vertexId": 9133,
+      "copiedUv2FromFixedNativeVertex": 3116
+    },
+    {
+      "vertexId": 9134,
+      "copiedUv2FromFixedNativeVertex": 3115
+    },
+    {
+      "vertexId": 9135,
+      "copiedUv2FromFixedNativeVertex": 3118
+    },
+    {
+      "vertexId": 9136,
+      "copiedUv2FromFixedNativeVertex": 3120
+    },
+    {
+      "vertexId": 9137,
+      "copiedUv2FromFixedNativeVertex": 3119
+    },
+    {
+      "vertexId": 9138,
+      "copiedUv2FromFixedNativeVertex": 3124
+    },
+    {
+      "vertexId": 9139,
+      "copiedUv2FromFixedNativeVertex": 3126
+    },
+    {
+      "vertexId": 9140,
+      "copiedUv2FromFixedNativeVertex": 3125
+    },
+    {
+      "vertexId": 9141,
+      "copiedUv2FromFixedNativeVertex": 108
+    },
+    {
+      "vertexId": 9142,
+      "copiedUv2FromFixedNativeVertex": 110
+    },
+    {
+      "vertexId": 9143,
+      "copiedUv2FromFixedNativeVertex": 109
+    },
+    {
+      "vertexId": 9144,
+      "copiedUv2FromFixedNativeVertex": 3128
+    },
+    {
+      "vertexId": 9145,
+      "copiedUv2FromFixedNativeVertex": 3130
+    },
+    {
+      "vertexId": 9146,
+      "copiedUv2FromFixedNativeVertex": 3129
+    },
+    {
+      "vertexId": 9147,
+      "copiedUv2FromFixedNativeVertex": 3134
+    },
+    {
+      "vertexId": 9148,
+      "copiedUv2FromFixedNativeVertex": 3136
+    },
+    {
+      "vertexId": 9149,
+      "copiedUv2FromFixedNativeVertex": 3135
+    },
+    {
+      "vertexId": 9150,
+      "copiedUv2FromFixedNativeVertex": 3138
+    },
+    {
+      "vertexId": 9151,
+      "copiedUv2FromFixedNativeVertex": 3140
+    },
+    {
+      "vertexId": 9152,
+      "copiedUv2FromFixedNativeVertex": 3139
+    },
+    {
+      "vertexId": 9153,
+      "copiedUv2FromFixedNativeVertex": 3142
+    },
+    {
+      "vertexId": 9154,
+      "copiedUv2FromFixedNativeVertex": 3144
+    },
+    {
+      "vertexId": 9155,
+      "copiedUv2FromFixedNativeVertex": 3143
+    },
+    {
+      "vertexId": 9156,
+      "copiedUv2FromFixedNativeVertex": 3146
+    },
+    {
+      "vertexId": 9157,
+      "copiedUv2FromFixedNativeVertex": 3148
+    },
+    {
+      "vertexId": 9158,
+      "copiedUv2FromFixedNativeVertex": 3147
+    },
+    {
+      "vertexId": 9159,
+      "copiedUv2FromFixedNativeVertex": 3150
+    },
+    {
+      "vertexId": 9160,
+      "copiedUv2FromFixedNativeVertex": 3152
+    },
+    {
+      "vertexId": 9161,
+      "copiedUv2FromFixedNativeVertex": 3151
+    },
+    {
+      "vertexId": 9162,
+      "copiedUv2FromFixedNativeVertex": 111
+    },
+    {
+      "vertexId": 9163,
+      "copiedUv2FromFixedNativeVertex": 113
+    },
+    {
+      "vertexId": 9164,
+      "copiedUv2FromFixedNativeVertex": 112
+    },
+    {
+      "vertexId": 9165,
+      "copiedUv2FromFixedNativeVertex": 3154
+    },
+    {
+      "vertexId": 9166,
+      "copiedUv2FromFixedNativeVertex": 3156
+    },
+    {
+      "vertexId": 9167,
+      "copiedUv2FromFixedNativeVertex": 3155
+    },
+    {
+      "vertexId": 9168,
+      "copiedUv2FromFixedNativeVertex": 3160
+    },
+    {
+      "vertexId": 9169,
+      "copiedUv2FromFixedNativeVertex": 3162
+    },
+    {
+      "vertexId": 9170,
+      "copiedUv2FromFixedNativeVertex": 3161
+    },
+    {
+      "vertexId": 9171,
+      "copiedUv2FromFixedNativeVertex": 3164
+    },
+    {
+      "vertexId": 9172,
+      "copiedUv2FromFixedNativeVertex": 3166
+    },
+    {
+      "vertexId": 9173,
+      "copiedUv2FromFixedNativeVertex": 3165
+    },
+    {
+      "vertexId": 9174,
+      "copiedUv2FromFixedNativeVertex": 3168
+    },
+    {
+      "vertexId": 9175,
+      "copiedUv2FromFixedNativeVertex": 3170
+    },
+    {
+      "vertexId": 9176,
+      "copiedUv2FromFixedNativeVertex": 3169
+    },
+    {
+      "vertexId": 9177,
+      "copiedUv2FromFixedNativeVertex": 3172
+    },
+    {
+      "vertexId": 9178,
+      "copiedUv2FromFixedNativeVertex": 3174
+    },
+    {
+      "vertexId": 9179,
+      "copiedUv2FromFixedNativeVertex": 3173
+    },
+    {
+      "vertexId": 9180,
+      "copiedUv2FromFixedNativeVertex": 3176
+    },
+    {
+      "vertexId": 9181,
+      "copiedUv2FromFixedNativeVertex": 3178
+    },
+    {
+      "vertexId": 9182,
+      "copiedUv2FromFixedNativeVertex": 3177
+    },
+    {
+      "vertexId": 9183,
+      "copiedUv2FromFixedNativeVertex": 114
+    },
+    {
+      "vertexId": 9184,
+      "copiedUv2FromFixedNativeVertex": 116
+    },
+    {
+      "vertexId": 9185,
+      "copiedUv2FromFixedNativeVertex": 115
+    },
+    {
+      "vertexId": 9186,
+      "copiedUv2FromFixedNativeVertex": 3180
+    },
+    {
+      "vertexId": 9187,
+      "copiedUv2FromFixedNativeVertex": 3182
+    },
+    {
+      "vertexId": 9188,
+      "copiedUv2FromFixedNativeVertex": 3181
+    },
+    {
+      "vertexId": 9189,
+      "copiedUv2FromFixedNativeVertex": 3184
+    },
+    {
+      "vertexId": 9190,
+      "copiedUv2FromFixedNativeVertex": 3186
+    },
+    {
+      "vertexId": 9191,
+      "copiedUv2FromFixedNativeVertex": 3185
+    },
+    {
+      "vertexId": 9192,
+      "copiedUv2FromFixedNativeVertex": 3188
+    },
+    {
+      "vertexId": 9193,
+      "copiedUv2FromFixedNativeVertex": 3190
+    },
+    {
+      "vertexId": 9194,
+      "copiedUv2FromFixedNativeVertex": 3189
+    },
+    {
+      "vertexId": 9195,
+      "copiedUv2FromFixedNativeVertex": 3192
+    },
+    {
+      "vertexId": 9196,
+      "copiedUv2FromFixedNativeVertex": 3194
+    },
+    {
+      "vertexId": 9197,
+      "copiedUv2FromFixedNativeVertex": 3193
+    },
+    {
+      "vertexId": 9198,
+      "copiedUv2FromFixedNativeVertex": 3196
+    },
+    {
+      "vertexId": 9199,
+      "copiedUv2FromFixedNativeVertex": 3198
+    },
+    {
+      "vertexId": 9200,
+      "copiedUv2FromFixedNativeVertex": 3197
+    },
+    {
+      "vertexId": 9201,
+      "copiedUv2FromFixedNativeVertex": 3200
+    },
+    {
+      "vertexId": 9202,
+      "copiedUv2FromFixedNativeVertex": 3202
+    },
+    {
+      "vertexId": 9203,
+      "copiedUv2FromFixedNativeVertex": 3201
+    },
+    {
+      "vertexId": 9204,
+      "copiedUv2FromFixedNativeVertex": 117
+    },
+    {
+      "vertexId": 9205,
+      "copiedUv2FromFixedNativeVertex": 119
+    },
+    {
+      "vertexId": 9206,
+      "copiedUv2FromFixedNativeVertex": 118
+    },
+    {
+      "vertexId": 9207,
+      "copiedUv2FromFixedNativeVertex": 3204
+    },
+    {
+      "vertexId": 9208,
+      "copiedUv2FromFixedNativeVertex": 3206
+    },
+    {
+      "vertexId": 9209,
+      "copiedUv2FromFixedNativeVertex": 3205
+    },
+    {
+      "vertexId": 9210,
+      "copiedUv2FromFixedNativeVertex": 3208
+    },
+    {
+      "vertexId": 9211,
+      "copiedUv2FromFixedNativeVertex": 3210
+    },
+    {
+      "vertexId": 9212,
+      "copiedUv2FromFixedNativeVertex": 3209
+    },
+    {
+      "vertexId": 9213,
+      "copiedUv2FromFixedNativeVertex": 3212
+    },
+    {
+      "vertexId": 9214,
+      "copiedUv2FromFixedNativeVertex": 3214
+    },
+    {
+      "vertexId": 9215,
+      "copiedUv2FromFixedNativeVertex": 3213
+    },
+    {
+      "vertexId": 9216,
+      "copiedUv2FromFixedNativeVertex": 3218
+    },
+    {
+      "vertexId": 9217,
+      "copiedUv2FromFixedNativeVertex": 3220
+    },
+    {
+      "vertexId": 9218,
+      "copiedUv2FromFixedNativeVertex": 3219
+    },
+    {
+      "vertexId": 9219,
+      "copiedUv2FromFixedNativeVertex": 3222
+    },
+    {
+      "vertexId": 9220,
+      "copiedUv2FromFixedNativeVertex": 3224
+    },
+    {
+      "vertexId": 9221,
+      "copiedUv2FromFixedNativeVertex": 3223
+    },
+    {
+      "vertexId": 9222,
+      "copiedUv2FromFixedNativeVertex": 3226
+    },
+    {
+      "vertexId": 9223,
+      "copiedUv2FromFixedNativeVertex": 3228
+    },
+    {
+      "vertexId": 9224,
+      "copiedUv2FromFixedNativeVertex": 3227
+    },
+    {
+      "vertexId": 9225,
+      "copiedUv2FromFixedNativeVertex": 3230
+    },
+    {
+      "vertexId": 9226,
+      "copiedUv2FromFixedNativeVertex": 3232
+    },
+    {
+      "vertexId": 9227,
+      "copiedUv2FromFixedNativeVertex": 3231
+    },
+    {
+      "vertexId": 9228,
+      "copiedUv2FromFixedNativeVertex": 3234
+    },
+    {
+      "vertexId": 9229,
+      "copiedUv2FromFixedNativeVertex": 3236
+    },
+    {
+      "vertexId": 9230,
+      "copiedUv2FromFixedNativeVertex": 3235
+    },
+    {
+      "vertexId": 9231,
+      "copiedUv2FromFixedNativeVertex": 3238
+    },
+    {
+      "vertexId": 9232,
+      "copiedUv2FromFixedNativeVertex": 3240
+    },
+    {
+      "vertexId": 9233,
+      "copiedUv2FromFixedNativeVertex": 3239
+    },
+    {
+      "vertexId": 9234,
+      "copiedUv2FromFixedNativeVertex": 3242
+    },
+    {
+      "vertexId": 9235,
+      "copiedUv2FromFixedNativeVertex": 3244
+    },
+    {
+      "vertexId": 9236,
+      "copiedUv2FromFixedNativeVertex": 3243
+    },
+    {
+      "vertexId": 9237,
+      "copiedUv2FromFixedNativeVertex": 3246
+    },
+    {
+      "vertexId": 9238,
+      "copiedUv2FromFixedNativeVertex": 3248
+    },
+    {
+      "vertexId": 9239,
+      "copiedUv2FromFixedNativeVertex": 3247
+    },
+    {
+      "vertexId": 9240,
+      "copiedUv2FromFixedNativeVertex": 3250
+    },
+    {
+      "vertexId": 9241,
+      "copiedUv2FromFixedNativeVertex": 3252
+    },
+    {
+      "vertexId": 9242,
+      "copiedUv2FromFixedNativeVertex": 3251
+    },
+    {
+      "vertexId": 9243,
+      "copiedUv2FromFixedNativeVertex": 3254
+    },
+    {
+      "vertexId": 9244,
+      "copiedUv2FromFixedNativeVertex": 3256
+    },
+    {
+      "vertexId": 9245,
+      "copiedUv2FromFixedNativeVertex": 3255
+    },
+    {
+      "vertexId": 9246,
+      "copiedUv2FromFixedNativeVertex": 3258
+    },
+    {
+      "vertexId": 9247,
+      "copiedUv2FromFixedNativeVertex": 3260
+    },
+    {
+      "vertexId": 9248,
+      "copiedUv2FromFixedNativeVertex": 3259
+    },
+    {
+      "vertexId": 9249,
+      "copiedUv2FromFixedNativeVertex": 3262
+    },
+    {
+      "vertexId": 9250,
+      "copiedUv2FromFixedNativeVertex": 3264
+    },
+    {
+      "vertexId": 9251,
+      "copiedUv2FromFixedNativeVertex": 3263
+    },
+    {
+      "vertexId": 9252,
+      "copiedUv2FromFixedNativeVertex": 3266
+    },
+    {
+      "vertexId": 9253,
+      "copiedUv2FromFixedNativeVertex": 3268
+    },
+    {
+      "vertexId": 9254,
+      "copiedUv2FromFixedNativeVertex": 3267
+    },
+    {
+      "vertexId": 9255,
+      "copiedUv2FromFixedNativeVertex": 3270
+    },
+    {
+      "vertexId": 9256,
+      "copiedUv2FromFixedNativeVertex": 3272
+    },
+    {
+      "vertexId": 9257,
+      "copiedUv2FromFixedNativeVertex": 3271
+    },
+    {
+      "vertexId": 9258,
+      "copiedUv2FromFixedNativeVertex": 3274
+    },
+    {
+      "vertexId": 9259,
+      "copiedUv2FromFixedNativeVertex": 3276
+    },
+    {
+      "vertexId": 9260,
+      "copiedUv2FromFixedNativeVertex": 3275
+    },
+    {
+      "vertexId": 9261,
+      "copiedUv2FromFixedNativeVertex": 3278
+    },
+    {
+      "vertexId": 9262,
+      "copiedUv2FromFixedNativeVertex": 3280
+    },
+    {
+      "vertexId": 9263,
+      "copiedUv2FromFixedNativeVertex": 3279
+    },
+    {
+      "vertexId": 9264,
+      "copiedUv2FromFixedNativeVertex": 3284
+    },
+    {
+      "vertexId": 9265,
+      "copiedUv2FromFixedNativeVertex": 3286
+    },
+    {
+      "vertexId": 9266,
+      "copiedUv2FromFixedNativeVertex": 3285
+    },
+    {
+      "vertexId": 9267,
+      "copiedUv2FromFixedNativeVertex": 3288
+    },
+    {
+      "vertexId": 9268,
+      "copiedUv2FromFixedNativeVertex": 3290
+    },
+    {
+      "vertexId": 9269,
+      "copiedUv2FromFixedNativeVertex": 3289
+    },
+    {
+      "vertexId": 9270,
+      "copiedUv2FromFixedNativeVertex": 3292
+    },
+    {
+      "vertexId": 9271,
+      "copiedUv2FromFixedNativeVertex": 3294
+    },
+    {
+      "vertexId": 9272,
+      "copiedUv2FromFixedNativeVertex": 3293
+    },
+    {
+      "vertexId": 9273,
+      "copiedUv2FromFixedNativeVertex": 3296
+    },
+    {
+      "vertexId": 9274,
+      "copiedUv2FromFixedNativeVertex": 3298
+    },
+    {
+      "vertexId": 9275,
+      "copiedUv2FromFixedNativeVertex": 3297
+    },
+    {
+      "vertexId": 9276,
+      "copiedUv2FromFixedNativeVertex": 3300
+    },
+    {
+      "vertexId": 9277,
+      "copiedUv2FromFixedNativeVertex": 3302
+    },
+    {
+      "vertexId": 9278,
+      "copiedUv2FromFixedNativeVertex": 3301
+    },
+    {
+      "vertexId": 9279,
+      "copiedUv2FromFixedNativeVertex": 3304
+    },
+    {
+      "vertexId": 9280,
+      "copiedUv2FromFixedNativeVertex": 3306
+    },
+    {
+      "vertexId": 9281,
+      "copiedUv2FromFixedNativeVertex": 3305
+    },
+    {
+      "vertexId": 9282,
+      "copiedUv2FromFixedNativeVertex": 3308
+    },
+    {
+      "vertexId": 9283,
+      "copiedUv2FromFixedNativeVertex": 3310
+    },
+    {
+      "vertexId": 9284,
+      "copiedUv2FromFixedNativeVertex": 3309
+    },
+    {
+      "vertexId": 9285,
+      "copiedUv2FromFixedNativeVertex": 3312
+    },
+    {
+      "vertexId": 9286,
+      "copiedUv2FromFixedNativeVertex": 3314
+    },
+    {
+      "vertexId": 9287,
+      "copiedUv2FromFixedNativeVertex": 3313
+    },
+    {
+      "vertexId": 9288,
+      "copiedUv2FromFixedNativeVertex": 3316
+    },
+    {
+      "vertexId": 9289,
+      "copiedUv2FromFixedNativeVertex": 3318
+    },
+    {
+      "vertexId": 9290,
+      "copiedUv2FromFixedNativeVertex": 3317
+    },
+    {
+      "vertexId": 9291,
+      "copiedUv2FromFixedNativeVertex": 3320
+    },
+    {
+      "vertexId": 9292,
+      "copiedUv2FromFixedNativeVertex": 3322
+    },
+    {
+      "vertexId": 9293,
+      "copiedUv2FromFixedNativeVertex": 3321
+    },
+    {
+      "vertexId": 9294,
+      "copiedUv2FromFixedNativeVertex": 3326
+    },
+    {
+      "vertexId": 9295,
+      "copiedUv2FromFixedNativeVertex": 3328
+    },
+    {
+      "vertexId": 9296,
+      "copiedUv2FromFixedNativeVertex": 3327
+    },
+    {
+      "vertexId": 9297,
+      "copiedUv2FromFixedNativeVertex": 3330
+    },
+    {
+      "vertexId": 9298,
+      "copiedUv2FromFixedNativeVertex": 3332
+    },
+    {
+      "vertexId": 9299,
+      "copiedUv2FromFixedNativeVertex": 3331
+    },
+    {
+      "vertexId": 9300,
+      "copiedUv2FromFixedNativeVertex": 3334
+    },
+    {
+      "vertexId": 9301,
+      "copiedUv2FromFixedNativeVertex": 3336
+    },
+    {
+      "vertexId": 9302,
+      "copiedUv2FromFixedNativeVertex": 3335
+    },
+    {
+      "vertexId": 9303,
+      "copiedUv2FromFixedNativeVertex": 3338
+    },
+    {
+      "vertexId": 9304,
+      "copiedUv2FromFixedNativeVertex": 3340
+    },
+    {
+      "vertexId": 9305,
+      "copiedUv2FromFixedNativeVertex": 3339
+    },
+    {
+      "vertexId": 9306,
+      "copiedUv2FromFixedNativeVertex": 3342
+    },
+    {
+      "vertexId": 9307,
+      "copiedUv2FromFixedNativeVertex": 3344
+    },
+    {
+      "vertexId": 9308,
+      "copiedUv2FromFixedNativeVertex": 3343
+    },
+    {
+      "vertexId": 9309,
+      "copiedUv2FromFixedNativeVertex": 3346
+    },
+    {
+      "vertexId": 9310,
+      "copiedUv2FromFixedNativeVertex": 3348
+    },
+    {
+      "vertexId": 9311,
+      "copiedUv2FromFixedNativeVertex": 3347
+    },
+    {
+      "vertexId": 9312,
+      "copiedUv2FromFixedNativeVertex": 3350
+    },
+    {
+      "vertexId": 9313,
+      "copiedUv2FromFixedNativeVertex": 3352
+    },
+    {
+      "vertexId": 9314,
+      "copiedUv2FromFixedNativeVertex": 3351
+    },
+    {
+      "vertexId": 9315,
+      "copiedUv2FromFixedNativeVertex": 3354
+    },
+    {
+      "vertexId": 9316,
+      "copiedUv2FromFixedNativeVertex": 3356
+    },
+    {
+      "vertexId": 9317,
+      "copiedUv2FromFixedNativeVertex": 3355
+    },
+    {
+      "vertexId": 9318,
+      "copiedUv2FromFixedNativeVertex": 3358
+    },
+    {
+      "vertexId": 9319,
+      "copiedUv2FromFixedNativeVertex": 3360
+    },
+    {
+      "vertexId": 9320,
+      "copiedUv2FromFixedNativeVertex": 3359
+    },
+    {
+      "vertexId": 9321,
+      "copiedUv2FromFixedNativeVertex": 3362
+    },
+    {
+      "vertexId": 9322,
+      "copiedUv2FromFixedNativeVertex": 3364
+    },
+    {
+      "vertexId": 9323,
+      "copiedUv2FromFixedNativeVertex": 3363
+    },
+    {
+      "vertexId": 9324,
+      "copiedUv2FromFixedNativeVertex": 3366
+    },
+    {
+      "vertexId": 9325,
+      "copiedUv2FromFixedNativeVertex": 3368
+    },
+    {
+      "vertexId": 9326,
+      "copiedUv2FromFixedNativeVertex": 3367
+    },
+    {
+      "vertexId": 9327,
+      "copiedUv2FromFixedNativeVertex": 3370
+    },
+    {
+      "vertexId": 9328,
+      "copiedUv2FromFixedNativeVertex": 3372
+    },
+    {
+      "vertexId": 9329,
+      "copiedUv2FromFixedNativeVertex": 3371
+    },
+    {
+      "vertexId": 9330,
+      "copiedUv2FromFixedNativeVertex": 3374
+    },
+    {
+      "vertexId": 9331,
+      "copiedUv2FromFixedNativeVertex": 3376
+    },
+    {
+      "vertexId": 9332,
+      "copiedUv2FromFixedNativeVertex": 3375
+    },
+    {
+      "vertexId": 9333,
+      "copiedUv2FromFixedNativeVertex": 3003
+    },
+    {
+      "vertexId": 9334,
+      "copiedUv2FromFixedNativeVertex": 3007
+    },
+    {
+      "vertexId": 9335,
+      "copiedUv2FromFixedNativeVertex": 3011
+    },
+    {
+      "vertexId": 9336,
+      "copiedUv2FromFixedNativeVertex": 3015
+    },
+    {
+      "vertexId": 9337,
+      "copiedUv2FromFixedNativeVertex": 3019
+    },
+    {
+      "vertexId": 9338,
+      "copiedUv2FromFixedNativeVertex": 3023
+    },
+    {
+      "vertexId": 9339,
+      "copiedUv2FromFixedNativeVertex": 3025
+    },
+    {
+      "vertexId": 9340,
+      "copiedUv2FromFixedNativeVertex": 3024
+    },
+    {
+      "vertexId": 9341,
+      "copiedUv2FromFixedNativeVertex": 3029
+    },
+    {
+      "vertexId": 9342,
+      "copiedUv2FromFixedNativeVertex": 3033
+    },
+    {
+      "vertexId": 9343,
+      "copiedUv2FromFixedNativeVertex": 3035
+    },
+    {
+      "vertexId": 9344,
+      "copiedUv2FromFixedNativeVertex": 3034
+    },
+    {
+      "vertexId": 9345,
+      "copiedUv2FromFixedNativeVertex": 3039
+    },
+    {
+      "vertexId": 9346,
+      "copiedUv2FromFixedNativeVertex": 3043
+    },
+    {
+      "vertexId": 9347,
+      "copiedUv2FromFixedNativeVertex": 3047
+    },
+    {
+      "vertexId": 9348,
+      "copiedUv2FromFixedNativeVertex": 3051
+    },
+    {
+      "vertexId": 9349,
+      "copiedUv2FromFixedNativeVertex": 3055
+    },
+    {
+      "vertexId": 9350,
+      "copiedUv2FromFixedNativeVertex": 3059
+    },
+    {
+      "vertexId": 9351,
+      "copiedUv2FromFixedNativeVertex": 3063
+    },
+    {
+      "vertexId": 9352,
+      "copiedUv2FromFixedNativeVertex": 3067
+    },
+    {
+      "vertexId": 9353,
+      "copiedUv2FromFixedNativeVertex": 3071
+    },
+    {
+      "vertexId": 9354,
+      "copiedUv2FromFixedNativeVertex": 3075
+    },
+    {
+      "vertexId": 9355,
+      "copiedUv2FromFixedNativeVertex": 3079
+    },
+    {
+      "vertexId": 9356,
+      "copiedUv2FromFixedNativeVertex": 3083
+    },
+    {
+      "vertexId": 9357,
+      "copiedUv2FromFixedNativeVertex": 3087
+    },
+    {
+      "vertexId": 9358,
+      "copiedUv2FromFixedNativeVertex": 3091
+    },
+    {
+      "vertexId": 9359,
+      "copiedUv2FromFixedNativeVertex": 3093
+    },
+    {
+      "vertexId": 9360,
+      "copiedUv2FromFixedNativeVertex": 3092
+    },
+    {
+      "vertexId": 9361,
+      "copiedUv2FromFixedNativeVertex": 3097
+    },
+    {
+      "vertexId": 9362,
+      "copiedUv2FromFixedNativeVertex": 3101
+    },
+    {
+      "vertexId": 9363,
+      "copiedUv2FromFixedNativeVertex": 3105
+    },
+    {
+      "vertexId": 9364,
+      "copiedUv2FromFixedNativeVertex": 3109
+    },
+    {
+      "vertexId": 9365,
+      "copiedUv2FromFixedNativeVertex": 3113
+    },
+    {
+      "vertexId": 9366,
+      "copiedUv2FromFixedNativeVertex": 3117
+    },
+    {
+      "vertexId": 9367,
+      "copiedUv2FromFixedNativeVertex": 3121
+    },
+    {
+      "vertexId": 9368,
+      "copiedUv2FromFixedNativeVertex": 3123
+    },
+    {
+      "vertexId": 9369,
+      "copiedUv2FromFixedNativeVertex": 3122
+    },
+    {
+      "vertexId": 9370,
+      "copiedUv2FromFixedNativeVertex": 3127
+    },
+    {
+      "vertexId": 9371,
+      "copiedUv2FromFixedNativeVertex": 3131
+    },
+    {
+      "vertexId": 9372,
+      "copiedUv2FromFixedNativeVertex": 3133
+    },
+    {
+      "vertexId": 9373,
+      "copiedUv2FromFixedNativeVertex": 3132
+    },
+    {
+      "vertexId": 9374,
+      "copiedUv2FromFixedNativeVertex": 3137
+    },
+    {
+      "vertexId": 9375,
+      "copiedUv2FromFixedNativeVertex": 3141
+    },
+    {
+      "vertexId": 9376,
+      "copiedUv2FromFixedNativeVertex": 3145
+    },
+    {
+      "vertexId": 9377,
+      "copiedUv2FromFixedNativeVertex": 3149
+    },
+    {
+      "vertexId": 9378,
+      "copiedUv2FromFixedNativeVertex": 3153
+    },
+    {
+      "vertexId": 9379,
+      "copiedUv2FromFixedNativeVertex": 3157
+    },
+    {
+      "vertexId": 9380,
+      "copiedUv2FromFixedNativeVertex": 3159
+    },
+    {
+      "vertexId": 9381,
+      "copiedUv2FromFixedNativeVertex": 3158
+    },
+    {
+      "vertexId": 9382,
+      "copiedUv2FromFixedNativeVertex": 3163
+    },
+    {
+      "vertexId": 9383,
+      "copiedUv2FromFixedNativeVertex": 3167
+    },
+    {
+      "vertexId": 9384,
+      "copiedUv2FromFixedNativeVertex": 3171
+    },
+    {
+      "vertexId": 9385,
+      "copiedUv2FromFixedNativeVertex": 3175
+    },
+    {
+      "vertexId": 9386,
+      "copiedUv2FromFixedNativeVertex": 3179
+    },
+    {
+      "vertexId": 9387,
+      "copiedUv2FromFixedNativeVertex": 3183
+    },
+    {
+      "vertexId": 9388,
+      "copiedUv2FromFixedNativeVertex": 3187
+    },
+    {
+      "vertexId": 9389,
+      "copiedUv2FromFixedNativeVertex": 3191
+    },
+    {
+      "vertexId": 9390,
+      "copiedUv2FromFixedNativeVertex": 3195
+    },
+    {
+      "vertexId": 9391,
+      "copiedUv2FromFixedNativeVertex": 3199
+    },
+    {
+      "vertexId": 9392,
+      "copiedUv2FromFixedNativeVertex": 3203
+    },
+    {
+      "vertexId": 9393,
+      "copiedUv2FromFixedNativeVertex": 3207
+    },
+    {
+      "vertexId": 9394,
+      "copiedUv2FromFixedNativeVertex": 3211
+    },
+    {
+      "vertexId": 9395,
+      "copiedUv2FromFixedNativeVertex": 3215
+    },
+    {
+      "vertexId": 9396,
+      "copiedUv2FromFixedNativeVertex": 3217
+    },
+    {
+      "vertexId": 9397,
+      "copiedUv2FromFixedNativeVertex": 3216
+    },
+    {
+      "vertexId": 9398,
+      "copiedUv2FromFixedNativeVertex": 3221
+    },
+    {
+      "vertexId": 9399,
+      "copiedUv2FromFixedNativeVertex": 3225
+    },
+    {
+      "vertexId": 9400,
+      "copiedUv2FromFixedNativeVertex": 3229
+    },
+    {
+      "vertexId": 9401,
+      "copiedUv2FromFixedNativeVertex": 3233
+    },
+    {
+      "vertexId": 9402,
+      "copiedUv2FromFixedNativeVertex": 3237
+    },
+    {
+      "vertexId": 9403,
+      "copiedUv2FromFixedNativeVertex": 3241
+    },
+    {
+      "vertexId": 9404,
+      "copiedUv2FromFixedNativeVertex": 3245
+    },
+    {
+      "vertexId": 9405,
+      "copiedUv2FromFixedNativeVertex": 3249
+    },
+    {
+      "vertexId": 9406,
+      "copiedUv2FromFixedNativeVertex": 3253
+    },
+    {
+      "vertexId": 9407,
+      "copiedUv2FromFixedNativeVertex": 3257
+    },
+    {
+      "vertexId": 9408,
+      "copiedUv2FromFixedNativeVertex": 3261
+    },
+    {
+      "vertexId": 9409,
+      "copiedUv2FromFixedNativeVertex": 3265
+    },
+    {
+      "vertexId": 9410,
+      "copiedUv2FromFixedNativeVertex": 3269
+    },
+    {
+      "vertexId": 9411,
+      "copiedUv2FromFixedNativeVertex": 3273
+    },
+    {
+      "vertexId": 9412,
+      "copiedUv2FromFixedNativeVertex": 3277
+    },
+    {
+      "vertexId": 9413,
+      "copiedUv2FromFixedNativeVertex": 3281
+    },
+    {
+      "vertexId": 9414,
+      "copiedUv2FromFixedNativeVertex": 3283
+    },
+    {
+      "vertexId": 9415,
+      "copiedUv2FromFixedNativeVertex": 3282
+    },
+    {
+      "vertexId": 9416,
+      "copiedUv2FromFixedNativeVertex": 3287
+    },
+    {
+      "vertexId": 9417,
+      "copiedUv2FromFixedNativeVertex": 3291
+    },
+    {
+      "vertexId": 9418,
+      "copiedUv2FromFixedNativeVertex": 3295
+    },
+    {
+      "vertexId": 9419,
+      "copiedUv2FromFixedNativeVertex": 3299
+    },
+    {
+      "vertexId": 9420,
+      "copiedUv2FromFixedNativeVertex": 3303
+    },
+    {
+      "vertexId": 9421,
+      "copiedUv2FromFixedNativeVertex": 3307
+    },
+    {
+      "vertexId": 9422,
+      "copiedUv2FromFixedNativeVertex": 3311
+    },
+    {
+      "vertexId": 9423,
+      "copiedUv2FromFixedNativeVertex": 3315
+    },
+    {
+      "vertexId": 9424,
+      "copiedUv2FromFixedNativeVertex": 3319
+    },
+    {
+      "vertexId": 9425,
+      "copiedUv2FromFixedNativeVertex": 3323
+    },
+    {
+      "vertexId": 9426,
+      "copiedUv2FromFixedNativeVertex": 3325
+    },
+    {
+      "vertexId": 9427,
+      "copiedUv2FromFixedNativeVertex": 3324
+    },
+    {
+      "vertexId": 9428,
+      "copiedUv2FromFixedNativeVertex": 3329
+    },
+    {
+      "vertexId": 9429,
+      "copiedUv2FromFixedNativeVertex": 3333
+    },
+    {
+      "vertexId": 9430,
+      "copiedUv2FromFixedNativeVertex": 3337
+    },
+    {
+      "vertexId": 9431,
+      "copiedUv2FromFixedNativeVertex": 3341
+    },
+    {
+      "vertexId": 9432,
+      "copiedUv2FromFixedNativeVertex": 3345
+    },
+    {
+      "vertexId": 9433,
+      "copiedUv2FromFixedNativeVertex": 3349
+    },
+    {
+      "vertexId": 9434,
+      "copiedUv2FromFixedNativeVertex": 3353
+    },
+    {
+      "vertexId": 9435,
+      "copiedUv2FromFixedNativeVertex": 3357
+    },
+    {
+      "vertexId": 9436,
+      "copiedUv2FromFixedNativeVertex": 3361
+    },
+    {
+      "vertexId": 9437,
+      "copiedUv2FromFixedNativeVertex": 3365
+    },
+    {
+      "vertexId": 9438,
+      "copiedUv2FromFixedNativeVertex": 3369
+    },
+    {
+      "vertexId": 9439,
+      "copiedUv2FromFixedNativeVertex": 3373
+    },
+    {
+      "vertexId": 9440,
+      "copiedUv2FromFixedNativeVertex": 3377
+    }
+  ],
+  "exactDuplicateTriangles": [
+    {
+      "addedTriangleId": 4220,
+      "nativeVertexIds": [
+        9041,
+        9040,
+        9039
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1208
+      ],
+      "existingNativeVertexIds": [
+        [
+          3000,
+          3001,
+          3002
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4221,
+      "nativeVertexIds": [
+        9044,
+        9043,
+        9042
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1210
+      ],
+      "existingNativeVertexIds": [
+        [
+          3004,
+          3005,
+          3006
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4222,
+      "nativeVertexIds": [
+        9047,
+        9046,
+        9045
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1212
+      ],
+      "existingNativeVertexIds": [
+        [
+          3008,
+          3009,
+          3010
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4223,
+      "nativeVertexIds": [
+        9050,
+        9049,
+        9048
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1214
+      ],
+      "existingNativeVertexIds": [
+        [
+          3012,
+          3013,
+          3014
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4224,
+      "nativeVertexIds": [
+        9053,
+        9052,
+        9051
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1216
+      ],
+      "existingNativeVertexIds": [
+        [
+          3016,
+          3017,
+          3018
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4225,
+      "nativeVertexIds": [
+        9056,
+        9055,
+        9054
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1218
+      ],
+      "existingNativeVertexIds": [
+        [
+          3020,
+          3021,
+          3022
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4226,
+      "nativeVertexIds": [
+        9059,
+        9058,
+        9057
+      ],
+      "equalUv2ExistingTriangleIds": [
+        32
+      ],
+      "existingNativeVertexIds": [
+        [
+          96,
+          97,
+          98
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4227,
+      "nativeVertexIds": [
+        9062,
+        9061,
+        9060
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1220
+      ],
+      "existingNativeVertexIds": [
+        [
+          3026,
+          3027,
+          3028
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4228,
+      "nativeVertexIds": [
+        9065,
+        9064,
+        9063
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1222
+      ],
+      "existingNativeVertexIds": [
+        [
+          3030,
+          3031,
+          3032
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4229,
+      "nativeVertexIds": [
+        9068,
+        9067,
+        9066
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1224
+      ],
+      "existingNativeVertexIds": [
+        [
+          3036,
+          3037,
+          3038
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4230,
+      "nativeVertexIds": [
+        9071,
+        9070,
+        9069
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1226
+      ],
+      "existingNativeVertexIds": [
+        [
+          3040,
+          3041,
+          3042
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4231,
+      "nativeVertexIds": [
+        9074,
+        9073,
+        9072
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1228
+      ],
+      "existingNativeVertexIds": [
+        [
+          3044,
+          3045,
+          3046
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4232,
+      "nativeVertexIds": [
+        9077,
+        9076,
+        9075
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1230
+      ],
+      "existingNativeVertexIds": [
+        [
+          3048,
+          3049,
+          3050
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4233,
+      "nativeVertexIds": [
+        9080,
+        9079,
+        9078
+      ],
+      "equalUv2ExistingTriangleIds": [
+        33
+      ],
+      "existingNativeVertexIds": [
+        [
+          99,
+          100,
+          101
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4234,
+      "nativeVertexIds": [
+        9083,
+        9082,
+        9081
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1232
+      ],
+      "existingNativeVertexIds": [
+        [
+          3052,
+          3053,
+          3054
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4235,
+      "nativeVertexIds": [
+        9086,
+        9085,
+        9084
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1234
+      ],
+      "existingNativeVertexIds": [
+        [
+          3056,
+          3057,
+          3058
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4236,
+      "nativeVertexIds": [
+        9089,
+        9088,
+        9087
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1236
+      ],
+      "existingNativeVertexIds": [
+        [
+          3060,
+          3061,
+          3062
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4237,
+      "nativeVertexIds": [
+        9092,
+        9091,
+        9090
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1238
+      ],
+      "existingNativeVertexIds": [
+        [
+          3064,
+          3065,
+          3066
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4238,
+      "nativeVertexIds": [
+        9095,
+        9094,
+        9093
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1240
+      ],
+      "existingNativeVertexIds": [
+        [
+          3068,
+          3069,
+          3070
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4239,
+      "nativeVertexIds": [
+        9098,
+        9097,
+        9096
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1242
+      ],
+      "existingNativeVertexIds": [
+        [
+          3072,
+          3073,
+          3074
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4240,
+      "nativeVertexIds": [
+        9101,
+        9100,
+        9099
+      ],
+      "equalUv2ExistingTriangleIds": [
+        34
+      ],
+      "existingNativeVertexIds": [
+        [
+          102,
+          103,
+          104
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4241,
+      "nativeVertexIds": [
+        9104,
+        9103,
+        9102
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1244
+      ],
+      "existingNativeVertexIds": [
+        [
+          3076,
+          3077,
+          3078
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4242,
+      "nativeVertexIds": [
+        9107,
+        9106,
+        9105
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1246
+      ],
+      "existingNativeVertexIds": [
+        [
+          3080,
+          3081,
+          3082
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4243,
+      "nativeVertexIds": [
+        9110,
+        9109,
+        9108
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1248
+      ],
+      "existingNativeVertexIds": [
+        [
+          3084,
+          3085,
+          3086
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4244,
+      "nativeVertexIds": [
+        9113,
+        9112,
+        9111
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1250
+      ],
+      "existingNativeVertexIds": [
+        [
+          3088,
+          3089,
+          3090
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4245,
+      "nativeVertexIds": [
+        9116,
+        9115,
+        9114
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1252
+      ],
+      "existingNativeVertexIds": [
+        [
+          3094,
+          3095,
+          3096
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4246,
+      "nativeVertexIds": [
+        9119,
+        9118,
+        9117
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1254
+      ],
+      "existingNativeVertexIds": [
+        [
+          3098,
+          3099,
+          3100
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4247,
+      "nativeVertexIds": [
+        9122,
+        9121,
+        9120
+      ],
+      "equalUv2ExistingTriangleIds": [
+        35
+      ],
+      "existingNativeVertexIds": [
+        [
+          105,
+          106,
+          107
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4248,
+      "nativeVertexIds": [
+        9125,
+        9124,
+        9123
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1256
+      ],
+      "existingNativeVertexIds": [
+        [
+          3102,
+          3103,
+          3104
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4249,
+      "nativeVertexIds": [
+        9128,
+        9127,
+        9126
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1258
+      ],
+      "existingNativeVertexIds": [
+        [
+          3106,
+          3107,
+          3108
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4250,
+      "nativeVertexIds": [
+        9131,
+        9130,
+        9129
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1260
+      ],
+      "existingNativeVertexIds": [
+        [
+          3110,
+          3111,
+          3112
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4251,
+      "nativeVertexIds": [
+        9134,
+        9133,
+        9132
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1262
+      ],
+      "existingNativeVertexIds": [
+        [
+          3114,
+          3115,
+          3116
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4252,
+      "nativeVertexIds": [
+        9137,
+        9136,
+        9135
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1264
+      ],
+      "existingNativeVertexIds": [
+        [
+          3118,
+          3119,
+          3120
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4253,
+      "nativeVertexIds": [
+        9140,
+        9139,
+        9138
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1266
+      ],
+      "existingNativeVertexIds": [
+        [
+          3124,
+          3125,
+          3126
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4254,
+      "nativeVertexIds": [
+        9143,
+        9142,
+        9141
+      ],
+      "equalUv2ExistingTriangleIds": [
+        36
+      ],
+      "existingNativeVertexIds": [
+        [
+          108,
+          109,
+          110
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4255,
+      "nativeVertexIds": [
+        9146,
+        9145,
+        9144
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1268
+      ],
+      "existingNativeVertexIds": [
+        [
+          3128,
+          3129,
+          3130
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4256,
+      "nativeVertexIds": [
+        9149,
+        9148,
+        9147
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1270
+      ],
+      "existingNativeVertexIds": [
+        [
+          3134,
+          3135,
+          3136
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4257,
+      "nativeVertexIds": [
+        9152,
+        9151,
+        9150
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1272
+      ],
+      "existingNativeVertexIds": [
+        [
+          3138,
+          3139,
+          3140
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4258,
+      "nativeVertexIds": [
+        9155,
+        9154,
+        9153
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1274
+      ],
+      "existingNativeVertexIds": [
+        [
+          3142,
+          3143,
+          3144
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4259,
+      "nativeVertexIds": [
+        9158,
+        9157,
+        9156
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1276
+      ],
+      "existingNativeVertexIds": [
+        [
+          3146,
+          3147,
+          3148
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4260,
+      "nativeVertexIds": [
+        9161,
+        9160,
+        9159
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1278
+      ],
+      "existingNativeVertexIds": [
+        [
+          3150,
+          3151,
+          3152
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4261,
+      "nativeVertexIds": [
+        9164,
+        9163,
+        9162
+      ],
+      "equalUv2ExistingTriangleIds": [
+        37
+      ],
+      "existingNativeVertexIds": [
+        [
+          111,
+          112,
+          113
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4262,
+      "nativeVertexIds": [
+        9167,
+        9166,
+        9165
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1280
+      ],
+      "existingNativeVertexIds": [
+        [
+          3154,
+          3155,
+          3156
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4263,
+      "nativeVertexIds": [
+        9170,
+        9169,
+        9168
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1282
+      ],
+      "existingNativeVertexIds": [
+        [
+          3160,
+          3161,
+          3162
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4264,
+      "nativeVertexIds": [
+        9173,
+        9172,
+        9171
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1284
+      ],
+      "existingNativeVertexIds": [
+        [
+          3164,
+          3165,
+          3166
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4265,
+      "nativeVertexIds": [
+        9176,
+        9175,
+        9174
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1286
+      ],
+      "existingNativeVertexIds": [
+        [
+          3168,
+          3169,
+          3170
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4266,
+      "nativeVertexIds": [
+        9179,
+        9178,
+        9177
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1288
+      ],
+      "existingNativeVertexIds": [
+        [
+          3172,
+          3173,
+          3174
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4267,
+      "nativeVertexIds": [
+        9182,
+        9181,
+        9180
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1290
+      ],
+      "existingNativeVertexIds": [
+        [
+          3176,
+          3177,
+          3178
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4268,
+      "nativeVertexIds": [
+        9185,
+        9184,
+        9183
+      ],
+      "equalUv2ExistingTriangleIds": [
+        38
+      ],
+      "existingNativeVertexIds": [
+        [
+          114,
+          115,
+          116
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4269,
+      "nativeVertexIds": [
+        9188,
+        9187,
+        9186
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1292
+      ],
+      "existingNativeVertexIds": [
+        [
+          3180,
+          3181,
+          3182
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4270,
+      "nativeVertexIds": [
+        9191,
+        9190,
+        9189
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1294
+      ],
+      "existingNativeVertexIds": [
+        [
+          3184,
+          3185,
+          3186
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4271,
+      "nativeVertexIds": [
+        9194,
+        9193,
+        9192
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1296
+      ],
+      "existingNativeVertexIds": [
+        [
+          3188,
+          3189,
+          3190
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4272,
+      "nativeVertexIds": [
+        9197,
+        9196,
+        9195
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1298
+      ],
+      "existingNativeVertexIds": [
+        [
+          3192,
+          3193,
+          3194
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4273,
+      "nativeVertexIds": [
+        9200,
+        9199,
+        9198
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1300
+      ],
+      "existingNativeVertexIds": [
+        [
+          3196,
+          3197,
+          3198
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4274,
+      "nativeVertexIds": [
+        9203,
+        9202,
+        9201
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1302
+      ],
+      "existingNativeVertexIds": [
+        [
+          3200,
+          3201,
+          3202
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4275,
+      "nativeVertexIds": [
+        9206,
+        9205,
+        9204
+      ],
+      "equalUv2ExistingTriangleIds": [
+        39
+      ],
+      "existingNativeVertexIds": [
+        [
+          117,
+          118,
+          119
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4276,
+      "nativeVertexIds": [
+        9209,
+        9208,
+        9207
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1304
+      ],
+      "existingNativeVertexIds": [
+        [
+          3204,
+          3205,
+          3206
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4277,
+      "nativeVertexIds": [
+        9212,
+        9211,
+        9210
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1306
+      ],
+      "existingNativeVertexIds": [
+        [
+          3208,
+          3209,
+          3210
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4278,
+      "nativeVertexIds": [
+        9215,
+        9214,
+        9213
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1308
+      ],
+      "existingNativeVertexIds": [
+        [
+          3212,
+          3213,
+          3214
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4279,
+      "nativeVertexIds": [
+        9218,
+        9217,
+        9216
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1310
+      ],
+      "existingNativeVertexIds": [
+        [
+          3218,
+          3219,
+          3220
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4280,
+      "nativeVertexIds": [
+        9221,
+        9220,
+        9219
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1312
+      ],
+      "existingNativeVertexIds": [
+        [
+          3222,
+          3223,
+          3224
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4281,
+      "nativeVertexIds": [
+        9224,
+        9223,
+        9222
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1314
+      ],
+      "existingNativeVertexIds": [
+        [
+          3226,
+          3227,
+          3228
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4282,
+      "nativeVertexIds": [
+        9227,
+        9226,
+        9225
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1316
+      ],
+      "existingNativeVertexIds": [
+        [
+          3230,
+          3231,
+          3232
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4283,
+      "nativeVertexIds": [
+        9230,
+        9229,
+        9228
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1318
+      ],
+      "existingNativeVertexIds": [
+        [
+          3234,
+          3235,
+          3236
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4284,
+      "nativeVertexIds": [
+        9233,
+        9232,
+        9231
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1320
+      ],
+      "existingNativeVertexIds": [
+        [
+          3238,
+          3239,
+          3240
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4285,
+      "nativeVertexIds": [
+        9236,
+        9235,
+        9234
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1322
+      ],
+      "existingNativeVertexIds": [
+        [
+          3242,
+          3243,
+          3244
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4286,
+      "nativeVertexIds": [
+        9239,
+        9238,
+        9237
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1324
+      ],
+      "existingNativeVertexIds": [
+        [
+          3246,
+          3247,
+          3248
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4287,
+      "nativeVertexIds": [
+        9242,
+        9241,
+        9240
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1326
+      ],
+      "existingNativeVertexIds": [
+        [
+          3250,
+          3251,
+          3252
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4288,
+      "nativeVertexIds": [
+        9245,
+        9244,
+        9243
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1328
+      ],
+      "existingNativeVertexIds": [
+        [
+          3254,
+          3255,
+          3256
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4289,
+      "nativeVertexIds": [
+        9248,
+        9247,
+        9246
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1330
+      ],
+      "existingNativeVertexIds": [
+        [
+          3258,
+          3259,
+          3260
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4290,
+      "nativeVertexIds": [
+        9251,
+        9250,
+        9249
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1332
+      ],
+      "existingNativeVertexIds": [
+        [
+          3262,
+          3263,
+          3264
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4291,
+      "nativeVertexIds": [
+        9254,
+        9253,
+        9252
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1334
+      ],
+      "existingNativeVertexIds": [
+        [
+          3266,
+          3267,
+          3268
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4292,
+      "nativeVertexIds": [
+        9257,
+        9256,
+        9255
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1336
+      ],
+      "existingNativeVertexIds": [
+        [
+          3270,
+          3271,
+          3272
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4293,
+      "nativeVertexIds": [
+        9260,
+        9259,
+        9258
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1338
+      ],
+      "existingNativeVertexIds": [
+        [
+          3274,
+          3275,
+          3276
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4294,
+      "nativeVertexIds": [
+        9263,
+        9262,
+        9261
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1340
+      ],
+      "existingNativeVertexIds": [
+        [
+          3278,
+          3279,
+          3280
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4295,
+      "nativeVertexIds": [
+        9266,
+        9265,
+        9264
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1342
+      ],
+      "existingNativeVertexIds": [
+        [
+          3284,
+          3285,
+          3286
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4296,
+      "nativeVertexIds": [
+        9269,
+        9268,
+        9267
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1344
+      ],
+      "existingNativeVertexIds": [
+        [
+          3288,
+          3289,
+          3290
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4297,
+      "nativeVertexIds": [
+        9272,
+        9271,
+        9270
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1346
+      ],
+      "existingNativeVertexIds": [
+        [
+          3292,
+          3293,
+          3294
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4298,
+      "nativeVertexIds": [
+        9275,
+        9274,
+        9273
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1348
+      ],
+      "existingNativeVertexIds": [
+        [
+          3296,
+          3297,
+          3298
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4299,
+      "nativeVertexIds": [
+        9278,
+        9277,
+        9276
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1350
+      ],
+      "existingNativeVertexIds": [
+        [
+          3300,
+          3301,
+          3302
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4300,
+      "nativeVertexIds": [
+        9281,
+        9280,
+        9279
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1352
+      ],
+      "existingNativeVertexIds": [
+        [
+          3304,
+          3305,
+          3306
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4301,
+      "nativeVertexIds": [
+        9284,
+        9283,
+        9282
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1354
+      ],
+      "existingNativeVertexIds": [
+        [
+          3308,
+          3309,
+          3310
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4302,
+      "nativeVertexIds": [
+        9287,
+        9286,
+        9285
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1356
+      ],
+      "existingNativeVertexIds": [
+        [
+          3312,
+          3313,
+          3314
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4303,
+      "nativeVertexIds": [
+        9290,
+        9289,
+        9288
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1358
+      ],
+      "existingNativeVertexIds": [
+        [
+          3316,
+          3317,
+          3318
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4304,
+      "nativeVertexIds": [
+        9293,
+        9292,
+        9291
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1360
+      ],
+      "existingNativeVertexIds": [
+        [
+          3320,
+          3321,
+          3322
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4305,
+      "nativeVertexIds": [
+        9296,
+        9295,
+        9294
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1362
+      ],
+      "existingNativeVertexIds": [
+        [
+          3326,
+          3327,
+          3328
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4306,
+      "nativeVertexIds": [
+        9299,
+        9298,
+        9297
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1364
+      ],
+      "existingNativeVertexIds": [
+        [
+          3330,
+          3331,
+          3332
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4307,
+      "nativeVertexIds": [
+        9302,
+        9301,
+        9300
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1366
+      ],
+      "existingNativeVertexIds": [
+        [
+          3334,
+          3335,
+          3336
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4308,
+      "nativeVertexIds": [
+        9305,
+        9304,
+        9303
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1368
+      ],
+      "existingNativeVertexIds": [
+        [
+          3338,
+          3339,
+          3340
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4309,
+      "nativeVertexIds": [
+        9308,
+        9307,
+        9306
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1370
+      ],
+      "existingNativeVertexIds": [
+        [
+          3342,
+          3343,
+          3344
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4310,
+      "nativeVertexIds": [
+        9311,
+        9310,
+        9309
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1372
+      ],
+      "existingNativeVertexIds": [
+        [
+          3346,
+          3347,
+          3348
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4311,
+      "nativeVertexIds": [
+        9314,
+        9313,
+        9312
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1374
+      ],
+      "existingNativeVertexIds": [
+        [
+          3350,
+          3351,
+          3352
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4312,
+      "nativeVertexIds": [
+        9317,
+        9316,
+        9315
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1376
+      ],
+      "existingNativeVertexIds": [
+        [
+          3354,
+          3355,
+          3356
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4313,
+      "nativeVertexIds": [
+        9320,
+        9319,
+        9318
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1378
+      ],
+      "existingNativeVertexIds": [
+        [
+          3358,
+          3359,
+          3360
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4314,
+      "nativeVertexIds": [
+        9323,
+        9322,
+        9321
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1380
+      ],
+      "existingNativeVertexIds": [
+        [
+          3362,
+          3363,
+          3364
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4315,
+      "nativeVertexIds": [
+        9326,
+        9325,
+        9324
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1382
+      ],
+      "existingNativeVertexIds": [
+        [
+          3366,
+          3367,
+          3368
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4316,
+      "nativeVertexIds": [
+        9329,
+        9328,
+        9327
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1384
+      ],
+      "existingNativeVertexIds": [
+        [
+          3370,
+          3371,
+          3372
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4317,
+      "nativeVertexIds": [
+        9332,
+        9331,
+        9330
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1386
+      ],
+      "existingNativeVertexIds": [
+        [
+          3374,
+          3375,
+          3376
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4318,
+      "nativeVertexIds": [
+        9040,
+        9333,
+        9039
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1209
+      ],
+      "existingNativeVertexIds": [
+        [
+          3000,
+          3002,
+          3003
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4319,
+      "nativeVertexIds": [
+        9043,
+        9334,
+        9042
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1211
+      ],
+      "existingNativeVertexIds": [
+        [
+          3004,
+          3006,
+          3007
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4320,
+      "nativeVertexIds": [
+        9046,
+        9335,
+        9045
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1213
+      ],
+      "existingNativeVertexIds": [
+        [
+          3008,
+          3010,
+          3011
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4321,
+      "nativeVertexIds": [
+        9049,
+        9336,
+        9048
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1215
+      ],
+      "existingNativeVertexIds": [
+        [
+          3012,
+          3014,
+          3015
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4322,
+      "nativeVertexIds": [
+        9052,
+        9337,
+        9051
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1217
+      ],
+      "existingNativeVertexIds": [
+        [
+          3016,
+          3018,
+          3019
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4323,
+      "nativeVertexIds": [
+        9340,
+        9339,
+        9338
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1219
+      ],
+      "existingNativeVertexIds": [
+        [
+          3023,
+          3024,
+          3025
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4324,
+      "nativeVertexIds": [
+        9061,
+        9341,
+        9060
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1221
+      ],
+      "existingNativeVertexIds": [
+        [
+          3026,
+          3028,
+          3029
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4325,
+      "nativeVertexIds": [
+        9344,
+        9343,
+        9342
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1223
+      ],
+      "existingNativeVertexIds": [
+        [
+          3033,
+          3034,
+          3035
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4326,
+      "nativeVertexIds": [
+        9067,
+        9345,
+        9066
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1225
+      ],
+      "existingNativeVertexIds": [
+        [
+          3036,
+          3038,
+          3039
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4327,
+      "nativeVertexIds": [
+        9070,
+        9346,
+        9069
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1227
+      ],
+      "existingNativeVertexIds": [
+        [
+          3040,
+          3042,
+          3043
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4328,
+      "nativeVertexIds": [
+        9073,
+        9347,
+        9072
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1229
+      ],
+      "existingNativeVertexIds": [
+        [
+          3044,
+          3046,
+          3047
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4329,
+      "nativeVertexIds": [
+        9076,
+        9348,
+        9075
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1231
+      ],
+      "existingNativeVertexIds": [
+        [
+          3048,
+          3050,
+          3051
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4330,
+      "nativeVertexIds": [
+        9082,
+        9349,
+        9081
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1233
+      ],
+      "existingNativeVertexIds": [
+        [
+          3052,
+          3054,
+          3055
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4331,
+      "nativeVertexIds": [
+        9085,
+        9350,
+        9084
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1235
+      ],
+      "existingNativeVertexIds": [
+        [
+          3056,
+          3058,
+          3059
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4332,
+      "nativeVertexIds": [
+        9088,
+        9351,
+        9087
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1237
+      ],
+      "existingNativeVertexIds": [
+        [
+          3060,
+          3062,
+          3063
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4333,
+      "nativeVertexIds": [
+        9091,
+        9352,
+        9090
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1239
+      ],
+      "existingNativeVertexIds": [
+        [
+          3064,
+          3066,
+          3067
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4334,
+      "nativeVertexIds": [
+        9094,
+        9353,
+        9093
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1241
+      ],
+      "existingNativeVertexIds": [
+        [
+          3068,
+          3070,
+          3071
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4335,
+      "nativeVertexIds": [
+        9097,
+        9354,
+        9096
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1243
+      ],
+      "existingNativeVertexIds": [
+        [
+          3072,
+          3074,
+          3075
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4336,
+      "nativeVertexIds": [
+        9103,
+        9355,
+        9102
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1245
+      ],
+      "existingNativeVertexIds": [
+        [
+          3076,
+          3078,
+          3079
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4337,
+      "nativeVertexIds": [
+        9106,
+        9356,
+        9105
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1247
+      ],
+      "existingNativeVertexIds": [
+        [
+          3080,
+          3082,
+          3083
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4338,
+      "nativeVertexIds": [
+        9109,
+        9357,
+        9108
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1249
+      ],
+      "existingNativeVertexIds": [
+        [
+          3084,
+          3086,
+          3087
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4339,
+      "nativeVertexIds": [
+        9360,
+        9359,
+        9358
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1251
+      ],
+      "existingNativeVertexIds": [
+        [
+          3091,
+          3092,
+          3093
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4340,
+      "nativeVertexIds": [
+        9115,
+        9361,
+        9114
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1253
+      ],
+      "existingNativeVertexIds": [
+        [
+          3094,
+          3096,
+          3097
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4341,
+      "nativeVertexIds": [
+        9118,
+        9362,
+        9117
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1255
+      ],
+      "existingNativeVertexIds": [
+        [
+          3098,
+          3100,
+          3101
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4342,
+      "nativeVertexIds": [
+        9124,
+        9363,
+        9123
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1257
+      ],
+      "existingNativeVertexIds": [
+        [
+          3102,
+          3104,
+          3105
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4343,
+      "nativeVertexIds": [
+        9127,
+        9364,
+        9126
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1259
+      ],
+      "existingNativeVertexIds": [
+        [
+          3106,
+          3108,
+          3109
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4344,
+      "nativeVertexIds": [
+        9130,
+        9365,
+        9129
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1261
+      ],
+      "existingNativeVertexIds": [
+        [
+          3110,
+          3112,
+          3113
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4345,
+      "nativeVertexIds": [
+        9133,
+        9366,
+        9132
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1263
+      ],
+      "existingNativeVertexIds": [
+        [
+          3114,
+          3116,
+          3117
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4346,
+      "nativeVertexIds": [
+        9369,
+        9368,
+        9367
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1265
+      ],
+      "existingNativeVertexIds": [
+        [
+          3121,
+          3122,
+          3123
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4347,
+      "nativeVertexIds": [
+        9139,
+        9370,
+        9138
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1267
+      ],
+      "existingNativeVertexIds": [
+        [
+          3124,
+          3126,
+          3127
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4348,
+      "nativeVertexIds": [
+        9373,
+        9372,
+        9371
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1269
+      ],
+      "existingNativeVertexIds": [
+        [
+          3131,
+          3132,
+          3133
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4349,
+      "nativeVertexIds": [
+        9148,
+        9374,
+        9147
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1271
+      ],
+      "existingNativeVertexIds": [
+        [
+          3134,
+          3136,
+          3137
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4350,
+      "nativeVertexIds": [
+        9151,
+        9375,
+        9150
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1273
+      ],
+      "existingNativeVertexIds": [
+        [
+          3138,
+          3140,
+          3141
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4351,
+      "nativeVertexIds": [
+        9154,
+        9376,
+        9153
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1275
+      ],
+      "existingNativeVertexIds": [
+        [
+          3142,
+          3144,
+          3145
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4352,
+      "nativeVertexIds": [
+        9157,
+        9377,
+        9156
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1277
+      ],
+      "existingNativeVertexIds": [
+        [
+          3146,
+          3148,
+          3149
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4353,
+      "nativeVertexIds": [
+        9160,
+        9378,
+        9159
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1279
+      ],
+      "existingNativeVertexIds": [
+        [
+          3150,
+          3152,
+          3153
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4354,
+      "nativeVertexIds": [
+        9381,
+        9380,
+        9379
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1281
+      ],
+      "existingNativeVertexIds": [
+        [
+          3157,
+          3158,
+          3159
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4355,
+      "nativeVertexIds": [
+        9169,
+        9382,
+        9168
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1283
+      ],
+      "existingNativeVertexIds": [
+        [
+          3160,
+          3162,
+          3163
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4356,
+      "nativeVertexIds": [
+        9172,
+        9383,
+        9171
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1285
+      ],
+      "existingNativeVertexIds": [
+        [
+          3164,
+          3166,
+          3167
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4357,
+      "nativeVertexIds": [
+        9175,
+        9384,
+        9174
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1287
+      ],
+      "existingNativeVertexIds": [
+        [
+          3168,
+          3170,
+          3171
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4358,
+      "nativeVertexIds": [
+        9178,
+        9385,
+        9177
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1289
+      ],
+      "existingNativeVertexIds": [
+        [
+          3172,
+          3174,
+          3175
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4359,
+      "nativeVertexIds": [
+        9181,
+        9386,
+        9180
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1291
+      ],
+      "existingNativeVertexIds": [
+        [
+          3176,
+          3178,
+          3179
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4360,
+      "nativeVertexIds": [
+        9187,
+        9387,
+        9186
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1293
+      ],
+      "existingNativeVertexIds": [
+        [
+          3180,
+          3182,
+          3183
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4361,
+      "nativeVertexIds": [
+        9190,
+        9388,
+        9189
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1295
+      ],
+      "existingNativeVertexIds": [
+        [
+          3184,
+          3186,
+          3187
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4362,
+      "nativeVertexIds": [
+        9193,
+        9389,
+        9192
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1297
+      ],
+      "existingNativeVertexIds": [
+        [
+          3188,
+          3190,
+          3191
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4363,
+      "nativeVertexIds": [
+        9196,
+        9390,
+        9195
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1299
+      ],
+      "existingNativeVertexIds": [
+        [
+          3192,
+          3194,
+          3195
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4364,
+      "nativeVertexIds": [
+        9199,
+        9391,
+        9198
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1301
+      ],
+      "existingNativeVertexIds": [
+        [
+          3196,
+          3198,
+          3199
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4365,
+      "nativeVertexIds": [
+        9202,
+        9392,
+        9201
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1303
+      ],
+      "existingNativeVertexIds": [
+        [
+          3200,
+          3202,
+          3203
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4366,
+      "nativeVertexIds": [
+        9208,
+        9393,
+        9207
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1305
+      ],
+      "existingNativeVertexIds": [
+        [
+          3204,
+          3206,
+          3207
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4367,
+      "nativeVertexIds": [
+        9211,
+        9394,
+        9210
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1307
+      ],
+      "existingNativeVertexIds": [
+        [
+          3208,
+          3210,
+          3211
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4368,
+      "nativeVertexIds": [
+        9397,
+        9396,
+        9395
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1309
+      ],
+      "existingNativeVertexIds": [
+        [
+          3215,
+          3216,
+          3217
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4369,
+      "nativeVertexIds": [
+        9217,
+        9398,
+        9216
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1311
+      ],
+      "existingNativeVertexIds": [
+        [
+          3218,
+          3220,
+          3221
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4370,
+      "nativeVertexIds": [
+        9220,
+        9399,
+        9219
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1313
+      ],
+      "existingNativeVertexIds": [
+        [
+          3222,
+          3224,
+          3225
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4371,
+      "nativeVertexIds": [
+        9223,
+        9400,
+        9222
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1315
+      ],
+      "existingNativeVertexIds": [
+        [
+          3226,
+          3228,
+          3229
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4372,
+      "nativeVertexIds": [
+        9226,
+        9401,
+        9225
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1317
+      ],
+      "existingNativeVertexIds": [
+        [
+          3230,
+          3232,
+          3233
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4373,
+      "nativeVertexIds": [
+        9229,
+        9402,
+        9228
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1319
+      ],
+      "existingNativeVertexIds": [
+        [
+          3234,
+          3236,
+          3237
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4374,
+      "nativeVertexIds": [
+        9232,
+        9403,
+        9231
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1321
+      ],
+      "existingNativeVertexIds": [
+        [
+          3238,
+          3240,
+          3241
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4375,
+      "nativeVertexIds": [
+        9235,
+        9404,
+        9234
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1323
+      ],
+      "existingNativeVertexIds": [
+        [
+          3242,
+          3244,
+          3245
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4376,
+      "nativeVertexIds": [
+        9238,
+        9405,
+        9237
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1325
+      ],
+      "existingNativeVertexIds": [
+        [
+          3246,
+          3248,
+          3249
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4377,
+      "nativeVertexIds": [
+        9241,
+        9406,
+        9240
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1327
+      ],
+      "existingNativeVertexIds": [
+        [
+          3250,
+          3252,
+          3253
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4378,
+      "nativeVertexIds": [
+        9244,
+        9407,
+        9243
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1329
+      ],
+      "existingNativeVertexIds": [
+        [
+          3254,
+          3256,
+          3257
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4379,
+      "nativeVertexIds": [
+        9247,
+        9408,
+        9246
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1331
+      ],
+      "existingNativeVertexIds": [
+        [
+          3258,
+          3260,
+          3261
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4380,
+      "nativeVertexIds": [
+        9250,
+        9409,
+        9249
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1333
+      ],
+      "existingNativeVertexIds": [
+        [
+          3262,
+          3264,
+          3265
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4381,
+      "nativeVertexIds": [
+        9253,
+        9410,
+        9252
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1335
+      ],
+      "existingNativeVertexIds": [
+        [
+          3266,
+          3268,
+          3269
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4382,
+      "nativeVertexIds": [
+        9256,
+        9411,
+        9255
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1337
+      ],
+      "existingNativeVertexIds": [
+        [
+          3270,
+          3272,
+          3273
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4383,
+      "nativeVertexIds": [
+        9259,
+        9412,
+        9258
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1339
+      ],
+      "existingNativeVertexIds": [
+        [
+          3274,
+          3276,
+          3277
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4384,
+      "nativeVertexIds": [
+        9415,
+        9414,
+        9413
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1341
+      ],
+      "existingNativeVertexIds": [
+        [
+          3281,
+          3282,
+          3283
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4385,
+      "nativeVertexIds": [
+        9265,
+        9416,
+        9264
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1343
+      ],
+      "existingNativeVertexIds": [
+        [
+          3284,
+          3286,
+          3287
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4386,
+      "nativeVertexIds": [
+        9268,
+        9417,
+        9267
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1345
+      ],
+      "existingNativeVertexIds": [
+        [
+          3288,
+          3290,
+          3291
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4387,
+      "nativeVertexIds": [
+        9271,
+        9418,
+        9270
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1347
+      ],
+      "existingNativeVertexIds": [
+        [
+          3292,
+          3294,
+          3295
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4388,
+      "nativeVertexIds": [
+        9274,
+        9419,
+        9273
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1349
+      ],
+      "existingNativeVertexIds": [
+        [
+          3296,
+          3298,
+          3299
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4389,
+      "nativeVertexIds": [
+        9277,
+        9420,
+        9276
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1351
+      ],
+      "existingNativeVertexIds": [
+        [
+          3300,
+          3302,
+          3303
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4390,
+      "nativeVertexIds": [
+        9280,
+        9421,
+        9279
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1353
+      ],
+      "existingNativeVertexIds": [
+        [
+          3304,
+          3306,
+          3307
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4391,
+      "nativeVertexIds": [
+        9283,
+        9422,
+        9282
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1355
+      ],
+      "existingNativeVertexIds": [
+        [
+          3308,
+          3310,
+          3311
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4392,
+      "nativeVertexIds": [
+        9286,
+        9423,
+        9285
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1357
+      ],
+      "existingNativeVertexIds": [
+        [
+          3312,
+          3314,
+          3315
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4393,
+      "nativeVertexIds": [
+        9289,
+        9424,
+        9288
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1359
+      ],
+      "existingNativeVertexIds": [
+        [
+          3316,
+          3318,
+          3319
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4394,
+      "nativeVertexIds": [
+        9427,
+        9426,
+        9425
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1361
+      ],
+      "existingNativeVertexIds": [
+        [
+          3323,
+          3324,
+          3325
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4395,
+      "nativeVertexIds": [
+        9295,
+        9428,
+        9294
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1363
+      ],
+      "existingNativeVertexIds": [
+        [
+          3326,
+          3328,
+          3329
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4396,
+      "nativeVertexIds": [
+        9298,
+        9429,
+        9297
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1365
+      ],
+      "existingNativeVertexIds": [
+        [
+          3330,
+          3332,
+          3333
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4397,
+      "nativeVertexIds": [
+        9301,
+        9430,
+        9300
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1367
+      ],
+      "existingNativeVertexIds": [
+        [
+          3334,
+          3336,
+          3337
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4398,
+      "nativeVertexIds": [
+        9304,
+        9431,
+        9303
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1369
+      ],
+      "existingNativeVertexIds": [
+        [
+          3338,
+          3340,
+          3341
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4399,
+      "nativeVertexIds": [
+        9307,
+        9432,
+        9306
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1371
+      ],
+      "existingNativeVertexIds": [
+        [
+          3342,
+          3344,
+          3345
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4400,
+      "nativeVertexIds": [
+        9310,
+        9433,
+        9309
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1373
+      ],
+      "existingNativeVertexIds": [
+        [
+          3346,
+          3348,
+          3349
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4401,
+      "nativeVertexIds": [
+        9313,
+        9434,
+        9312
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1375
+      ],
+      "existingNativeVertexIds": [
+        [
+          3350,
+          3352,
+          3353
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4402,
+      "nativeVertexIds": [
+        9316,
+        9435,
+        9315
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1377
+      ],
+      "existingNativeVertexIds": [
+        [
+          3354,
+          3356,
+          3357
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4403,
+      "nativeVertexIds": [
+        9319,
+        9436,
+        9318
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1379
+      ],
+      "existingNativeVertexIds": [
+        [
+          3358,
+          3360,
+          3361
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4404,
+      "nativeVertexIds": [
+        9322,
+        9437,
+        9321
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1381
+      ],
+      "existingNativeVertexIds": [
+        [
+          3362,
+          3364,
+          3365
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4405,
+      "nativeVertexIds": [
+        9325,
+        9438,
+        9324
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1383
+      ],
+      "existingNativeVertexIds": [
+        [
+          3366,
+          3368,
+          3369
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4406,
+      "nativeVertexIds": [
+        9328,
+        9439,
+        9327
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1385
+      ],
+      "existingNativeVertexIds": [
+        [
+          3370,
+          3372,
+          3373
+        ]
+      ]
+    },
+    {
+      "addedTriangleId": 4407,
+      "nativeVertexIds": [
+        9331,
+        9440,
+        9330
+      ],
+      "equalUv2ExistingTriangleIds": [
+        1387
+      ],
+      "existingNativeVertexIds": [
+        [
+          3374,
+          3376,
+          3377
+        ]
+      ]
+    }
+  ],
+  "baselineMeasurements": {
+    "addedTriangles": 188,
+    "exactDuplicateAddedTriangles": 188,
+    "duplicateMeasure": "Sorted three corner UV2 Float32 bit pairs; orientation-independent exact triangle identity, not bbox coincidence.",
+    "addedUvAreaSumFloat64": 0.03705774106400522,
+    "addedUvArea": {
+      "count": 188,
+      "min": 1.3999108539053395e-08,
+      "median": 3.276925486517257e-08,
+      "max": 0.0072228460198671685
+    },
+    "fixedUvArea": {
+      "count": 4220,
+      "min": 0.0,
+      "median": 3.1144958140272294e-08,
+      "max": 0.010111737714597169
+    },
+    "fixedUvAreaSumFloat64": 0.26015374591325774,
+    "addedZeroUvAreaTriangleIds": [],
+    "fixedZeroUvAreaTriangleIds": [
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      1484,
+      1485,
+      1486,
+      1487,
+      1488,
+      1489,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500,
+      1501,
+      1514,
+      1515,
+      1516,
+      1517,
+      1518,
+      1519,
+      1526,
+      1527,
+      1528,
+      1529,
+      1530,
+      1531,
+      1664,
+      1665,
+      1666,
+      1667,
+      1668,
+      1669,
+      1676,
+      1677,
+      1678,
+      1679,
+      1680,
+      1681,
+      1694,
+      1695,
+      1696,
+      1697,
+      1698,
+      1699,
+      1706,
+      1707,
+      1708,
+      1709,
+      1710,
+      1711
+    ],
+    "zeroGeometryAreaTriangleIds": [],
+    "uv2WithinUnitSquare": true,
+    "addedUnitSquareOuterMarginUv": 0.03125,
+    "addedToFixedPaddingUv": 0.0,
+    "paddingEvidence": "Coincident positive-area triangles force minimum separation to zero. No global fixed-chart distance/packing audit performed.",
+    "densityDefinition": "sqrt(abs(UV triangle area)/actual transformed world triangle area), UV units per world metre; excludes zero geometry area.",
+    "addedDensity": {
+      "count": 188,
+      "min": 0.30485467266945193,
+      "median": 0.31516928407006317,
+      "max": 0.44845234107986537
+    },
+    "fixedNondegenerateUvDensity": {
+      "count": 4148,
+      "min": 0.13979923474564143,
+      "median": 0.3060361012430051,
+      "max": 3.314423789735069
+    },
+    "densityWorldMatrixFrom": "Diagnostics/COORD12_LAMP28/Results/LAMP28_20261004T215129610/B1_inventory.json",
+    "boundaries": [
+      "No global fixed-fixed triangle clipping or complete chart packing proof; exact duplicate matching establishes this added-band defect only.",
+      "UV2 area zero among fixed old triangles is separately disclosed, not authorized for repair here.",
+      "No atlas-resolution/pixel-padding/texel-density target has been approved. Existing GI scaleOffset is context, not a future-bake guarantee.",
+      "No bake, visibility or appearance acceptance results from this offline measurement."
+    ]
+  },
+  "locked": [
+    "All 9441 positions, normals, tangents including w, UV0 values and order",
+    "All 4408 triangle indices/winding/submesh slots and material binding",
+    "Existing UV2 vertex IDs 0..9038, even where known zero-area triangles are present",
+    "Vertex count/order/splits, topology, object transforms, geometry, source files"
+  ],
+  "candidateOutput": {
+    "file": "candidate_uv2_patch.json",
+    "schema": "CABUV02_UV2_PATCH_V1",
+    "required": [
+      "sourceSha256",
+      "edits: [{vertexId, uv2: [u,v]}]",
+      "qa with methods, area/overlap/padding/density values and unresolved limitations"
+    ],
+    "rules": [
+      "Exactly the 402 allowed IDs, once each; finite Float32-compatible UV2 values inside [0,1].",
+      "188 added triangles must remain nondegenerate and have no positive-area overlap with one another or any fixed triangle. Edge contact is not padding.",
+      "Measure minimum chart separation in normalized UV units, disclose requested padding/target resolution and trade-offs. Do not claim unknown texel density or future bake readiness.",
+      "Report added triangle density against this baseline and fixed distribution; if the scope cannot accommodate acceptable spacing/density without moving fixed UV2, report HOLD and do not expand scope.",
+      "Do not repair fixed 72 zero-area UV2 triangles or regenerate the entire UV2 channel. No geometry/normal/UV0/material changes."
+    ]
+  },
+  "imagesIncluded": 0,
+  "unityProjectIncluded": false,
+  "historyIncluded": false,
+  "fbxOrBlendNeeded": false
+}

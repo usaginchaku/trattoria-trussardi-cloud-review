@@ -1,0 +1,31 @@
+{
+  "schema": "CABUV02_LIMITED_SHARED_INPUT_V1",
+  "status": "SEALED_ONE_FURNITURE_UV2_INPUT",
+  "sourceSha256": "61209d3eaf109bd835ebb104e21e9da704005dd887cf28513918e14ef598d46e",
+  "editableVertexIdsInclusive": [
+    9039,
+    9440
+  ],
+  "addedTriangleIdsInclusive": [
+    4220,
+    4407
+  ],
+  "files": [
+    {
+      "path": "native_mesh.json",
+      "bytes": 4564100,
+      "sha256": "4d14cc08921e7336eba2d62c61001d65177b4e6704cd13b53ab72dadac918b05"
+    },
+    {
+      "path": "edit_scope.json",
+      "bytes": 96791,
+      "sha256": "11b0adcddd22395ebbdc754709e1e9e1e2753ec1642d8ec795c1b397223dc91e"
+    },
+    {
+      "path": "README_JA.txt",
+      "bytes": 1944,
+      "sha256": "6dd1c017643b787ed6605775aefb73c081eacc6d081a9c9d9b680111dd9b673e"
+    }
+  ],
+  "scope": "One self-modeled cabinet; UV2 patch only. No image, world, source blend or history included."
+}
